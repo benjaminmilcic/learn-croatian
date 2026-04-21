@@ -1,0 +1,7 @@
+{
+  "name": "learn-verbs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
