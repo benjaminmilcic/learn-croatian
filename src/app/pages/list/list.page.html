@@ -1,0 +1,114 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Alle Verben</ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar
+      placeholder="Verb suchen…"
+      [debounce]="200"
+      (ionInput)="onSearch($any($event))"
+    ></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="max-w-2xl mx-auto flex flex-col gap-2">
+    <div class="text-xs uppercase tracking-wide opacity-60 mb-2 flex justify-between">
+      <span>{{ filtered().length }} Verben</span>
+      <span>{{ verbService.knownCount() }} gelernt</span>
+    </div>
+
+    @for (v of filtered(); track v.id) {
+      @let expanded = expandedId() === v.id;
+      @let known = verbService.isKnown(v.id);
+      <div
+        class="rounded-2xl border p-4 flex flex-col gap-2 transition-colors cursor-pointer"
+        [ngClass]="known
+          ? 'border-emerald-500 bg-emerald-500/10'
+          : 'border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5'"
+        (click)="toggleExpand(v.id)"
+      >
+        <div class="flex items-center gap-3">
+          <button
+            type="button"
+            class="shrink-0 text-2xl"
+            [class.text-emerald-500]="known"
+            [class.opacity-40]="!known"
+            (click)="toggleKnown($event, v.id)"
+            [attr.aria-label]="known ? 'Als nicht gelernt markieren' : 'Als gelernt markieren'"
+          >
+            <ion-icon
+              [name]="known ? 'checkmark-circle' : 'checkmark-circle-outline'"
+            ></ion-icon>
+          </button>
+
+          <div class="flex-1 min-w-0 flex items-baseline justify-between gap-3">
+            <span
+              class="text-lg font-semibold truncate"
+              [class.line-through]="known"
+              [class.opacity-60]="known"
+            >{{ v.hr }}</span>
+            <span
+              class="opacity-80 truncate"
+              [class.line-through]="known"
+              [class.opacity-50]="known"
+            >{{ v.de }}</span>
+          </div>
+
+          <ion-icon
+            name="chevron-down"
+            class="transition-transform shrink-0 opacity-60"
+            [class.rotate-180]="expanded"
+          ></ion-icon>
+        </div>
+
+        <div class="text-xs opacity-70 italic pl-9">
+          „{{ v.example }}" — {{ v.exampleDe }}
+        </div>
+
+        @if (expanded) {
+          <div class="mt-2 pl-9 border-t border-black/10 dark:border-white/10 pt-3 flex flex-col gap-4">
+            <div>
+              <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Präsens</div>
+              <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ v.conjugation.ja }}</span></div>
+                <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ v.conjugation.mi }}</span></div>
+                <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ v.conjugation.ti }}</span></div>
+                <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ v.conjugation.vi }}</span></div>
+                <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ v.conjugation.on }}</span></div>
+                <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ v.conjugation.oni }}</span></div>
+              </div>
+            </div>
+            <div>
+              <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Vergangenheit (Perfekt)</div>
+              <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ v.pastConjugation.ja }}</span></div>
+                <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ v.pastConjugation.mi }}</span></div>
+                <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ v.pastConjugation.ti }}</span></div>
+                <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ v.pastConjugation.vi }}</span></div>
+                <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ v.pastConjugation.on }}</span></div>
+                <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ v.pastConjugation.oni }}</span></div>
+              </div>
+            </div>
+            <div>
+              <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Zukunft (Futur I)</div>
+              <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ v.futureConjugation.ja }}</span></div>
+                <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ v.futureConjugation.mi }}</span></div>
+                <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ v.futureConjugation.ti }}</span></div>
+                <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ v.futureConjugation.vi }}</span></div>
+                <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ v.futureConjugation.on }}</span></div>
+                <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ v.futureConjugation.oni }}</span></div>
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    } @empty {
+      <div class="text-center opacity-60 py-10">Keine Treffer</div>
+    }
+  </div>
+</ion-content>

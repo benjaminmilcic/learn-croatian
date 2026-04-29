@@ -1,0 +1,108 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Lernen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="max-w-xl mx-auto flex flex-col gap-6 pt-4">
+    @if (pool().length === 0) {
+      <div
+        class="rounded-3xl shadow-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-10 flex flex-col items-center text-center"
+      >
+        <ion-icon name="checkmark-circle" class="text-6xl mb-4"></ion-icon>
+        <h2 class="text-2xl font-bold">Alles gelernt!</h2>
+        <p class="mt-2 opacity-90">
+          Du hast alle Verben als gelernt markiert. Entferne welche in der Liste, um weiter zu üben.
+        </p>
+      </div>
+
+      <ion-button expand="block" shape="round" routerLink="/list">
+        Zur Verbliste
+      </ion-button>
+    } @else {
+      <ion-segment
+        [value]="direction()"
+        (ionChange)="swapDirection($any($event.detail.value))"
+      >
+        <ion-segment-button value="hr-de">
+          <ion-label>HR → DE</ion-label>
+        </ion-segment-button>
+        <ion-segment-button value="de-hr">
+          <ion-label>DE → HR</ion-label>
+        </ion-segment-button>
+      </ion-segment>
+
+      <div class="flex items-center gap-3">
+        <span class="text-xs uppercase tracking-wide opacity-60 w-16">
+          {{ index() + 1 }} / {{ pool().length }}
+        </span>
+        <ion-progress-bar [value]="progress()" class="flex-1 rounded-full"></ion-progress-bar>
+      </div>
+
+      @if (current(); as v) {
+        <div
+          class="card-wrapper cursor-pointer"
+          [class.is-flipped]="flipped()"
+          (click)="flip()"
+        >
+          <div class="card-inner">
+            <div
+              class="card-face card-front rounded-3xl shadow-xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white flex flex-col items-center justify-center p-8"
+            >
+              <span class="text-xs uppercase tracking-widest opacity-70 mb-3">
+                {{ direction() === 'hr-de' ? 'Kroatisch' : 'Deutsch' }}
+              </span>
+              <h2 class="text-4xl font-bold text-center break-words">
+                {{ frontText(v) }}
+              </h2>
+              <span class="mt-6 text-xs opacity-70">Tippen zum Umdrehen</span>
+            </div>
+
+            <div
+              class="card-face card-back rounded-3xl shadow-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex flex-col items-center justify-center p-8"
+            >
+              <span class="text-xs uppercase tracking-widest opacity-70 mb-3">
+                {{ direction() === 'hr-de' ? 'Deutsch' : 'Kroatisch' }}
+              </span>
+              <h2 class="text-4xl font-bold text-center break-words">
+                {{ backText(v) }}
+              </h2>
+              <div class="mt-6 text-center space-y-1 opacity-90">
+                <p class="italic">„{{ v.example }}"</p>
+                <p class="text-sm opacity-80">{{ v.exampleDe }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+
+      <div class="flex items-center justify-between gap-3">
+        <ion-button
+          fill="outline"
+          shape="round"
+          (click)="prev()"
+          [disabled]="index() === 0"
+        >
+          <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+        </ion-button>
+
+        <ion-button fill="clear" (click)="reshuffle()">
+          <ion-icon slot="start" name="refresh"></ion-icon>
+          Neu mischen
+        </ion-button>
+
+        <ion-button
+          shape="round"
+          (click)="next()"
+          [disabled]="index() >= pool().length - 1"
+        >
+          <ion-icon slot="icon-only" name="arrow-forward"></ion-icon>
+        </ion-button>
+      </div>
+    }
+  </div>
+</ion-content>

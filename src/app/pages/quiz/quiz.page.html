@@ -1,0 +1,124 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Quiz</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="max-w-xl mx-auto flex flex-col gap-6 pt-4">
+    @if (active().length < MIN_VERBS) {
+      <div
+        class="rounded-3xl shadow-xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white p-10 flex flex-col items-center text-center"
+      >
+        <ion-icon name="sparkles" class="text-6xl mb-4"></ion-icon>
+        <h2 class="text-2xl font-bold">Zu wenig Verben</h2>
+        <p class="mt-2 opacity-90">
+          Für ein Quiz brauchst du mindestens {{ MIN_VERBS }} nicht gelernte
+          Verben. Entferne welche in der Liste, um weiter zu üben.
+        </p>
+      </div>
+
+      <ion-button expand="block" shape="round" routerLink="/list">
+        Zur Verbliste
+      </ion-button>
+
+    } @else if (!quizStarted()) {
+      <div class="rounded-3xl bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 p-6 flex flex-col gap-4">
+        <p class="text-sm uppercase tracking-wide opacity-60">Anzahl der Fragen</p>
+        <div class="flex flex-wrap gap-2">
+          @for (opt of COUNT_OPTIONS; track opt) {
+            <button
+              type="button"
+              (click)="questionCount.set(opt)"
+              class="px-4 py-2 rounded-full border font-medium text-sm transition-colors"
+              [ngClass]="questionCount() === opt
+                ? 'bg-indigo-500 border-indigo-500 text-white'
+                : 'border-black/20 dark:border-white/20 hover:bg-black/10 dark:hover:bg-white/10'"
+            >
+              {{ countLabel(opt) }}
+              @if (opt === 0) {
+                <span class="opacity-70 ml-1">({{ active().length }})</span>
+              }
+            </button>
+          }
+        </div>
+      </div>
+
+      <ion-button expand="block" shape="round" (click)="beginQuiz()">
+        <ion-icon slot="start" name="sparkles"></ion-icon>
+        Quiz starten
+      </ion-button>
+
+    } @else if (!finished()) {
+      <div class="flex items-center gap-3">
+        <span class="text-xs uppercase tracking-wide opacity-60 w-20">
+          Frage {{ index() + 1 }} / {{ questions().length }}
+        </span>
+        <ion-progress-bar [value]="progress()" class="flex-1 rounded-full"></ion-progress-bar>
+        <span class="text-sm font-semibold">{{ score() }} P.</span>
+      </div>
+
+      @if (current(); as q) {
+        <div
+          class="rounded-3xl shadow-xl bg-gradient-to-br from-slate-800 to-slate-900 text-white p-8 flex flex-col items-center"
+        >
+          <span class="text-xs uppercase tracking-widest opacity-70 mb-2">
+            Kroatisch
+          </span>
+          <h2 class="text-4xl font-bold text-center">{{ q.verb.hr }}</h2>
+          <p class="mt-3 italic opacity-80 text-sm text-center">
+            „{{ q.verb.example }}"
+          </p>
+        </div>
+
+        <div class="grid gap-3">
+          @for (option of q.options; track option) {
+            <button
+              type="button"
+              (click)="choose(option)"
+              [disabled]="selected() !== null"
+              class="w-full text-left px-5 py-4 rounded-2xl border transition-colors font-medium"
+              [ngClass]="optionClass(option)"
+            >
+              <span class="flex items-center justify-between">
+                <span>{{ option }}</span>
+                @if (selected() !== null && option === q.answer) {
+                  <ion-icon name="checkmark-circle" class="text-xl"></ion-icon>
+                }
+                @if (selected() === option && option !== q.answer) {
+                  <ion-icon name="close-circle" class="text-xl"></ion-icon>
+                }
+              </span>
+            </button>
+          }
+        </div>
+
+        @if (selected() !== null) {
+          <ion-button expand="block" shape="round" (click)="nextQuestion()">
+            {{ index() >= questions().length - 1 ? 'Ergebnis anzeigen' : 'Nächste Frage' }}
+          </ion-button>
+        }
+      }
+
+    } @else {
+      <div
+        class="rounded-3xl shadow-xl bg-gradient-to-br from-amber-400 to-orange-500 text-white p-10 flex flex-col items-center text-center"
+      >
+        <ion-icon name="trophy" class="text-6xl mb-4"></ion-icon>
+        <h2 class="text-3xl font-bold">Fertig!</h2>
+        <p class="mt-2 text-lg opacity-90">
+          Du hast <span class="font-bold">{{ score() }}</span> von
+          {{ questions().length }} richtig.
+        </p>
+      </div>
+
+      <ion-button expand="block" shape="round" (click)="resetToSetup()">
+        <ion-icon slot="start" name="refresh"></ion-icon>
+        Neues Quiz
+      </ion-button>
+    }
+  </div>
+</ion-content>
