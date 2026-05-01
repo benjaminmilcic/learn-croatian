@@ -4,7 +4,7 @@
       <ion-content>
         <ion-list id="inbox-list">
           <ion-list-header>Hrvatski</ion-list-header>
-          <ion-note>Kroatische Verben lernen</ion-note>
+          <ion-note>Kroatische Wörter lernen</ion-note>
 
           @for (p of appPages; track p; let i = $index) {
             <ion-menu-toggle auto-hide="false">
@@ -16,19 +16,42 @@
           }
         </ion-list>
 
-        <div class="px-4 pt-4 pb-6 border-t border-black/10 dark:border-white/10 mt-2">
-          <p class="text-xs uppercase tracking-widest opacity-50 mb-3">Lektionen</p>
-          <div class="flex gap-2">
-            @for (l of verbService.availableLessons(); track l) {
+        <div class="px-4 pt-4 pb-2 border-t border-black/10 dark:border-white/10 mt-2">
+          <p class="text-xs uppercase tracking-widest opacity-50 mb-3">Kategorie</p>
+          <div class="flex flex-col gap-1">
+            @for (cat of categoryService.categories; track cat) {
               <button
                 type="button"
-                (click)="verbService.toggleLesson(l)"
+                (click)="setCategory(cat)"
+                class="w-full py-2 px-3 rounded-xl text-sm font-semibold border transition-colors text-left"
+                [class.bg-indigo-500]="categoryService.selectedCategory() === cat"
+                [class.border-indigo-500]="categoryService.selectedCategory() === cat"
+                [class.text-white]="categoryService.selectedCategory() === cat"
+                [class.bg-transparent]="categoryService.selectedCategory() !== cat"
+                [class.border-black]="categoryService.selectedCategory() !== cat"
+                [class.dark:border-white]="categoryService.selectedCategory() !== cat"
+                [class.border-opacity-10]="categoryService.selectedCategory() !== cat"
+                [class.opacity-60]="categoryService.selectedCategory() !== cat"
+              >
+                {{ categoryService.categoryLabel(cat) }}
+              </button>
+            }
+          </div>
+        </div>
+
+        <div class="px-4 pt-3 pb-6">
+          <p class="text-xs uppercase tracking-widest opacity-50 mb-3">Lektionen</p>
+          <div class="flex gap-2">
+            @for (l of categoryService.availableLessons(); track l) {
+              <button
+                type="button"
+                (click)="categoryService.toggleLesson(l)"
                 class="flex-1 py-2 rounded-xl text-sm font-semibold border transition-colors"
-                [class.bg-indigo-500]="verbService.isLessonActive(l)"
-                [class.border-indigo-500]="verbService.isLessonActive(l)"
-                [class.text-white]="verbService.isLessonActive(l)"
-                [class.bg-transparent]="!verbService.isLessonActive(l)"
-                [class.opacity-50]="!verbService.isLessonActive(l)"
+                [class.bg-indigo-500]="categoryService.isLessonActive(l)"
+                [class.border-indigo-500]="categoryService.isLessonActive(l)"
+                [class.text-white]="categoryService.isLessonActive(l)"
+                [class.bg-transparent]="!categoryService.isLessonActive(l)"
+                [class.opacity-50]="!categoryService.isLessonActive(l)"
               >
                 L{{ l }}
               </button>

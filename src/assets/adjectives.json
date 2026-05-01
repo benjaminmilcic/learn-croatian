@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "lesson": 1,
+    "de": "groß",
+    "hr": "velik",
+    "feminine": "velika",
+    "neuter": "veliko",
+    "example": "To je velik grad.",
+    "exampleDe": "Das ist eine große Stadt."
+  },
+  {
+    "id": 2,
+    "lesson": 1,
+    "de": "klein",
+    "hr": "mali",
+    "feminine": "mala",
+    "neuter": "malo",
+    "example": "Imam mali stan.",
+    "exampleDe": "Ich habe eine kleine Wohnung."
+  },
+  {
+    "id": 3,
+    "lesson": 1,
+    "de": "gut",
+    "hr": "dobar",
+    "feminine": "dobra",
+    "neuter": "dobro",
+    "example": "On je dobar čovjek.",
+    "exampleDe": "Er ist ein guter Mensch."
+  },
+  {
+    "id": 4,
+    "lesson": 1,
+    "de": "schlecht",
+    "hr": "loš",
+    "feminine": "loša",
+    "neuter": "loše",
+    "example": "To je loš film.",
+    "exampleDe": "Das ist ein schlechter Film."
+  },
+  {
+    "id": 5,
+    "lesson": 1,
+    "de": "neu",
+    "hr": "nov",
+    "feminine": "nova",
+    "neuter": "novo",
+    "example": "Kupio sam nov auto.",
+    "exampleDe": "Ich habe ein neues Auto gekauft."
+  },
+  {
+    "id": 6,
+    "lesson": 1,
+    "de": "alt",
+    "hr": "star",
+    "feminine": "stara",
+    "neuter": "staro",
+    "example": "To je stara kuća.",
+    "exampleDe": "Das ist ein altes Haus."
+  },
+  {
+    "id": 7,
+    "lesson": 1,
+    "de": "schön",
+    "hr": "lijep",
+    "feminine": "lijepa",
+    "neuter": "lijepo",
+    "example": "Ona je lijepa žena.",
+    "exampleDe": "Sie ist eine schöne Frau."
+  },
+  {
+    "id": 8,
+    "lesson": 1,
+    "de": "hässlich",
+    "hr": "ružan",
+    "feminine": "ružna",
+    "neuter": "ružno",
+    "example": "To je ružna zgrada.",
+    "exampleDe": "Das ist ein hässliches Gebäude."
+  },
+  {
+    "id": 9,
+    "lesson": 1,
+    "de": "schnell",
+    "hr": "brz",
+    "feminine": "brza",
+    "neuter": "brzo",
+    "example": "On ima brz auto.",
+    "exampleDe": "Er hat ein schnelles Auto."
+  },
+  {
+    "id": 10,
+    "lesson": 1,
+    "de": "langsam",
+    "hr": "spor",
+    "feminine": "spora",
+    "neuter": "sporo",
+    "example": "To je spor vlak.",
+    "exampleDe": "Das ist ein langsamer Zug."
+  },
+  {
+    "id": 11,
+    "lesson": 1,
+    "de": "teuer",
+    "hr": "skup",
+    "feminine": "skupa",
+    "neuter": "skupo",
+    "example": "Ovo je skup restoran.",
+    "exampleDe": "Das ist ein teures Restaurant."
+  },
+  {
+    "id": 12,
+    "lesson": 1,
+    "de": "billig",
+    "hr": "jeftin",
+    "feminine": "jeftina",
+    "neuter": "jeftino",
+    "example": "To je jeftin proizvod.",
+    "exampleDe": "Das ist ein billiges Produkt."
+  },
+  {
+    "id": 13,
+    "lesson": 1,
+    "de": "heiß",
+    "hr": "vruć",
+    "feminine": "vruća",
+    "neuter": "vruće",
+    "example": "Voda je vruća.",
+    "exampleDe": "Das Wasser ist heiß."
+  },
+  {
+    "id": 14,
+    "lesson": 1,
+    "de": "kalt",
+    "hr": "hladan",
+    "feminine": "hladna",
+    "neuter": "hladno",
+    "example": "Vrijeme je hladno.",
+    "exampleDe": "Das Wetter ist kalt."
+  },
+  {
+    "id": 15,
+    "lesson": 1,
+    "de": "jung",
+    "hr": "mlad",
+    "feminine": "mlada",
+    "neuter": "mlado",
+    "example": "On je mlad.",
+    "exampleDe": "Er ist jung."
+  },
+  {
+    "id": 16,
+    "lesson": 1,
+    "de": "alt (Person)",
+    "hr": "star",
+    "feminine": "stara",
+    "neuter": "staro",
+    "example": "On je star čovjek.",
+    "exampleDe": "Er ist ein alter Mann."
+  },
+  {
+    "id": 17,
+    "lesson": 1,
+    "de": "einfach",
+    "hr": "jednostavan",
+    "feminine": "jednostavna",
+    "neuter": "jednostavno",
+    "example": "Zadatak je jednostavan.",
+    "exampleDe": "Die Aufgabe ist einfach."
+  },
+  {
+    "id": 18,
+    "lesson": 1,
+    "de": "schwierig",
+    "hr": "težak",
+    "feminine": "teška",
+    "neuter": "teško",
+    "example": "Ispit je težak.",
+    "exampleDe": "Die Prüfung ist schwer."
+  },
+  {
+    "id": 19,
+    "lesson": 1,
+    "de": "lang",
+    "hr": "dug",
+    "feminine": "duga",
+    "neuter": "dugo",
+    "example": "To je dug put.",
+    "exampleDe": "Das ist ein langer Weg."
+  },
+  {
+    "id": 20,
+    "lesson": 1,
+    "de": "kurz",
+    "hr": "kratak",
+    "feminine": "kratka",
+    "neuter": "kratko",
+    "example": "Film je kratak.",
+    "exampleDe": "Der Film ist kurz."
+  },
+  {
+    "id": 21,
+    "lesson": 1,
+    "de": "hoch",
+    "hr": "visok",
+    "feminine": "visoka",
+    "neuter": "visoko",
+    "example": "Zgrada je visoka.",
+    "exampleDe": "Das Gebäude ist hoch."
+  },
+  {
+    "id": 22,
+    "lesson": 1,
+    "de": "niedrig",
+    "hr": "nizak",
+    "feminine": "niska",
+    "neuter": "nisko",
+    "example": "Stol je nizak.",
+    "exampleDe": "Der Tisch ist niedrig."
+  },
+  {
+    "id": 23,
+    "lesson": 1,
+    "de": "voll",
+    "hr": "pun",
+    "feminine": "puna",
+    "neuter": "puno",
+    "example": "Čaša je puna.",
+    "exampleDe": "Das Glas ist voll."
+  },
+  {
+    "id": 24,
+    "lesson": 1,
+    "de": "leer",
+    "hr": "prazan",
+    "feminine": "prazna",
+    "neuter": "prazno",
+    "example": "Boca je prazna.",
+    "exampleDe": "Die Flasche ist leer."
+  },
+  {
+    "id": 25,
+    "lesson": 1,
+    "de": "stark",
+    "hr": "jak",
+    "feminine": "jaka",
+    "neuter": "jako",
+    "example": "On je jak.",
+    "exampleDe": "Er ist stark."
+  },
+  {
+    "id": 26,
+    "lesson": 1,
+    "de": "schwach",
+    "hr": "slab",
+    "feminine": "slaba",
+    "neuter": "slabo",
+    "example": "Signal je slab.",
+    "exampleDe": "Das Signal ist schwach."
+  },
+  {
+    "id": 27,
+    "lesson": 1,
+    "de": "laut",
+    "hr": "glasan",
+    "feminine": "glasna",
+    "neuter": "glasno",
+    "example": "Glazba je glasna.",
+    "exampleDe": "Die Musik ist laut."
+  },
+  {
+    "id": 28,
+    "lesson": 1,
+    "de": "leise",
+    "hr": "tih",
+    "feminine": "tiha",
+    "neuter": "tiho",
+    "example": "On govori tiho.",
+    "exampleDe": "Er spricht leise."
+  },
+  {
+    "id": 29,
+    "lesson": 1,
+    "de": "hell",
+    "hr": "svijetao",
+    "feminine": "svijetla",
+    "neuter": "svijetlo",
+    "example": "Soba je svijetla.",
+    "exampleDe": "Das Zimmer ist hell."
+  },
+  {
+    "id": 30,
+    "lesson": 1,
+    "de": "dunkel",
+    "hr": "taman",
+    "feminine": "tamna",
+    "neuter": "tamno",
+    "example": "Noć je tamna.",
+    "exampleDe": "Die Nacht ist dunkel."
+  },
+  {
+    "id": 31,
+    "lesson": 1,
+    "de": "freundlich",
+    "hr": "ljubazan",
+    "feminine": "ljubazna",
+    "neuter": "ljubazno",
+    "example": "On je ljubazan.",
+    "exampleDe": "Er ist freundlich."
+  },
+  {
+    "id": 32,
+    "lesson": 1,
+    "de": "unfreundlich",
+    "hr": "neljubazan",
+    "feminine": "neljubazna",
+    "neuter": "neljubazno",
+    "example": "Prodavač je neljubazan.",
+    "exampleDe": "Der Verkäufer ist unfreundlich."
+  },
+  {
+    "id": 33,
+    "lesson": 1,
+    "de": "glücklich",
+    "hr": "sretan",
+    "feminine": "sretna",
+    "neuter": "sretno",
+    "example": "Ona je sretna.",
+    "exampleDe": "Sie ist glücklich."
+  },
+  {
+    "id": 34,
+    "lesson": 1,
+    "de": "traurig",
+    "hr": "tužan",
+    "feminine": "tužna",
+    "neuter": "tužno",
+    "example": "On je tužan.",
+    "exampleDe": "Er ist traurig."
+  },
+  {
+    "id": 35,
+    "lesson": 1,
+    "de": "interessant",
+    "hr": "zanimljiv",
+    "feminine": "zanimljiva",
+    "neuter": "zanimljivo",
+    "example": "Film je zanimljiv.",
+    "exampleDe": "Der Film ist interessant."
+  },
+  {
+    "id": 36,
+    "lesson": 1,
+    "de": "langweilig",
+    "hr": "dosadan",
+    "feminine": "dosadna",
+    "neuter": "dosadno",
+    "example": "Predavanje je dosadno.",
+    "exampleDe": "Der Vortrag ist langweilig."
+  },
+  {
+    "id": 37,
+    "lesson": 1,
+    "de": "sauber",
+    "hr": "čist",
+    "feminine": "čista",
+    "neuter": "čisto",
+    "example": "Soba je čista.",
+    "exampleDe": "Das Zimmer ist sauber."
+  },
+  {
+    "id": 38,
+    "lesson": 1,
+    "de": "schmutzig",
+    "hr": "prljav",
+    "feminine": "prljava",
+    "neuter": "prljavo",
+    "example": "Auto je prljav.",
+    "exampleDe": "Das Auto ist schmutzig."
+  },
+  {
+    "id": 39,
+    "lesson": 1,
+    "de": "leicht",
+    "hr": "lagan",
+    "feminine": "lagana",
+    "neuter": "lagano",
+    "example": "Zadatak je lagan.",
+    "exampleDe": "Die Aufgabe ist leicht."
+  },
+  {
+    "id": 40,
+    "lesson": 1,
+    "de": "schwer",
+    "hr": "težak",
+    "feminine": "teška",
+    "neuter": "teško",
+    "example": "Kamen je težak.",
+    "exampleDe": "Der Stein ist schwer."
+  },
+  {
+    "id": 41,
+    "lesson": 1,
+    "de": "offen",
+    "hr": "otvoren",
+    "feminine": "otvorena",
+    "neuter": "otvoreno",
+    "example": "Vrata su otvorena.",
+    "exampleDe": "Die Tür ist offen."
+  },
+  {
+    "id": 42,
+    "lesson": 1,
+    "de": "geschlossen",
+    "hr": "zatvoren",
+    "feminine": "zatvorena",
+    "neuter": "zatvoreno",
+    "example": "Trgovina je zatvorena.",
+    "exampleDe": "Das Geschäft ist geschlossen."
+  },
+  {
+    "id": 43,
+    "lesson": 1,
+    "de": "richtig",
+    "hr": "točan",
+    "feminine": "točna",
+    "neuter": "točno",
+    "example": "Odgovor je točan.",
+    "exampleDe": "Die Antwort ist richtig."
+  },
+  {
+    "id": 44,
+    "lesson": 1,
+    "de": "falsch",
+    "hr": "pogrešan",
+    "feminine": "pogrešna",
+    "neuter": "pogrešno",
+    "example": "To je pogrešan odgovor.",
+    "exampleDe": "Das ist eine falsche Antwort."
+  },
+  {
+    "id": 45,
+    "lesson": 1,
+    "de": "früh",
+    "hr": "ran",
+    "feminine": "rana",
+    "neuter": "rano",
+    "example": "Dolazim rano.",
+    "exampleDe": "Ich komme früh."
+  },
+  {
+    "id": 46,
+    "lesson": 1,
+    "de": "spät",
+    "hr": "kasan",
+    "feminine": "kasna",
+    "neuter": "kasno",
+    "example": "On dolazi kasno.",
+    "exampleDe": "Er kommt spät."
+  },
+  {
+    "id": 47,
+    "lesson": 1,
+    "de": "möglich",
+    "hr": "moguć",
+    "feminine": "moguća",
+    "neuter": "moguće",
+    "example": "To je moguće.",
+    "exampleDe": "Das ist möglich."
+  },
+  {
+    "id": 48,
+    "lesson": 1,
+    "de": "unmöglich",
+    "hr": "nemoguć",
+    "feminine": "nemoguća",
+    "neuter": "nemoguće",
+    "example": "To je nemoguće.",
+    "exampleDe": "Das ist unmöglich."
+  },
+  {
+    "id": 49,
+    "lesson": 1,
+    "de": "gleich",
+    "hr": "isti",
+    "feminine": "ista",
+    "neuter": "isto",
+    "example": "Imamo isti problem.",
+    "exampleDe": "Wir haben das gleiche Problem."
+  },
+  {
+    "id": 50,
+    "lesson": 1,
+    "de": "anders",
+    "hr": "drugačiji",
+    "feminine": "drugačija",
+    "neuter": "drugačije",
+    "example": "To je drugačiji način.",
+    "exampleDe": "Das ist eine andere Art."
+  },
+  {
+    "id": 51,
+    "lesson": 2,
+    "de": "breit",
+    "hr": "širok",
+    "feminine": "široka",
+    "neuter": "široko",
+    "example": "Rijeka je široka.",
+    "exampleDe": "Der Fluss ist breit."
+  },
+  {
+    "id": 52,
+    "lesson": 2,
+    "de": "schmal",
+    "hr": "uzak",
+    "feminine": "uska",
+    "neuter": "usko",
+    "example": "Ulica je uska.",
+    "exampleDe": "Die Straße ist schmal."
+  },
+  {
+    "id": 53,
+    "lesson": 2,
+    "de": "tief",
+    "hr": "dubok",
+    "feminine": "duboka",
+    "neuter": "duboko",
+    "example": "More je duboko.",
+    "exampleDe": "Das Meer ist tief."
+  },
+  {
+    "id": 54,
+    "lesson": 2,
+    "de": "flach",
+    "hr": "plitak",
+    "feminine": "plitka",
+    "neuter": "plitko",
+    "example": "Voda je plitka.",
+    "exampleDe": "Das Wasser ist flach."
+  },
+  {
+    "id": 55,
+    "lesson": 2,
+    "de": "süß",
+    "hr": "sladak",
+    "feminine": "slatka",
+    "neuter": "slatko",
+    "example": "Kolač je sladak.",
+    "exampleDe": "Der Kuchen ist süß."
+  },
+  {
+    "id": 56,
+    "lesson": 2,
+    "de": "bitter",
+    "hr": "gorak",
+    "feminine": "gorka",
+    "neuter": "gorko",
+    "example": "Kava je gorka.",
+    "exampleDe": "Der Kaffee ist bitter."
+  },
+  {
+    "id": 57,
+    "lesson": 2,
+    "de": "salzig",
+    "hr": "slan",
+    "feminine": "slana",
+    "neuter": "slano",
+    "example": "Juha je slana.",
+    "exampleDe": "Die Suppe ist salzig."
+  },
+  {
+    "id": 58,
+    "lesson": 2,
+    "de": "sauer",
+    "hr": "kiseo",
+    "feminine": "kisela",
+    "neuter": "kiselo",
+    "example": "Limun je kiseo.",
+    "exampleDe": "Die Zitrone ist sauer."
+  },
+  {
+    "id": 59,
+    "lesson": 2,
+    "de": "hungrig",
+    "hr": "gladan",
+    "feminine": "gladna",
+    "neuter": "gladno",
+    "example": "Ja sam gladan.",
+    "exampleDe": "Ich bin hungrig."
+  },
+  {
+    "id": 60,
+    "lesson": 2,
+    "de": "durstig",
+    "hr": "žedan",
+    "feminine": "žedna",
+    "neuter": "žedno",
+    "example": "Ona je žedna.",
+    "exampleDe": "Sie ist durstig."
+  },
+  {
+    "id": 61,
+    "lesson": 2,
+    "de": "müde",
+    "hr": "umoran",
+    "feminine": "umorna",
+    "neuter": "umorno",
+    "example": "On je umoran.",
+    "exampleDe": "Er ist müde."
+  },
+  {
+    "id": 62,
+    "lesson": 2,
+    "de": "wach",
+    "hr": "budan",
+    "feminine": "budna",
+    "neuter": "budno",
+    "example": "Dijete je budno.",
+    "exampleDe": "Das Kind ist wach."
+  },
+  {
+    "id": 63,
+    "lesson": 2,
+    "de": "krank",
+    "hr": "bolestan",
+    "feminine": "bolesna",
+    "neuter": "bolesno",
+    "example": "On je bolestan.",
+    "exampleDe": "Er ist krank."
+  },
+  {
+    "id": 64,
+    "lesson": 2,
+    "de": "gesund",
+    "hr": "zdrav",
+    "feminine": "zdrava",
+    "neuter": "zdravo",
+    "example": "Ona je zdrava.",
+    "exampleDe": "Sie ist gesund."
+  },
+  {
+    "id": 65,
+    "lesson": 2,
+    "de": "frei",
+    "hr": "slobodan",
+    "feminine": "slobodna",
+    "neuter": "slobodno",
+    "example": "Ja sam slobodan.",
+    "exampleDe": "Ich bin frei."
+  },
+  {
+    "id": 66,
+    "lesson": 2,
+    "de": "besetzt",
+    "hr": "zauzet",
+    "feminine": "zauzeta",
+    "neuter": "zauzeto",
+    "example": "On je zauzet.",
+    "exampleDe": "Er ist beschäftigt."
+  },
+  {
+    "id": 67,
+    "lesson": 2,
+    "de": "bereit",
+    "hr": "spreman",
+    "feminine": "spremna",
+    "neuter": "spremno",
+    "example": "Mi smo spremni.",
+    "exampleDe": "Wir sind bereit."
+  },
+  {
+    "id": 68,
+    "lesson": 2,
+    "de": "fertig",
+    "hr": "gotov",
+    "feminine": "gotova",
+    "neuter": "gotovo",
+    "example": "Posao je gotov.",
+    "exampleDe": "Die Arbeit ist fertig."
+  },
+  {
+    "id": 69,
+    "lesson": 2,
+    "de": "möglich",
+    "hr": "moguć",
+    "feminine": "moguća",
+    "neuter": "moguće",
+    "example": "Sve je moguće.",
+    "exampleDe": "Alles ist möglich."
+  },
+  {
+    "id": 70,
+    "lesson": 2,
+    "de": "unmöglich",
+    "hr": "nemoguć",
+    "feminine": "nemoguća",
+    "neuter": "nemoguće",
+    "example": "To je nemoguće.",
+    "exampleDe": "Das ist unmöglich."
+  },
+  {
+    "id": 71,
+    "lesson": 2,
+    "de": "klar",
+    "hr": "jasan",
+    "feminine": "jasna",
+    "neuter": "jasno",
+    "example": "Odgovor je jasan.",
+    "exampleDe": "Die Antwort ist klar."
+  },
+  {
+    "id": 72,
+    "lesson": 2,
+    "de": "unklar",
+    "hr": "nejasan",
+    "feminine": "nejasna",
+    "neuter": "nejasno",
+    "example": "Pitanje je nejasno.",
+    "exampleDe": "Die Frage ist unklar."
+  },
+  {
+    "id": 73,
+    "lesson": 2,
+    "de": "wichtig",
+    "hr": "važan",
+    "feminine": "važna",
+    "neuter": "važno",
+    "example": "To je važan problem.",
+    "exampleDe": "Das ist ein wichtiges Problem."
+  },
+  {
+    "id": 74,
+    "lesson": 2,
+    "de": "unwichtig",
+    "hr": "nevažan",
+    "feminine": "nevažna",
+    "neuter": "nevažno",
+    "example": "To je nevažna stvar.",
+    "exampleDe": "Das ist eine unwichtige Sache."
+  },
+  {
+    "id": 75,
+    "lesson": 2,
+    "de": "teuer (Preis)",
+    "hr": "skup",
+    "feminine": "skupa",
+    "neuter": "skupo",
+    "example": "Ovaj telefon je skup.",
+    "exampleDe": "Dieses Handy ist teuer."
+  },
+  {
+    "id": 76,
+    "lesson": 2,
+    "de": "günstig",
+    "hr": "povoljan",
+    "feminine": "povoljna",
+    "neuter": "povoljno",
+    "example": "Ponuda je povoljna.",
+    "exampleDe": "Das Angebot ist günstig."
+  },
+  {
+    "id": 77,
+    "lesson": 2,
+    "de": "reich",
+    "hr": "bogat",
+    "feminine": "bogata",
+    "neuter": "bogato",
+    "example": "On je bogat čovjek.",
+    "exampleDe": "Er ist ein reicher Mann."
+  },
+  {
+    "id": 78,
+    "lesson": 2,
+    "de": "arm",
+    "hr": "siromašan",
+    "feminine": "siromašna",
+    "neuter": "siromašno",
+    "example": "On je siromašan.",
+    "exampleDe": "Er ist arm."
+  },
+  {
+    "id": 79,
+    "lesson": 2,
+    "de": "freundlich (nett)",
+    "hr": "prijatan",
+    "feminine": "prijatna",
+    "neuter": "prijatno",
+    "example": "Vrijeme je prijatno.",
+    "exampleDe": "Das Wetter ist angenehm."
+  },
+  {
+    "id": 80,
+    "lesson": 2,
+    "de": "unangenehm",
+    "hr": "neprijatan",
+    "feminine": "neprijatna",
+    "neuter": "neprijatno",
+    "example": "Situacija je neprijatna.",
+    "exampleDe": "Die Situation ist unangenehm."
+  },
+  {
+    "id": 81,
+    "lesson": 2,
+    "de": "modern",
+    "hr": "moderan",
+    "feminine": "moderna",
+    "neuter": "moderno",
+    "example": "Stan je moderan.",
+    "exampleDe": "Die Wohnung ist modern."
+  },
+  {
+    "id": 82,
+    "lesson": 2,
+    "de": "altmodisch",
+    "hr": "staromodan",
+    "feminine": "staromodna",
+    "neuter": "staromodno",
+    "example": "Namještaj je staromodan.",
+    "exampleDe": "Die Möbel sind altmodisch."
+  },
+  {
+    "id": 83,
+    "lesson": 2,
+    "de": "sicher",
+    "hr": "siguran",
+    "feminine": "sigurna",
+    "neuter": "sigurno",
+    "example": "On je siguran.",
+    "exampleDe": "Er ist sicher."
+  },
+  {
+    "id": 84,
+    "lesson": 2,
+    "de": "unsicher",
+    "hr": "nesiguran",
+    "feminine": "nesigurna",
+    "neuter": "nesigurno",
+    "example": "On je nesiguran.",
+    "exampleDe": "Er ist unsicher."
+  },
+  {
+    "id": 85,
+    "lesson": 2,
+    "de": "stark (intensiv)",
+    "hr": "snažan",
+    "feminine": "snažna",
+    "neuter": "snažno",
+    "example": "Vjetar je snažan.",
+    "exampleDe": "Der Wind ist stark."
+  },
+  {
+    "id": 86,
+    "lesson": 2,
+    "de": "schwach (leicht)",
+    "hr": "slab",
+    "feminine": "slaba",
+    "neuter": "slabo",
+    "example": "Signal je slab.",
+    "exampleDe": "Das Signal ist schwach."
+  },
+  {
+    "id": 87,
+    "lesson": 2,
+    "de": "offiziell",
+    "hr": "služben",
+    "feminine": "službena",
+    "neuter": "službeno",
+    "example": "To je službeni dokument.",
+    "exampleDe": "Das ist ein offizielles Dokument."
+  },
+  {
+    "id": 88,
+    "lesson": 2,
+    "de": "privat",
+    "hr": "privatan",
+    "feminine": "privatna",
+    "neuter": "privatno",
+    "example": "To je privatna stvar.",
+    "exampleDe": "Das ist eine private Angelegenheit."
+  },
+  {
+    "id": 89,
+    "lesson": 2,
+    "de": "möglichst",
+    "hr": "maksimalan",
+    "feminine": "maksimalna",
+    "neuter": "maksimalno",
+    "example": "Daj maksimum.",
+    "exampleDe": "Gib dein Maximum."
+  },
+  {
+    "id": 90,
+    "lesson": 2,
+    "de": "minimal",
+    "hr": "minimalan",
+    "feminine": "minimalna",
+    "neuter": "minimalno",
+    "example": "Rizik je minimalan.",
+    "exampleDe": "Das Risiko ist minimal."
+  },
+  {
+    "id": 91,
+    "lesson": 2,
+    "de": "glatt",
+    "hr": "gladak",
+    "feminine": "glatka",
+    "neuter": "glatko",
+    "example": "Površina je glatka.",
+    "exampleDe": "Die Oberfläche ist glatt."
+  },
+  {
+    "id": 92,
+    "lesson": 2,
+    "de": "rau",
+    "hr": "hrapav",
+    "feminine": "hrapava",
+    "neuter": "hrapavo",
+    "example": "Zid je hrapav.",
+    "exampleDe": "Die Wand ist rau."
+  },
+  {
+    "id": 93,
+    "lesson": 2,
+    "de": "vollständig",
+    "hr": "potpun",
+    "feminine": "potpuna",
+    "neuter": "potpuno",
+    "example": "Lista je potpuna.",
+    "exampleDe": "Die Liste ist vollständig."
+  },
+  {
+    "id": 94,
+    "lesson": 2,
+    "de": "teilweise",
+    "hr": "djelomičan",
+    "feminine": "djelomična",
+    "neuter": "djelomično",
+    "example": "To je djelomičan uspjeh.",
+    "exampleDe": "Das ist ein teilweiser Erfolg."
+  },
+  {
+    "id": 95,
+    "lesson": 2,
+    "de": "bekannt",
+    "hr": "poznat",
+    "feminine": "poznata",
+    "neuter": "poznato",
+    "example": "On je poznat.",
+    "exampleDe": "Er ist bekannt."
+  },
+  {
+    "id": 96,
+    "lesson": 2,
+    "de": "unbekannt",
+    "hr": "nepoznat",
+    "feminine": "nepoznata",
+    "neuter": "nepoznato",
+    "example": "Mjesto je nepoznato.",
+    "exampleDe": "Der Ort ist unbekannt."
+  },
+  {
+    "id": 97,
+    "lesson": 2,
+    "de": "nah",
+    "hr": "blizu",
+    "feminine": "blizu",
+    "neuter": "blizu",
+    "example": "Škola je blizu.",
+    "exampleDe": "Die Schule ist nah."
+  },
+  {
+    "id": 98,
+    "lesson": 2,
+    "de": "weit",
+    "hr": "dalek",
+    "feminine": "daleka",
+    "neuter": "daleko",
+    "example": "Grad je daleko.",
+    "exampleDe": "Die Stadt ist weit."
+  },
+  {
+    "id": 99,
+    "lesson": 2,
+    "de": "rund",
+    "hr": "okrugao",
+    "feminine": "okrugla",
+    "neuter": "okruglo",
+    "example": "Stol je okrugao.",
+    "exampleDe": "Der Tisch ist rund."
+  },
+  {
+    "id": 100,
+    "lesson": 2,
+    "de": "eckig",
+    "hr": "kockast",
+    "feminine": "kockasta",
+    "neuter": "kockasto",
+    "example": "Kutija je kockasta.",
+    "exampleDe": "Die Box ist eckig."
+  },
+  {
+    "id": 101,
+    "lesson": 3,
+    "de": "weich",
+    "hr": "mek",
+    "feminine": "meka",
+    "neuter": "meko",
+    "example": "Kruh je mekan.",
+    "exampleDe": "Das Brot ist weich."
+  },
+  {
+    "id": 102,
+    "lesson": 3,
+    "de": "hart",
+    "hr": "tvrd",
+    "feminine": "tvrda",
+    "neuter": "tvrdo",
+    "example": "Kamen je tvrd.",
+    "exampleDe": "Der Stein ist hart."
+  },
+  {
+    "id": 103,
+    "lesson": 3,
+    "de": "trocken",
+    "hr": "suh",
+    "feminine": "suha",
+    "neuter": "suho",
+    "example": "Zrak je suh.",
+    "exampleDe": "Die Luft ist trocken."
+  },
+  {
+    "id": 104,
+    "lesson": 3,
+    "de": "nass",
+    "hr": "mokar",
+    "feminine": "mokra",
+    "neuter": "mokro",
+    "example": "Odjeća je mokra.",
+    "exampleDe": "Die Kleidung ist nass."
+  },
+  {
+    "id": 105,
+    "lesson": 3,
+    "de": "sauber (rein)",
+    "hr": "čist",
+    "feminine": "čista",
+    "neuter": "čisto",
+    "example": "Voda je čista.",
+    "exampleDe": "Das Wasser ist sauber."
+  },
+  {
+    "id": 106,
+    "lesson": 3,
+    "de": "schmutzig (dreckig)",
+    "hr": "prljav",
+    "feminine": "prljava",
+    "neuter": "prljavo",
+    "example": "Cipele su prljave.",
+    "exampleDe": "Die Schuhe sind schmutzig."
+  },
+  {
+    "id": 107,
+    "lesson": 3,
+    "de": "scharf (Geschmack)",
+    "hr": "ljut",
+    "feminine": "ljuta",
+    "neuter": "ljuto",
+    "example": "Paprika je ljuta.",
+    "exampleDe": "Die Paprika ist scharf."
+  },
+  {
+    "id": 108,
+    "lesson": 3,
+    "de": "mild",
+    "hr": "blag",
+    "feminine": "blaga",
+    "neuter": "blago",
+    "example": "Okus je blag.",
+    "exampleDe": "Der Geschmack ist mild."
+  },
+  {
+    "id": 109,
+    "lesson": 3,
+    "de": "leer (ohne Inhalt)",
+    "hr": "prazan",
+    "feminine": "prazna",
+    "neuter": "prazno",
+    "example": "Torba je prazna.",
+    "exampleDe": "Die Tasche ist leer."
+  },
+  {
+    "id": 110,
+    "lesson": 3,
+    "de": "voll (gefüllt)",
+    "hr": "pun",
+    "feminine": "puna",
+    "neuter": "puno",
+    "example": "Košara je puna.",
+    "exampleDe": "Der Korb ist voll."
+  },
+  {
+    "id": 111,
+    "lesson": 3,
+    "de": "rundlich",
+    "hr": "zaobljen",
+    "feminine": "zaobljena",
+    "neuter": "zaobljeno",
+    "example": "Oblik je zaobljen.",
+    "exampleDe": "Die Form ist rundlich."
+  },
+  {
+    "id": 112,
+    "lesson": 3,
+    "de": "spitz",
+    "hr": "šiljat",
+    "feminine": "šiljata",
+    "neuter": "šiljato",
+    "example": "Nož je šiljat.",
+    "exampleDe": "Das Messer ist spitz."
+  },
+  {
+    "id": 113,
+    "lesson": 3,
+    "de": "dick",
+    "hr": "debeo",
+    "feminine": "debela",
+    "neuter": "debelo",
+    "example": "Knjiga je debela.",
+    "exampleDe": "Das Buch ist dick."
+  },
+  {
+    "id": 114,
+    "lesson": 3,
+    "de": "dünn",
+    "hr": "tanak",
+    "feminine": "tanka",
+    "neuter": "tanko",
+    "example": "Papir je tanak.",
+    "exampleDe": "Das Papier ist dünn."
+  },
+  {
+    "id": 115,
+    "lesson": 3,
+    "de": "leer (ohne Leute)",
+    "hr": "pust",
+    "feminine": "pusta",
+    "neuter": "pusto",
+    "example": "Ulica je pusta.",
+    "exampleDe": "Die Straße ist leer."
+  },
+  {
+    "id": 116,
+    "lesson": 3,
+    "de": "voll (mit Leuten)",
+    "hr": "pun",
+    "feminine": "puna",
+    "neuter": "puno",
+    "example": "Trg je pun ljudi.",
+    "exampleDe": "Der Platz ist voll von Menschen."
+  },
+  {
+    "id": 117,
+    "lesson": 3,
+    "de": "glücklich (zufrieden)",
+    "hr": "zadovoljan",
+    "feminine": "zadovoljna",
+    "neuter": "zadovoljno",
+    "example": "On je zadovoljan.",
+    "exampleDe": "Er ist zufrieden."
+  },
+  {
+    "id": 118,
+    "lesson": 3,
+    "de": "unzufrieden",
+    "hr": "nezadovoljan",
+    "feminine": "nezadovoljna",
+    "neuter": "nezadovoljno",
+    "example": "Ona je nezadovoljna.",
+    "exampleDe": "Sie ist unzufrieden."
+  },
+  {
+    "id": 119,
+    "lesson": 3,
+    "de": "laut (Geräusch)",
+    "hr": "bučan",
+    "feminine": "bučna",
+    "neuter": "bučno",
+    "example": "Grad je bučan.",
+    "exampleDe": "Die Stadt ist laut."
+  },
+  {
+    "id": 120,
+    "lesson": 3,
+    "de": "ruhig",
+    "hr": "miran",
+    "feminine": "mirna",
+    "neuter": "mirno",
+    "example": "More je mirno.",
+    "exampleDe": "Das Meer ist ruhig."
+  },
+  {
+    "id": 121,
+    "lesson": 3,
+    "de": "gefährlich",
+    "hr": "opasan",
+    "feminine": "opasna",
+    "neuter": "opasno",
+    "example": "Pas je opasan.",
+    "exampleDe": "Der Hund ist gefährlich."
+  },
+  {
+    "id": 122,
+    "lesson": 3,
+    "de": "sicher (ungefährlich)",
+    "hr": "siguran",
+    "feminine": "sigurna",
+    "neuter": "sigurno",
+    "example": "Mjesto je sigurno.",
+    "exampleDe": "Der Ort ist sicher."
+  },
+  {
+    "id": 123,
+    "lesson": 3,
+    "de": "leer (frei)",
+    "hr": "slobodan",
+    "feminine": "slobodna",
+    "neuter": "slobodno",
+    "example": "Stol je slobodan.",
+    "exampleDe": "Der Tisch ist frei."
+  },
+  {
+    "id": 124,
+    "lesson": 3,
+    "de": "besetzt (Platz)",
+    "hr": "zauzet",
+    "feminine": "zauzeta",
+    "neuter": "zauzeto",
+    "example": "Stol je zauzet.",
+    "exampleDe": "Der Tisch ist besetzt."
+  },
+  {
+    "id": 125,
+    "lesson": 3,
+    "de": "interessiert",
+    "hr": "zainteresiran",
+    "feminine": "zainteresirana",
+    "neuter": "zainteresirano",
+    "example": "On je zainteresiran.",
+    "exampleDe": "Er ist interessiert."
+  },
+  {
+    "id": 126,
+    "lesson": 3,
+    "de": "desinteressiert",
+    "hr": "nezainteresiran",
+    "feminine": "nezainteresirana",
+    "neuter": "nezainteresirano",
+    "example": "Ona je nezainteresirana.",
+    "exampleDe": "Sie ist desinteressiert."
+  },
+  {
+    "id": 127,
+    "lesson": 3,
+    "de": "verheiratet",
+    "hr": "oženjen",
+    "feminine": "udana",
+    "neuter": "oženjeno",
+    "example": "On je oženjen.",
+    "exampleDe": "Er ist verheiratet."
+  },
+  {
+    "id": 128,
+    "lesson": 3,
+    "de": "ledig",
+    "hr": "slobodan",
+    "feminine": "slobodna",
+    "neuter": "slobodno",
+    "example": "On je slobodan.",
+    "exampleDe": "Er ist ledig."
+  },
+  {
+    "id": 129,
+    "lesson": 3,
+    "de": "beschäftigt",
+    "hr": "zaposlen",
+    "feminine": "zaposlena",
+    "neuter": "zaposleno",
+    "example": "Ona je zaposlena.",
+    "exampleDe": "Sie ist beschäftigt."
+  },
+  {
+    "id": 130,
+    "lesson": 3,
+    "de": "arbeitslos",
+    "hr": "nezaposlen",
+    "feminine": "nezaposlena",
+    "neuter": "nezaposleno",
+    "example": "On je nezaposlen.",
+    "exampleDe": "Er ist arbeitslos."
+  },
+  {
+    "id": 131,
+    "lesson": 3,
+    "de": "freundlich (herzlich)",
+    "hr": "srdačan",
+    "feminine": "srdačna",
+    "neuter": "srdačno",
+    "example": "Doček je srdačan.",
+    "exampleDe": "Der Empfang ist herzlich."
+  },
+  {
+    "id": 132,
+    "lesson": 3,
+    "de": "kalt (Person)",
+    "hr": "hladan",
+    "feminine": "hladna",
+    "neuter": "hladno",
+    "example": "On je hladan.",
+    "exampleDe": "Er ist kühl."
+  },
+  {
+    "id": 133,
+    "lesson": 3,
+    "de": "mutig",
+    "hr": "hrabar",
+    "feminine": "hrabra",
+    "neuter": "hrabro",
+    "example": "On je hrabar.",
+    "exampleDe": "Er ist mutig."
+  },
+  {
+    "id": 134,
+    "lesson": 3,
+    "de": "ängstlich",
+    "hr": "plašljiv",
+    "feminine": "plašljiva",
+    "neuter": "plašljivo",
+    "example": "Dijete je plašljivo.",
+    "exampleDe": "Das Kind ist ängstlich."
+  },
+  {
+    "id": 135,
+    "lesson": 3,
+    "de": "klug",
+    "hr": "pametan",
+    "feminine": "pametna",
+    "neuter": "pametno",
+    "example": "On je pametan.",
+    "exampleDe": "Er ist klug."
+  },
+  {
+    "id": 136,
+    "lesson": 3,
+    "de": "dumm",
+    "hr": "glup",
+    "feminine": "glupa",
+    "neuter": "glupo",
+    "example": "To je glupa ideja.",
+    "exampleDe": "Das ist eine dumme Idee."
+  },
+  {
+    "id": 137,
+    "lesson": 3,
+    "de": "teuer (wertvoll)",
+    "hr": "drag",
+    "feminine": "draga",
+    "neuter": "drago",
+    "example": "To mi je drago.",
+    "exampleDe": "Das ist mir lieb."
+  },
+  {
+    "id": 138,
+    "lesson": 3,
+    "de": "wertlos",
+    "hr": "bezvrijedan",
+    "feminine": "bezvrijedna",
+    "neuter": "bezvrijedno",
+    "example": "To je bezvrijedno.",
+    "exampleDe": "Das ist wertlos."
+  },
+  {
+    "id": 139,
+    "lesson": 3,
+    "de": "offen (ehrlich)",
+    "hr": "otvoren",
+    "feminine": "otvorena",
+    "neuter": "otvoreno",
+    "example": "On je otvoren.",
+    "exampleDe": "Er ist offen."
+  },
+  {
+    "id": 140,
+    "lesson": 3,
+    "de": "verschlossen",
+    "hr": "zatvoren",
+    "feminine": "zatvorena",
+    "neuter": "zatvoreno",
+    "example": "Ona je zatvorena.",
+    "exampleDe": "Sie ist verschlossen."
+  },
+  {
+    "id": 141,
+    "lesson": 3,
+    "de": "frisch",
+    "hr": "svjež",
+    "feminine": "svježa",
+    "neuter": "svježe",
+    "example": "Kruh je svjež.",
+    "exampleDe": "Das Brot ist frisch."
+  },
+  {
+    "id": 142,
+    "lesson": 3,
+    "de": "alt (Lebensmittel)",
+    "hr": "ustajao",
+    "feminine": "ustajala",
+    "neuter": "ustajalo",
+    "example": "Kruh je ustajao.",
+    "exampleDe": "Das Brot ist alt."
+  },
+  {
+    "id": 143,
+    "lesson": 3,
+    "de": "reichlich",
+    "hr": "obilan",
+    "feminine": "obilna",
+    "neuter": "obilno",
+    "example": "Obrok je obilan.",
+    "exampleDe": "Die Mahlzeit ist reichlich."
+  },
+  {
+    "id": 144,
+    "lesson": 3,
+    "de": "knapp",
+    "hr": "oskudan",
+    "feminine": "oskudna",
+    "neuter": "oskudno",
+    "example": "Vrijeme je oskudno.",
+    "exampleDe": "Die Zeit ist knapp."
+  },
+  {
+    "id": 145,
+    "lesson": 3,
+    "de": "berühmt",
+    "hr": "slavan",
+    "feminine": "slavna",
+    "neuter": "slavno",
+    "example": "On je slavan.",
+    "exampleDe": "Er ist berühmt."
+  },
+  {
+    "id": 146,
+    "lesson": 3,
+    "de": "unbekannt (Person)",
+    "hr": "anoniman",
+    "feminine": "anonimna",
+    "neuter": "anonimno",
+    "example": "On je anoniman.",
+    "exampleDe": "Er ist unbekannt."
+  },
+  {
+    "id": 147,
+    "lesson": 3,
+    "de": "vollständig (komplett)",
+    "hr": "kompletan",
+    "feminine": "kompletna",
+    "neuter": "kompletno",
+    "example": "Popis je kompletan.",
+    "exampleDe": "Die Liste ist komplett."
+  },
+  {
+    "id": 148,
+    "lesson": 3,
+    "de": "teilweise (halb)",
+    "hr": "polovičan",
+    "feminine": "polovična",
+    "neuter": "polovično",
+    "example": "Uspjeh je polovičan.",
+    "exampleDe": "Der Erfolg ist halb."
+  },
+  {
+    "id": 149,
+    "lesson": 3,
+    "de": "stabil",
+    "hr": "stabilan",
+    "feminine": "stabilna",
+    "neuter": "stabilno",
+    "example": "Most je stabilan.",
+    "exampleDe": "Die Brücke ist stabil."
+  },
+  {
+    "id": 150,
+    "lesson": 3,
+    "de": "instabil",
+    "hr": "nestabilan",
+    "feminine": "nestabilna",
+    "neuter": "nestabilno",
+    "example": "Konstrukcija je nestabilna.",
+    "exampleDe": "Die Konstruktion ist instabil."
+  }
+]

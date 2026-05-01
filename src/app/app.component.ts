@@ -1,4 +1,3 @@
-
 import { Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import {
@@ -29,7 +28,8 @@ import {
   createOutline,
   createSharp,
 } from 'ionicons/icons';
-import { VerbService } from './services/verb.service';
+import { CategoryService } from './services/category.service';
+import { Category } from './services/word.types';
 
 @Component({
   selector: 'app-root',
@@ -54,13 +54,13 @@ import { VerbService } from './services/verb.service';
   ],
 })
 export class AppComponent {
-  readonly verbService = inject(VerbService);
+  readonly categoryService = inject(CategoryService);
 
   public appPages = [
     { title: 'Lernen', url: '/learn', icon: 'school' },
     { title: 'Quiz', url: '/quiz', icon: 'help-circle' },
     { title: 'Tippen', url: '/type', icon: 'create' },
-    { title: 'Alle Verben', url: '/list', icon: 'list' },
+    { title: 'Wortliste', url: '/list', icon: 'list' },
   ];
 
   constructor() {
@@ -76,5 +76,9 @@ export class AppComponent {
       createOutline,
       createSharp,
     });
+  }
+
+  setCategory(cat: Category): void {
+    this.categoryService.setCategory(cat);
   }
 }

@@ -3,27 +3,27 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Alle Verben</ion-title>
+    <ion-title>{{ categoryService.listTitle() }}</ion-title>
   </ion-toolbar>
   <ion-toolbar>
     <ion-searchbar
-      placeholder="Verb suchen…"
+      placeholder="Wort suchen…"
       [debounce]="200"
       (ionInput)="onSearch($any($event))"
     ></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-padding">
+<ion-content class="ion-padding">
   <div class="max-w-2xl mx-auto flex flex-col gap-2">
     <div class="text-xs uppercase tracking-wide opacity-60 mb-2 flex justify-between">
-      <span>{{ filtered().length }} Verben</span>
-      <span>{{ verbService.knownCount() }} gelernt</span>
+      <span>{{ filtered().length }} Wörter</span>
+      <span>{{ categoryService.knownCount() }} gelernt</span>
     </div>
 
     @for (v of filtered(); track v.id) {
       @let expanded = expandedId() === v.id;
-      @let known = verbService.isKnown(v.id);
+      @let known = categoryService.isKnown(v.id);
       <div
         class="rounded-2xl border p-4 flex flex-col gap-2 transition-colors cursor-pointer"
         [ngClass]="known
@@ -40,9 +40,7 @@
             (click)="toggleKnown($event, v.id)"
             [attr.aria-label]="known ? 'Als nicht gelernt markieren' : 'Als gelernt markieren'"
           >
-            <ion-icon
-              [name]="known ? 'checkmark-circle' : 'checkmark-circle-outline'"
-            ></ion-icon>
+            <ion-icon [name]="known ? 'checkmark-circle' : 'checkmark-circle-outline'"></ion-icon>
           </button>
 
           <div class="flex-1 min-w-0 flex items-baseline justify-between gap-3">
@@ -71,39 +69,67 @@
 
         @if (expanded) {
           <div class="mt-2 pl-9 border-t border-black/10 dark:border-white/10 pt-3 flex flex-col gap-4">
-            <div>
-              <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Präsens</div>
-              <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
-                <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ v.conjugation.ja }}</span></div>
-                <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ v.conjugation.mi }}</span></div>
-                <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ v.conjugation.ti }}</span></div>
-                <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ v.conjugation.vi }}</span></div>
-                <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ v.conjugation.on }}</span></div>
-                <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ v.conjugation.oni }}</span></div>
+
+            @if (categoryService.selectedCategory() === 'verbs') {
+              @let verb = asVerb(v);
+              <div>
+                <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Präsens</div>
+                <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                  <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ verb.conjugation.ja }}</span></div>
+                  <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ verb.conjugation.mi }}</span></div>
+                  <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ verb.conjugation.ti }}</span></div>
+                  <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ verb.conjugation.vi }}</span></div>
+                  <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ verb.conjugation.on }}</span></div>
+                  <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ verb.conjugation.oni }}</span></div>
+                </div>
               </div>
-            </div>
-            <div>
-              <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Vergangenheit (Perfekt)</div>
-              <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
-                <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ v.pastConjugation.ja }}</span></div>
-                <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ v.pastConjugation.mi }}</span></div>
-                <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ v.pastConjugation.ti }}</span></div>
-                <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ v.pastConjugation.vi }}</span></div>
-                <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ v.pastConjugation.on }}</span></div>
-                <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ v.pastConjugation.oni }}</span></div>
+              <div>
+                <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Vergangenheit (Perfekt)</div>
+                <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                  <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ verb.pastConjugation.ja }}</span></div>
+                  <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ verb.pastConjugation.mi }}</span></div>
+                  <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ verb.pastConjugation.ti }}</span></div>
+                  <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ verb.pastConjugation.vi }}</span></div>
+                  <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ verb.pastConjugation.on }}</span></div>
+                  <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ verb.pastConjugation.oni }}</span></div>
+                </div>
               </div>
-            </div>
-            <div>
-              <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Zukunft (Futur I)</div>
-              <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
-                <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ v.futureConjugation.ja }}</span></div>
-                <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ v.futureConjugation.mi }}</span></div>
-                <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ v.futureConjugation.ti }}</span></div>
-                <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ v.futureConjugation.vi }}</span></div>
-                <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ v.futureConjugation.on }}</span></div>
-                <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ v.futureConjugation.oni }}</span></div>
+              <div>
+                <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Zukunft (Futur I)</div>
+                <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                  <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ verb.futureConjugation.ja }}</span></div>
+                  <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ verb.futureConjugation.mi }}</span></div>
+                  <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ verb.futureConjugation.ti }}</span></div>
+                  <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ verb.futureConjugation.vi }}</span></div>
+                  <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ verb.futureConjugation.on }}</span></div>
+                  <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ verb.futureConjugation.oni }}</span></div>
+                </div>
               </div>
-            </div>
+            }
+
+            @if (categoryService.selectedCategory() === 'adjectives') {
+              @let adj = asAdjective(v);
+              <div>
+                <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Genusformen</div>
+                <div class="grid grid-cols-3 gap-x-4 gap-y-1 text-sm">
+                  <div><span class="opacity-60 block text-xs">Maskulin</span><span class="font-medium">{{ adj.hr }}</span></div>
+                  <div><span class="opacity-60 block text-xs">Feminin</span><span class="font-medium">{{ adj.feminine }}</span></div>
+                  <div><span class="opacity-60 block text-xs">Neutrum</span><span class="font-medium">{{ adj.neuter }}</span></div>
+                </div>
+              </div>
+            }
+
+            @if (categoryService.selectedCategory() === 'nouns') {
+              @let noun = asNoun(v);
+              <div>
+                <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Details</div>
+                <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                  <div><span class="opacity-60 mr-2">Genus</span><span class="font-medium">{{ noun.gender }}</span></div>
+                  <div><span class="opacity-60 mr-2">Plural</span><span class="font-medium">{{ noun.plural }}</span></div>
+                </div>
+              </div>
+            }
+
           </div>
         }
       </div>

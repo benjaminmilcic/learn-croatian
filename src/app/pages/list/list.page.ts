@@ -17,7 +17,9 @@ import {
   checkmarkCircleOutline,
   chevronDown,
 } from 'ionicons/icons';
-import { Verb, VerbService } from '../../services/verb.service';
+import { Adjective, Noun, WordItem } from '../../services/word.types';
+import { Verb } from '../../services/verb.service';
+import { CategoryService } from '../../services/category.service';
 
 @Component({
   selector: 'app-list',
@@ -37,21 +39,21 @@ import { Verb, VerbService } from '../../services/verb.service';
   ],
 })
 export class ListPage implements OnInit {
-  readonly verbService = inject(VerbService);
+  readonly categoryService = inject(CategoryService);
 
-  private allVerbs = signal<Verb[]>([]);
   query = signal('');
   expandedId = signal<number | null>(null);
 
-  lessonVerbs = computed(() => this.verbService.verbsForLessons(this.allVerbs()));
+  lessonItems = computed(() =>
+    this.categoryService.itemsForLessons(this.categoryService.items())
+  );
 
   filtered = computed(() => {
     const q = this.query().trim().toLowerCase();
-    const verbs = this.lessonVerbs();
-    if (!q) return verbs;
-    return verbs.filter(
-      (v) =>
-        v.de.toLowerCase().includes(q) || v.hr.toLowerCase().includes(q),
+    const items = this.lessonItems();
+    if (!q) return items;
+    return items.filter(
+      v => v.de.toLowerCase().includes(q) || v.hr.toLowerCase().includes(q)
     );
   });
 
@@ -60,7 +62,11 @@ export class ListPage implements OnInit {
   }
 
   ngOnInit() {
-    this.verbService.getVerbs().subscribe((v) => this.allVerbs.set(v));
+    this.expandedId.set(null);
+  }
+
+  ionViewWillEnter() {
+    this.expandedId.set(null);
   }
 
   onSearch(event: CustomEvent) {
@@ -68,11 +74,24 @@ export class ListPage implements OnInit {
   }
 
   toggleExpand(id: number) {
-    this.expandedId.update((cur) => (cur === id ? null : id));
+    this.expandedId.update(cur => (cur === id ? null : id));
   }
 
   toggleKnown(event: Event, id: number) {
     event.stopPropagation();
-    this.verbService.toggleKnown(id);
+    this.categoryService.toggleKnown(id);
   }
+
+  asVerb(item: WordItem): Verb {
+    return item as Verb;
+  }
+
+  asAdjective(item: WordItem): Adjective {
+    return item as Adjective;
+  }
+
+  asNoun(item: WordItem): Noun {
+    return item as Noun;
+  }
+
 }

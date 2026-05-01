@@ -1,4 +1,4 @@
-import { Component, inject, signal, computed } from '@angular/core';
+import { Component, effect, inject, signal, computed, untracked } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import {
@@ -20,10 +20,11 @@ import {
   trophy,
   sparkles,
 } from 'ionicons/icons';
-import { Verb, VerbService } from '../../services/verb.service';
+import { WordItem } from '../../services/word.types';
+import { CategoryService } from '../../services/category.service';
 
 interface Question {
-  verb: Verb;
+  item: WordItem;
   options: string[];
   answer: string;
 }
@@ -47,10 +48,9 @@ interface Question {
   ],
 })
 export class QuizPage {
-  private verbService = inject(VerbService);
+  readonly categoryService = inject(CategoryService);
 
-  private allVerbs: Verb[] = [];
-  active = signal<Verb[]>([]);
+  active = signal<WordItem[]>([]);
   questions = signal<Question[]>([]);
   index = signal(0);
   score = signal(0);
@@ -58,7 +58,7 @@ export class QuizPage {
   finished = signal(false);
   quizStarted = signal(false);
 
-  readonly COUNT_OPTIONS = [5, 10, 20, 0]; // 0 = Alle
+  readonly COUNT_OPTIONS = [5, 10, 20, 0];
   questionCount = signal(10);
 
   current = computed(() => this.questions()[this.index()]);
@@ -67,22 +67,27 @@ export class QuizPage {
     return total ? (this.index() + 1) / total : 0;
   });
 
-  readonly MIN_VERBS = 4;
+  readonly MIN_ITEMS = 4;
 
   constructor() {
     addIcons({ checkmarkCircle, closeCircle, refresh, trophy, sparkles });
-    this.verbService.getVerbs().subscribe((v) => {
-      this.allVerbs = v;
-      this.active.set(this.verbService.activeOnly(this.verbService.verbsForLessons(v)));
+
+    effect(() => {
+      const items = this.categoryService.items();
+      this.categoryService.lessonIds();
+      untracked(() => {
+        this.quizStarted.set(false);
+        this.finished.set(false);
+        const forLesson = this.categoryService.itemsForLessons(items);
+        this.active.set(this.categoryService.activeOnly(forLesson));
+      });
     });
   }
 
   ionViewWillEnter() {
-    if (this.allVerbs.length) {
-      this.active.set(
-        this.verbService.activeOnly(this.verbService.verbsForLessons(this.allVerbs)),
-      );
-    }
+    const items = this.categoryService.items();
+    const forLesson = this.categoryService.itemsForLessons(items);
+    this.active.set(this.categoryService.activeOnly(forLesson));
   }
 
   countLabel(n: number): string {
@@ -98,15 +103,15 @@ export class QuizPage {
 
     const n = this.questionCount();
     const total = n === 0 ? active.length : Math.min(n, active.length);
-    const picked = this.verbService.shuffle(active).slice(0, total);
+    const picked = this.categoryService.shuffle(active).slice(0, total);
 
-    const qs: Question[] = picked.map((verb) => {
-      const distractors = this.verbService
-        .shuffle(active.filter((x) => x.id !== verb.id))
+    const qs: Question[] = picked.map(item => {
+      const distractors = this.categoryService
+        .shuffle(active.filter(x => x.id !== item.id))
         .slice(0, 3)
-        .map((x) => x.de);
-      const options = this.verbService.shuffle([verb.de, ...distractors]);
-      return { verb, options, answer: verb.de };
+        .map(x => x.de);
+      const options = this.categoryService.shuffle([item.de, ...distractors]);
+      return { item, options, answer: item.de };
     });
     this.questions.set(qs);
     this.quizStarted.set(true);
@@ -121,7 +126,7 @@ export class QuizPage {
     if (this.selected() !== null) return;
     this.selected.set(option);
     if (option === this.current().answer) {
-      this.score.update((s) => s + 1);
+      this.score.update(s => s + 1);
     }
   }
 
@@ -130,21 +135,18 @@ export class QuizPage {
       this.finished.set(true);
       return;
     }
-    this.index.update((i) => i + 1);
+    this.index.update(i => i + 1);
     this.selected.set(null);
   }
 
   optionClass(option: string): string {
     const sel = this.selected();
-    const base =
-      'bg-black/5 dark:bg-white/5 border-black/10 dark:border-white/10';
+    const base = 'bg-black/5 dark:bg-white/5 border-black/10 dark:border-white/10';
     if (sel === null) return `${base} hover:bg-black/10 dark:hover:bg-white/10`;
     const isAnswer = option === this.current().answer;
     const isPicked = option === sel;
-    if (isAnswer)
-      return 'bg-emerald-500/20 border-emerald-500 text-emerald-700 dark:text-emerald-200';
-    if (isPicked)
-      return 'bg-red-500/20 border-red-500 text-red-700 dark:text-red-200';
+    if (isAnswer) return 'bg-emerald-500/20 border-emerald-500 text-emerald-700 dark:text-emerald-200';
+    if (isPicked) return 'bg-red-500/20 border-red-500 text-red-700 dark:text-red-200';
     return `${base} opacity-60`;
   }
 }

@@ -1601,7 +1601,7 @@
   },
   {
     "id": 51,
-    "lesson": 1,
+    "lesson": 2,
     "de": "lernen / lehren",
     "hr": "učiti",
     "example": "Učim hrvatski.",
@@ -1633,7 +1633,7 @@
   },
   {
     "id": 52,
-    "lesson": 1,
+    "lesson": 2,
     "de": "verstehen",
     "hr": "razumjeti",
     "example": "Razumijem te.",
@@ -1665,7 +1665,7 @@
   },
   {
     "id": 53,
-    "lesson": 1,
+    "lesson": 2,
     "de": "sich merken / erinnern",
     "hr": "pamtiti",
     "example": "Pamtim to.",
@@ -1697,7 +1697,7 @@
   },
   {
     "id": 54,
-    "lesson": 1,
+    "lesson": 2,
     "de": "vergessen",
     "hr": "zaboraviti",
     "example": "Zaboravljam ime.",
@@ -1729,7 +1729,7 @@
   },
   {
     "id": 55,
-    "lesson": 1,
+    "lesson": 2,
     "de": "sich erinnern",
     "hr": "sjetiti se",
     "example": "Sjetim se toga.",
@@ -1761,7 +1761,7 @@
   },
   {
     "id": 56,
-    "lesson": 1,
+    "lesson": 2,
     "de": "zeigen",
     "hr": "pokazati",
     "example": "Pokazujem put.",
@@ -1793,7 +1793,7 @@
   },
   {
     "id": 57,
-    "lesson": 1,
+    "lesson": 2,
     "de": "teilen",
     "hr": "dijeliti",
     "example": "Dijelim hranu.",
@@ -1825,7 +1825,7 @@
   },
   {
     "id": 58,
-    "lesson": 1,
+    "lesson": 2,
     "de": "helfen",
     "hr": "pomoći",
     "example": "Pomažem prijatelju.",
@@ -1857,7 +1857,7 @@
   },
   {
     "id": 59,
-    "lesson": 1,
+    "lesson": 2,
     "de": "suchen / fordern",
     "hr": "tražiti",
     "example": "Tražim posao.",
@@ -1889,7 +1889,7 @@
   },
   {
     "id": 60,
-    "lesson": 1,
+    "lesson": 2,
     "de": "bekommen / gewinnen",
     "hr": "dobiti",
     "example": "Dobivam nagradu.",
@@ -1921,7 +1921,7 @@
   },
   {
     "id": 61,
-    "lesson": 1,
+    "lesson": 2,
     "de": "verlieren",
     "hr": "izgubiti",
     "example": "Gubim novac.",
@@ -1953,7 +1953,7 @@
   },
   {
     "id": 62,
-    "lesson": 1,
+    "lesson": 2,
     "de": "hüten / aufbewahren",
     "hr": "čuvati",
     "example": "Čuvam dijete.",
@@ -1985,7 +1985,7 @@
   },
   {
     "id": 63,
-    "lesson": 1,
+    "lesson": 2,
     "de": "aufpassen / achten",
     "hr": "paziti",
     "example": "Pazim na dijete.",
@@ -2017,7 +2017,7 @@
   },
   {
     "id": 64,
-    "lesson": 1,
+    "lesson": 2,
     "de": "sich kümmern / sich sorgen",
     "hr": "brinuti se",
     "example": "Brinem se za obitelj.",
@@ -2049,7 +2049,7 @@
   },
   {
     "id": 65,
-    "lesson": 1,
+    "lesson": 2,
     "de": "lieben (Variante)",
     "hr": "voljeti",
     "example": "Volim glazbu.",
@@ -2081,7 +2081,7 @@
   },
   {
     "id": 66,
-    "lesson": 1,
+    "lesson": 2,
     "de": "gefallen",
     "hr": "sviđati se",
     "example": "Sviđa mi se film.",
@@ -2113,7 +2113,7 @@
   },
   {
     "id": 67,
-    "lesson": 1,
+    "lesson": 2,
     "de": "möchten / wollen",
     "hr": "htjeti",
     "example": "Želim kavu.",
@@ -2145,7 +2145,7 @@
   },
   {
     "id": 68,
-    "lesson": 1,
+    "lesson": 2,
     "de": "putzen / reinigen",
     "hr": "čistiti",
     "example": "Čistim sobu.",
@@ -2177,7 +2177,7 @@
   },
   {
     "id": 69,
-    "lesson": 1,
+    "lesson": 2,
     "de": "waschen",
     "hr": "prati",
     "example": "Perem ruke.",
@@ -2209,7 +2209,7 @@
   },
   {
     "id": 70,
-    "lesson": 1,
+    "lesson": 2,
     "de": "kochen",
     "hr": "kuhati",
     "example": "Kuham večeru.",
@@ -2241,7 +2241,7 @@
   },
   {
     "id": 71,
-    "lesson": 1,
+    "lesson": 2,
     "de": "backen / braten / grillen",
     "hr": "peći",
     "example": "Pečem kruh.",
@@ -2273,7 +2273,7 @@
   },
   {
     "id": 72,
-    "lesson": 1,
+    "lesson": 2,
     "de": "bestellen",
     "hr": "naručiti",
     "example": "Naručujem pizzu.",
@@ -2305,7 +2305,7 @@
   },
   {
     "id": 73,
-    "lesson": 1,
+    "lesson": 2,
     "de": "reservieren",
     "hr": "rezervirati",
     "example": "Rezerviram stol.",
@@ -2337,7 +2337,7 @@
   },
   {
     "id": 74,
-    "lesson": 1,
+    "lesson": 2,
     "de": "einladen / rufen",
     "hr": "pozvati",
     "example": "Pozivam prijatelja.",
@@ -2369,7 +2369,7 @@
   },
   {
     "id": 75,
-    "lesson": 1,
+    "lesson": 2,
     "de": "antworten",
     "hr": "odgovoriti",
     "example": "Odgovaram na pitanje.",
@@ -2401,7 +2401,7 @@
   },
   {
     "id": 76,
-    "lesson": 1,
+    "lesson": 2,
     "de": "erklären",
     "hr": "objasniti",
     "example": "Objašnjavam zadatak.",
@@ -2433,7 +2433,7 @@
   },
   {
     "id": 77,
-    "lesson": 1,
+    "lesson": 2,
     "de": "beschreiben",
     "hr": "opisati",
     "example": "Opisujem mjesto.",
@@ -2465,7 +2465,7 @@
   },
   {
     "id": 78,
-    "lesson": 1,
+    "lesson": 2,
     "de": "erzählen / reden",
     "hr": "pričati",
     "example": "Pričam priču.",
@@ -2497,7 +2497,7 @@
   },
   {
     "id": 79,
-    "lesson": 1,
+    "lesson": 2,
     "de": "sich unterhalten / reden",
     "hr": "razgovarati",
     "example": "Razgovaram s prijateljem.",
@@ -2529,7 +2529,7 @@
   },
   {
     "id": 80,
-    "lesson": 1,
+    "lesson": 2,
     "de": "zuhören / hören",
     "hr": "slušati",
     "example": "Slušam glazbu.",
@@ -2561,7 +2561,7 @@
   },
   {
     "id": 81,
-    "lesson": 1,
+    "lesson": 2,
     "de": "zuschauen / beobachten",
     "hr": "gledati",
     "example": "Gledam utakmicu.",
@@ -2593,7 +2593,7 @@
   },
   {
     "id": 82,
-    "lesson": 1,
+    "lesson": 2,
     "de": "lachen",
     "hr": "smijati se",
     "example": "Smijem se glasno.",
@@ -2625,7 +2625,7 @@
   },
   {
     "id": 83,
-    "lesson": 1,
+    "lesson": 2,
     "de": "weinen",
     "hr": "plakati",
     "example": "Plačem često.",
@@ -2657,7 +2657,7 @@
   },
   {
     "id": 84,
-    "lesson": 1,
+    "lesson": 2,
     "de": "schreien / rufen",
     "hr": "vikati",
     "example": "Vičem glasno.",
@@ -2689,7 +2689,7 @@
   },
   {
     "id": 85,
-    "lesson": 1,
+    "lesson": 2,
     "de": "schweigen / still sein",
     "hr": "šutjeti",
     "example": "Šutim sada.",
@@ -2721,7 +2721,7 @@
   },
   {
     "id": 86,
-    "lesson": 1,
+    "lesson": 2,
     "de": "spielen",
     "hr": "igrati",
     "example": "Igram nogomet.",
@@ -2753,7 +2753,7 @@
   },
   {
     "id": 87,
-    "lesson": 1,
+    "lesson": 2,
     "de": "singen",
     "hr": "pjevati",
     "example": "Pjevam pjesmu.",
@@ -2785,7 +2785,7 @@
   },
   {
     "id": 88,
-    "lesson": 1,
+    "lesson": 2,
     "de": "tanzen",
     "hr": "plesati",
     "example": "Plešem večeras.",
@@ -2817,7 +2817,7 @@
   },
   {
     "id": 89,
-    "lesson": 1,
+    "lesson": 2,
     "de": "zeichnen",
     "hr": "crtati",
     "example": "Crtam sliku.",
@@ -2849,7 +2849,7 @@
   },
   {
     "id": 90,
-    "lesson": 1,
+    "lesson": 2,
     "de": "malen / fotografieren",
     "hr": "slikati",
     "example": "Slikam pejzaž.",
@@ -2881,7 +2881,7 @@
   },
   {
     "id": 91,
-    "lesson": 1,
+    "lesson": 2,
     "de": "bauen",
     "hr": "graditi",
     "example": "Gradim kuću.",
@@ -2913,7 +2913,7 @@
   },
   {
     "id": 92,
-    "lesson": 1,
+    "lesson": 2,
     "de": "abreißen / zerstören",
     "hr": "rušiti",
     "example": "Rušim zid.",
@@ -2945,7 +2945,7 @@
   },
   {
     "id": 93,
-    "lesson": 1,
+    "lesson": 2,
     "de": "reparieren",
     "hr": "popravljati",
     "example": "Popravljam auto.",
@@ -2977,7 +2977,7 @@
   },
   {
     "id": 94,
-    "lesson": 1,
+    "lesson": 2,
     "de": "ändern / wechseln / tauschen",
     "hr": "mijenjati",
     "example": "Mijenjam plan.",
@@ -3009,7 +3009,7 @@
   },
   {
     "id": 95,
-    "lesson": 1,
+    "lesson": 2,
     "de": "reparieren / verbessern",
     "hr": "popraviti",
     "example": "Popravim grešku.",
@@ -3041,7 +3041,7 @@
   },
   {
     "id": 96,
-    "lesson": 1,
+    "lesson": 2,
     "de": "benutzen / verwenden",
     "hr": "koristiti",
     "example": "Koristim alat.",
@@ -3073,7 +3073,7 @@
   },
   {
     "id": 97,
-    "lesson": 1,
+    "lesson": 2,
     "de": "benötigen / brauchen",
     "hr": "trebati",
     "example": "Trebam pomoć.",
@@ -3105,7 +3105,7 @@
   },
   {
     "id": 98,
-    "lesson": 1,
+    "lesson": 2,
     "de": "entscheiden",
     "hr": "odlučiti",
     "example": "Odlučujem brzo.",
@@ -3137,7 +3137,7 @@
   },
   {
     "id": 99,
-    "lesson": 1,
+    "lesson": 2,
     "de": "versuchen",
     "hr": "pokušati",
     "example": "Pokušavam opet.",
@@ -3169,7 +3169,7 @@
   },
   {
     "id": 100,
-    "lesson": 1,
+    "lesson": 2,
     "de": "gelingen / schaffen / Erfolg haben",
     "hr": "uspjeti",
     "example": "Uspijevam u tome.",
@@ -3201,7 +3201,7 @@
   },
   {
     "id": 101,
-    "lesson": 2,
+    "lesson": 3,
     "de": "fortsetzen / weitermachen",
     "hr": "nastaviti",
     "example": "Nastavljam rad.",
@@ -3233,7 +3233,7 @@
   },
   {
     "id": 102,
-    "lesson": 2,
+    "lesson": 3,
     "de": "beenden / fertig sein",
     "hr": "završiti",
     "example": "Završavam posao.",
@@ -3265,7 +3265,7 @@
   },
   {
     "id": 103,
-    "lesson": 2,
+    "lesson": 3,
     "de": "aufhören",
     "hr": "prestati",
     "example": "Prestajem raditi.",
@@ -3297,7 +3297,7 @@
   },
   {
     "id": 104,
-    "lesson": 2,
+    "lesson": 3,
     "de": "warten",
     "hr": "čekati",
     "example": "Čekam autobus.",
@@ -3329,7 +3329,7 @@
   },
   {
     "id": 105,
-    "lesson": 2,
+    "lesson": 3,
     "de": "vorbeigehen / vergehen",
     "hr": "prolaziti",
     "example": "Prolazim ulicom.",
@@ -3361,7 +3361,7 @@
   },
   {
     "id": 106,
-    "lesson": 2,
+    "lesson": 3,
     "de": "kommen",
     "hr": "dolaziti",
     "example": "Dolazim kući.",
@@ -3393,7 +3393,7 @@
   },
   {
     "id": 107,
-    "lesson": 2,
+    "lesson": 3,
     "de": "weggehen / abreisen",
     "hr": "odlaziti",
     "example": "Odlazim sada.",
@@ -3425,7 +3425,7 @@
   },
   {
     "id": 108,
-    "lesson": 2,
+    "lesson": 3,
     "de": "zurückgeben / zurückbringen",
     "hr": "vraćati",
     "example": "Vraćam knjigu.",
@@ -3457,7 +3457,7 @@
   },
   {
     "id": 109,
-    "lesson": 2,
+    "lesson": 3,
     "de": "eintreten / hineingehen",
     "hr": "ulaziti",
     "example": "Ulazim u kuću.",
@@ -3489,7 +3489,7 @@
   },
   {
     "id": 110,
-    "lesson": 2,
+    "lesson": 3,
     "de": "hinausgehen / ausgehen",
     "hr": "izlaziti",
     "example": "Izlazim van.",
@@ -3521,7 +3521,7 @@
   },
   {
     "id": 111,
-    "lesson": 2,
+    "lesson": 3,
     "de": "aufstehen",
     "hr": "ustati",
     "example": "Ustajem rano.",
@@ -3553,7 +3553,7 @@
   },
   {
     "id": 112,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich setzen / hinsetzen",
     "hr": "sjesti",
     "example": "Sjedam na stolicu.",
@@ -3585,7 +3585,7 @@
   },
   {
     "id": 113,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich hinlegen",
     "hr": "leći",
     "example": "Liježem u krevet.",
@@ -3617,7 +3617,7 @@
   },
   {
     "id": 114,
-    "lesson": 2,
+    "lesson": 3,
     "de": "aufwachen",
     "hr": "probuditi se",
     "example": "Budim se rano.",
@@ -3649,7 +3649,7 @@
   },
   {
     "id": 115,
-    "lesson": 2,
+    "lesson": 3,
     "de": "einschlafen",
     "hr": "zaspati",
     "example": "Zaspim brzo.",
@@ -3681,7 +3681,7 @@
   },
   {
     "id": 116,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich anziehen",
     "hr": "obući se",
     "example": "Obučem se brzo.",
@@ -3713,7 +3713,7 @@
   },
   {
     "id": 117,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich ausziehen",
     "hr": "svući se",
     "example": "Svučem se u sobi.",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": 118,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich waschen (Gesicht/Hände)",
     "hr": "umiti se",
     "example": "Umijem se ujutro.",
@@ -3777,7 +3777,7 @@
   },
   {
     "id": 119,
-    "lesson": 2,
+    "lesson": 3,
     "de": "duschen",
     "hr": "tuširati se",
     "example": "Tuširam se svaki dan.",
@@ -3809,7 +3809,7 @@
   },
   {
     "id": 120,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich rasieren",
     "hr": "brijati se",
     "example": "Brijem se svako jutro.",
@@ -3841,7 +3841,7 @@
   },
   {
     "id": 121,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich schminken",
     "hr": "šminkati se",
     "example": "Šminkam se brzo.",
@@ -3873,7 +3873,7 @@
   },
   {
     "id": 122,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich kämmen",
     "hr": "češljati se",
     "example": "Češljam se pred ogledalom.",
@@ -3905,7 +3905,7 @@
   },
   {
     "id": 123,
-    "lesson": 2,
+    "lesson": 3,
     "de": "anziehen (jmd. anderen)",
     "hr": "oblačiti",
     "example": "Oblačim dijete.",
@@ -3937,7 +3937,7 @@
   },
   {
     "id": 124,
-    "lesson": 2,
+    "lesson": 3,
     "de": "empfangen / annehmen",
     "hr": "primiti",
     "example": "Primim paket.",
@@ -3969,7 +3969,7 @@
   },
   {
     "id": 125,
-    "lesson": 2,
+    "lesson": 3,
     "de": "schicken / senden",
     "hr": "poslati",
     "example": "Pošaljem pismo.",
@@ -4001,7 +4001,7 @@
   },
   {
     "id": 126,
-    "lesson": 2,
+    "lesson": 3,
     "de": "empfangen (wiederholt)",
     "hr": "primati",
     "example": "Primam poštu svaki dan.",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": 127,
-    "lesson": 2,
+    "lesson": 3,
     "de": "schicken (wiederholt)",
     "hr": "slati",
     "example": "Šaljem poruke.",
@@ -4065,7 +4065,7 @@
   },
   {
     "id": 128,
-    "lesson": 2,
+    "lesson": 3,
     "de": "lesen",
     "hr": "čitati",
     "example": "Čitam knjigu.",
@@ -4097,7 +4097,7 @@
   },
   {
     "id": 129,
-    "lesson": 2,
+    "lesson": 3,
     "de": "schreiben",
     "hr": "pisati",
     "example": "Pišem pismo.",
@@ -4129,7 +4129,7 @@
   },
   {
     "id": 130,
-    "lesson": 2,
+    "lesson": 3,
     "de": "tippen",
     "hr": "tipkati",
     "example": "Tipkam na tipkovnici.",
@@ -4161,7 +4161,7 @@
   },
   {
     "id": 131,
-    "lesson": 2,
+    "lesson": 3,
     "de": "telefonieren",
     "hr": "telefonirati",
     "example": "Telefoniram s prijateljem.",
@@ -4193,7 +4193,7 @@
   },
   {
     "id": 132,
-    "lesson": 2,
+    "lesson": 3,
     "de": "anrufen",
     "hr": "nazvati",
     "example": "Nazovem te večeras.",
@@ -4225,7 +4225,7 @@
   },
   {
     "id": 133,
-    "lesson": 2,
+    "lesson": 3,
     "de": "eine SMS schicken (ugs.)",
     "hr": "porukati",
     "example": "Porukam te odmah.",
@@ -4257,7 +4257,7 @@
   },
   {
     "id": 134,
-    "lesson": 2,
+    "lesson": 3,
     "de": "mailen (ugs.)",
     "hr": "e-mailati",
     "example": "E-mailam ti dokument.",
@@ -4289,7 +4289,7 @@
   },
   {
     "id": 135,
-    "lesson": 2,
+    "lesson": 3,
     "de": "einschalten / einbeziehen",
     "hr": "uključiti",
     "example": "Uključim računalo.",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": 136,
-    "lesson": 2,
+    "lesson": 3,
     "de": "ausschalten / ausschließen",
     "hr": "isključiti",
     "example": "Isključim telefon.",
@@ -4353,7 +4353,7 @@
   },
   {
     "id": 137,
-    "lesson": 2,
+    "lesson": 3,
     "de": "installieren",
     "hr": "instalirati",
     "example": "Instaliram aplikaciju.",
@@ -4385,7 +4385,7 @@
   },
   {
     "id": 138,
-    "lesson": 2,
+    "lesson": 3,
     "de": "herunterladen / übernehmen",
     "hr": "preuzeti",
     "example": "Preuzmem datoteku.",
@@ -4417,7 +4417,7 @@
   },
   {
     "id": 139,
-    "lesson": 2,
+    "lesson": 3,
     "de": "speichern",
     "hr": "pohraniti",
     "example": "Pohranim dokument.",
@@ -4449,7 +4449,7 @@
   },
   {
     "id": 140,
-    "lesson": 2,
+    "lesson": 3,
     "de": "löschen / abwischen",
     "hr": "brisati",
     "example": "Brišem poruku.",
@@ -4481,7 +4481,7 @@
   },
   {
     "id": 141,
-    "lesson": 2,
+    "lesson": 3,
     "de": "absagen / stornieren",
     "hr": "otkazati",
     "example": "Otkažem sastanak.",
@@ -4513,7 +4513,7 @@
   },
   {
     "id": 142,
-    "lesson": 2,
+    "lesson": 3,
     "de": "bestellen",
     "hr": "naručiti",
     "example": "Naručim pizzu.",
@@ -4545,7 +4545,7 @@
   },
   {
     "id": 143,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich anmelden",
     "hr": "prijaviti se",
     "example": "Prijavim se na stranicu.",
@@ -4577,7 +4577,7 @@
   },
   {
     "id": 144,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich abmelden",
     "hr": "odjaviti se",
     "example": "Odjavim se s računa.",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": 145,
-    "lesson": 2,
+    "lesson": 3,
     "de": "sich registrieren",
     "hr": "registrirati se",
     "example": "Registriram se na portalu.",
@@ -4641,7 +4641,7 @@
   },
   {
     "id": 146,
-    "lesson": 2,
+    "lesson": 3,
     "de": "anzeigen / vorführen / zeigen",
     "hr": "prikazati",
     "example": "Prikažem rezultate.",
@@ -4673,7 +4673,7 @@
   },
   {
     "id": 147,
-    "lesson": 2,
+    "lesson": 3,
     "de": "entdecken / enthüllen",
     "hr": "otkriti",
     "example": "Otkrijem tajnu.",
@@ -4705,7 +4705,7 @@
   },
   {
     "id": 148,
-    "lesson": 2,
+    "lesson": 3,
     "de": "verstecken / verbergen",
     "hr": "sakriti",
     "example": "Sakrijem ključ.",
@@ -4737,7 +4737,7 @@
   },
   {
     "id": 149,
-    "lesson": 2,
+    "lesson": 3,
     "de": "schützen",
     "hr": "zaštititi",
     "example": "Zaštitim podatke.",
@@ -4769,7 +4769,7 @@
   },
   {
     "id": 150,
-    "lesson": 2,
+    "lesson": 3,
     "de": "retten",
     "hr": "spasiti",
     "example": "Spasim dijete.",
@@ -4801,7 +4801,7 @@
   },
   {
     "id": 151,
-    "lesson": 2,
+    "lesson": 4,
     "de": "verlieren",
     "hr": "izgubiti",
     "example": "Izgubim ključeve.",
@@ -4833,7 +4833,7 @@
   },
   {
     "id": 152,
-    "lesson": 2,
+    "lesson": 4,
     "de": "finden / auffinden",
     "hr": "pronaći",
     "example": "Pronađem rješenje.",
@@ -4865,7 +4865,7 @@
   },
   {
     "id": 153,
-    "lesson": 2,
+    "lesson": 4,
     "de": "tragen",
     "hr": "nositi",
     "example": "Nosim torbu.",
@@ -4897,7 +4897,7 @@
   },
   {
     "id": 154,
-    "lesson": 2,
+    "lesson": 4,
     "de": "mitbringen / herbringen",
     "hr": "donijeti",
     "example": "Donesem kolač.",
@@ -4929,7 +4929,7 @@
   },
   {
     "id": 155,
-    "lesson": 2,
+    "lesson": 4,
     "de": "wegfahren / wegbringen",
     "hr": "odvesti",
     "example": "Odvedem dijete u školu.",
@@ -4961,7 +4961,7 @@
   },
   {
     "id": 156,
-    "lesson": 2,
+    "lesson": 4,
     "de": "herbringen / herfahren",
     "hr": "dovesti",
     "example": "Dovedem prijatelja.",
@@ -4993,7 +4993,7 @@
   },
   {
     "id": 157,
-    "lesson": 2,
+    "lesson": 4,
     "de": "übertragen / hinübertragen",
     "hr": "prenijeti",
     "example": "Prenesem datoteku.",
@@ -5025,7 +5025,7 @@
   },
   {
     "id": 158,
-    "lesson": 2,
+    "lesson": 4,
     "de": "hinüberwerfen / übertragen",
     "hr": "prebaciti",
     "example": "Prebacim loptu.",
@@ -5057,7 +5057,7 @@
   },
   {
     "id": 159,
-    "lesson": 2,
+    "lesson": 4,
     "de": "werfen / schmeißen",
     "hr": "baciti",
     "example": "Bacim loptu.",
@@ -5089,7 +5089,7 @@
   },
   {
     "id": 160,
-    "lesson": 2,
+    "lesson": 4,
     "de": "fangen / erwischen / greifen",
     "hr": "uhvatiti",
     "example": "Uhvatim loptu.",
@@ -5121,7 +5121,7 @@
   },
   {
     "id": 161,
-    "lesson": 2,
+    "lesson": 4,
     "de": "lassen / loslassen / freilassen",
     "hr": "pustiti",
     "example": "Pustim psa.",
@@ -5153,7 +5153,7 @@
   },
   {
     "id": 162,
-    "lesson": 2,
+    "lesson": 4,
     "de": "halten",
     "hr": "držati",
     "example": "Držim čašu.",
@@ -5185,7 +5185,7 @@
   },
   {
     "id": 163,
-    "lesson": 2,
+    "lesson": 4,
     "de": "ziehen",
     "hr": "povući",
     "example": "Povučem vrata.",
@@ -5217,7 +5217,7 @@
   },
   {
     "id": 164,
-    "lesson": 2,
+    "lesson": 4,
     "de": "schieben / drücken",
     "hr": "gurati",
     "example": "Guram kolica.",
@@ -5249,7 +5249,7 @@
   },
   {
     "id": 165,
-    "lesson": 2,
+    "lesson": 4,
     "de": "schlagen / stoßen",
     "hr": "udariti",
     "example": "Udarim loptu.",
@@ -5281,7 +5281,7 @@
   },
   {
     "id": 166,
-    "lesson": 2,
+    "lesson": 4,
     "de": "berühren / anfassen",
     "hr": "dodirnuti",
     "example": "Dodirnem ruku.",
@@ -5313,7 +5313,7 @@
   },
   {
     "id": 167,
-    "lesson": 2,
+    "lesson": 4,
     "de": "drücken / zusammendrücken",
     "hr": "stisnuti",
     "example": "Stisnем ruku.",
@@ -5345,7 +5345,7 @@
   },
   {
     "id": 168,
-    "lesson": 2,
+    "lesson": 4,
     "de": "entlassen / loslassen",
     "hr": "otpustiti",
     "example": "Otpustim zaposlenika.",
@@ -5377,7 +5377,7 @@
   },
   {
     "id": 169,
-    "lesson": 2,
+    "lesson": 4,
     "de": "einstellen / beschäftigen",
     "hr": "zaposliti",
     "example": "Zaposlim novog radnika.",
@@ -5409,7 +5409,7 @@
   },
   {
     "id": 170,
-    "lesson": 2,
+    "lesson": 4,
     "de": "arbeiten",
     "hr": "raditi",
     "example": "Radim svaki dan.",
@@ -5441,7 +5441,7 @@
   },
   {
     "id": 171,
-    "lesson": 2,
+    "lesson": 4,
     "de": "verdienen",
     "hr": "zaraditi",
     "example": "Zaradim dovoljno.",
@@ -5473,7 +5473,7 @@
   },
   {
     "id": 172,
-    "lesson": 2,
+    "lesson": 4,
     "de": "zahlen / bezahlen",
     "hr": "platiti",
     "example": "Platim račun.",
@@ -5505,7 +5505,7 @@
   },
   {
     "id": 173,
-    "lesson": 2,
+    "lesson": 4,
     "de": "leihen / ausleihen",
     "hr": "posuditi",
     "example": "Posudim knjigu.",
@@ -5537,7 +5537,7 @@
   },
   {
     "id": 174,
-    "lesson": 2,
+    "lesson": 4,
     "de": "vermieten",
     "hr": "dati u najam",
     "example": "Dam stan u najam.",
@@ -5569,7 +5569,7 @@
   },
   {
     "id": 175,
-    "lesson": 2,
+    "lesson": 4,
     "de": "mieten",
     "hr": "iznajmiti",
     "example": "Iznajmim auto.",
@@ -5601,7 +5601,7 @@
   },
   {
     "id": 176,
-    "lesson": 2,
+    "lesson": 4,
     "de": "kaufen",
     "hr": "kupiti",
     "example": "Kupim kruh.",
@@ -5633,7 +5633,7 @@
   },
   {
     "id": 177,
-    "lesson": 2,
+    "lesson": 4,
     "de": "verkaufen (wiederholt)",
     "hr": "prodavati",
     "example": "Prodajem voće na tržnici.",
@@ -5665,7 +5665,7 @@
   },
   {
     "id": 178,
-    "lesson": 2,
+    "lesson": 4,
     "de": "verhandeln / feilschen",
     "hr": "pogađati se",
     "example": "Pogađam se oko cijene.",
@@ -5697,7 +5697,7 @@
   },
   {
     "id": 179,
-    "lesson": 2,
+    "lesson": 4,
     "de": "zustimmen / einwilligen",
     "hr": "pristati",
     "example": "Pristanem na ponudu.",
@@ -5729,7 +5729,7 @@
   },
   {
     "id": 180,
-    "lesson": 2,
+    "lesson": 4,
     "de": "ablehnen / verweigern",
     "hr": "odbiti",
     "example": "Odbijem ponudu.",
@@ -5761,7 +5761,7 @@
   },
   {
     "id": 181,
-    "lesson": 2,
+    "lesson": 4,
     "de": "erlauben / zulassen",
     "hr": "dopustiti",
     "example": "Dopustim mu da ode.",
@@ -5793,7 +5793,7 @@
   },
   {
     "id": 182,
-    "lesson": 2,
+    "lesson": 4,
     "de": "verbieten",
     "hr": "zabraniti",
     "example": "Zabranim ulaz.",
@@ -5825,7 +5825,7 @@
   },
   {
     "id": 183,
-    "lesson": 2,
+    "lesson": 4,
     "de": "befehlen / anordnen",
     "hr": "narediti",
     "example": "Naredim povlačenje.",
@@ -5857,7 +5857,7 @@
   },
   {
     "id": 184,
-    "lesson": 2,
+    "lesson": 4,
     "de": "bitten",
     "hr": "moliti",
     "example": "Molim te za pomoć.",
@@ -5889,7 +5889,7 @@
   },
   {
     "id": 185,
-    "lesson": 2,
+    "lesson": 4,
     "de": "danken",
     "hr": "zahvaliti",
     "example": "Zahvalim prijatelju.",
@@ -5921,7 +5921,7 @@
   },
   {
     "id": 186,
-    "lesson": 2,
+    "lesson": 4,
     "de": "sich entschuldigen",
     "hr": "ispričati se",
     "example": "Ispričam se zbog greške.",
@@ -5953,7 +5953,7 @@
   },
   {
     "id": 187,
-    "lesson": 2,
+    "lesson": 4,
     "de": "vergeben / entschuldigen",
     "hr": "oprostiti",
     "example": "Oprostim mu grešku.",
@@ -5985,7 +5985,7 @@
   },
   {
     "id": 188,
-    "lesson": 2,
+    "lesson": 4,
     "de": "bestrafen",
     "hr": "kazniti",
     "example": "Kaznim dijete.",
@@ -6017,7 +6017,7 @@
   },
   {
     "id": 189,
-    "lesson": 2,
+    "lesson": 4,
     "de": "belohnen / auszeichnen",
     "hr": "nagraditi",
     "example": "Nagradim pobjednika.",
@@ -6049,7 +6049,7 @@
   },
   {
     "id": 190,
-    "lesson": 2,
+    "lesson": 4,
     "de": "feiern",
     "hr": "slaviti",
     "example": "Slavimo rođendan.",
@@ -6081,7 +6081,7 @@
   },
   {
     "id": 191,
-    "lesson": 2,
+    "lesson": 4,
     "de": "feiern / zelebrieren",
     "hr": "proslaviti",
     "example": "Proslavimo pobjedu.",
@@ -6113,7 +6113,7 @@
   },
   {
     "id": 192,
-    "lesson": 2,
+    "lesson": 4,
     "de": "gratulieren",
     "hr": "čestitati",
     "example": "Čestitam ti rođendan.",
@@ -6145,7 +6145,7 @@
   },
   {
     "id": 193,
-    "lesson": 2,
+    "lesson": 4,
     "de": "begrüßen / grüßen",
     "hr": "pozdraviti",
     "example": "Pozdravim susjeda.",
@@ -6177,7 +6177,7 @@
   },
   {
     "id": 194,
-    "lesson": 2,
+    "lesson": 4,
     "de": "sich verabschieden",
     "hr": "pozdraviti se",
     "example": "Pozdravim se s prijateljem.",
@@ -6209,7 +6209,7 @@
   },
   {
     "id": 195,
-    "lesson": 2,
+    "lesson": 4,
     "de": "kennenlernen",
     "hr": "upoznati",
     "example": "Upoznam novog kolegu.",
@@ -6241,7 +6241,7 @@
   },
   {
     "id": 196,
-    "lesson": 2,
+    "lesson": 4,
     "de": "sich kennenlernen",
     "hr": "upoznati se",
     "example": "Upoznamo se na zabavi.",
@@ -6273,7 +6273,7 @@
   },
   {
     "id": 197,
-    "lesson": 2,
+    "lesson": 4,
     "de": "gefallen",
     "hr": "svidjeti se",
     "example": "Sviđa mi se taj film.",
@@ -6305,7 +6305,7 @@
   },
   {
     "id": 198,
-    "lesson": 2,
+    "lesson": 4,
     "de": "sich verlieben",
     "hr": "zaljubiti se",
     "example": "Zaljubim se na prvi pogled.",
@@ -6337,7 +6337,7 @@
   },
   {
     "id": 199,
-    "lesson": 2,
+    "lesson": 4,
     "de": "heiraten (Mann)",
     "hr": "oženiti se",
     "example": "Oženim se sljedeće godine.",
@@ -6369,7 +6369,7 @@
   },
   {
     "id": 200,
-    "lesson": 2,
+    "lesson": 4,
     "de": "heiraten (Frau)",
     "hr": "udati se",
     "example": "Udam se za njega.",
@@ -6401,7 +6401,7 @@
   },
   {
     "id": 201,
-    "lesson": 3,
+    "lesson": 5,
     "de": "sich scheiden lassen",
     "hr": "razvesti se",
     "example": "Razvedem se nakon deset godina.",
@@ -6433,7 +6433,7 @@
   },
   {
     "id": 202,
-    "lesson": 3,
+    "lesson": 5,
     "de": "gebären / zur Welt bringen",
     "hr": "roditi",
     "example": "Rodim dijete.",
@@ -6465,7 +6465,7 @@
   },
   {
     "id": 203,
-    "lesson": 3,
+    "lesson": 5,
     "de": "geboren werden",
     "hr": "roditi se",
     "example": "Rodim se u proljeće.",
@@ -6497,7 +6497,7 @@
   },
   {
     "id": 204,
-    "lesson": 3,
+    "lesson": 5,
     "de": "sterben",
     "hr": "umrijeti",
     "example": "Umrem mirno.",
@@ -6529,7 +6529,7 @@
   },
   {
     "id": 205,
-    "lesson": 3,
+    "lesson": 5,
     "de": "töten",
     "hr": "ubiti",
     "example": "Ubiju zmiju.",
@@ -6561,7 +6561,7 @@
   },
   {
     "id": 206,
-    "lesson": 3,
+    "lesson": 5,
     "de": "verletzen / verwunden",
     "hr": "raniti",
     "example": "Ranim se slučajno.",
@@ -6593,7 +6593,7 @@
   },
   {
     "id": 207,
-    "lesson": 3,
+    "lesson": 5,
     "de": "behandeln / heilen",
     "hr": "liječiti",
     "example": "Liječim prehladu.",
@@ -6625,7 +6625,7 @@
   },
   {
     "id": 208,
-    "lesson": 3,
+    "lesson": 5,
     "de": "schmerzen / wehtun",
     "hr": "boliti",
     "example": "Boli me glava.",
@@ -6657,7 +6657,7 @@
   },
   {
     "id": 209,
-    "lesson": 3,
+    "lesson": 5,
     "de": "genesen / gesund werden",
     "hr": "ozdravljati",
     "example": "Ozdravljam polako.",
@@ -6689,7 +6689,7 @@
   },
   {
     "id": 210,
-    "lesson": 3,
+    "lesson": 5,
     "de": "sich verletzen",
     "hr": "ozlijediti se",
     "example": "Ozlijedim se pri padu.",
@@ -6721,7 +6721,7 @@
   },
   {
     "id": 211,
-    "lesson": 3,
+    "lesson": 5,
     "de": "fallen",
     "hr": "pasti",
     "example": "Padnem s bicikla.",
@@ -6753,7 +6753,7 @@
   },
   {
     "id": 212,
-    "lesson": 3,
+    "lesson": 5,
     "de": "heben / aufheben",
     "hr": "dignuti",
     "example": "Dignem kutiju.",
@@ -6785,7 +6785,7 @@
   },
   {
     "id": 213,
-    "lesson": 3,
+    "lesson": 5,
     "de": "klettern / hinaufgehen",
     "hr": "popeti se",
     "example": "Popnem se na drvo.",
@@ -6817,7 +6817,7 @@
   },
   {
     "id": 214,
-    "lesson": 3,
+    "lesson": 5,
     "de": "hinuntergehen / sinken",
     "hr": "spustiti se",
     "example": "Spustim se niz stepenice.",
@@ -6849,7 +6849,7 @@
   },
   {
     "id": 215,
-    "lesson": 3,
+    "lesson": 5,
     "de": "springen",
     "hr": "skočiti",
     "example": "Skočim u vodu.",
@@ -6881,7 +6881,7 @@
   },
   {
     "id": 216,
-    "lesson": 3,
+    "lesson": 5,
     "de": "tanzen",
     "hr": "plesati",
     "example": "Plešem svaki vikend.",
@@ -6913,7 +6913,7 @@
   },
   {
     "id": 217,
-    "lesson": 3,
+    "lesson": 5,
     "de": "sich stürzen / sich werfen",
     "hr": "baciti se",
     "example": "Bacim se u vodu.",
@@ -6945,7 +6945,7 @@
   },
   {
     "id": 218,
-    "lesson": 3,
+    "lesson": 5,
     "de": "fahren (als Passagier)",
     "hr": "voziti se",
     "example": "Vozim se autobusom.",
@@ -6977,7 +6977,7 @@
   },
   {
     "id": 219,
-    "lesson": 3,
+    "lesson": 5,
     "de": "reisen",
     "hr": "putovati",
     "example": "Putujem u inozemstvo.",
@@ -7009,7 +7009,7 @@
   },
   {
     "id": 220,
-    "lesson": 3,
+    "lesson": 5,
     "de": "besuchen",
     "hr": "posjetiti",
     "example": "Posjetim baku.",
@@ -7041,7 +7041,7 @@
   },
   {
     "id": 221,
-    "lesson": 3,
+    "lesson": 5,
     "de": "bleiben",
     "hr": "ostati",
     "example": "Ostanem kod kuće.",
@@ -7073,7 +7073,7 @@
   },
   {
     "id": 222,
-    "lesson": 3,
+    "lesson": 5,
     "de": "übernachten",
     "hr": "prenoćiti",
     "example": "Prenoćim u hotelu.",
@@ -7105,7 +7105,7 @@
   },
   {
     "id": 223,
-    "lesson": 3,
+    "lesson": 5,
     "de": "campen / zelten",
     "hr": "kampirati",
     "example": "Kampiramo uz more.",
@@ -7137,7 +7137,7 @@
   },
   {
     "id": 224,
-    "lesson": 3,
+    "lesson": 5,
     "de": "wandern / bergsteigen",
     "hr": "planinariti",
     "example": "Planinarim vikendom.",
@@ -7169,7 +7169,7 @@
   },
   {
     "id": 225,
-    "lesson": 3,
+    "lesson": 5,
     "de": "Ski fahren",
     "hr": "skijati",
     "example": "Skijem zimi u planinama.",
@@ -7201,7 +7201,7 @@
   },
   {
     "id": 226,
-    "lesson": 3,
+    "lesson": 5,
     "de": "surfen",
     "hr": "surfati",
     "example": "Surfam na moru.",
@@ -7233,7 +7233,7 @@
   },
   {
     "id": 227,
-    "lesson": 3,
+    "lesson": 5,
     "de": "tauchen",
     "hr": "ronjiti",
     "example": "Ronim uz koraljni greben.",
@@ -7265,7 +7265,7 @@
   },
   {
     "id": 228,
-    "lesson": 3,
+    "lesson": 5,
     "de": "angeln",
     "hr": "pecati",
     "example": "Pecam na jezeru.",
@@ -7297,7 +7297,7 @@
   },
   {
     "id": 229,
-    "lesson": 3,
+    "lesson": 5,
     "de": "jagen / fangen",
     "hr": "loviti",
     "example": "Lovim u šumi.",
@@ -7329,7 +7329,7 @@
   },
   {
     "id": 230,
-    "lesson": 3,
+    "lesson": 5,
     "de": "pflanzen",
     "hr": "saditi",
     "example": "Sadim rajčice u vrtu.",
@@ -7361,7 +7361,7 @@
   },
   {
     "id": 231,
-    "lesson": 3,
+    "lesson": 5,
     "de": "pflücken / ernten",
     "hr": "brati",
     "example": "Berem jabuke u vrtu.",
@@ -7393,7 +7393,7 @@
   },
   {
     "id": 232,
-    "lesson": 3,
+    "lesson": 5,
     "de": "säen",
     "hr": "sijati",
     "example": "Sijem sjeme u proljeće.",
@@ -7425,7 +7425,7 @@
   },
   {
     "id": 233,
-    "lesson": 3,
+    "lesson": 5,
     "de": "graben / hacken",
     "hr": "kopati",
     "example": "Kopam u vrtu.",
@@ -7457,7 +7457,7 @@
   },
   {
     "id": 234,
-    "lesson": 3,
+    "lesson": 5,
     "de": "schneiden",
     "hr": "rezati",
     "example": "Režem kruh.",
@@ -7489,7 +7489,7 @@
   },
   {
     "id": 235,
-    "lesson": 3,
+    "lesson": 5,
     "de": "sägen",
     "hr": "piliti",
     "example": "Pilim dasku.",
@@ -7521,7 +7521,7 @@
   },
   {
     "id": 236,
-    "lesson": 3,
+    "lesson": 5,
     "de": "bohren",
     "hr": "bušiti",
     "example": "Bušim rupu u zidu.",
@@ -7553,7 +7553,7 @@
   },
   {
     "id": 237,
-    "lesson": 3,
+    "lesson": 5,
     "de": "kleben / ankleben",
     "hr": "lijepiti",
     "example": "Lijepim plakat na zid.",
@@ -7585,7 +7585,7 @@
   },
   {
     "id": 238,
-    "lesson": 3,
+    "lesson": 5,
     "de": "binden / festmachen",
     "hr": "vezati",
     "example": "Vežem čamac za mol.",
@@ -7617,7 +7617,7 @@
   },
   {
     "id": 239,
-    "lesson": 3,
+    "lesson": 5,
     "de": "aufbinden / losbinden",
     "hr": "razvezati",
     "example": "Razvežem čvor.",
@@ -7649,7 +7649,7 @@
   },
   {
     "id": 240,
-    "lesson": 3,
+    "lesson": 5,
     "de": "straffen / anziehen",
     "hr": "zategnuti",
     "example": "Zategnem vijak.",
@@ -7681,7 +7681,7 @@
   },
   {
     "id": 241,
-    "lesson": 3,
+    "lesson": 5,
     "de": "biegen / falten",
     "hr": "saviti",
     "example": "Savijem papir na pola.",
@@ -7713,7 +7713,7 @@
   },
   {
     "id": 242,
-    "lesson": 3,
+    "lesson": 5,
     "de": "brechen / zerbrechen",
     "hr": "lomiti",
     "example": "Lomim grančice za vatru.",
@@ -7745,7 +7745,7 @@
   },
   {
     "id": 243,
-    "lesson": 3,
+    "lesson": 5,
     "de": "zerbrechen / einbrechen",
     "hr": "slomiti",
     "example": "Slomim čašu.",
@@ -7777,7 +7777,7 @@
   },
   {
     "id": 244,
-    "lesson": 3,
+    "lesson": 5,
     "de": "reparieren",
     "hr": "popraviti",
     "example": "Popravim bicikl.",
@@ -7809,7 +7809,7 @@
   },
   {
     "id": 245,
-    "lesson": 3,
+    "lesson": 5,
     "de": "bauen / errichten",
     "hr": "graditi",
     "example": "Gradim kuću.",
@@ -7841,7 +7841,7 @@
   },
   {
     "id": 246,
-    "lesson": 3,
+    "lesson": 5,
     "de": "malen / färben / anstreichen",
     "hr": "bojiti",
     "example": "Bojim zid bijelo.",
@@ -7873,7 +7873,7 @@
   },
   {
     "id": 247,
-    "lesson": 3,
+    "lesson": 5,
     "de": "reinigen / saubermachen",
     "hr": "čistiti",
     "example": "Čistim kupaonicu.",
@@ -7905,7 +7905,7 @@
   },
   {
     "id": 248,
-    "lesson": 3,
+    "lesson": 5,
     "de": "aufräumen",
     "hr": "pospremiti",
     "example": "Pospremim sobu.",
@@ -7937,7 +7937,7 @@
   },
   {
     "id": 249,
-    "lesson": 3,
+    "lesson": 5,
     "de": "fegen / kehren",
     "hr": "mesti",
     "example": "Metem pod u kuhinji.",
@@ -7969,7 +7969,7 @@
   },
   {
     "id": 250,
-    "lesson": 3,
+    "lesson": 5,
     "de": "staubsaugen",
     "hr": "usisavati",
     "example": "Usisavam tepih.",
@@ -8001,7 +8001,7 @@
   },
   {
     "id": 251,
-    "lesson": 3,
+    "lesson": 6,
     "de": "bügeln",
     "hr": "peglati",
     "example": "Peglam košulju.",
@@ -8033,7 +8033,7 @@
   },
   {
     "id": 252,
-    "lesson": 3,
+    "lesson": 6,
     "de": "nähen",
     "hr": "šivati",
     "example": "Šivam haljinu.",
@@ -8065,7 +8065,7 @@
   },
   {
     "id": 253,
-    "lesson": 3,
+    "lesson": 6,
     "de": "stricken / flechten",
     "hr": "plesti",
     "example": "Pletem šal.",
@@ -8097,7 +8097,7 @@
   },
   {
     "id": 254,
-    "lesson": 3,
+    "lesson": 6,
     "de": "weben",
     "hr": "tkati",
     "example": "Tkem tkaninu.",
@@ -8129,7 +8129,7 @@
   },
   {
     "id": 255,
-    "lesson": 3,
+    "lesson": 6,
     "de": "bremsen",
     "hr": "kočiti",
     "example": "Kočim pred raskrižjem.",
@@ -8161,7 +8161,7 @@
   },
   {
     "id": 256,
-    "lesson": 3,
+    "lesson": 6,
     "de": "beschleunigen",
     "hr": "ubrzavati",
     "example": "Ubrzavam na autocesti.",
@@ -8193,7 +8193,7 @@
   },
   {
     "id": 257,
-    "lesson": 3,
+    "lesson": 6,
     "de": "abbiegen",
     "hr": "skrenuti",
     "example": "Skrenem lijevo na semaforu.",
@@ -8225,7 +8225,7 @@
   },
   {
     "id": 258,
-    "lesson": 3,
+    "lesson": 6,
     "de": "parken",
     "hr": "parkirati",
     "example": "Parkiram auto ispred kuće.",
@@ -8257,7 +8257,7 @@
   },
   {
     "id": 259,
-    "lesson": 3,
+    "lesson": 6,
     "de": "füllen / laden (Akku)",
     "hr": "puniti",
     "example": "Punim bateriju mobitela.",
@@ -8289,7 +8289,7 @@
   },
   {
     "id": 260,
-    "lesson": 3,
+    "lesson": 6,
     "de": "tanken",
     "hr": "puniti gorivo",
     "example": "Punim gorivo na benzinskoj.",
@@ -8321,7 +8321,7 @@
   },
   {
     "id": 261,
-    "lesson": 3,
+    "lesson": 6,
     "de": "einsteigen (Schiff/Flugzeug)",
     "hr": "ukrcati se",
     "example": "Ukrcam se na brod.",
@@ -8353,7 +8353,7 @@
   },
   {
     "id": 262,
-    "lesson": 3,
+    "lesson": 6,
     "de": "aussteigen (Schiff/Flugzeug)",
     "hr": "iskrcati se",
     "example": "Iskrcam se u luci.",
@@ -8385,7 +8385,7 @@
   },
   {
     "id": 263,
-    "lesson": 3,
+    "lesson": 6,
     "de": "landen (Flugzeug)",
     "hr": "sletjeti",
     "example": "Sletimo u Zagreb.",
@@ -8417,7 +8417,7 @@
   },
   {
     "id": 264,
-    "lesson": 3,
+    "lesson": 6,
     "de": "starten / abfliegen",
     "hr": "poletjeti",
     "example": "Poletimo u osam sati.",
@@ -8449,7 +8449,7 @@
   },
   {
     "id": 265,
-    "lesson": 3,
+    "lesson": 6,
     "de": "verladen / einladen",
     "hr": "ukrcati",
     "example": "Ukrcamo teret na brod.",
@@ -8481,7 +8481,7 @@
   },
   {
     "id": 266,
-    "lesson": 3,
+    "lesson": 6,
     "de": "ausladen / auspacken",
     "hr": "iskrcati",
     "example": "Iskrcamo robu s broda.",
@@ -8513,7 +8513,7 @@
   },
   {
     "id": 267,
-    "lesson": 3,
+    "lesson": 6,
     "de": "packen / einpacken",
     "hr": "pakirati",
     "example": "Pakiram kofer za put.",
@@ -8545,7 +8545,7 @@
   },
   {
     "id": 268,
-    "lesson": 3,
+    "lesson": 6,
     "de": "auspacken",
     "hr": "raspakirati",
     "example": "Raspakiram kofer nakon dolaska.",
@@ -8577,7 +8577,7 @@
   },
   {
     "id": 269,
-    "lesson": 3,
+    "lesson": 6,
     "de": "tragen",
     "hr": "nositi",
     "example": "Nosim kofer sam.",
@@ -8609,7 +8609,7 @@
   },
   {
     "id": 270,
-    "lesson": 3,
+    "lesson": 6,
     "de": "wiegen / abwiegen",
     "hr": "vagati",
     "example": "Važem prtljagu na aerodromu.",
@@ -8641,7 +8641,7 @@
   },
   {
     "id": 271,
-    "lesson": 3,
+    "lesson": 6,
     "de": "messen",
     "hr": "mjeriti",
     "example": "Mjerim temperaturu.",
@@ -8673,7 +8673,7 @@
   },
   {
     "id": 272,
-    "lesson": 3,
+    "lesson": 6,
     "de": "rechnen / zählen",
     "hr": "računati",
     "example": "Računam bez kalkulatora.",
@@ -8705,7 +8705,7 @@
   },
   {
     "id": 273,
-    "lesson": 3,
+    "lesson": 6,
     "de": "addieren",
     "hr": "zbrajati",
     "example": "Zbrajam brojeve.",
@@ -8737,7 +8737,7 @@
   },
   {
     "id": 274,
-    "lesson": 3,
+    "lesson": 6,
     "de": "subtrahieren / abziehen",
     "hr": "oduzimati",
     "example": "Oduzimam troškove od prihoda.",
@@ -8769,7 +8769,7 @@
   },
   {
     "id": 275,
-    "lesson": 3,
+    "lesson": 6,
     "de": "multiplizieren",
     "hr": "množiti",
     "example": "Množim dva puta tri.",
@@ -8801,7 +8801,7 @@
   },
   {
     "id": 276,
-    "lesson": 3,
+    "lesson": 6,
     "de": "dividieren / teilen",
     "hr": "dijeliti",
     "example": "Dijelim deset s dva.",
@@ -8833,7 +8833,7 @@
   },
   {
     "id": 277,
-    "lesson": 3,
+    "lesson": 6,
     "de": "notieren / aufzeichnen",
     "hr": "bilježiti",
     "example": "Bilježim važne informacije.",
@@ -8865,7 +8865,7 @@
   },
   {
     "id": 278,
-    "lesson": 3,
+    "lesson": 6,
     "de": "zeichnen",
     "hr": "crtati",
     "example": "Crtam portret.",
@@ -8897,7 +8897,7 @@
   },
   {
     "id": 279,
-    "lesson": 3,
+    "lesson": 6,
     "de": "fotografieren",
     "hr": "fotografirati",
     "example": "Fotografiram zalazak sunca.",
@@ -8929,7 +8929,7 @@
   },
   {
     "id": 280,
-    "lesson": 3,
+    "lesson": 6,
     "de": "filmen / aufnehmen",
     "hr": "snimati",
     "example": "Snimam video za YouTube.",
@@ -8961,7 +8961,7 @@
   },
   {
     "id": 281,
-    "lesson": 3,
+    "lesson": 6,
     "de": "senden / ausstrahlen",
     "hr": "emitirati",
     "example": "Emitiramo program uživo.",
@@ -8993,7 +8993,7 @@
   },
   {
     "id": 282,
-    "lesson": 3,
+    "lesson": 6,
     "de": "veröffentlichen / bekanntgeben",
     "hr": "objaviti",
     "example": "Objavim članak na blogu.",
@@ -9025,7 +9025,7 @@
   },
   {
     "id": 283,
-    "lesson": 3,
+    "lesson": 6,
     "de": "teilen (online, Social Media)",
     "hr": "podijeliti objavu",
     "example": "Podijelim objavu na društvenim mrežama.",
@@ -9057,7 +9057,7 @@
   },
   {
     "id": 284,
-    "lesson": 3,
+    "lesson": 6,
     "de": "kommentieren",
     "hr": "komentirati",
     "example": "Komentiram vijesti online.",
@@ -9089,7 +9089,7 @@
   },
   {
     "id": 285,
-    "lesson": 3,
+    "lesson": 6,
     "de": "liken (ugs.)",
     "hr": "lajkati",
     "example": "Lajkam njenu fotografiju.",
@@ -9121,7 +9121,7 @@
   },
   {
     "id": 286,
-    "lesson": 3,
+    "lesson": 6,
     "de": "abonnieren",
     "hr": "pretplatiti se",
     "example": "Pretplatim se na kanal.",
@@ -9153,7 +9153,7 @@
   },
   {
     "id": 287,
-    "lesson": 3,
+    "lesson": 6,
     "de": "melden / anzeigen",
     "hr": "prijaviti",
     "example": "Prijavim spam komentar.",
@@ -9185,7 +9185,7 @@
   },
   {
     "id": 288,
-    "lesson": 3,
+    "lesson": 6,
     "de": "sich beschweren",
     "hr": "žaliti se",
     "example": "Žalim se na lošu uslugu.",
@@ -9217,7 +9217,7 @@
   },
   {
     "id": 289,
-    "lesson": 3,
+    "lesson": 6,
     "de": "verklagen / anklagen",
     "hr": "tužiti",
     "example": "Tužim tvrtku zbog štete.",
@@ -9249,7 +9249,7 @@
   },
   {
     "id": 290,
-    "lesson": 3,
+    "lesson": 6,
     "de": "urteilen / richten",
     "hr": "suditi",
     "example": "Sudim po činjenicama.",
@@ -9281,7 +9281,7 @@
   },
   {
     "id": 291,
-    "lesson": 3,
+    "lesson": 6,
     "de": "verurteilen / ein Urteil fällen",
     "hr": "presuditi",
     "example": "Presudim u korist tužitelja.",
@@ -9313,7 +9313,7 @@
   },
   {
     "id": 292,
-    "lesson": 3,
+    "lesson": 6,
     "de": "verteidigen",
     "hr": "braniti",
     "example": "Branim svoja prava.",
@@ -9345,7 +9345,7 @@
   },
   {
     "id": 293,
-    "lesson": 3,
+    "lesson": 6,
     "de": "angreifen / attackieren",
     "hr": "napadati",
     "example": "Napadam problem s druge strane.",
@@ -9377,7 +9377,7 @@
   },
   {
     "id": 294,
-    "lesson": 3,
+    "lesson": 6,
     "de": "fliehen / weglaufen",
     "hr": "pobjeći",
     "example": "Pobjegnem iz opasne situacije.",
@@ -9409,7 +9409,7 @@
   },
   {
     "id": 295,
-    "lesson": 3,
+    "lesson": 6,
     "de": "verfolgen / jagen",
     "hr": "progoniti",
     "example": "Progone ga po cijelom gradu.",
@@ -9441,7 +9441,7 @@
   },
   {
     "id": 296,
-    "lesson": 3,
+    "lesson": 6,
     "de": "fangen / erwischen (wiederholt)",
     "hr": "hvatati",
     "example": "Hvatam ribu svako jutro.",
@@ -9473,7 +9473,7 @@
   },
   {
     "id": 297,
-    "lesson": 3,
+    "lesson": 6,
     "de": "zerstören / vernichten",
     "hr": "uništiti",
     "example": "Uništim dokument.",
@@ -9505,7 +9505,7 @@
   },
   {
     "id": 298,
-    "lesson": 3,
+    "lesson": 6,
     "de": "erneuern / renovieren / wiederherstellen",
     "hr": "obnoviti",
     "example": "Obnovim staru kuću.",
@@ -9537,7 +9537,7 @@
   },
   {
     "id": 299,
-    "lesson": 3,
+    "lesson": 6,
     "de": "erschaffen / kreieren",
     "hr": "stvoriti",
     "example": "Stvorim nešto novo.",
@@ -9569,7 +9569,7 @@
   },
   {
     "id": 300,
-    "lesson": 3,
+    "lesson": 6,
     "de": "entwickeln / entfalten",
     "hr": "razvijati",
     "example": "Razvijam novu aplikaciju.",

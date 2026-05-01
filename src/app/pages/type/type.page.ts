@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild, inject, signal, computed } from '@angular/core';
+import { Component, effect, ElementRef, ViewChild, inject, signal, computed, untracked } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import {
@@ -23,7 +23,8 @@ import {
   checkmarkCircle,
   closeCircle,
 } from 'ionicons/icons';
-import { Verb, VerbService } from '../../services/verb.service';
+import { WordItem } from '../../services/word.types';
+import { CategoryService } from '../../services/category.service';
 
 type Direction = 'hr-to-de' | 'de-to-hr';
 
@@ -48,15 +49,14 @@ type Direction = 'hr-to-de' | 'de-to-hr';
 export class TypePage {
   @ViewChild('answerInput') answerInputRef?: ElementRef<HTMLInputElement>;
 
-  private verbService = inject(VerbService);
-  private allVerbs: Verb[] = [];
+  readonly categoryService = inject(CategoryService);
 
-  active = signal<Verb[]>([]);
+  active = signal<WordItem[]>([]);
   direction = signal<Direction>('hr-to-de');
   questionCount = signal(10);
   readonly COUNT_OPTIONS = [5, 10, 20, 0];
 
-  questions = signal<Verb[]>([]);
+  questions = signal<WordItem[]>([]);
   index = signal(0);
   score = signal(0);
   inputValue = signal('');
@@ -70,39 +70,46 @@ export class TypePage {
     return total ? (this.index() + 1) / total : 0;
   });
 
-  readonly MIN_VERBS = 2;
+  readonly MIN_ITEMS = 2;
 
   constructor() {
     addIcons({ create, createOutline, createSharp, refresh, trophy, sparkles, checkmarkCircle, closeCircle });
-    this.verbService.getVerbs().subscribe((v) => {
-      this.allVerbs = v;
-      this.active.set(this.verbService.activeOnly(this.verbService.verbsForLessons(v)));
+
+    effect(() => {
+      const items = this.categoryService.items();
+      this.categoryService.lessonIds();
+      untracked(() => {
+        this.gameStarted.set(false);
+        this.finished.set(false);
+        const forLesson = this.categoryService.itemsForLessons(items);
+        this.active.set(this.categoryService.activeOnly(forLesson));
+      });
     });
   }
 
   ionViewWillEnter() {
-    if (this.allVerbs.length) {
-      this.active.set(this.verbService.activeOnly(this.verbService.verbsForLessons(this.allVerbs)));
-    }
+    const items = this.categoryService.items();
+    const forLesson = this.categoryService.itemsForLessons(items);
+    this.active.set(this.categoryService.activeOnly(forLesson));
   }
 
-  checkAnswer(verb: Verb): boolean {
+  checkAnswer(item: WordItem): boolean {
     const input = this.inputValue().trim().toLowerCase();
     if (!input) return false;
-    const correct = this.direction() === 'hr-to-de' ? verb.de : verb.hr;
-    return correct.split('/').map((s) => s.trim().toLowerCase()).some((s) => s === input);
+    const correct = this.direction() === 'hr-to-de' ? item.de : item.hr;
+    return correct.split('/').map(s => s.trim().toLowerCase()).some(s => s === input);
   }
 
-  correctAnswer(verb: Verb): string {
-    return this.direction() === 'hr-to-de' ? verb.de : verb.hr;
+  correctAnswer(item: WordItem): string {
+    return this.direction() === 'hr-to-de' ? item.de : item.hr;
   }
 
-  prompt(verb: Verb): string {
-    return this.direction() === 'hr-to-de' ? verb.hr : verb.de;
+  prompt(item: WordItem): string {
+    return this.direction() === 'hr-to-de' ? item.hr : item.de;
   }
 
-  example(verb: Verb): string {
-    return this.direction() === 'hr-to-de' ? verb.example : verb.exampleDe;
+  example(item: WordItem): string {
+    return this.direction() === 'hr-to-de' ? item.example : item.exampleDe;
   }
 
   promptLabel(): string {
@@ -127,7 +134,7 @@ export class TypePage {
 
     const n = this.questionCount();
     const total = n === 0 ? active.length : Math.min(n, active.length);
-    this.questions.set(this.verbService.shuffle(active).slice(0, total));
+    this.questions.set(this.categoryService.shuffle(active).slice(0, total));
     this.gameStarted.set(true);
 
     setTimeout(() => this.answerInputRef?.nativeElement.focus(), 200);
@@ -142,7 +149,7 @@ export class TypePage {
     if (this.submitted() || !this.inputValue().trim()) return;
     this.submitted.set(true);
     if (this.checkAnswer(this.current())) {
-      this.score.update((s) => s + 1);
+      this.score.update(s => s + 1);
     }
   }
 
@@ -151,7 +158,7 @@ export class TypePage {
       this.finished.set(true);
       return;
     }
-    this.index.update((i) => i + 1);
+    this.index.update(i => i + 1);
     this.submitted.set(false);
     this.inputValue.set('');
     setTimeout(() => this.answerInputRef?.nativeElement.focus(), 100);

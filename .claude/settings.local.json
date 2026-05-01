@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx ng *)"
+      "Bash(npx ng *)",
+      "Bash(node -e \"const v = require\\('./src/assets/verbs.json'\\); const lessons = {}; v.forEach\\(x => { lessons[x.lesson] = \\(lessons[x.lesson]||0\\)+1; }\\); console.log\\('Gesamt:', v.length\\); console.log\\('Pro Lektion:', lessons\\);\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"const p = require\\('./package.json'\\); console.log\\('@ionic/angular:', p.dependencies['@ionic/angular']\\); console.log\\('@angular/core:', p.dependencies['@angular/core']\\);\")",
+      "Bash(npx ionic *)"
     ]
   }
 }

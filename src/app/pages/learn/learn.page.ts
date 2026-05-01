@@ -1,4 +1,4 @@
-import { Component, inject, signal, computed } from '@angular/core';
+import { Component, effect, inject, signal, computed, untracked } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
   IonHeader,
@@ -23,7 +23,8 @@ import {
   checkmarkCircle,
 } from 'ionicons/icons';
 import { RouterLink } from '@angular/router';
-import { Verb, VerbService } from '../../services/verb.service';
+import { WordItem } from '../../services/word.types';
+import { CategoryService } from '../../services/category.service';
 
 type Direction = 'de-hr' | 'hr-de';
 
@@ -49,10 +50,9 @@ type Direction = 'de-hr' | 'hr-de';
   ],
 })
 export class LearnPage {
-  private verbService = inject(VerbService);
+  readonly categoryService = inject(CategoryService);
 
-  private allVerbs = signal<Verb[]>([]);
-  pool = signal<Verb[]>([]);
+  pool = signal<WordItem[]>([]);
   index = signal(0);
   flipped = signal(false);
   direction = signal<Direction>('hr-de');
@@ -64,27 +64,23 @@ export class LearnPage {
   });
 
   constructor() {
-    addIcons({
-      arrowBack,
-      arrowForward,
-      refresh,
-      swapHorizontal,
-      checkmarkCircle,
-    });
-    this.verbService.getVerbs().subscribe((v) => {
-      this.allVerbs.set(v);
-      this.rebuildPool();
+    addIcons({ arrowBack, arrowForward, refresh, swapHorizontal, checkmarkCircle });
+
+    effect(() => {
+      const items = this.categoryService.items();
+      this.categoryService.lessonIds(); // track lesson changes
+      untracked(() => this.rebuildPool(items));
     });
   }
 
   ionViewWillEnter() {
-    if (this.allVerbs().length) this.rebuildPool();
+    this.rebuildPool(this.categoryService.items());
   }
 
-  private rebuildPool() {
-    const forLesson = this.verbService.verbsForLessons(this.allVerbs());
-    const active = this.verbService.activeOnly(forLesson);
-    this.pool.set(this.verbService.shuffle(active));
+  private rebuildPool(items: WordItem[]) {
+    const forLesson = this.categoryService.itemsForLessons(items);
+    const active = this.categoryService.activeOnly(forLesson);
+    this.pool.set(this.categoryService.shuffle(active));
     this.index.set(0);
     this.flipped.set(false);
   }
@@ -92,17 +88,15 @@ export class LearnPage {
   private readonly FLIP_MS = 600;
 
   flip() {
-    this.flipped.update((f) => !f);
+    this.flipped.update(f => !f);
   }
 
   next() {
-    this.advance(() =>
-      this.index.update((i) => Math.min(i + 1, this.pool().length - 1)),
-    );
+    this.advance(() => this.index.update(i => Math.min(i + 1, this.pool().length - 1)));
   }
 
   prev() {
-    this.advance(() => this.index.update((i) => Math.max(i - 1, 0)));
+    this.advance(() => this.index.update(i => Math.max(i - 1, 0)));
   }
 
   private advance(move: () => void) {
@@ -115,7 +109,7 @@ export class LearnPage {
   }
 
   reshuffle() {
-    this.rebuildPool();
+    this.rebuildPool(this.categoryService.items());
   }
 
   swapDirection(value: Direction) {
@@ -123,11 +117,11 @@ export class LearnPage {
     this.flipped.set(false);
   }
 
-  frontText(v: Verb): string {
+  frontText(v: WordItem): string {
     return this.direction() === 'hr-de' ? v.hr : v.de;
   }
 
-  backText(v: Verb): string {
+  backText(v: WordItem): string {
     return this.direction() === 'hr-de' ? v.de : v.hr;
   }
 }

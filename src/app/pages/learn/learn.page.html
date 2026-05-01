@@ -16,12 +16,13 @@
         <ion-icon name="checkmark-circle" class="text-6xl mb-4"></ion-icon>
         <h2 class="text-2xl font-bold">Alles gelernt!</h2>
         <p class="mt-2 opacity-90">
-          Du hast alle Verben als gelernt markiert. Entferne welche in der Liste, um weiter zu üben.
+          Du hast alle {{ categoryService.categoryLabel(categoryService.selectedCategory()) }} als gelernt markiert.
+          Entferne welche in der Liste, um weiter zu üben.
         </p>
       </div>
 
       <ion-button expand="block" shape="round" routerLink="/list">
-        Zur Verbliste
+        Zur Wortliste
       </ion-button>
     } @else {
       <ion-segment

@@ -1,0 +1,5002 @@
+[
+  {
+    "id": 1,
+    "lesson": 1,
+    "de": "das Haus",
+    "hr": "kuća",
+    "gender": "f",
+    "plural": "kuće",
+    "example": "Naša kuća je velika.",
+    "exampleDe": "Unser Haus ist groß."
+  },
+  {
+    "id": 2,
+    "lesson": 1,
+    "de": "der Mann",
+    "hr": "čovjek",
+    "gender": "m",
+    "plural": "ljudi",
+    "example": "Taj čovjek je visok.",
+    "exampleDe": "Dieser Mann ist groß."
+  },
+  {
+    "id": 3,
+    "lesson": 1,
+    "de": "die Frau",
+    "hr": "žena",
+    "gender": "f",
+    "plural": "žene",
+    "example": "Žena radi.",
+    "exampleDe": "Die Frau arbeitet."
+  },
+  {
+    "id": 4,
+    "lesson": 1,
+    "de": "das Kind",
+    "hr": "dijete",
+    "gender": "n",
+    "plural": "djeca",
+    "example": "Dijete spava.",
+    "exampleDe": "Das Kind schläft."
+  },
+  {
+    "id": 5,
+    "lesson": 1,
+    "de": "der Freund",
+    "hr": "prijatelj",
+    "gender": "m",
+    "plural": "prijatelji",
+    "example": "On je moj prijatelj.",
+    "exampleDe": "Er ist mein Freund."
+  },
+  {
+    "id": 6,
+    "lesson": 1,
+    "de": "die Freundin",
+    "hr": "prijateljica",
+    "gender": "f",
+    "plural": "prijateljice",
+    "example": "Ona je moja prijateljica.",
+    "exampleDe": "Sie ist meine Freundin."
+  },
+  {
+    "id": 7,
+    "lesson": 1,
+    "de": "der Tisch",
+    "hr": "stol",
+    "gender": "m",
+    "plural": "stolovi",
+    "example": "Stol je velik.",
+    "exampleDe": "Der Tisch ist groß."
+  },
+  {
+    "id": 8,
+    "lesson": 1,
+    "de": "der Stuhl",
+    "hr": "stolica",
+    "gender": "f",
+    "plural": "stolice",
+    "example": "Stolica je nova.",
+    "exampleDe": "Der Stuhl ist neu."
+  },
+  {
+    "id": 9,
+    "lesson": 1,
+    "de": "das Auto",
+    "hr": "auto",
+    "gender": "n",
+    "plural": "auti",
+    "example": "Auto je brzo.",
+    "exampleDe": "Das Auto ist schnell."
+  },
+  {
+    "id": 10,
+    "lesson": 1,
+    "de": "die Straße",
+    "hr": "ulica",
+    "gender": "f",
+    "plural": "ulice",
+    "example": "Ulica je duga.",
+    "exampleDe": "Die Straße ist lang."
+  },
+  {
+    "id": 11,
+    "lesson": 1,
+    "de": "die Stadt",
+    "hr": "grad",
+    "gender": "m",
+    "plural": "gradovi",
+    "example": "Grad je velik.",
+    "exampleDe": "Die Stadt ist groß."
+  },
+  {
+    "id": 12,
+    "lesson": 1,
+    "de": "das Land",
+    "hr": "zemlja",
+    "gender": "f",
+    "plural": "zemlje",
+    "example": "Zemlja je lijepa.",
+    "exampleDe": "Das Land ist schön."
+  },
+  {
+    "id": 13,
+    "lesson": 1,
+    "de": "das Wasser",
+    "hr": "voda",
+    "gender": "f",
+    "plural": "—",
+    "example": "Voda je hladna.",
+    "exampleDe": "Das Wasser ist kalt."
+  },
+  {
+    "id": 14,
+    "lesson": 1,
+    "de": "das Essen",
+    "hr": "hrana",
+    "gender": "f",
+    "plural": "—",
+    "example": "Hrana je dobra.",
+    "exampleDe": "Das Essen ist gut."
+  },
+  {
+    "id": 15,
+    "lesson": 1,
+    "de": "das Brot",
+    "hr": "kruh",
+    "gender": "m",
+    "plural": "kruhovi",
+    "example": "Kruh je svjež.",
+    "exampleDe": "Das Brot ist frisch."
+  },
+  {
+    "id": 16,
+    "lesson": 1,
+    "de": "der Tag",
+    "hr": "dan",
+    "gender": "m",
+    "plural": "dani",
+    "example": "Dan je dug.",
+    "exampleDe": "Der Tag ist lang."
+  },
+  {
+    "id": 17,
+    "lesson": 1,
+    "de": "die Nacht",
+    "hr": "noć",
+    "gender": "f",
+    "plural": "noći",
+    "example": "Noć je tamna.",
+    "exampleDe": "Die Nacht ist dunkel."
+  },
+  {
+    "id": 18,
+    "lesson": 1,
+    "de": "die Zeit",
+    "hr": "vrijeme",
+    "gender": "n",
+    "plural": "—",
+    "example": "Vrijeme je brzo.",
+    "exampleDe": "Die Zeit vergeht schnell."
+  },
+  {
+    "id": 19,
+    "lesson": 1,
+    "de": "der Weg",
+    "hr": "put",
+    "gender": "m",
+    "plural": "putovi",
+    "example": "Put je dug.",
+    "exampleDe": "Der Weg ist lang."
+  },
+  {
+    "id": 20,
+    "lesson": 1,
+    "de": "die Arbeit",
+    "hr": "posao",
+    "gender": "m",
+    "plural": "poslovi",
+    "example": "Posao je težak.",
+    "exampleDe": "Die Arbeit ist schwer."
+  },
+  {
+    "id": 21,
+    "lesson": 1,
+    "de": "die Schule",
+    "hr": "škola",
+    "gender": "f",
+    "plural": "škole",
+    "example": "Škola je blizu.",
+    "exampleDe": "Die Schule ist nah."
+  },
+  {
+    "id": 22,
+    "lesson": 1,
+    "de": "der Lehrer",
+    "hr": "učitelj",
+    "gender": "m",
+    "plural": "učitelji",
+    "example": "Učitelj govori.",
+    "exampleDe": "Der Lehrer spricht."
+  },
+  {
+    "id": 23,
+    "lesson": 1,
+    "de": "die Lehrerin",
+    "hr": "učiteljica",
+    "gender": "f",
+    "plural": "učiteljice",
+    "example": "Učiteljica predaje.",
+    "exampleDe": "Die Lehrerin unterrichtet."
+  },
+  {
+    "id": 24,
+    "lesson": 1,
+    "de": "der Schüler",
+    "hr": "učenik",
+    "gender": "m",
+    "plural": "učenici",
+    "example": "Učenik uči.",
+    "exampleDe": "Der Schüler lernt."
+  },
+  {
+    "id": 25,
+    "lesson": 1,
+    "de": "die Schülerin",
+    "hr": "učenica",
+    "gender": "f",
+    "plural": "učenice",
+    "example": "Učenica čita.",
+    "exampleDe": "Die Schülerin liest."
+  },
+  {
+    "id": 26,
+    "lesson": 1,
+    "de": "das Buch",
+    "hr": "knjiga",
+    "gender": "f",
+    "plural": "knjige",
+    "example": "Knjiga je zanimljiva.",
+    "exampleDe": "Das Buch ist interessant."
+  },
+  {
+    "id": 27,
+    "lesson": 1,
+    "de": "der Laden",
+    "hr": "trgovina",
+    "gender": "f",
+    "plural": "trgovine",
+    "example": "Trgovina je otvorena.",
+    "exampleDe": "Der Laden ist offen."
+  },
+  {
+    "id": 28,
+    "lesson": 1,
+    "de": "der Markt",
+    "hr": "tržnica",
+    "gender": "f",
+    "plural": "tržnice",
+    "example": "Tržnica je puna.",
+    "exampleDe": "Der Markt ist voll."
+  },
+  {
+    "id": 29,
+    "lesson": 1,
+    "de": "der Park",
+    "hr": "park",
+    "gender": "m",
+    "plural": "parkovi",
+    "example": "Park je lijep.",
+    "exampleDe": "Der Park ist schön."
+  },
+  {
+    "id": 30,
+    "lesson": 1,
+    "de": "der Baum",
+    "hr": "drvo",
+    "gender": "n",
+    "plural": "drveća",
+    "example": "Drvo je visoko.",
+    "exampleDe": "Der Baum ist hoch."
+  },
+  {
+    "id": 31,
+    "lesson": 1,
+    "de": "die Sonne",
+    "hr": "sunce",
+    "gender": "n",
+    "plural": "—",
+    "example": "Sunce sja.",
+    "exampleDe": "Die Sonne scheint."
+  },
+  {
+    "id": 32,
+    "lesson": 1,
+    "de": "der Mond",
+    "hr": "mjesec",
+    "gender": "m",
+    "plural": "mjeseci",
+    "example": "Mjesec je svijetao.",
+    "exampleDe": "Der Mond ist hell."
+  },
+  {
+    "id": 33,
+    "lesson": 1,
+    "de": "das Wetter",
+    "hr": "vrijeme",
+    "gender": "n",
+    "plural": "—",
+    "example": "Vrijeme je lijepo.",
+    "exampleDe": "Das Wetter ist schön."
+  },
+  {
+    "id": 34,
+    "lesson": 1,
+    "de": "der Regen",
+    "hr": "kiša",
+    "gender": "f",
+    "plural": "—",
+    "example": "Kiša pada.",
+    "exampleDe": "Es regnet."
+  },
+  {
+    "id": 35,
+    "lesson": 1,
+    "de": "der Schnee",
+    "hr": "snijeg",
+    "gender": "m",
+    "plural": "—",
+    "example": "Snijeg pada.",
+    "exampleDe": "Es schneit."
+  },
+  {
+    "id": 36,
+    "lesson": 1,
+    "de": "der Hund",
+    "hr": "pas",
+    "gender": "m",
+    "plural": "psi",
+    "example": "Pas laje.",
+    "exampleDe": "Der Hund bellt."
+  },
+  {
+    "id": 37,
+    "lesson": 1,
+    "de": "die Katze",
+    "hr": "mačka",
+    "gender": "f",
+    "plural": "mačke",
+    "example": "Mačka spava.",
+    "exampleDe": "Die Katze schläft."
+  },
+  {
+    "id": 38,
+    "lesson": 1,
+    "de": "der Vogel",
+    "hr": "ptica",
+    "gender": "f",
+    "plural": "ptice",
+    "example": "Ptica leti.",
+    "exampleDe": "Der Vogel fliegt."
+  },
+  {
+    "id": 39,
+    "lesson": 1,
+    "de": "der Fisch",
+    "hr": "riba",
+    "gender": "f",
+    "plural": "ribe",
+    "example": "Riba pliva.",
+    "exampleDe": "Der Fisch schwimmt."
+  },
+  {
+    "id": 40,
+    "lesson": 1,
+    "de": "das Zimmer",
+    "hr": "soba",
+    "gender": "f",
+    "plural": "sobe",
+    "example": "Soba je čista.",
+    "exampleDe": "Das Zimmer ist sauber."
+  },
+  {
+    "id": 41,
+    "lesson": 1,
+    "de": "die Tür",
+    "hr": "vrata",
+    "gender": "n",
+    "plural": "vrata",
+    "example": "Vrata su otvorena.",
+    "exampleDe": "Die Tür ist offen."
+  },
+  {
+    "id": 42,
+    "lesson": 1,
+    "de": "das Fenster",
+    "hr": "prozor",
+    "gender": "m",
+    "plural": "prozori",
+    "example": "Prozor je zatvoren.",
+    "exampleDe": "Das Fenster ist geschlossen."
+  },
+  {
+    "id": 43,
+    "lesson": 1,
+    "de": "der Boden",
+    "hr": "pod",
+    "gender": "m",
+    "plural": "podovi",
+    "example": "Pod je čist.",
+    "exampleDe": "Der Boden ist sauber."
+  },
+  {
+    "id": 44,
+    "lesson": 1,
+    "de": "die Wand",
+    "hr": "zid",
+    "gender": "m",
+    "plural": "zidovi",
+    "example": "Zid je bijel.",
+    "exampleDe": "Die Wand ist weiß."
+  },
+  {
+    "id": 45,
+    "lesson": 1,
+    "de": "das Licht",
+    "hr": "svjetlo",
+    "gender": "n",
+    "plural": "svjetla",
+    "example": "Svjetlo je jako.",
+    "exampleDe": "Das Licht ist stark."
+  },
+  {
+    "id": 46,
+    "lesson": 1,
+    "de": "der Tag (Datum)",
+    "hr": "datum",
+    "gender": "m",
+    "plural": "datumi",
+    "example": "Datum je važan.",
+    "exampleDe": "Das Datum ist wichtig."
+  },
+  {
+    "id": 47,
+    "lesson": 1,
+    "de": "die Frage",
+    "hr": "pitanje",
+    "gender": "n",
+    "plural": "pitanja",
+    "example": "Pitanje je teško.",
+    "exampleDe": "Die Frage ist schwer."
+  },
+  {
+    "id": 48,
+    "lesson": 1,
+    "de": "die Antwort",
+    "hr": "odgovor",
+    "gender": "m",
+    "plural": "odgovori",
+    "example": "Odgovor je točan.",
+    "exampleDe": "Die Antwort ist richtig."
+  },
+  {
+    "id": 49,
+    "lesson": 1,
+    "de": "der Name",
+    "hr": "ime",
+    "gender": "n",
+    "plural": "imena",
+    "example": "Ime je kratko.",
+    "exampleDe": "Der Name ist kurz."
+  },
+  {
+    "id": 50,
+    "lesson": 1,
+    "de": "die Sprache",
+    "hr": "jezik",
+    "gender": "m",
+    "plural": "jezici",
+    "example": "Jezik je težak.",
+    "exampleDe": "Die Sprache ist schwer."
+  },
+  {
+    "id": 51,
+    "lesson": 2,
+    "de": "der Vater",
+    "hr": "otac",
+    "gender": "m",
+    "plural": "očevi",
+    "example": "Moj otac radi.",
+    "exampleDe": "Mein Vater arbeitet."
+  },
+  {
+    "id": 52,
+    "lesson": 2,
+    "de": "die Mutter",
+    "hr": "majka",
+    "gender": "f",
+    "plural": "majke",
+    "example": "Majka kuha.",
+    "exampleDe": "Die Mutter kocht."
+  },
+  {
+    "id": 53,
+    "lesson": 2,
+    "de": "der Bruder",
+    "hr": "brat",
+    "gender": "m",
+    "plural": "braća",
+    "example": "Brat dolazi.",
+    "exampleDe": "Der Bruder kommt."
+  },
+  {
+    "id": 54,
+    "lesson": 2,
+    "de": "die Schwester",
+    "hr": "sestra",
+    "gender": "f",
+    "plural": "sestre",
+    "example": "Sestra uči.",
+    "exampleDe": "Die Schwester lernt."
+  },
+  {
+    "id": 55,
+    "lesson": 2,
+    "de": "die Familie",
+    "hr": "obitelj",
+    "gender": "f",
+    "plural": "obitelji",
+    "example": "Obitelj je važna.",
+    "exampleDe": "Die Familie ist wichtig."
+  },
+  {
+    "id": 56,
+    "lesson": 2,
+    "de": "das Zimmer (Raum)",
+    "hr": "prostorija",
+    "gender": "f",
+    "plural": "prostorije",
+    "example": "Prostorija je velika.",
+    "exampleDe": "Der Raum ist groß."
+  },
+  {
+    "id": 57,
+    "lesson": 2,
+    "de": "die Küche",
+    "hr": "kuhinja",
+    "gender": "f",
+    "plural": "kuhinje",
+    "example": "Kuhinja je čista.",
+    "exampleDe": "Die Küche ist sauber."
+  },
+  {
+    "id": 58,
+    "lesson": 2,
+    "de": "das Badezimmer",
+    "hr": "kupaonica",
+    "gender": "f",
+    "plural": "kupaonice",
+    "example": "Kupaonica je nova.",
+    "exampleDe": "Das Badezimmer ist neu."
+  },
+  {
+    "id": 59,
+    "lesson": 2,
+    "de": "das Bett",
+    "hr": "krevet",
+    "gender": "m",
+    "plural": "kreveti",
+    "example": "Krevet je udoban.",
+    "exampleDe": "Das Bett ist bequem."
+  },
+  {
+    "id": 60,
+    "lesson": 2,
+    "de": "der Schrank",
+    "hr": "ormar",
+    "gender": "m",
+    "plural": "ormari",
+    "example": "Ormar je pun.",
+    "exampleDe": "Der Schrank ist voll."
+  },
+  {
+    "id": 61,
+    "lesson": 2,
+    "de": "die Tür (Eingang)",
+    "hr": "ulaz",
+    "gender": "m",
+    "plural": "ulazi",
+    "example": "Ulaz je zatvoren.",
+    "exampleDe": "Der Eingang ist geschlossen."
+  },
+  {
+    "id": 62,
+    "lesson": 2,
+    "de": "der Schlüssel",
+    "hr": "ključ",
+    "gender": "m",
+    "plural": "ključevi",
+    "example": "Ključ je na stolu.",
+    "exampleDe": "Der Schlüssel liegt auf dem Tisch."
+  },
+  {
+    "id": 63,
+    "lesson": 2,
+    "de": "das Handy",
+    "hr": "mobitel",
+    "gender": "m",
+    "plural": "mobiteli",
+    "example": "Mobitel zvoni.",
+    "exampleDe": "Das Handy klingelt."
+  },
+  {
+    "id": 64,
+    "lesson": 2,
+    "de": "der Computer",
+    "hr": "računalo",
+    "gender": "n",
+    "plural": "računala",
+    "example": "Računalo je brzo.",
+    "exampleDe": "Der Computer ist schnell."
+  },
+  {
+    "id": 65,
+    "lesson": 2,
+    "de": "das Internet",
+    "hr": "internet",
+    "gender": "m",
+    "plural": "—",
+    "example": "Internet je spor.",
+    "exampleDe": "Das Internet ist langsam."
+  },
+  {
+    "id": 66,
+    "lesson": 2,
+    "de": "die Arbeit (Job)",
+    "hr": "rad",
+    "gender": "m",
+    "plural": "radovi",
+    "example": "Rad je težak.",
+    "exampleDe": "Die Arbeit ist schwer."
+  },
+  {
+    "id": 67,
+    "lesson": 2,
+    "de": "der Chef",
+    "hr": "šef",
+    "gender": "m",
+    "plural": "šefovi",
+    "example": "Šef dolazi.",
+    "exampleDe": "Der Chef kommt."
+  },
+  {
+    "id": 68,
+    "lesson": 2,
+    "de": "der Kollege",
+    "hr": "kolega",
+    "gender": "m",
+    "plural": "kolege",
+    "example": "Kolega radi.",
+    "exampleDe": "Der Kollege arbeitet."
+  },
+  {
+    "id": 69,
+    "lesson": 2,
+    "de": "die Kollegin",
+    "hr": "kolegica",
+    "gender": "f",
+    "plural": "kolegice",
+    "example": "Kolegica pomaže.",
+    "exampleDe": "Die Kollegin hilft."
+  },
+  {
+    "id": 70,
+    "lesson": 2,
+    "de": "der Termin",
+    "hr": "termin",
+    "gender": "m",
+    "plural": "termini",
+    "example": "Termin je danas.",
+    "exampleDe": "Der Termin ist heute."
+  },
+  {
+    "id": 71,
+    "lesson": 2,
+    "de": "die Uhr",
+    "hr": "sat",
+    "gender": "m",
+    "plural": "sati",
+    "example": "Sat je skup.",
+    "exampleDe": "Die Uhr ist teuer."
+  },
+  {
+    "id": 72,
+    "lesson": 2,
+    "de": "die Minute",
+    "hr": "minuta",
+    "gender": "f",
+    "plural": "minute",
+    "example": "Minuta je kratka.",
+    "exampleDe": "Die Minute ist kurz."
+  },
+  {
+    "id": 73,
+    "lesson": 2,
+    "de": "die Sekunde",
+    "hr": "sekunda",
+    "gender": "f",
+    "plural": "sekunde",
+    "example": "Sekunda prolazi.",
+    "exampleDe": "Die Sekunde vergeht."
+  },
+  {
+    "id": 74,
+    "lesson": 2,
+    "de": "der Morgen",
+    "hr": "jutro",
+    "gender": "n",
+    "plural": "jutra",
+    "example": "Jutro je hladno.",
+    "exampleDe": "Der Morgen ist kalt."
+  },
+  {
+    "id": 75,
+    "lesson": 2,
+    "de": "der Abend",
+    "hr": "večer",
+    "gender": "f",
+    "plural": "večeri",
+    "example": "Večer je mirna.",
+    "exampleDe": "Der Abend ist ruhig."
+  },
+  {
+    "id": 76,
+    "lesson": 2,
+    "de": "die Woche",
+    "hr": "tjedan",
+    "gender": "m",
+    "plural": "tjedni",
+    "example": "Tjedan je dug.",
+    "exampleDe": "Die Woche ist lang."
+  },
+  {
+    "id": 77,
+    "lesson": 2,
+    "de": "der Monat",
+    "hr": "mjesec",
+    "gender": "m",
+    "plural": "mjeseci",
+    "example": "Mjesec je kratak.",
+    "exampleDe": "Der Monat ist kurz."
+  },
+  {
+    "id": 78,
+    "lesson": 2,
+    "de": "das Jahr",
+    "hr": "godina",
+    "gender": "f",
+    "plural": "godine",
+    "example": "Godina brzo prolazi.",
+    "exampleDe": "Das Jahr vergeht schnell."
+  },
+  {
+    "id": 79,
+    "lesson": 2,
+    "de": "das Geld",
+    "hr": "novac",
+    "gender": "m",
+    "plural": "—",
+    "example": "Novac je važan.",
+    "exampleDe": "Geld ist wichtig."
+  },
+  {
+    "id": 80,
+    "lesson": 2,
+    "de": "der Preis",
+    "hr": "cijena",
+    "gender": "f",
+    "plural": "cijene",
+    "example": "Cijena je visoka.",
+    "exampleDe": "Der Preis ist hoch."
+  },
+  {
+    "id": 81,
+    "lesson": 2,
+    "de": "das Geschäft",
+    "hr": "dućan",
+    "gender": "m",
+    "plural": "dućani",
+    "example": "Dućan je otvoren.",
+    "exampleDe": "Das Geschäft ist offen."
+  },
+  {
+    "id": 82,
+    "lesson": 2,
+    "de": "das Restaurant",
+    "hr": "restoran",
+    "gender": "m",
+    "plural": "restorani",
+    "example": "Restoran je pun.",
+    "exampleDe": "Das Restaurant ist voll."
+  },
+  {
+    "id": 83,
+    "lesson": 2,
+    "de": "das Café",
+    "hr": "kafić",
+    "gender": "m",
+    "plural": "kafići",
+    "example": "Kafić je mali.",
+    "exampleDe": "Das Café ist klein."
+  },
+  {
+    "id": 84,
+    "lesson": 2,
+    "de": "das Bier",
+    "hr": "pivo",
+    "gender": "n",
+    "plural": "piva",
+    "example": "Pivo je hladno.",
+    "exampleDe": "Das Bier ist kalt."
+  },
+  {
+    "id": 85,
+    "lesson": 2,
+    "de": "der Kaffee",
+    "hr": "kava",
+    "gender": "f",
+    "plural": "kave",
+    "example": "Kava je vruća.",
+    "exampleDe": "Der Kaffee ist heiß."
+  },
+  {
+    "id": 86,
+    "lesson": 2,
+    "de": "der Tee",
+    "hr": "čaj",
+    "gender": "m",
+    "plural": "čajevi",
+    "example": "Čaj je topao.",
+    "exampleDe": "Der Tee ist warm."
+  },
+  {
+    "id": 87,
+    "lesson": 2,
+    "de": "der Apfel",
+    "hr": "jabuka",
+    "gender": "f",
+    "plural": "jabuke",
+    "example": "Jabuka je slatka.",
+    "exampleDe": "Der Apfel ist süß."
+  },
+  {
+    "id": 88,
+    "lesson": 2,
+    "de": "das Gemüse",
+    "hr": "povrće",
+    "gender": "n",
+    "plural": "—",
+    "example": "Povrće je zdravo.",
+    "exampleDe": "Gemüse ist gesund."
+  },
+  {
+    "id": 89,
+    "lesson": 2,
+    "de": "das Fleisch",
+    "hr": "meso",
+    "gender": "n",
+    "plural": "—",
+    "example": "Meso je ukusno.",
+    "exampleDe": "Das Fleisch ist lecker."
+  },
+  {
+    "id": 90,
+    "lesson": 2,
+    "de": "der Zug",
+    "hr": "vlak",
+    "gender": "m",
+    "plural": "vlakovi",
+    "example": "Vlak dolazi.",
+    "exampleDe": "Der Zug kommt."
+  },
+  {
+    "id": 91,
+    "lesson": 2,
+    "de": "der Bus",
+    "hr": "autobus",
+    "gender": "m",
+    "plural": "autobusi",
+    "example": "Autobus kasni.",
+    "exampleDe": "Der Bus verspätet sich."
+  },
+  {
+    "id": 92,
+    "lesson": 2,
+    "de": "die Haltestelle",
+    "hr": "stanica",
+    "gender": "f",
+    "plural": "stanice",
+    "example": "Stanica je blizu.",
+    "exampleDe": "Die Haltestelle ist nah."
+  },
+  {
+    "id": 93,
+    "lesson": 2,
+    "de": "der Flughafen",
+    "hr": "zračna luka",
+    "gender": "f",
+    "plural": "zračne luke",
+    "example": "Zračna luka je velika.",
+    "exampleDe": "Der Flughafen ist groß."
+  },
+  {
+    "id": 94,
+    "lesson": 2,
+    "de": "das Ticket",
+    "hr": "karta",
+    "gender": "f",
+    "plural": "karte",
+    "example": "Karta je skupa.",
+    "exampleDe": "Das Ticket ist teuer."
+  },
+  {
+    "id": 95,
+    "lesson": 2,
+    "de": "die Reise",
+    "hr": "putovanje",
+    "gender": "n",
+    "plural": "putovanja",
+    "example": "Putovanje je dugo.",
+    "exampleDe": "Die Reise ist lang."
+  },
+  {
+    "id": 96,
+    "lesson": 2,
+    "de": "der Urlaub",
+    "hr": "odmor",
+    "gender": "m",
+    "plural": "odmori",
+    "example": "Odmor je kratak.",
+    "exampleDe": "Der Urlaub ist kurz."
+  },
+  {
+    "id": 97,
+    "lesson": 2,
+    "de": "der Arzt",
+    "hr": "liječnik",
+    "gender": "m",
+    "plural": "liječnici",
+    "example": "Liječnik pomaže.",
+    "exampleDe": "Der Arzt hilft."
+  },
+  {
+    "id": 98,
+    "lesson": 2,
+    "de": "das Krankenhaus",
+    "hr": "bolnica",
+    "gender": "f",
+    "plural": "bolnice",
+    "example": "Bolnica je velika.",
+    "exampleDe": "Das Krankenhaus ist groß."
+  },
+  {
+    "id": 99,
+    "lesson": 2,
+    "de": "die Medizin",
+    "hr": "lijek",
+    "gender": "m",
+    "plural": "lijekovi",
+    "example": "Lijek pomaže.",
+    "exampleDe": "Die Medizin hilft."
+  },
+  {
+    "id": 100,
+    "lesson": 2,
+    "de": "der Körper",
+    "hr": "tijelo",
+    "gender": "n",
+    "plural": "tijela",
+    "example": "Tijelo je zdravo.",
+    "exampleDe": "Der Körper ist gesund."
+  },
+  {
+    "id": 101,
+    "lesson": 3,
+    "de": "der Kopf",
+    "hr": "glava",
+    "gender": "f",
+    "plural": "glave",
+    "example": "Glava me boli.",
+    "exampleDe": "Der Kopf tut mir weh."
+  },
+  {
+    "id": 102,
+    "lesson": 3,
+    "de": "die Hand",
+    "hr": "ruka",
+    "gender": "f",
+    "plural": "ruke",
+    "example": "Ruka je ozlijeđena.",
+    "exampleDe": "Die Hand ist verletzt."
+  },
+  {
+    "id": 103,
+    "lesson": 3,
+    "de": "der Fuß",
+    "hr": "stopalo",
+    "gender": "n",
+    "plural": "stopala",
+    "example": "Stopalo me boli.",
+    "exampleDe": "Der Fuß tut mir weh."
+  },
+  {
+    "id": 104,
+    "lesson": 3,
+    "de": "das Bein",
+    "hr": "noga",
+    "gender": "f",
+    "plural": "noge",
+    "example": "Noga je slomljena.",
+    "exampleDe": "Das Bein ist gebrochen."
+  },
+  {
+    "id": 105,
+    "lesson": 3,
+    "de": "das Auge",
+    "hr": "oko",
+    "gender": "n",
+    "plural": "oči",
+    "example": "Oko vidi dobro.",
+    "exampleDe": "Das Auge sieht gut."
+  },
+  {
+    "id": 106,
+    "lesson": 3,
+    "de": "das Ohr",
+    "hr": "uho",
+    "gender": "n",
+    "plural": "uši",
+    "example": "Uho boli.",
+    "exampleDe": "Das Ohr tut weh."
+  },
+  {
+    "id": 107,
+    "lesson": 3,
+    "de": "der Mund",
+    "hr": "usta",
+    "gender": "n",
+    "plural": "usta",
+    "example": "Usta su suha.",
+    "exampleDe": "Der Mund ist trocken."
+  },
+  {
+    "id": 108,
+    "lesson": 3,
+    "de": "die Nase",
+    "hr": "nos",
+    "gender": "m",
+    "plural": "nosevi",
+    "example": "Nos je hladan.",
+    "exampleDe": "Die Nase ist kalt."
+  },
+  {
+    "id": 109,
+    "lesson": 3,
+    "de": "das Herz",
+    "hr": "srce",
+    "gender": "n",
+    "plural": "srca",
+    "example": "Srce kuca brzo.",
+    "exampleDe": "Das Herz schlägt schnell."
+  },
+  {
+    "id": 110,
+    "lesson": 3,
+    "de": "der Arm",
+    "hr": "ruka",
+    "gender": "f",
+    "plural": "ruke",
+    "example": "Ruka je jaka.",
+    "exampleDe": "Der Arm ist stark."
+  },
+  {
+    "id": 111,
+    "lesson": 3,
+    "de": "die Schule (Gebäude)",
+    "hr": "škola",
+    "gender": "f",
+    "plural": "škole",
+    "example": "Škola je zatvorena.",
+    "exampleDe": "Die Schule ist geschlossen."
+  },
+  {
+    "id": 112,
+    "lesson": 3,
+    "de": "die Universität",
+    "hr": "sveučilište",
+    "gender": "n",
+    "plural": "sveučilišta",
+    "example": "Sveučilište je veliko.",
+    "exampleDe": "Die Universität ist groß."
+  },
+  {
+    "id": 113,
+    "lesson": 3,
+    "de": "der Student",
+    "hr": "student",
+    "gender": "m",
+    "plural": "studenti",
+    "example": "Student uči.",
+    "exampleDe": "Der Student lernt."
+  },
+  {
+    "id": 114,
+    "lesson": 3,
+    "de": "die Studentin",
+    "hr": "studentica",
+    "gender": "f",
+    "plural": "studentice",
+    "example": "Studentica piše.",
+    "exampleDe": "Die Studentin schreibt."
+  },
+  {
+    "id": 115,
+    "lesson": 3,
+    "de": "das Fach",
+    "hr": "predmet",
+    "gender": "m",
+    "plural": "predmeti",
+    "example": "Predmet je težak.",
+    "exampleDe": "Das Fach ist schwer."
+  },
+  {
+    "id": 116,
+    "lesson": 3,
+    "de": "die Prüfung",
+    "hr": "ispit",
+    "gender": "m",
+    "plural": "ispiti",
+    "example": "Ispit je danas.",
+    "exampleDe": "Die Prüfung ist heute."
+  },
+  {
+    "id": 117,
+    "lesson": 3,
+    "de": "die Notiz",
+    "hr": "bilješka",
+    "gender": "f",
+    "plural": "bilješke",
+    "example": "Bilješka je kratka.",
+    "exampleDe": "Die Notiz ist kurz."
+  },
+  {
+    "id": 118,
+    "lesson": 3,
+    "de": "der Stift",
+    "hr": "olovka",
+    "gender": "f",
+    "plural": "olovke",
+    "example": "Olovka piše.",
+    "exampleDe": "Der Stift schreibt."
+  },
+  {
+    "id": 119,
+    "lesson": 3,
+    "de": "das Papier",
+    "hr": "papir",
+    "gender": "m",
+    "plural": "papiri",
+    "example": "Papir je bijel.",
+    "exampleDe": "Das Papier ist weiß."
+  },
+  {
+    "id": 120,
+    "lesson": 3,
+    "de": "der Computerbildschirm",
+    "hr": "ekran",
+    "gender": "m",
+    "plural": "ekrani",
+    "example": "Ekran je velik.",
+    "exampleDe": "Der Bildschirm ist groß."
+  },
+  {
+    "id": 121,
+    "lesson": 3,
+    "de": "die Maus",
+    "hr": "miš",
+    "gender": "m",
+    "plural": "miševi",
+    "example": "Miš radi.",
+    "exampleDe": "Die Maus funktioniert."
+  },
+  {
+    "id": 122,
+    "lesson": 3,
+    "de": "die Tastatur",
+    "hr": "tipkovnica",
+    "gender": "f",
+    "plural": "tipkovnice",
+    "example": "Tipkovnica je nova.",
+    "exampleDe": "Die Tastatur ist neu."
+  },
+  {
+    "id": 123,
+    "lesson": 3,
+    "de": "das Telefon",
+    "hr": "telefon",
+    "gender": "m",
+    "plural": "telefoni",
+    "example": "Telefon zvoni.",
+    "exampleDe": "Das Telefon klingelt."
+  },
+  {
+    "id": 124,
+    "lesson": 3,
+    "de": "der Fernseher",
+    "hr": "televizor",
+    "gender": "m",
+    "plural": "televizori",
+    "example": "Televizor je uključen.",
+    "exampleDe": "Der Fernseher ist an."
+  },
+  {
+    "id": 125,
+    "lesson": 3,
+    "de": "die Musik",
+    "hr": "glazba",
+    "gender": "f",
+    "plural": "—",
+    "example": "Glazba je glasna.",
+    "exampleDe": "Die Musik ist laut."
+  },
+  {
+    "id": 126,
+    "lesson": 3,
+    "de": "das Lied",
+    "hr": "pjesma",
+    "gender": "f",
+    "plural": "pjesme",
+    "example": "Pjesma je lijepa.",
+    "exampleDe": "Das Lied ist schön."
+  },
+  {
+    "id": 127,
+    "lesson": 3,
+    "de": "der Film",
+    "hr": "film",
+    "gender": "m",
+    "plural": "filmovi",
+    "example": "Film je zanimljiv.",
+    "exampleDe": "Der Film ist interessant."
+  },
+  {
+    "id": 128,
+    "lesson": 3,
+    "de": "das Foto",
+    "hr": "fotografija",
+    "gender": "f",
+    "plural": "fotografije",
+    "example": "Fotografija je lijepa.",
+    "exampleDe": "Das Foto ist schön."
+  },
+  {
+    "id": 129,
+    "lesson": 3,
+    "de": "das Bild",
+    "hr": "slika",
+    "gender": "f",
+    "plural": "slike",
+    "example": "Slika je na zidu.",
+    "exampleDe": "Das Bild ist an der Wand."
+  },
+  {
+    "id": 130,
+    "lesson": 3,
+    "de": "das Geld (Bargeld)",
+    "hr": "novac",
+    "gender": "m",
+    "plural": "—",
+    "example": "Novac je u džepu.",
+    "exampleDe": "Das Geld ist in der Tasche."
+  },
+  {
+    "id": 131,
+    "lesson": 3,
+    "de": "die Bank",
+    "hr": "banka",
+    "gender": "f",
+    "plural": "banke",
+    "example": "Banka je otvorena.",
+    "exampleDe": "Die Bank ist offen."
+  },
+  {
+    "id": 132,
+    "lesson": 3,
+    "de": "der Geldautomat",
+    "hr": "bankomat",
+    "gender": "m",
+    "plural": "bankomati",
+    "example": "Bankomat radi.",
+    "exampleDe": "Der Geldautomat funktioniert."
+  },
+  {
+    "id": 133,
+    "lesson": 3,
+    "de": "die Polizei",
+    "hr": "policija",
+    "gender": "f",
+    "plural": "—",
+    "example": "Policija dolazi.",
+    "exampleDe": "Die Polizei kommt."
+  },
+  {
+    "id": 134,
+    "lesson": 3,
+    "de": "das Auto (Verkehr)",
+    "hr": "vozilo",
+    "gender": "n",
+    "plural": "vozila",
+    "example": "Vozilo je brzo.",
+    "exampleDe": "Das Fahrzeug ist schnell."
+  },
+  {
+    "id": 135,
+    "lesson": 3,
+    "de": "die Straße (Verkehr)",
+    "hr": "cesta",
+    "gender": "f",
+    "plural": "ceste",
+    "example": "Cesta je duga.",
+    "exampleDe": "Die Straße ist lang."
+  },
+  {
+    "id": 136,
+    "lesson": 3,
+    "de": "der Verkehr",
+    "hr": "promet",
+    "gender": "m",
+    "plural": "—",
+    "example": "Promet je gust.",
+    "exampleDe": "Der Verkehr ist dicht."
+  },
+  {
+    "id": 137,
+    "lesson": 3,
+    "de": "die Ampel",
+    "hr": "semafor",
+    "gender": "m",
+    "plural": "semafori",
+    "example": "Semafor je crven.",
+    "exampleDe": "Die Ampel ist rot."
+  },
+  {
+    "id": 138,
+    "lesson": 3,
+    "de": "der Unfall",
+    "hr": "nesreća",
+    "gender": "f",
+    "plural": "nesreće",
+    "example": "Nesreća je ozbiljna.",
+    "exampleDe": "Der Unfall ist schwer."
+  },
+  {
+    "id": 139,
+    "lesson": 3,
+    "de": "der Strand",
+    "hr": "plaža",
+    "gender": "f",
+    "plural": "plaže",
+    "example": "Plaža je lijepa.",
+    "exampleDe": "Der Strand ist schön."
+  },
+  {
+    "id": 140,
+    "lesson": 3,
+    "de": "das Meer",
+    "hr": "more",
+    "gender": "n",
+    "plural": "mora",
+    "example": "More je plavo.",
+    "exampleDe": "Das Meer ist blau."
+  },
+  {
+    "id": 141,
+    "lesson": 3,
+    "de": "der Berg",
+    "hr": "planina",
+    "gender": "f",
+    "plural": "planine",
+    "example": "Planina je visoka.",
+    "exampleDe": "Der Berg ist hoch."
+  },
+  {
+    "id": 142,
+    "lesson": 3,
+    "de": "der Wald",
+    "hr": "šuma",
+    "gender": "f",
+    "plural": "šume",
+    "example": "Šuma je gusta.",
+    "exampleDe": "Der Wald ist dicht."
+  },
+  {
+    "id": 143,
+    "lesson": 3,
+    "de": "der Fluss",
+    "hr": "rijeka",
+    "gender": "f",
+    "plural": "rijeke",
+    "example": "Rijeka teče.",
+    "exampleDe": "Der Fluss fließt."
+  },
+  {
+    "id": 144,
+    "lesson": 3,
+    "de": "der Himmel",
+    "hr": "nebo",
+    "gender": "n",
+    "plural": "nebesa",
+    "example": "Nebo je plavo.",
+    "exampleDe": "Der Himmel ist blau."
+  },
+  {
+    "id": 145,
+    "lesson": 3,
+    "de": "die Wolke",
+    "hr": "oblak",
+    "gender": "m",
+    "plural": "oblaci",
+    "example": "Oblak je bijel.",
+    "exampleDe": "Die Wolke ist weiß."
+  },
+  {
+    "id": 146,
+    "lesson": 3,
+    "de": "der Wind",
+    "hr": "vjetar",
+    "gender": "m",
+    "plural": "vjetrovi",
+    "example": "Vjetar puše.",
+    "exampleDe": "Der Wind weht."
+  },
+  {
+    "id": 147,
+    "lesson": 3,
+    "de": "das Feuer",
+    "hr": "vatra",
+    "gender": "f",
+    "plural": "vatre",
+    "example": "Vatra gori.",
+    "exampleDe": "Das Feuer brennt."
+  },
+  {
+    "id": 148,
+    "lesson": 3,
+    "de": "die Erde",
+    "hr": "zemlja",
+    "gender": "f",
+    "plural": "zemlje",
+    "example": "Zemlja je okrugla.",
+    "exampleDe": "Die Erde ist rund."
+  },
+  {
+    "id": 149,
+    "lesson": 3,
+    "de": "das Dorf",
+    "hr": "selo",
+    "gender": "n",
+    "plural": "sela",
+    "example": "Selo je malo.",
+    "exampleDe": "Das Dorf ist klein."
+  },
+  {
+    "id": 150,
+    "lesson": 3,
+    "de": "die Grenze",
+    "hr": "granica",
+    "gender": "f",
+    "plural": "granice",
+    "example": "Granica je blizu.",
+    "exampleDe": "Die Grenze ist nah."
+  },
+  {
+    "id": 151,
+    "lesson": 4,
+    "de": "das Problem",
+    "hr": "problem",
+    "gender": "m",
+    "plural": "problemi",
+    "example": "Problem je velik.",
+    "exampleDe": "Das Problem ist groß."
+  },
+  {
+    "id": 152,
+    "lesson": 4,
+    "de": "die Idee",
+    "hr": "ideja",
+    "gender": "f",
+    "plural": "ideje",
+    "example": "Ideja je dobra.",
+    "exampleDe": "Die Idee ist gut."
+  },
+  {
+    "id": 153,
+    "lesson": 4,
+    "de": "die Entscheidung",
+    "hr": "odluka",
+    "gender": "f",
+    "plural": "odluke",
+    "example": "Odluka je važna.",
+    "exampleDe": "Die Entscheidung ist wichtig."
+  },
+  {
+    "id": 154,
+    "lesson": 4,
+    "de": "die Meinung",
+    "hr": "mišljenje",
+    "gender": "n",
+    "plural": "mišljenja",
+    "example": "To je moje mišljenje.",
+    "exampleDe": "Das ist meine Meinung."
+  },
+  {
+    "id": 155,
+    "lesson": 4,
+    "de": "die Möglichkeit",
+    "hr": "mogućnost",
+    "gender": "f",
+    "plural": "mogućnosti",
+    "example": "Postoji mogućnost.",
+    "exampleDe": "Es gibt eine Möglichkeit."
+  },
+  {
+    "id": 156,
+    "lesson": 4,
+    "de": "die Situation",
+    "hr": "situacija",
+    "gender": "f",
+    "plural": "situacije",
+    "example": "Situacija je teška.",
+    "exampleDe": "Die Situation ist schwierig."
+  },
+  {
+    "id": 157,
+    "lesson": 4,
+    "de": "das Leben",
+    "hr": "život",
+    "gender": "m",
+    "plural": "životi",
+    "example": "Život je lijep.",
+    "exampleDe": "Das Leben ist schön."
+  },
+  {
+    "id": 158,
+    "lesson": 4,
+    "de": "der Tod",
+    "hr": "smrt",
+    "gender": "f",
+    "plural": "smrti",
+    "example": "Smrt je prirodna.",
+    "exampleDe": "Der Tod ist natürlich."
+  },
+  {
+    "id": 159,
+    "lesson": 4,
+    "de": "die Liebe",
+    "hr": "ljubav",
+    "gender": "f",
+    "plural": "ljubavi",
+    "example": "Ljubav je važna.",
+    "exampleDe": "Liebe ist wichtig."
+  },
+  {
+    "id": 160,
+    "lesson": 4,
+    "de": "die Freundschaft",
+    "hr": "prijateljstvo",
+    "gender": "n",
+    "plural": "prijateljstva",
+    "example": "Prijateljstvo traje dugo.",
+    "exampleDe": "Freundschaft dauert lange."
+  },
+  {
+    "id": 161,
+    "lesson": 4,
+    "de": "der Erfolg",
+    "hr": "uspjeh",
+    "gender": "m",
+    "plural": "uspjesi",
+    "example": "Uspjeh je velik.",
+    "exampleDe": "Der Erfolg ist groß."
+  },
+  {
+    "id": 162,
+    "lesson": 4,
+    "de": "der Fehler",
+    "hr": "greška",
+    "gender": "f",
+    "plural": "greške",
+    "example": "Greška je mala.",
+    "exampleDe": "Der Fehler ist klein."
+  },
+  {
+    "id": 163,
+    "lesson": 4,
+    "de": "die Erfahrung",
+    "hr": "iskustvo",
+    "gender": "n",
+    "plural": "iskustva",
+    "example": "Iskustvo je važno.",
+    "exampleDe": "Erfahrung ist wichtig."
+  },
+  {
+    "id": 164,
+    "lesson": 4,
+    "de": "die Geschichte",
+    "hr": "povijest",
+    "gender": "f",
+    "plural": "povijesti",
+    "example": "Povijest je zanimljiva.",
+    "exampleDe": "Die Geschichte ist interessant."
+  },
+  {
+    "id": 165,
+    "lesson": 4,
+    "de": "die Nachricht",
+    "hr": "poruka",
+    "gender": "f",
+    "plural": "poruke",
+    "example": "Poruka je stigla.",
+    "exampleDe": "Die Nachricht ist angekommen."
+  },
+  {
+    "id": 166,
+    "lesson": 4,
+    "de": "der Plan",
+    "hr": "plan",
+    "gender": "m",
+    "plural": "planovi",
+    "example": "Plan je spreman.",
+    "exampleDe": "Der Plan ist fertig."
+  },
+  {
+    "id": 167,
+    "lesson": 4,
+    "de": "das Ziel",
+    "hr": "cilj",
+    "gender": "m",
+    "plural": "ciljevi",
+    "example": "Cilj je jasan.",
+    "exampleDe": "Das Ziel ist klar."
+  },
+  {
+    "id": 168,
+    "lesson": 4,
+    "de": "die Gruppe",
+    "hr": "grupa",
+    "gender": "f",
+    "plural": "grupe",
+    "example": "Grupa radi zajedno.",
+    "exampleDe": "Die Gruppe arbeitet zusammen."
+  },
+  {
+    "id": 169,
+    "lesson": 4,
+    "de": "das Team",
+    "hr": "tim",
+    "gender": "m",
+    "plural": "timovi",
+    "example": "Tim je jak.",
+    "exampleDe": "Das Team ist stark."
+  },
+  {
+    "id": 170,
+    "lesson": 4,
+    "de": "die Firma",
+    "hr": "tvrtka",
+    "gender": "f",
+    "plural": "tvrtke",
+    "example": "Tvrtka raste.",
+    "exampleDe": "Die Firma wächst."
+  },
+  {
+    "id": 171,
+    "lesson": 4,
+    "de": "die Hauptstadt",
+    "hr": "glavni grad",
+    "gender": "m",
+    "plural": "glavni gradovi",
+    "example": "Glavni grad je velik.",
+    "exampleDe": "Die Hauptstadt ist groß."
+  },
+  {
+    "id": 172,
+    "lesson": 4,
+    "de": "das Land (Staat)",
+    "hr": "država",
+    "gender": "f",
+    "plural": "države",
+    "example": "Država je lijepa.",
+    "exampleDe": "Das Land ist schön."
+  },
+  {
+    "id": 173,
+    "lesson": 4,
+    "de": "der Kontinent",
+    "hr": "kontinent",
+    "gender": "m",
+    "plural": "kontinenti",
+    "example": "Europa je kontinent.",
+    "exampleDe": "Europa ist ein Kontinent."
+  },
+  {
+    "id": 174,
+    "lesson": 4,
+    "de": "die Welt",
+    "hr": "svijet",
+    "gender": "m",
+    "plural": "svjetovi",
+    "example": "Svijet je velik.",
+    "exampleDe": "Die Welt ist groß."
+  },
+  {
+    "id": 175,
+    "lesson": 4,
+    "de": "die Menschen",
+    "hr": "ljudi",
+    "gender": "m",
+    "plural": "ljudi",
+    "example": "Ljudi dolaze.",
+    "exampleDe": "Die Menschen kommen."
+  },
+  {
+    "id": 176,
+    "lesson": 4,
+    "de": "die Kultur",
+    "hr": "kultura",
+    "gender": "f",
+    "plural": "kulture",
+    "example": "Kultura je bogata.",
+    "exampleDe": "Die Kultur ist reich."
+  },
+  {
+    "id": 177,
+    "lesson": 4,
+    "de": "der Dialekt",
+    "hr": "dijalekt",
+    "gender": "m",
+    "plural": "dijalekti",
+    "example": "Dijalekt je zanimljiv.",
+    "exampleDe": "Der Dialekt ist interessant."
+  },
+  {
+    "id": 178,
+    "lesson": 4,
+    "de": "der Unterschied",
+    "hr": "razlika",
+    "gender": "f",
+    "plural": "razlike",
+    "example": "Razlika je mala.",
+    "exampleDe": "Der Unterschied ist klein."
+  },
+  {
+    "id": 179,
+    "lesson": 4,
+    "de": "die Lösung",
+    "hr": "rješenje",
+    "gender": "n",
+    "plural": "rješenja",
+    "example": "Rješenje je jednostavno.",
+    "exampleDe": "Die Lösung ist einfach."
+  },
+  {
+    "id": 180,
+    "lesson": 4,
+    "de": "die Aufgabe",
+    "hr": "zadatak",
+    "gender": "m",
+    "plural": "zadaci",
+    "example": "Zadatak je težak.",
+    "exampleDe": "Die Aufgabe ist schwer."
+  },
+  {
+    "id": 181,
+    "lesson": 4,
+    "de": "das Beispiel",
+    "hr": "primjer",
+    "gender": "m",
+    "plural": "primjeri",
+    "example": "Primjer je jasan.",
+    "exampleDe": "Das Beispiel ist klar."
+  },
+  {
+    "id": 182,
+    "lesson": 4,
+    "de": "das Wort",
+    "hr": "riječ",
+    "gender": "f",
+    "plural": "riječi",
+    "example": "Riječ je kratka.",
+    "exampleDe": "Das Wort ist kurz."
+  },
+  {
+    "id": 183,
+    "lesson": 4,
+    "de": "der Satz",
+    "hr": "rečenica",
+    "gender": "f",
+    "plural": "rečenice",
+    "example": "Rečenica je duga.",
+    "exampleDe": "Der Satz ist lang."
+  },
+  {
+    "id": 184,
+    "lesson": 4,
+    "de": "der Text",
+    "hr": "tekst",
+    "gender": "m",
+    "plural": "tekstovi",
+    "example": "Tekst je zanimljiv.",
+    "exampleDe": "Der Text ist interessant."
+  },
+  {
+    "id": 185,
+    "lesson": 4,
+    "de": "das Kapitel",
+    "hr": "poglavlje",
+    "gender": "n",
+    "plural": "poglavlja",
+    "example": "Poglavlje je dugo.",
+    "exampleDe": "Das Kapitel ist lang."
+  },
+  {
+    "id": 186,
+    "lesson": 4,
+    "de": "die Zeitung",
+    "hr": "novine",
+    "gender": "f",
+    "plural": "—",
+    "example": "Novine su stare.",
+    "exampleDe": "Die Zeitung ist alt."
+  },
+  {
+    "id": 187,
+    "lesson": 4,
+    "de": "das Magazin",
+    "hr": "časopis",
+    "gender": "m",
+    "plural": "časopisi",
+    "example": "Časopis je nov.",
+    "exampleDe": "Das Magazin ist neu."
+  },
+  {
+    "id": 188,
+    "lesson": 4,
+    "de": "das Radio",
+    "hr": "radio",
+    "gender": "m",
+    "plural": "radiji",
+    "example": "Radio svira.",
+    "exampleDe": "Das Radio spielt."
+  },
+  {
+    "id": 189,
+    "lesson": 4,
+    "de": "das Video",
+    "hr": "video",
+    "gender": "m",
+    "plural": "videi",
+    "example": "Video je kratak.",
+    "exampleDe": "Das Video ist kurz."
+  },
+  {
+    "id": 190,
+    "lesson": 4,
+    "de": "der Landkarte",
+    "hr": "zemljovid",
+    "gender": "m",
+    "plural": "zemljovidi",
+    "example": "Zemljovid je star.",
+    "exampleDe": "Die Karte ist alt."
+  },
+  {
+    "id": 191,
+    "lesson": 4,
+    "de": "das Projekt",
+    "hr": "projekt",
+    "gender": "m",
+    "plural": "projekti",
+    "example": "Projekt je uspješan.",
+    "exampleDe": "Das Projekt ist erfolgreich."
+  },
+  {
+    "id": 192,
+    "lesson": 4,
+    "de": "das Berufsfeld",
+    "hr": "zanimanje",
+    "gender": "n",
+    "plural": "zanimanja",
+    "example": "Zanimanje je teško.",
+    "exampleDe": "Der Beruf ist schwierig."
+  },
+  {
+    "id": 193,
+    "lesson": 4,
+    "de": "der Arbeitsplatz",
+    "hr": "radno mjesto",
+    "gender": "n",
+    "plural": "radna mjesta",
+    "example": "Radno mjesto je novo.",
+    "exampleDe": "Der Arbeitsplatz ist neu."
+  },
+  {
+    "id": 194,
+    "lesson": 4,
+    "de": "die Ersparnisse",
+    "hr": "ušteđevina",
+    "gender": "f",
+    "plural": "ušteđevine",
+    "example": "Ušteđevina raste.",
+    "exampleDe": "Die Ersparnisse wachsen."
+  },
+  {
+    "id": 195,
+    "lesson": 4,
+    "de": "der Vertrag",
+    "hr": "ugovor",
+    "gender": "m",
+    "plural": "ugovori",
+    "example": "Ugovor je potpisan.",
+    "exampleDe": "Der Vertrag ist unterschrieben."
+  },
+  {
+    "id": 196,
+    "lesson": 4,
+    "de": "die Rechnung",
+    "hr": "račun",
+    "gender": "m",
+    "plural": "računi",
+    "example": "Račun je plaćen.",
+    "exampleDe": "Die Rechnung ist bezahlt."
+  },
+  {
+    "id": 197,
+    "lesson": 4,
+    "de": "die Quittung",
+    "hr": "potvrda",
+    "gender": "f",
+    "plural": "potvrde",
+    "example": "Potvrda je izdana.",
+    "exampleDe": "Der Beleg ist ausgestellt."
+  },
+  {
+    "id": 198,
+    "lesson": 4,
+    "de": "der Kunde",
+    "hr": "kupac",
+    "gender": "m",
+    "plural": "kupci",
+    "example": "Kupac dolazi.",
+    "exampleDe": "Der Kunde kommt."
+  },
+  {
+    "id": 199,
+    "lesson": 4,
+    "de": "die Kundin",
+    "hr": "kupkinja",
+    "gender": "f",
+    "plural": "kupkinje",
+    "example": "Kupkinja čeka.",
+    "exampleDe": "Die Kundin wartet."
+  },
+  {
+    "id": 200,
+    "lesson": 4,
+    "de": "die Bestellung",
+    "hr": "narudžba",
+    "gender": "f",
+    "plural": "narudžbe",
+    "example": "Narudžba je spremna.",
+    "exampleDe": "Die Bestellung ist fertig."
+  },
+  {
+    "id": 201,
+    "lesson": 5,
+    "de": "die Tür (Haus)",
+    "hr": "vrata",
+    "gender": "n",
+    "plural": "vrata",
+    "example": "Vrata su nova.",
+    "exampleDe": "Die Tür ist neu."
+  },
+  {
+    "id": 202,
+    "lesson": 5,
+    "de": "das Schloss",
+    "hr": "brava",
+    "gender": "f",
+    "plural": "brave",
+    "example": "Brava je pokvarena.",
+    "exampleDe": "Das Schloss ist kaputt."
+  },
+  {
+    "id": 203,
+    "lesson": 5,
+    "de": "der Boden (Erde)",
+    "hr": "zemlja",
+    "gender": "f",
+    "plural": "zemlje",
+    "example": "Zemlja je mokra.",
+    "exampleDe": "Der Boden ist nass."
+  },
+  {
+    "id": 204,
+    "lesson": 5,
+    "de": "der Stein",
+    "hr": "kamen",
+    "gender": "m",
+    "plural": "kamenje",
+    "example": "Kamen je težak.",
+    "exampleDe": "Der Stein ist schwer."
+  },
+  {
+    "id": 205,
+    "lesson": 5,
+    "de": "der Berg (allgemein)",
+    "hr": "brdo",
+    "gender": "n",
+    "plural": "brda",
+    "example": "Brdo je visoko.",
+    "exampleDe": "Der Hügel ist hoch."
+  },
+  {
+    "id": 206,
+    "lesson": 5,
+    "de": "das Tal",
+    "hr": "dolina",
+    "gender": "f",
+    "plural": "doline",
+    "example": "Dolina je zelena.",
+    "exampleDe": "Das Tal ist grün."
+  },
+  {
+    "id": 207,
+    "lesson": 5,
+    "de": "die Insel",
+    "hr": "otok",
+    "gender": "m",
+    "plural": "otoci",
+    "example": "Otok je lijep.",
+    "exampleDe": "Die Insel ist schön."
+  },
+  {
+    "id": 208,
+    "lesson": 5,
+    "de": "der See",
+    "hr": "jezero",
+    "gender": "n",
+    "plural": "jezera",
+    "example": "Jezero je mirno.",
+    "exampleDe": "Der See ist ruhig."
+  },
+  {
+    "id": 209,
+    "lesson": 5,
+    "de": "der Ozean",
+    "hr": "ocean",
+    "gender": "m",
+    "plural": "oceani",
+    "example": "Ocean je velik.",
+    "exampleDe": "Der Ozean ist groß."
+  },
+  {
+    "id": 210,
+    "lesson": 5,
+    "de": "der Strand (Sand)",
+    "hr": "pijesak",
+    "gender": "m",
+    "plural": "—",
+    "example": "Pijesak je vruć.",
+    "exampleDe": "Der Sand ist heiß."
+  },
+  {
+    "id": 211,
+    "lesson": 5,
+    "de": "der Baum (allgemein)",
+    "hr": "stablo",
+    "gender": "n",
+    "plural": "stabla",
+    "example": "Stablo je visoko.",
+    "exampleDe": "Der Baum ist hoch."
+  },
+  {
+    "id": 212,
+    "lesson": 5,
+    "de": "die Blume",
+    "hr": "cvijet",
+    "gender": "m",
+    "plural": "cvjetovi",
+    "example": "Cvijet je lijep.",
+    "exampleDe": "Die Blume ist schön."
+  },
+  {
+    "id": 213,
+    "lesson": 5,
+    "de": "das Gras",
+    "hr": "trava",
+    "gender": "f",
+    "plural": "trave",
+    "example": "Trava je zelena.",
+    "exampleDe": "Das Gras ist grün."
+  },
+  {
+    "id": 214,
+    "lesson": 5,
+    "de": "das Blatt",
+    "hr": "list",
+    "gender": "m",
+    "plural": "listovi",
+    "example": "List pada.",
+    "exampleDe": "Das Blatt fällt."
+  },
+  {
+    "id": 215,
+    "lesson": 5,
+    "de": "der Regen (Wetter)",
+    "hr": "kiša",
+    "gender": "f",
+    "plural": "kiše",
+    "example": "Kiša pada jako.",
+    "exampleDe": "Es regnet stark."
+  },
+  {
+    "id": 216,
+    "lesson": 5,
+    "de": "der Sturm",
+    "hr": "oluja",
+    "gender": "f",
+    "plural": "oluje",
+    "example": "Oluja dolazi.",
+    "exampleDe": "Der Sturm kommt."
+  },
+  {
+    "id": 217,
+    "lesson": 5,
+    "de": "der Himmel (Wetter)",
+    "hr": "nebo",
+    "gender": "n",
+    "plural": "nebesa",
+    "example": "Nebo je sivo.",
+    "exampleDe": "Der Himmel ist grau."
+  },
+  {
+    "id": 218,
+    "lesson": 5,
+    "de": "die Temperatur",
+    "hr": "temperatura",
+    "gender": "f",
+    "plural": "temperature",
+    "example": "Temperatura raste.",
+    "exampleDe": "Die Temperatur steigt."
+  },
+  {
+    "id": 219,
+    "lesson": 5,
+    "de": "die Hitze",
+    "hr": "vrućina",
+    "gender": "f",
+    "plural": "vrućine",
+    "example": "Vrućina je jaka.",
+    "exampleDe": "Die Hitze ist stark."
+  },
+  {
+    "id": 220,
+    "lesson": 5,
+    "de": "die Kälte",
+    "hr": "hladnoća",
+    "gender": "f",
+    "plural": "hladnoće",
+    "example": "Hladnoća je velika.",
+    "exampleDe": "Die Kälte ist stark."
+  },
+  {
+    "id": 221,
+    "lesson": 5,
+    "de": "der Winter",
+    "hr": "zima",
+    "gender": "f",
+    "plural": "zime",
+    "example": "Zima je hladna.",
+    "exampleDe": "Der Winter ist kalt."
+  },
+  {
+    "id": 222,
+    "lesson": 5,
+    "de": "der Frühling",
+    "hr": "proljeće",
+    "gender": "n",
+    "plural": "proljeća",
+    "example": "Proljeće dolazi.",
+    "exampleDe": "Der Frühling kommt."
+  },
+  {
+    "id": 223,
+    "lesson": 5,
+    "de": "der Sommer",
+    "hr": "ljeto",
+    "gender": "n",
+    "plural": "ljeta",
+    "example": "Ljeto je vruće.",
+    "exampleDe": "Der Sommer ist heiß."
+  },
+  {
+    "id": 224,
+    "lesson": 5,
+    "de": "der Herbst",
+    "hr": "jesen",
+    "gender": "f",
+    "plural": "jeseni",
+    "example": "Jesen je hladna.",
+    "exampleDe": "Der Herbst ist kühl."
+  },
+  {
+    "id": 225,
+    "lesson": 5,
+    "de": "die Farbe",
+    "hr": "boja",
+    "gender": "f",
+    "plural": "boje",
+    "example": "Boja je crvena.",
+    "exampleDe": "Die Farbe ist rot."
+  },
+  {
+    "id": 226,
+    "lesson": 5,
+    "de": "das Rot",
+    "hr": "crvena",
+    "gender": "f",
+    "plural": "—",
+    "example": "Crvena je lijepa.",
+    "exampleDe": "Rot ist schön."
+  },
+  {
+    "id": 227,
+    "lesson": 5,
+    "de": "das Blau",
+    "hr": "plava",
+    "gender": "f",
+    "plural": "—",
+    "example": "Plava je mirna.",
+    "exampleDe": "Blau ist ruhig."
+  },
+  {
+    "id": 228,
+    "lesson": 5,
+    "de": "das Grün",
+    "hr": "zelena",
+    "gender": "f",
+    "plural": "—",
+    "example": "Zelena je priroda.",
+    "exampleDe": "Grün ist Natur."
+  },
+  {
+    "id": 229,
+    "lesson": 5,
+    "de": "das Schwarz",
+    "hr": "crna",
+    "gender": "f",
+    "plural": "—",
+    "example": "Crna je tamna.",
+    "exampleDe": "Schwarz ist dunkel."
+  },
+  {
+    "id": 230,
+    "lesson": 5,
+    "de": "das Weiß",
+    "hr": "bijela",
+    "gender": "f",
+    "plural": "—",
+    "example": "Bijela je čista.",
+    "exampleDe": "Weiß ist sauber."
+  },
+  {
+    "id": 231,
+    "lesson": 5,
+    "de": "der Ring",
+    "hr": "prsten",
+    "gender": "m",
+    "plural": "prsteni",
+    "example": "Prsten je zlatan.",
+    "exampleDe": "Der Ring ist golden."
+  },
+  {
+    "id": 232,
+    "lesson": 5,
+    "de": "die Uhr (Armbanduhr)",
+    "hr": "sat",
+    "gender": "m",
+    "plural": "sati",
+    "example": "Sat je skup.",
+    "exampleDe": "Die Uhr ist teuer."
+  },
+  {
+    "id": 233,
+    "lesson": 5,
+    "de": "die Tasche",
+    "hr": "torba",
+    "gender": "f",
+    "plural": "torbe",
+    "example": "Torba je teška.",
+    "exampleDe": "Die Tasche ist schwer."
+  },
+  {
+    "id": 234,
+    "lesson": 5,
+    "de": "der Rucksack",
+    "hr": "ruksak",
+    "gender": "m",
+    "plural": "ruksaci",
+    "example": "Ruksak je pun.",
+    "exampleDe": "Der Rucksack ist voll."
+  },
+  {
+    "id": 235,
+    "lesson": 5,
+    "de": "der Schuh",
+    "hr": "cipela",
+    "gender": "f",
+    "plural": "cipele",
+    "example": "Cipela je nova.",
+    "exampleDe": "Der Schuh ist neu."
+  },
+  {
+    "id": 236,
+    "lesson": 5,
+    "de": "die Kleidung",
+    "hr": "odjeća",
+    "gender": "f",
+    "plural": "odjeće",
+    "example": "Odjeća je moderna.",
+    "exampleDe": "Die Kleidung ist modern."
+  },
+  {
+    "id": 237,
+    "lesson": 5,
+    "de": "das Hemd",
+    "hr": "košulja",
+    "gender": "f",
+    "plural": "košulje",
+    "example": "Košulja je bijela.",
+    "exampleDe": "Das Hemd ist weiß."
+  },
+  {
+    "id": 238,
+    "lesson": 5,
+    "de": "die Hose",
+    "hr": "hlače",
+    "gender": "f",
+    "plural": "hlače",
+    "example": "Hlače su nove.",
+    "exampleDe": "Die Hose ist neu."
+  },
+  {
+    "id": 239,
+    "lesson": 5,
+    "de": "die Jacke",
+    "hr": "jakna",
+    "gender": "f",
+    "plural": "jakne",
+    "example": "Jakna je topla.",
+    "exampleDe": "Die Jacke ist warm."
+  },
+  {
+    "id": 240,
+    "lesson": 5,
+    "de": "der Mantel",
+    "hr": "kaput",
+    "gender": "m",
+    "plural": "kaputi",
+    "example": "Kaput je težak.",
+    "exampleDe": "Der Mantel ist schwer."
+  },
+  {
+    "id": 241,
+    "lesson": 5,
+    "de": "der Marktstand",
+    "hr": "štand",
+    "gender": "m",
+    "plural": "štandovi",
+    "example": "Štand je otvoren.",
+    "exampleDe": "Der Stand ist offen."
+  },
+  {
+    "id": 242,
+    "lesson": 5,
+    "de": "das Geschäft (Handel)",
+    "hr": "trgovina",
+    "gender": "f",
+    "plural": "trgovine",
+    "example": "Trgovina je mala.",
+    "exampleDe": "Das Geschäft ist klein."
+  },
+  {
+    "id": 243,
+    "lesson": 5,
+    "de": "die Ware",
+    "hr": "roba",
+    "gender": "f",
+    "plural": "robe",
+    "example": "Roba je nova.",
+    "exampleDe": "Die Ware ist neu."
+  },
+  {
+    "id": 244,
+    "lesson": 5,
+    "de": "der Einkauf",
+    "hr": "kupovina",
+    "gender": "f",
+    "plural": "kupovine",
+    "example": "Kupovina je gotova.",
+    "exampleDe": "Der Einkauf ist fertig."
+  },
+  {
+    "id": 245,
+    "lesson": 5,
+    "de": "der Verkauf",
+    "hr": "prodaja",
+    "gender": "f",
+    "plural": "prodaje",
+    "example": "Prodaja ide dobro.",
+    "exampleDe": "Der Verkauf läuft gut."
+  },
+  {
+    "id": 246,
+    "lesson": 5,
+    "de": "die Werbung",
+    "hr": "oglas",
+    "gender": "m",
+    "plural": "oglasi",
+    "example": "Oglas je nov.",
+    "exampleDe": "Die Werbung ist neu."
+  },
+  {
+    "id": 247,
+    "lesson": 5,
+    "de": "die Marke",
+    "hr": "marka",
+    "gender": "f",
+    "plural": "marke",
+    "example": "Marka je poznata.",
+    "exampleDe": "Die Marke ist bekannt."
+  },
+  {
+    "id": 248,
+    "lesson": 5,
+    "de": "das Produkt",
+    "hr": "proizvod",
+    "gender": "m",
+    "plural": "proizvodi",
+    "example": "Proizvod je dobar.",
+    "exampleDe": "Das Produkt ist gut."
+  },
+  {
+    "id": 249,
+    "lesson": 5,
+    "de": "die Qualität",
+    "hr": "kvaliteta",
+    "gender": "f",
+    "plural": "kvalitete",
+    "example": "Kvaliteta je visoka.",
+    "exampleDe": "Die Qualität ist hoch."
+  },
+  {
+    "id": 250,
+    "lesson": 5,
+    "de": "der Service",
+    "hr": "usluga",
+    "gender": "f",
+    "plural": "usluge",
+    "example": "Usluga je dobra.",
+    "exampleDe": "Der Service ist gut."
+  },
+  {
+    "id": 251,
+    "lesson": 6,
+    "de": "die Wohnung",
+    "hr": "stan",
+    "gender": "m",
+    "plural": "stanovi",
+    "example": "Stan je nov.",
+    "exampleDe": "Die Wohnung ist neu."
+  },
+  {
+    "id": 252,
+    "lesson": 6,
+    "de": "das Gebäude",
+    "hr": "zgrada",
+    "gender": "f",
+    "plural": "zgrade",
+    "example": "Zgrada je visoka.",
+    "exampleDe": "Das Gebäude ist hoch."
+  },
+  {
+    "id": 253,
+    "lesson": 6,
+    "de": "der Aufzug",
+    "hr": "lift",
+    "gender": "m",
+    "plural": "liftovi",
+    "example": "Lift je pokvaren.",
+    "exampleDe": "Der Aufzug ist kaputt."
+  },
+  {
+    "id": 254,
+    "lesson": 6,
+    "de": "die Treppe",
+    "hr": "stube",
+    "gender": "f",
+    "plural": "stube",
+    "example": "Stube su stare.",
+    "exampleDe": "Die Treppe ist alt."
+  },
+  {
+    "id": 255,
+    "lesson": 6,
+    "de": "der Balkon",
+    "hr": "balkon",
+    "gender": "m",
+    "plural": "balkoni",
+    "example": "Balkon je mali.",
+    "exampleDe": "Der Balkon ist klein."
+  },
+  {
+    "id": 256,
+    "lesson": 6,
+    "de": "das Dach",
+    "hr": "krov",
+    "gender": "m",
+    "plural": "krovovi",
+    "example": "Krov je crven.",
+    "exampleDe": "Das Dach ist rot."
+  },
+  {
+    "id": 257,
+    "lesson": 6,
+    "de": "die Garage",
+    "hr": "garaža",
+    "gender": "f",
+    "plural": "garaže",
+    "example": "Garaža je puna.",
+    "exampleDe": "Die Garage ist voll."
+  },
+  {
+    "id": 258,
+    "lesson": 6,
+    "de": "der Garten",
+    "hr": "vrt",
+    "gender": "m",
+    "plural": "vrtovi",
+    "example": "Vrt je lijep.",
+    "exampleDe": "Der Garten ist schön."
+  },
+  {
+    "id": 259,
+    "lesson": 6,
+    "de": "der Zaun",
+    "hr": "ograda",
+    "gender": "f",
+    "plural": "ograde",
+    "example": "Ograda je visoka.",
+    "exampleDe": "Der Zaun ist hoch."
+  },
+  {
+    "id": 260,
+    "lesson": 6,
+    "de": "der Schlüsselbund",
+    "hr": "privezak za ključeve",
+    "gender": "m",
+    "plural": "privjesci",
+    "example": "Privjesak je težak.",
+    "exampleDe": "Der Schlüsselbund ist schwer."
+  },
+  {
+    "id": 261,
+    "lesson": 6,
+    "de": "das Licht (Lampe)",
+    "hr": "lampa",
+    "gender": "f",
+    "plural": "lampe",
+    "example": "Lampa svijetli.",
+    "exampleDe": "Die Lampe leuchtet."
+  },
+  {
+    "id": 262,
+    "lesson": 6,
+    "de": "der Strom",
+    "hr": "struja",
+    "gender": "f",
+    "plural": "struje",
+    "example": "Struja je skupa.",
+    "exampleDe": "Der Strom ist teuer."
+  },
+  {
+    "id": 263,
+    "lesson": 6,
+    "de": "die Heizung",
+    "hr": "grijanje",
+    "gender": "n",
+    "plural": "grijanja",
+    "example": "Grijanje radi.",
+    "exampleDe": "Die Heizung funktioniert."
+  },
+  {
+    "id": 264,
+    "lesson": 6,
+    "de": "die Klimaanlage",
+    "hr": "klima",
+    "gender": "f",
+    "plural": "klime",
+    "example": "Klima hladi.",
+    "exampleDe": "Die Klimaanlage kühlt."
+  },
+  {
+    "id": 265,
+    "lesson": 6,
+    "de": "das Fenster (technisch)",
+    "hr": "prozor",
+    "gender": "m",
+    "plural": "prozori",
+    "example": "Prozor je otvoren.",
+    "exampleDe": "Das Fenster ist offen."
+  },
+  {
+    "id": 266,
+    "lesson": 6,
+    "de": "der Tisch (Küche)",
+    "hr": "stol",
+    "gender": "m",
+    "plural": "stolovi",
+    "example": "Stol je pun.",
+    "exampleDe": "Der Tisch ist voll."
+  },
+  {
+    "id": 267,
+    "lesson": 6,
+    "de": "der Teller",
+    "hr": "tanjur",
+    "gender": "m",
+    "plural": "tanjuri",
+    "example": "Tanjur je čist.",
+    "exampleDe": "Der Teller ist sauber."
+  },
+  {
+    "id": 268,
+    "lesson": 6,
+    "de": "die Tasse",
+    "hr": "šalica",
+    "gender": "f",
+    "plural": "šalice",
+    "example": "Šalica je puna.",
+    "exampleDe": "Die Tasse ist voll."
+  },
+  {
+    "id": 269,
+    "lesson": 6,
+    "de": "das Glas",
+    "hr": "čaša",
+    "gender": "f",
+    "plural": "čaše",
+    "example": "Čaša je prazna.",
+    "exampleDe": "Das Glas ist leer."
+  },
+  {
+    "id": 270,
+    "lesson": 6,
+    "de": "das Messer",
+    "hr": "nož",
+    "gender": "m",
+    "plural": "noževi",
+    "example": "Nož je oštar.",
+    "exampleDe": "Das Messer ist scharf."
+  },
+  {
+    "id": 271,
+    "lesson": 6,
+    "de": "die Gabel",
+    "hr": "vilica",
+    "gender": "f",
+    "plural": "vilice",
+    "example": "Vilica je čista.",
+    "exampleDe": "Die Gabel ist sauber."
+  },
+  {
+    "id": 272,
+    "lesson": 6,
+    "de": "der Löffel",
+    "hr": "žlica",
+    "gender": "f",
+    "plural": "žlice",
+    "example": "Žlica je mala.",
+    "exampleDe": "Der Löffel ist klein."
+  },
+  {
+    "id": 273,
+    "lesson": 6,
+    "de": "der Kühlschrank",
+    "hr": "hladnjak",
+    "gender": "m",
+    "plural": "hladnjaci",
+    "example": "Hladnjak je pun.",
+    "exampleDe": "Der Kühlschrank ist voll."
+  },
+  {
+    "id": 274,
+    "lesson": 6,
+    "de": "der Ofen",
+    "hr": "pećnica",
+    "gender": "f",
+    "plural": "pećnice",
+    "example": "Pećnica radi.",
+    "exampleDe": "Der Ofen funktioniert."
+  },
+  {
+    "id": 275,
+    "lesson": 6,
+    "de": "die Spülmaschine",
+    "hr": "perilica posuđa",
+    "gender": "f",
+    "plural": "perilice",
+    "example": "Perilica radi.",
+    "exampleDe": "Die Spülmaschine läuft."
+  },
+  {
+    "id": 276,
+    "lesson": 6,
+    "de": "die Waschmaschine",
+    "hr": "perilica rublja",
+    "gender": "f",
+    "plural": "perilice",
+    "example": "Perilica radi.",
+    "exampleDe": "Die Waschmaschine läuft."
+  },
+  {
+    "id": 277,
+    "lesson": 6,
+    "de": "das Badezimmer (Dusche)",
+    "hr": "tuš",
+    "gender": "m",
+    "plural": "tuševi",
+    "example": "Tuš je topao.",
+    "exampleDe": "Die Dusche ist warm."
+  },
+  {
+    "id": 278,
+    "lesson": 6,
+    "de": "die Seife",
+    "hr": "sapun",
+    "gender": "m",
+    "plural": "sapuni",
+    "example": "Sapun miriše.",
+    "exampleDe": "Die Seife riecht gut."
+  },
+  {
+    "id": 279,
+    "lesson": 6,
+    "de": "das Handtuch",
+    "hr": "ručnik",
+    "gender": "m",
+    "plural": "ručnici",
+    "example": "Ručnik je mokar.",
+    "exampleDe": "Das Handtuch ist nass."
+  },
+  {
+    "id": 280,
+    "lesson": 6,
+    "de": "der Spiegel",
+    "hr": "ogledalo",
+    "gender": "n",
+    "plural": "ogledala",
+    "example": "Ogledalo je čisto.",
+    "exampleDe": "Der Spiegel ist sauber."
+  },
+  {
+    "id": 281,
+    "lesson": 6,
+    "de": "der Rasierer",
+    "hr": "britvica",
+    "gender": "f",
+    "plural": "britvice",
+    "example": "Britvica je nova.",
+    "exampleDe": "Der Rasierer ist neu."
+  },
+  {
+    "id": 282,
+    "lesson": 6,
+    "de": "die Zahnbürste",
+    "hr": "četkica za zube",
+    "gender": "f",
+    "plural": "četkice",
+    "example": "Četkica je nova.",
+    "exampleDe": "Die Zahnbürste ist neu."
+  },
+  {
+    "id": 283,
+    "lesson": 6,
+    "de": "die Zahnpasta",
+    "hr": "pasta za zube",
+    "gender": "f",
+    "plural": "paste",
+    "example": "Pasta je bijela.",
+    "exampleDe": "Die Zahnpasta ist weiß."
+  },
+  {
+    "id": 284,
+    "lesson": 6,
+    "de": "die Medizin (Arznei)",
+    "hr": "lijek",
+    "gender": "m",
+    "plural": "lijekovi",
+    "example": "Lijek pomaže.",
+    "exampleDe": "Die Medizin hilft."
+  },
+  {
+    "id": 285,
+    "lesson": 6,
+    "de": "das Rezept",
+    "hr": "recept",
+    "gender": "m",
+    "plural": "recepti",
+    "example": "Recept je jasan.",
+    "exampleDe": "Das Rezept ist klar."
+  },
+  {
+    "id": 286,
+    "lesson": 6,
+    "de": "die Apotheke",
+    "hr": "ljekarna",
+    "gender": "f",
+    "plural": "ljekarne",
+    "example": "Ljekarna je otvorena.",
+    "exampleDe": "Die Apotheke ist offen."
+  },
+  {
+    "id": 287,
+    "lesson": 6,
+    "de": "das Krankenhaus (Notaufnahme)",
+    "hr": "hitna pomoć",
+    "gender": "f",
+    "plural": "hitne pomoći",
+    "example": "Hitna dolazi.",
+    "exampleDe": "Die Notaufnahme kommt."
+  },
+  {
+    "id": 288,
+    "lesson": 6,
+    "de": "der Patient",
+    "hr": "pacijent",
+    "gender": "m",
+    "plural": "pacijenti",
+    "example": "Pacijent čeka.",
+    "exampleDe": "Der Patient wartet."
+  },
+  {
+    "id": 289,
+    "lesson": 6,
+    "de": "die Patientin",
+    "hr": "pacijentica",
+    "gender": "f",
+    "plural": "pacijentice",
+    "example": "Pacijentica leži.",
+    "exampleDe": "Die Patientin liegt."
+  },
+  {
+    "id": 290,
+    "lesson": 6,
+    "de": "der Schmerz",
+    "hr": "bol",
+    "gender": "f",
+    "plural": "boli",
+    "example": "Bol je jaka.",
+    "exampleDe": "Der Schmerz ist stark."
+  },
+  {
+    "id": 291,
+    "lesson": 6,
+    "de": "die Verletzung",
+    "hr": "ozljeda",
+    "gender": "f",
+    "plural": "ozljede",
+    "example": "Ozljeda je mala.",
+    "exampleDe": "Die Verletzung ist klein."
+  },
+  {
+    "id": 292,
+    "lesson": 6,
+    "de": "die Krankheit",
+    "hr": "bolest",
+    "gender": "f",
+    "plural": "bolesti",
+    "example": "Bolest je ozbiljna.",
+    "exampleDe": "Die Krankheit ist ernst."
+  },
+  {
+    "id": 293,
+    "lesson": 6,
+    "de": "das Fieber",
+    "hr": "groznica",
+    "gender": "f",
+    "plural": "—",
+    "example": "Groznica raste.",
+    "exampleDe": "Das Fieber steigt."
+  },
+  {
+    "id": 294,
+    "lesson": 6,
+    "de": "der Arztbesuch",
+    "hr": "pregled",
+    "gender": "m",
+    "plural": "pregledi",
+    "example": "Pregled je danas.",
+    "exampleDe": "Der Arztbesuch ist heute."
+  },
+  {
+    "id": 295,
+    "lesson": 6,
+    "de": "die Versicherung",
+    "hr": "osiguranje",
+    "gender": "n",
+    "plural": "osiguranja",
+    "example": "Osiguranje je važno.",
+    "exampleDe": "Die Versicherung ist wichtig."
+  },
+  {
+    "id": 296,
+    "lesson": 6,
+    "de": "der Vertrag (Versicherung)",
+    "hr": "polica",
+    "gender": "f",
+    "plural": "police",
+    "example": "Polica je aktivna.",
+    "exampleDe": "Die Police ist aktiv."
+  },
+  {
+    "id": 297,
+    "lesson": 6,
+    "de": "die Polizei (Fall)",
+    "hr": "slučaj",
+    "gender": "m",
+    "plural": "slučajevi",
+    "example": "Slučaj je zatvoren.",
+    "exampleDe": "Der Fall ist geschlossen."
+  },
+  {
+    "id": 298,
+    "lesson": 6,
+    "de": "das Gesetz",
+    "hr": "zakon",
+    "gender": "m",
+    "plural": "zakoni",
+    "example": "Zakon je jasan.",
+    "exampleDe": "Das Gesetz ist klar."
+  },
+  {
+    "id": 299,
+    "lesson": 6,
+    "de": "der Richter",
+    "hr": "sudac",
+    "gender": "m",
+    "plural": "suci",
+    "example": "Sudac odlučuje.",
+    "exampleDe": "Der Richter entscheidet."
+  },
+  {
+    "id": 300,
+    "lesson": 6,
+    "de": "das Gericht",
+    "hr": "sud",
+    "gender": "m",
+    "plural": "sudovi",
+    "example": "Sud radi.",
+    "exampleDe": "Das Gericht arbeitet."
+  },
+  {
+    "id": 301,
+    "lesson": 7,
+    "de": "der Staat",
+    "hr": "država",
+    "gender": "f",
+    "plural": "države",
+    "example": "Država je stabilna.",
+    "exampleDe": "Der Staat ist stabil."
+  },
+  {
+    "id": 302,
+    "lesson": 7,
+    "de": "die Regierung",
+    "hr": "vlada",
+    "gender": "f",
+    "plural": "vlade",
+    "example": "Vlada odlučuje.",
+    "exampleDe": "Die Regierung entscheidet."
+  },
+  {
+    "id": 303,
+    "lesson": 7,
+    "de": "das Parlament",
+    "hr": "parlament",
+    "gender": "m",
+    "plural": "parlamenti",
+    "example": "Parlament radi.",
+    "exampleDe": "Das Parlament arbeitet."
+  },
+  {
+    "id": 304,
+    "lesson": 7,
+    "de": "der Präsident",
+    "hr": "predsjednik",
+    "gender": "m",
+    "plural": "predsjednici",
+    "example": "Predsjednik govori.",
+    "exampleDe": "Der Präsident spricht."
+  },
+  {
+    "id": 305,
+    "lesson": 7,
+    "de": "die Wahl",
+    "hr": "izbori",
+    "gender": "m",
+    "plural": "izbori",
+    "example": "Izbori su danas.",
+    "exampleDe": "Die Wahl ist heute."
+  },
+  {
+    "id": 306,
+    "lesson": 7,
+    "de": "die Partei",
+    "hr": "stranka",
+    "gender": "f",
+    "plural": "stranke",
+    "example": "Stranka pobjeđuje.",
+    "exampleDe": "Die Partei gewinnt."
+  },
+  {
+    "id": 307,
+    "lesson": 7,
+    "de": "die Demokratie",
+    "hr": "demokracija",
+    "gender": "f",
+    "plural": "demokracije",
+    "example": "Demokracija je važna.",
+    "exampleDe": "Die Demokratie ist wichtig."
+  },
+  {
+    "id": 308,
+    "lesson": 7,
+    "de": "die Freiheit",
+    "hr": "sloboda",
+    "gender": "f",
+    "plural": "slobode",
+    "example": "Sloboda je vrijedna.",
+    "exampleDe": "Die Freiheit ist wertvoll."
+  },
+  {
+    "id": 309,
+    "lesson": 7,
+    "de": "das Recht",
+    "hr": "pravo",
+    "gender": "n",
+    "plural": "prava",
+    "example": "Pravo je jasno.",
+    "exampleDe": "Das Recht ist klar."
+  },
+  {
+    "id": 310,
+    "lesson": 7,
+    "de": "die Pflicht",
+    "hr": "dužnost",
+    "gender": "f",
+    "plural": "dužnosti",
+    "example": "Dužnost je važna.",
+    "exampleDe": "Die Pflicht ist wichtig."
+  },
+  {
+    "id": 311,
+    "lesson": 7,
+    "de": "die Polizei (Institution)",
+    "hr": "policija",
+    "gender": "f",
+    "plural": "policije",
+    "example": "Policija radi.",
+    "exampleDe": "Die Polizei arbeitet."
+  },
+  {
+    "id": 312,
+    "lesson": 7,
+    "de": "das Verbrechen",
+    "hr": "zločin",
+    "gender": "m",
+    "plural": "zločini",
+    "example": "Zločin je ozbiljan.",
+    "exampleDe": "Das Verbrechen ist schwer."
+  },
+  {
+    "id": 313,
+    "lesson": 7,
+    "de": "der Diebstahl",
+    "hr": "krađa",
+    "gender": "f",
+    "plural": "krađe",
+    "example": "Krađa je prijavljena.",
+    "exampleDe": "Der Diebstahl ist gemeldet."
+  },
+  {
+    "id": 314,
+    "lesson": 7,
+    "de": "der Richter (System)",
+    "hr": "sudstvo",
+    "gender": "n",
+    "plural": "—",
+    "example": "Sudstvo radi.",
+    "exampleDe": "Die Justiz arbeitet."
+  },
+  {
+    "id": 315,
+    "lesson": 7,
+    "de": "das Gefängnis",
+    "hr": "zatvor",
+    "gender": "m",
+    "plural": "zatvori",
+    "example": "Zatvor je pun.",
+    "exampleDe": "Das Gefängnis ist voll."
+  },
+  {
+    "id": 316,
+    "lesson": 7,
+    "de": "die Freiheit (Gefühl)",
+    "hr": "oslobođenje",
+    "gender": "n",
+    "plural": "—",
+    "example": "Oslobođenje je važno.",
+    "exampleDe": "Die Befreiung ist wichtig."
+  },
+  {
+    "id": 317,
+    "lesson": 7,
+    "de": "die Gesellschaft",
+    "hr": "društvo",
+    "gender": "n",
+    "plural": "društva",
+    "example": "Društvo se mijenja.",
+    "exampleDe": "Die Gesellschaft verändert sich."
+  },
+  {
+    "id": 318,
+    "lesson": 7,
+    "de": "die Bevölkerung",
+    "hr": "stanovništvo",
+    "gender": "n",
+    "plural": "—",
+    "example": "Stanovništvo raste.",
+    "exampleDe": "Die Bevölkerung wächst."
+  },
+  {
+    "id": 319,
+    "lesson": 7,
+    "de": "der Bürger",
+    "hr": "građanin",
+    "gender": "m",
+    "plural": "građani",
+    "example": "Građanin glasa.",
+    "exampleDe": "Der Bürger stimmt ab."
+  },
+  {
+    "id": 320,
+    "lesson": 7,
+    "de": "die Bürgerin",
+    "hr": "građanka",
+    "gender": "f",
+    "plural": "građanke",
+    "example": "Građanka dolazi.",
+    "exampleDe": "Die Bürgerin kommt."
+  },
+  {
+    "id": 321,
+    "lesson": 7,
+    "de": "die Wirtschaft",
+    "hr": "ekonomija",
+    "gender": "f",
+    "plural": "ekonomije",
+    "example": "Ekonomija raste.",
+    "exampleDe": "Die Wirtschaft wächst."
+  },
+  {
+    "id": 322,
+    "lesson": 7,
+    "de": "die Industrie",
+    "hr": "industrija",
+    "gender": "f",
+    "plural": "industrije",
+    "example": "Industrija radi.",
+    "exampleDe": "Die Industrie arbeitet."
+  },
+  {
+    "id": 323,
+    "lesson": 7,
+    "de": "der Markt",
+    "hr": "tržište",
+    "gender": "n",
+    "plural": "tržišta",
+    "example": "Tržište raste.",
+    "exampleDe": "Der Markt wächst."
+  },
+  {
+    "id": 324,
+    "lesson": 7,
+    "de": "die Inflation",
+    "hr": "inflacija",
+    "gender": "f",
+    "plural": "inflacije",
+    "example": "Inflacija raste.",
+    "exampleDe": "Die Inflation steigt."
+  },
+  {
+    "id": 325,
+    "lesson": 7,
+    "de": "der Preis",
+    "hr": "cijena",
+    "gender": "f",
+    "plural": "cijene",
+    "example": "Cijena je visoka.",
+    "exampleDe": "Der Preis ist hoch."
+  },
+  {
+    "id": 326,
+    "lesson": 7,
+    "de": "das Geld (Finanzen)",
+    "hr": "novac",
+    "gender": "m",
+    "plural": "—",
+    "example": "Novac je važan.",
+    "exampleDe": "Das Geld ist wichtig."
+  },
+  {
+    "id": 327,
+    "lesson": 7,
+    "de": "das Konto",
+    "hr": "račun",
+    "gender": "m",
+    "plural": "računi",
+    "example": "Račun je otvoren.",
+    "exampleDe": "Das Konto ist offen."
+  },
+  {
+    "id": 328,
+    "lesson": 7,
+    "de": "die Überweisung",
+    "hr": "prijenos",
+    "gender": "m",
+    "plural": "prijenosi",
+    "example": "Prijenos je gotov.",
+    "exampleDe": "Die Überweisung ist fertig."
+  },
+  {
+    "id": 329,
+    "lesson": 7,
+    "de": "die Steuer",
+    "hr": "porez",
+    "gender": "m",
+    "plural": "porezi",
+    "example": "Porez je visok.",
+    "exampleDe": "Die Steuer ist hoch."
+  },
+  {
+    "id": 330,
+    "lesson": 7,
+    "de": "die Rechnung (Finanzen)",
+    "hr": "račun",
+    "gender": "m",
+    "plural": "računi",
+    "example": "Račun je plaćen.",
+    "exampleDe": "Die Rechnung ist bezahlt."
+  },
+  {
+    "id": 331,
+    "lesson": 7,
+    "de": "der Kredit",
+    "hr": "kredit",
+    "gender": "m",
+    "plural": "krediti",
+    "example": "Kredit je odobren.",
+    "exampleDe": "Der Kredit ist genehmigt."
+  },
+  {
+    "id": 332,
+    "lesson": 7,
+    "de": "die Schulden",
+    "hr": "dug",
+    "gender": "m",
+    "plural": "dugovi",
+    "example": "Dug je velik.",
+    "exampleDe": "Die Schulden sind hoch."
+  },
+  {
+    "id": 333,
+    "lesson": 7,
+    "de": "der Gewinn",
+    "hr": "dobit",
+    "gender": "f",
+    "plural": "dobiti",
+    "example": "Dobit je velika.",
+    "exampleDe": "Der Gewinn ist groß."
+  },
+  {
+    "id": 334,
+    "lesson": 7,
+    "de": "der Verlust",
+    "hr": "gubitak",
+    "gender": "m",
+    "plural": "gubici",
+    "example": "Gubitak je velik.",
+    "exampleDe": "Der Verlust ist groß."
+  },
+  {
+    "id": 335,
+    "lesson": 7,
+    "de": "die Firma (Betrieb)",
+    "hr": "poduzeće",
+    "gender": "n",
+    "plural": "poduzeća",
+    "example": "Poduzeće raste.",
+    "exampleDe": "Die Firma wächst."
+  },
+  {
+    "id": 336,
+    "lesson": 7,
+    "de": "der Chef",
+    "hr": "šef",
+    "gender": "m",
+    "plural": "šefovi",
+    "example": "Šef dolazi.",
+    "exampleDe": "Der Chef kommt."
+  },
+  {
+    "id": 337,
+    "lesson": 7,
+    "de": "die Chefin",
+    "hr": "šefica",
+    "gender": "f",
+    "plural": "šefice",
+    "example": "Šefica radi.",
+    "exampleDe": "Die Chefin arbeitet."
+  },
+  {
+    "id": 338,
+    "lesson": 7,
+    "de": "der Mitarbeiter",
+    "hr": "zaposlenik",
+    "gender": "m",
+    "plural": "zaposlenici",
+    "example": "Zaposlenik radi.",
+    "exampleDe": "Der Mitarbeiter arbeitet."
+  },
+  {
+    "id": 339,
+    "lesson": 7,
+    "de": "die Mitarbeiterin",
+    "hr": "zaposlenica",
+    "gender": "f",
+    "plural": "zaposlenice",
+    "example": "Zaposlenica piše.",
+    "exampleDe": "Die Mitarbeiterin schreibt."
+  },
+  {
+    "id": 340,
+    "lesson": 7,
+    "de": "die Arbeitszeit",
+    "hr": "radno vrijeme",
+    "gender": "n",
+    "plural": "radna vremena",
+    "example": "Radno vrijeme je dugo.",
+    "exampleDe": "Die Arbeitszeit ist lang."
+  },
+  {
+    "id": 341,
+    "lesson": 7,
+    "de": "der Urlaub",
+    "hr": "odmor",
+    "gender": "m",
+    "plural": "odmori",
+    "example": "Odmor je blizu.",
+    "exampleDe": "Der Urlaub ist nah."
+  },
+  {
+    "id": 342,
+    "lesson": 7,
+    "de": "die Reise",
+    "hr": "putovanje",
+    "gender": "n",
+    "plural": "putovanja",
+    "example": "Putovanje je dugo.",
+    "exampleDe": "Die Reise ist lang."
+  },
+  {
+    "id": 343,
+    "lesson": 7,
+    "de": "das Flugzeug",
+    "hr": "avion",
+    "gender": "m",
+    "plural": "avioni",
+    "example": "Avion leti.",
+    "exampleDe": "Das Flugzeug fliegt."
+  },
+  {
+    "id": 344,
+    "lesson": 7,
+    "de": "der Flughafen",
+    "hr": "aerodrom",
+    "gender": "m",
+    "plural": "aerodromi",
+    "example": "Aerodrom je velik.",
+    "exampleDe": "Der Flughafen ist groß."
+  },
+  {
+    "id": 345,
+    "lesson": 7,
+    "de": "der Pass",
+    "hr": "putovnica",
+    "gender": "f",
+    "plural": "putovnice",
+    "example": "Putovnica je spremna.",
+    "exampleDe": "Der Pass ist bereit."
+  },
+  {
+    "id": 346,
+    "lesson": 7,
+    "de": "das Ticket",
+    "hr": "karta",
+    "gender": "f",
+    "plural": "karte",
+    "example": "Karta je kupljena.",
+    "exampleDe": "Das Ticket ist gekauft."
+  },
+  {
+    "id": 347,
+    "lesson": 7,
+    "de": "die Reservierung",
+    "hr": "rezervacija",
+    "gender": "f",
+    "plural": "rezervacije",
+    "example": "Rezervacija je potvrđena.",
+    "exampleDe": "Die Reservierung ist bestätigt."
+  },
+  {
+    "id": 348,
+    "lesson": 7,
+    "de": "das Hotel",
+    "hr": "hotel",
+    "gender": "m",
+    "plural": "hoteli",
+    "example": "Hotel je skup.",
+    "exampleDe": "Das Hotel ist teuer."
+  },
+  {
+    "id": 349,
+    "lesson": 7,
+    "de": "die Unterkunft",
+    "hr": "smještaj",
+    "gender": "m",
+    "plural": "smještaji",
+    "example": "Smještaj je dobar.",
+    "exampleDe": "Die Unterkunft ist gut."
+  },
+  {
+    "id": 350,
+    "lesson": 7,
+    "de": "der Reiseführer",
+    "hr": "vodič",
+    "gender": "m",
+    "plural": "vodiči",
+    "example": "Vodič pomaže.",
+    "exampleDe": "Der Reiseführer hilft."
+  },
+  {
+    "id": 351,
+    "lesson": 8,
+    "de": "das Restaurant",
+    "hr": "restoran",
+    "gender": "m",
+    "plural": "restorani",
+    "example": "Restoran je pun.",
+    "exampleDe": "Das Restaurant ist voll."
+  },
+  {
+    "id": 352,
+    "lesson": 8,
+    "de": "die Küche (Raum)",
+    "hr": "kuhinja",
+    "gender": "f",
+    "plural": "kuhinje",
+    "example": "Kuhinja je čista.",
+    "exampleDe": "Die Küche ist sauber."
+  },
+  {
+    "id": 353,
+    "lesson": 8,
+    "de": "der Koch",
+    "hr": "kuhar",
+    "gender": "m",
+    "plural": "kuhari",
+    "example": "Kuhar radi brzo.",
+    "exampleDe": "Der Koch arbeitet schnell."
+  },
+  {
+    "id": 354,
+    "lesson": 8,
+    "de": "die Köchin",
+    "hr": "kuharica",
+    "gender": "f",
+    "plural": "kuharice",
+    "example": "Kuharica sprema jelo.",
+    "exampleDe": "Die Köchin kocht."
+  },
+  {
+    "id": 355,
+    "lesson": 8,
+    "de": "das Essen",
+    "hr": "hrana",
+    "gender": "f",
+    "plural": "hrane",
+    "example": "Hrana je ukusna.",
+    "exampleDe": "Das Essen ist lecker."
+  },
+  {
+    "id": 356,
+    "lesson": 8,
+    "de": "das Getränk",
+    "hr": "piće",
+    "gender": "n",
+    "plural": "pića",
+    "example": "Piće je hladno.",
+    "exampleDe": "Das Getränk ist kalt."
+  },
+  {
+    "id": 357,
+    "lesson": 8,
+    "de": "der Kaffee",
+    "hr": "kava",
+    "gender": "f",
+    "plural": "kave",
+    "example": "Kava je topla.",
+    "exampleDe": "Der Kaffee ist heiß."
+  },
+  {
+    "id": 358,
+    "lesson": 8,
+    "de": "der Tee",
+    "hr": "čaj",
+    "gender": "m",
+    "plural": "čajevi",
+    "example": "Čaj je zdrav.",
+    "exampleDe": "Der Tee ist gesund."
+  },
+  {
+    "id": 359,
+    "lesson": 8,
+    "de": "das Wasser",
+    "hr": "voda",
+    "gender": "f",
+    "plural": "vode",
+    "example": "Voda je čista.",
+    "exampleDe": "Das Wasser ist sauber."
+  },
+  {
+    "id": 360,
+    "lesson": 8,
+    "de": "der Saft",
+    "hr": "sok",
+    "gender": "m",
+    "plural": "sokovi",
+    "example": "Sok je sladak.",
+    "exampleDe": "Der Saft ist süß."
+  },
+  {
+    "id": 361,
+    "lesson": 8,
+    "de": "das Brot",
+    "hr": "kruh",
+    "gender": "m",
+    "plural": "kruhovi",
+    "example": "Kruh je svjež.",
+    "exampleDe": "Das Brot ist frisch."
+  },
+  {
+    "id": 362,
+    "lesson": 8,
+    "de": "der Käse",
+    "hr": "sir",
+    "gender": "m",
+    "plural": "sirevi",
+    "example": "Sir je ukusan.",
+    "exampleDe": "Der Käse ist lecker."
+  },
+  {
+    "id": 363,
+    "lesson": 8,
+    "de": "das Fleisch",
+    "hr": "meso",
+    "gender": "n",
+    "plural": "mesa",
+    "example": "Meso je svježe.",
+    "exampleDe": "Das Fleisch ist frisch."
+  },
+  {
+    "id": 364,
+    "lesson": 8,
+    "de": "der Fisch",
+    "hr": "riba",
+    "gender": "f",
+    "plural": "ribe",
+    "example": "Riba je pečena.",
+    "exampleDe": "Der Fisch ist gebraten."
+  },
+  {
+    "id": 365,
+    "lesson": 8,
+    "de": "das Gemüse",
+    "hr": "povrće",
+    "gender": "n",
+    "plural": "povrća",
+    "example": "Povrće je zdravo.",
+    "exampleDe": "Das Gemüse ist gesund."
+  },
+  {
+    "id": 366,
+    "lesson": 8,
+    "de": "das Obst",
+    "hr": "voće",
+    "gender": "n",
+    "plural": "voća",
+    "example": "Voće je slatko.",
+    "exampleDe": "Das Obst ist süß."
+  },
+  {
+    "id": 367,
+    "lesson": 8,
+    "de": "der Apfel",
+    "hr": "jabuka",
+    "gender": "f",
+    "plural": "jabuke",
+    "example": "Jabuka je crvena.",
+    "exampleDe": "Der Apfel ist rot."
+  },
+  {
+    "id": 368,
+    "lesson": 8,
+    "de": "die Banane",
+    "hr": "banana",
+    "gender": "f",
+    "plural": "banane",
+    "example": "Banana je zrela.",
+    "exampleDe": "Die Banane ist reif."
+  },
+  {
+    "id": 369,
+    "lesson": 8,
+    "de": "die Orange",
+    "hr": "naranča",
+    "gender": "f",
+    "plural": "naranče",
+    "example": "Naranča je sočna.",
+    "exampleDe": "Die Orange ist saftig."
+  },
+  {
+    "id": 370,
+    "lesson": 8,
+    "de": "die Erdbeere",
+    "hr": "jagoda",
+    "gender": "f",
+    "plural": "jagode",
+    "example": "Jagoda je slatka.",
+    "exampleDe": "Die Erdbeere ist süß."
+  },
+  {
+    "id": 371,
+    "lesson": 8,
+    "de": "die Traube",
+    "hr": "grožđe",
+    "gender": "n",
+    "plural": "grožđa",
+    "example": "Grožđe je slatko.",
+    "exampleDe": "Die Traube ist süß."
+  },
+  {
+    "id": 372,
+    "lesson": 8,
+    "de": "die Suppe",
+    "hr": "juha",
+    "gender": "f",
+    "plural": "juhe",
+    "example": "Juha je topla.",
+    "exampleDe": "Die Suppe ist warm."
+  },
+  {
+    "id": 373,
+    "lesson": 8,
+    "de": "die Pizza",
+    "hr": "pizza",
+    "gender": "f",
+    "plural": "pizze",
+    "example": "Pizza je ukusna.",
+    "exampleDe": "Die Pizza ist lecker."
+  },
+  {
+    "id": 374,
+    "lesson": 8,
+    "de": "die Pasta",
+    "hr": "tjestenina",
+    "gender": "f",
+    "plural": "tjestenine",
+    "example": "Tjestenina je gotova.",
+    "exampleDe": "Die Pasta ist fertig."
+  },
+  {
+    "id": 375,
+    "lesson": 8,
+    "de": "der Reis",
+    "hr": "riža",
+    "gender": "f",
+    "plural": "riže",
+    "example": "Riža je kuhana.",
+    "exampleDe": "Der Reis ist gekocht."
+  },
+  {
+    "id": 376,
+    "lesson": 8,
+    "de": "die Salz",
+    "hr": "sol",
+    "gender": "f",
+    "plural": "soli",
+    "example": "Sol je bijela.",
+    "exampleDe": "Das Salz ist weiß."
+  },
+  {
+    "id": 377,
+    "lesson": 8,
+    "de": "der Zucker",
+    "hr": "šećer",
+    "gender": "m",
+    "plural": "šećeri",
+    "example": "Šećer je sladak.",
+    "exampleDe": "Der Zucker ist süß."
+  },
+  {
+    "id": 378,
+    "lesson": 8,
+    "de": "das Öl",
+    "hr": "ulje",
+    "gender": "n",
+    "plural": "ulja",
+    "example": "Ulje je masno.",
+    "exampleDe": "Das Öl ist fettig."
+  },
+  {
+    "id": 379,
+    "lesson": 8,
+    "de": "der Pfeffer",
+    "hr": "papar",
+    "gender": "m",
+    "plural": "—",
+    "example": "Papar je ljut.",
+    "exampleDe": "Der Pfeffer ist scharf."
+  },
+  {
+    "id": 380,
+    "lesson": 8,
+    "de": "die Küche (Essen allgemein)",
+    "hr": "kuhinja",
+    "gender": "f",
+    "plural": "kuhinje",
+    "example": "Kuhinja je ukusna.",
+    "exampleDe": "Die Küche ist lecker."
+  },
+  {
+    "id": 381,
+    "lesson": 8,
+    "de": "der Geschmack",
+    "hr": "okus",
+    "gender": "m",
+    "plural": "okusi",
+    "example": "Okus je dobar.",
+    "exampleDe": "Der Geschmack ist gut."
+  },
+  {
+    "id": 382,
+    "lesson": 8,
+    "de": "der Hunger",
+    "hr": "glad",
+    "gender": "f",
+    "plural": "gladi",
+    "example": "Glad je velika.",
+    "exampleDe": "Der Hunger ist groß."
+  },
+  {
+    "id": 383,
+    "lesson": 8,
+    "de": "der Durst",
+    "hr": "žeđ",
+    "gender": "f",
+    "plural": "žeđi",
+    "example": "Žeđ je jaka.",
+    "exampleDe": "Der Durst ist stark."
+  },
+  {
+    "id": 384,
+    "lesson": 8,
+    "de": "das Frühstück",
+    "hr": "doručak",
+    "gender": "m",
+    "plural": "doručci",
+    "example": "Doručak je gotov.",
+    "exampleDe": "Das Frühstück ist fertig."
+  },
+  {
+    "id": 385,
+    "lesson": 8,
+    "de": "das Mittagessen",
+    "hr": "ručak",
+    "gender": "m",
+    "plural": "ručkovi",
+    "example": "Ručak je ukusan.",
+    "exampleDe": "Das Mittagessen ist lecker."
+  },
+  {
+    "id": 386,
+    "lesson": 8,
+    "de": "das Abendessen",
+    "hr": "večera",
+    "gender": "f",
+    "plural": "večere",
+    "example": "Večera je spremna.",
+    "exampleDe": "Das Abendessen ist fertig."
+  },
+  {
+    "id": 387,
+    "lesson": 8,
+    "de": "der Tisch (Restaurant)",
+    "hr": "stol",
+    "gender": "m",
+    "plural": "stolovi",
+    "example": "Stol je rezerviran.",
+    "exampleDe": "Der Tisch ist reserviert."
+  },
+  {
+    "id": 388,
+    "lesson": 8,
+    "de": "die Speisekarte",
+    "hr": "jelovnik",
+    "gender": "m",
+    "plural": "jelovnici",
+    "example": "Jelovnik je velik.",
+    "exampleDe": "Die Speisekarte ist groß."
+  },
+  {
+    "id": 389,
+    "lesson": 8,
+    "de": "die Rechnung (Restaurant)",
+    "hr": "račun",
+    "gender": "m",
+    "plural": "računi",
+    "example": "Račun je stigao.",
+    "exampleDe": "Die Rechnung ist gekommen."
+  },
+  {
+    "id": 390,
+    "lesson": 8,
+    "de": "das Trinkgeld",
+    "hr": "napojnica",
+    "gender": "f",
+    "plural": "napojnice",
+    "example": "Napojnica je mala.",
+    "exampleDe": "Das Trinkgeld ist klein."
+  },
+  {
+    "id": 391,
+    "lesson": 8,
+    "de": "der Kellner",
+    "hr": "konobar",
+    "gender": "m",
+    "plural": "konobari",
+    "example": "Konobar dolazi.",
+    "exampleDe": "Der Kellner kommt."
+  },
+  {
+    "id": 392,
+    "lesson": 8,
+    "de": "die Kellnerin",
+    "hr": "konobarica",
+    "gender": "f",
+    "plural": "konobarice",
+    "example": "Konobarica radi.",
+    "exampleDe": "Die Kellnerin arbeitet."
+  },
+  {
+    "id": 393,
+    "lesson": 8,
+    "de": "die Reservierung (Tisch)",
+    "hr": "rezervacija",
+    "gender": "f",
+    "plural": "rezervacije",
+    "example": "Rezervacija je potvrđena.",
+    "exampleDe": "Die Reservierung ist bestätigt."
+  },
+  {
+    "id": 394,
+    "lesson": 8,
+    "de": "die Bestellung (Restaurant)",
+    "hr": "narudžba",
+    "gender": "f",
+    "plural": "narudžbe",
+    "example": "Narudžba dolazi.",
+    "exampleDe": "Die Bestellung kommt."
+  },
+  {
+    "id": 395,
+    "lesson": 8,
+    "de": "der Appetit",
+    "hr": "apetit",
+    "gender": "m",
+    "plural": "apetiti",
+    "example": "Apetit je velik.",
+    "exampleDe": "Der Appetit ist groß."
+  },
+  {
+    "id": 396,
+    "lesson": 8,
+    "de": "die Diät",
+    "hr": "dijeta",
+    "gender": "f",
+    "plural": "dijete",
+    "example": "Dijeta je teška.",
+    "exampleDe": "Die Diät ist schwer."
+  },
+  {
+    "id": 397,
+    "lesson": 8,
+    "de": "die Gesundheit",
+    "hr": "zdravlje",
+    "gender": "n",
+    "plural": "zdravlja",
+    "example": "Zdravlje je važno.",
+    "exampleDe": "Die Gesundheit ist wichtig."
+  },
+  {
+    "id": 398,
+    "lesson": 8,
+    "de": "der Körper",
+    "hr": "tijelo",
+    "gender": "n",
+    "plural": "tijela",
+    "example": "Tijelo je zdravo.",
+    "exampleDe": "Der Körper ist gesund."
+  },
+  {
+    "id": 399,
+    "lesson": 8,
+    "de": "die Energie",
+    "hr": "energija",
+    "gender": "f",
+    "plural": "energije",
+    "example": "Energija je visoka.",
+    "exampleDe": "Die Energie ist hoch."
+  },
+  {
+    "id": 400,
+    "lesson": 8,
+    "de": "der Sport",
+    "hr": "sport",
+    "gender": "m",
+    "plural": "sportovi",
+    "example": "Sport je važan.",
+    "exampleDe": "Der Sport ist wichtig."
+  },
+  {
+    "id": 401,
+    "lesson": 9,
+    "de": "das Training",
+    "hr": "trening",
+    "gender": "m",
+    "plural": "treninzi",
+    "example": "Trening je težak.",
+    "exampleDe": "Das Training ist hart."
+  },
+  {
+    "id": 402,
+    "lesson": 9,
+    "de": "der Trainer",
+    "hr": "trener",
+    "gender": "m",
+    "plural": "treneri",
+    "example": "Trener govori.",
+    "exampleDe": "Der Trainer spricht."
+  },
+  {
+    "id": 403,
+    "lesson": 9,
+    "de": "die Mannschaft",
+    "hr": "momčad",
+    "gender": "f",
+    "plural": "momčadi",
+    "example": "Momčad pobjeđuje.",
+    "exampleDe": "Die Mannschaft gewinnt."
+  },
+  {
+    "id": 404,
+    "lesson": 9,
+    "de": "das Spiel",
+    "hr": "utakmica",
+    "gender": "f",
+    "plural": "utakmice",
+    "example": "Utakmica je završena.",
+    "exampleDe": "Das Spiel ist vorbei."
+  },
+  {
+    "id": 405,
+    "lesson": 9,
+    "de": "das Tor",
+    "hr": "gol",
+    "gender": "m",
+    "plural": "golovi",
+    "example": "Gol je postignut.",
+    "exampleDe": "Das Tor ist gefallen."
+  },
+  {
+    "id": 406,
+    "lesson": 9,
+    "de": "der Schiedsrichter",
+    "hr": "sudac",
+    "gender": "m",
+    "plural": "suci",
+    "example": "Sudac zviždi.",
+    "exampleDe": "Der Schiedsrichter pfeift."
+  },
+  {
+    "id": 407,
+    "lesson": 9,
+    "de": "die Liga",
+    "hr": "liga",
+    "gender": "f",
+    "plural": "lige",
+    "example": "Liga je jaka.",
+    "exampleDe": "Die Liga ist stark."
+  },
+  {
+    "id": 408,
+    "lesson": 9,
+    "de": "der Pokal",
+    "hr": "pehar",
+    "gender": "m",
+    "plural": "pehari",
+    "example": "Pehar je osvojen.",
+    "exampleDe": "Der Pokal ist gewonnen."
+  },
+  {
+    "id": 409,
+    "lesson": 9,
+    "de": "die Medaille",
+    "hr": "medalja",
+    "gender": "f",
+    "plural": "medalje",
+    "example": "Medalja je zlatna.",
+    "exampleDe": "Die Medaille ist golden."
+  },
+  {
+    "id": 410,
+    "lesson": 9,
+    "de": "der Rekord",
+    "hr": "rekord",
+    "gender": "m",
+    "plural": "rekordi",
+    "example": "Rekord je srušen.",
+    "exampleDe": "Der Rekord ist gebrochen."
+  },
+  {
+    "id": 411,
+    "lesson": 9,
+    "de": "die Musik (Szene)",
+    "hr": "glazba",
+    "gender": "f",
+    "plural": "glazbe",
+    "example": "Glazba svira.",
+    "exampleDe": "Die Musik spielt."
+  },
+  {
+    "id": 412,
+    "lesson": 9,
+    "de": "der Sänger",
+    "hr": "pjevač",
+    "gender": "m",
+    "plural": "pjevači",
+    "example": "Pjevač pjeva.",
+    "exampleDe": "Der Sänger singt."
+  },
+  {
+    "id": 413,
+    "lesson": 9,
+    "de": "die Sängerin",
+    "hr": "pjevačica",
+    "gender": "f",
+    "plural": "pjevačice",
+    "example": "Pjevačica nastupa.",
+    "exampleDe": "Die Sängerin tritt auf."
+  },
+  {
+    "id": 414,
+    "lesson": 9,
+    "de": "die Band",
+    "hr": "bend",
+    "gender": "m",
+    "plural": "bendovi",
+    "example": "Bend svira.",
+    "exampleDe": "Die Band spielt."
+  },
+  {
+    "id": 415,
+    "lesson": 9,
+    "de": "das Konzert",
+    "hr": "koncert",
+    "gender": "m",
+    "plural": "koncerti",
+    "example": "Koncert je večeras.",
+    "exampleDe": "Das Konzert ist heute Abend."
+  },
+  {
+    "id": 416,
+    "lesson": 9,
+    "de": "die Bühne",
+    "hr": "pozornica",
+    "gender": "f",
+    "plural": "pozornice",
+    "example": "Pozornica je velika.",
+    "exampleDe": "Die Bühne ist groß."
+  },
+  {
+    "id": 417,
+    "lesson": 9,
+    "de": "der Applaus",
+    "hr": "aplauz",
+    "gender": "m",
+    "plural": "aplauzi",
+    "example": "Aplauz je jak.",
+    "exampleDe": "Der Applaus ist laut."
+  },
+  {
+    "id": 418,
+    "lesson": 9,
+    "de": "das Publikum",
+    "hr": "publika",
+    "gender": "n",
+    "plural": "publike",
+    "example": "Publika sluša.",
+    "exampleDe": "Das Publikum hört zu."
+  },
+  {
+    "id": 419,
+    "lesson": 9,
+    "de": "der Film (Industrie)",
+    "hr": "film",
+    "gender": "m",
+    "plural": "filmovi",
+    "example": "Film je poznat.",
+    "exampleDe": "Der Film ist bekannt."
+  },
+  {
+    "id": 420,
+    "lesson": 9,
+    "de": "der Schauspieler",
+    "hr": "glumac",
+    "gender": "m",
+    "plural": "glumci",
+    "example": "Glumac glumi.",
+    "exampleDe": "Der Schauspieler spielt."
+  },
+  {
+    "id": 421,
+    "lesson": 9,
+    "de": "die Schauspielerin",
+    "hr": "glumica",
+    "gender": "f",
+    "plural": "glumice",
+    "example": "Glumica radi.",
+    "exampleDe": "Die Schauspielerin arbeitet."
+  },
+  {
+    "id": 422,
+    "lesson": 9,
+    "de": "die Rolle",
+    "hr": "uloga",
+    "gender": "f",
+    "plural": "uloge",
+    "example": "Uloga je važna.",
+    "exampleDe": "Die Rolle ist wichtig."
+  },
+  {
+    "id": 423,
+    "lesson": 9,
+    "de": "das Theater",
+    "hr": "kazalište",
+    "gender": "n",
+    "plural": "kazališta",
+    "example": "Kazalište je staro.",
+    "exampleDe": "Das Theater ist alt."
+  },
+  {
+    "id": 424,
+    "lesson": 9,
+    "de": "das Museum",
+    "hr": "muzej",
+    "gender": "m",
+    "plural": "muzeji",
+    "example": "Muzej je zanimljiv.",
+    "exampleDe": "Das Museum ist interessant."
+  },
+  {
+    "id": 425,
+    "lesson": 9,
+    "de": "die Ausstellung",
+    "hr": "izložba",
+    "gender": "f",
+    "plural": "izložbe",
+    "example": "Izložba je otvorena.",
+    "exampleDe": "Die Ausstellung ist offen."
+  },
+  {
+    "id": 426,
+    "lesson": 9,
+    "de": "das Bild (Kunst)",
+    "hr": "slika",
+    "gender": "f",
+    "plural": "slike",
+    "example": "Slika je stara.",
+    "exampleDe": "Das Bild ist alt."
+  },
+  {
+    "id": 427,
+    "lesson": 9,
+    "de": "der Künstler",
+    "hr": "umjetnik",
+    "gender": "m",
+    "plural": "umjetnici",
+    "example": "Umjetnik slika.",
+    "exampleDe": "Der Künstler malt."
+  },
+  {
+    "id": 428,
+    "lesson": 9,
+    "de": "die Künstlerin",
+    "hr": "umjetnica",
+    "gender": "f",
+    "plural": "umjetnice",
+    "example": "Umjetnica stvara.",
+    "exampleDe": "Die Künstlerin schafft."
+  },
+  {
+    "id": 429,
+    "lesson": 9,
+    "de": "die Ausstellung (Kunst)",
+    "hr": "izložba",
+    "gender": "f",
+    "plural": "izložbe",
+    "example": "Izložba traje.",
+    "exampleDe": "Die Ausstellung dauert."
+  },
+  {
+    "id": 430,
+    "lesson": 9,
+    "de": "die Fotografie",
+    "hr": "fotografija",
+    "gender": "f",
+    "plural": "fotografije",
+    "example": "Fotografija je jasna.",
+    "exampleDe": "Die Fotografie ist klar."
+  },
+  {
+    "id": 431,
+    "lesson": 9,
+    "de": "die Kamera",
+    "hr": "kamera",
+    "gender": "f",
+    "plural": "kamere",
+    "example": "Kamera snima.",
+    "exampleDe": "Die Kamera filmt."
+  },
+  {
+    "id": 432,
+    "lesson": 9,
+    "de": "das Video (Medien)",
+    "hr": "video",
+    "gender": "m",
+    "plural": "videi",
+    "example": "Video je viralan.",
+    "exampleDe": "Das Video ist viral."
+  },
+  {
+    "id": 433,
+    "lesson": 9,
+    "de": "das Internet",
+    "hr": "internet",
+    "gender": "m",
+    "plural": "—",
+    "example": "Internet radi.",
+    "exampleDe": "Das Internet funktioniert."
+  },
+  {
+    "id": 434,
+    "lesson": 9,
+    "de": "die Website",
+    "hr": "web stranica",
+    "gender": "f",
+    "plural": "web stranice",
+    "example": "Web stranica je nova.",
+    "exampleDe": "Die Website ist neu."
+  },
+  {
+    "id": 435,
+    "lesson": 9,
+    "de": "die App",
+    "hr": "aplikacija",
+    "gender": "f",
+    "plural": "aplikacije",
+    "example": "Aplikacija radi.",
+    "exampleDe": "Die App funktioniert."
+  },
+  {
+    "id": 436,
+    "lesson": 9,
+    "de": "das Passwort",
+    "hr": "lozinka",
+    "gender": "f",
+    "plural": "lozinke",
+    "example": "Lozinka je sigurna.",
+    "exampleDe": "Das Passwort ist sicher."
+  },
+  {
+    "id": 437,
+    "lesson": 9,
+    "de": "der Computer (System)",
+    "hr": "računalo",
+    "gender": "n",
+    "plural": "računala",
+    "example": "Računalo radi.",
+    "exampleDe": "Der Computer funktioniert."
+  },
+  {
+    "id": 438,
+    "lesson": 9,
+    "de": "die Software",
+    "hr": "softver",
+    "gender": "m",
+    "plural": "softveri",
+    "example": "Softver je brz.",
+    "exampleDe": "Die Software ist schnell."
+  },
+  {
+    "id": 439,
+    "lesson": 9,
+    "de": "die Datei",
+    "hr": "datoteka",
+    "gender": "f",
+    "plural": "datoteke",
+    "example": "Datoteka je spremljena.",
+    "exampleDe": "Die Datei ist gespeichert."
+  },
+  {
+    "id": 440,
+    "lesson": 9,
+    "de": "der Ordner",
+    "hr": "mapa",
+    "gender": "f",
+    "plural": "mape",
+    "example": "Mapa je prazna.",
+    "exampleDe": "Der Ordner ist leer."
+  },
+  {
+    "id": 441,
+    "lesson": 9,
+    "de": "die E-Mail",
+    "hr": "e-mail",
+    "gender": "m",
+    "plural": "e-mailovi",
+    "example": "E-mail je poslan.",
+    "exampleDe": "Die E-Mail ist gesendet."
+  },
+  {
+    "id": 442,
+    "lesson": 9,
+    "de": "der Anhang",
+    "hr": "privitak",
+    "gender": "m",
+    "plural": "privitci",
+    "example": "Privitak je velik.",
+    "exampleDe": "Der Anhang ist groß."
+  },
+  {
+    "id": 443,
+    "lesson": 9,
+    "de": "die Nachricht (digital)",
+    "hr": "poruka",
+    "gender": "f",
+    "plural": "poruke",
+    "example": "Poruka je nova.",
+    "exampleDe": "Die Nachricht ist neu."
+  },
+  {
+    "id": 444,
+    "lesson": 9,
+    "de": "das Netzwerk",
+    "hr": "mreža",
+    "gender": "f",
+    "plural": "mreže",
+    "example": "Mreža radi.",
+    "exampleDe": "Das Netzwerk funktioniert."
+  },
+  {
+    "id": 445,
+    "lesson": 9,
+    "de": "der Server",
+    "hr": "server",
+    "gender": "m",
+    "plural": "serveri",
+    "example": "Server je brz.",
+    "exampleDe": "Der Server ist schnell."
+  },
+  {
+    "id": 446,
+    "lesson": 9,
+    "de": "die Cloud",
+    "hr": "oblak",
+    "gender": "m",
+    "plural": "oblaci",
+    "example": "Oblak sprema podatke.",
+    "exampleDe": "Die Cloud speichert Daten."
+  },
+  {
+    "id": 447,
+    "lesson": 9,
+    "de": "die Sicherheit",
+    "hr": "sigurnost",
+    "gender": "f",
+    "plural": "sigurnosti",
+    "example": "Sigurnost je važna.",
+    "exampleDe": "Die Sicherheit ist wichtig."
+  },
+  {
+    "id": 448,
+    "lesson": 9,
+    "de": "der Virus",
+    "hr": "virus",
+    "gender": "m",
+    "plural": "virusi",
+    "example": "Virus je opasan.",
+    "exampleDe": "Der Virus ist gefährlich."
+  },
+  {
+    "id": 449,
+    "lesson": 9,
+    "de": "der Hacker",
+    "hr": "haker",
+    "gender": "m",
+    "plural": "hakeri",
+    "example": "Haker napada.",
+    "exampleDe": "Der Hacker greift an."
+  },
+  {
+    "id": 450,
+    "lesson": 9,
+    "de": "die Technologie",
+    "hr": "tehnologija",
+    "gender": "f",
+    "plural": "tehnologije",
+    "example": "Tehnologija napreduje.",
+    "exampleDe": "Die Technologie entwickelt sich."
+  },
+  {
+    "id": 451,
+    "lesson": 10,
+    "de": "die Schule",
+    "hr": "škola",
+    "gender": "f",
+    "plural": "škole",
+    "example": "Škola je velika.",
+    "exampleDe": "Die Schule ist groß."
+  },
+  {
+    "id": 452,
+    "lesson": 10,
+    "de": "der Schüler",
+    "hr": "učenik",
+    "gender": "m",
+    "plural": "učenici",
+    "example": "Učenik uči.",
+    "exampleDe": "Der Schüler lernt."
+  },
+  {
+    "id": 453,
+    "lesson": 10,
+    "de": "die Schülerin",
+    "hr": "učenica",
+    "gender": "f",
+    "plural": "učenice",
+    "example": "Učenica piše.",
+    "exampleDe": "Die Schülerin schreibt."
+  },
+  {
+    "id": 454,
+    "lesson": 10,
+    "de": "der Lehrer",
+    "hr": "učitelj",
+    "gender": "m",
+    "plural": "učitelji",
+    "example": "Učitelj predaje.",
+    "exampleDe": "Der Lehrer unterrichtet."
+  },
+  {
+    "id": 455,
+    "lesson": 10,
+    "de": "die Lehrerin",
+    "hr": "učiteljica",
+    "gender": "f",
+    "plural": "učiteljice",
+    "example": "Učiteljica objašnjava.",
+    "exampleDe": "Die Lehrerin erklärt."
+  },
+  {
+    "id": 456,
+    "lesson": 10,
+    "de": "das Buch",
+    "hr": "knjiga",
+    "gender": "f",
+    "plural": "knjige",
+    "example": "Knjiga je zanimljiva.",
+    "exampleDe": "Das Buch ist interessant."
+  },
+  {
+    "id": 457,
+    "lesson": 10,
+    "de": "das Heft",
+    "hr": "bilježnica",
+    "gender": "f",
+    "plural": "bilježnice",
+    "example": "Bilježnica je nova.",
+    "exampleDe": "Das Heft ist neu."
+  },
+  {
+    "id": 458,
+    "lesson": 10,
+    "de": "der Stift",
+    "hr": "olovka",
+    "gender": "f",
+    "plural": "olovke",
+    "example": "Olovka piše.",
+    "exampleDe": "Der Stift schreibt."
+  },
+  {
+    "id": 459,
+    "lesson": 10,
+    "de": "der Bleistift",
+    "hr": "olovka (grafitna)",
+    "gender": "f",
+    "plural": "olovke",
+    "example": "Olovka crta.",
+    "exampleDe": "Der Bleistift zeichnet."
+  },
+  {
+    "id": 460,
+    "lesson": 10,
+    "de": "der Radiergummi",
+    "hr": "gumica",
+    "gender": "f",
+    "plural": "gumice",
+    "example": "Gumica briše.",
+    "exampleDe": "Der Radiergummi löscht."
+  },
+  {
+    "id": 461,
+    "lesson": 10,
+    "de": "das Klassenzimmer",
+    "hr": "učionica",
+    "gender": "f",
+    "plural": "učionice",
+    "example": "Učionica je tiha.",
+    "exampleDe": "Das Klassenzimmer ist ruhig."
+  },
+  {
+    "id": 462,
+    "lesson": 10,
+    "de": "die Prüfung",
+    "hr": "ispit",
+    "gender": "m",
+    "plural": "ispiti",
+    "example": "Ispit je težak.",
+    "exampleDe": "Die Prüfung ist schwer."
+  },
+  {
+    "id": 463,
+    "lesson": 10,
+    "de": "die Note",
+    "hr": "ocjena",
+    "gender": "f",
+    "plural": "ocjene",
+    "example": "Ocjena je dobra.",
+    "exampleDe": "Die Note ist gut."
+  },
+  {
+    "id": 464,
+    "lesson": 10,
+    "de": "das Wissen",
+    "hr": "znanje",
+    "gender": "n",
+    "plural": "znanja",
+    "example": "Znanje je važno.",
+    "exampleDe": "Das Wissen ist wichtig."
+  },
+  {
+    "id": 465,
+    "lesson": 10,
+    "de": "die Sprache",
+    "hr": "jezik",
+    "gender": "m",
+    "plural": "jezici",
+    "example": "Jezik je težak.",
+    "exampleDe": "Die Sprache ist schwer."
+  },
+  {
+    "id": 466,
+    "lesson": 10,
+    "de": "das Wort",
+    "hr": "riječ",
+    "gender": "f",
+    "plural": "riječi",
+    "example": "Riječ je nova.",
+    "exampleDe": "Das Wort ist neu."
+  },
+  {
+    "id": 467,
+    "lesson": 10,
+    "de": "der Satz",
+    "hr": "rečenica",
+    "gender": "f",
+    "plural": "rečenice",
+    "example": "Rečenica je duga.",
+    "exampleDe": "Der Satz ist lang."
+  },
+  {
+    "id": 468,
+    "lesson": 10,
+    "de": "die Grammatik",
+    "hr": "gramatika",
+    "gender": "f",
+    "plural": "gramatike",
+    "example": "Gramatika je teška.",
+    "exampleDe": "Die Grammatik ist schwer."
+  },
+  {
+    "id": 469,
+    "lesson": 10,
+    "de": "die Vokabel",
+    "hr": "riječ (rječnik)",
+    "gender": "f",
+    "plural": "riječi",
+    "example": "Riječ se uči.",
+    "exampleDe": "Die Vokabel wird gelernt."
+  },
+  {
+    "id": 470,
+    "lesson": 10,
+    "de": "die Aufgabe",
+    "hr": "zadatak",
+    "gender": "m",
+    "plural": "zadaci",
+    "example": "Zadatak je gotov.",
+    "exampleDe": "Die Aufgabe ist fertig."
+  },
+  {
+    "id": 471,
+    "lesson": 10,
+    "de": "das Beispiel",
+    "hr": "primjer",
+    "gender": "m",
+    "plural": "primjeri",
+    "example": "Primjer je jasan.",
+    "exampleDe": "Das Beispiel ist klar."
+  },
+  {
+    "id": 472,
+    "lesson": 10,
+    "de": "die Erklärung",
+    "hr": "objašnjenje",
+    "gender": "n",
+    "plural": "objašnjenja",
+    "example": "Objašnjenje pomaže.",
+    "exampleDe": "Die Erklärung hilft."
+  },
+  {
+    "id": 473,
+    "lesson": 10,
+    "de": "die Frage",
+    "hr": "pitanje",
+    "gender": "n",
+    "plural": "pitanja",
+    "example": "Pitanje je teško.",
+    "exampleDe": "Die Frage ist schwer."
+  },
+  {
+    "id": 474,
+    "lesson": 10,
+    "de": "die Antwort",
+    "hr": "odgovor",
+    "gender": "m",
+    "plural": "odgovori",
+    "example": "Odgovor je točan.",
+    "exampleDe": "Die Antwort ist richtig."
+  },
+  {
+    "id": 475,
+    "lesson": 10,
+    "de": "die Meinung",
+    "hr": "mišljenje",
+    "gender": "n",
+    "plural": "mišljenja",
+    "example": "Mišljenje je važno.",
+    "exampleDe": "Die Meinung ist wichtig."
+  },
+  {
+    "id": 476,
+    "lesson": 10,
+    "de": "die Diskussion",
+    "hr": "rasprava",
+    "gender": "f",
+    "plural": "rasprave",
+    "example": "Rasprava traje.",
+    "exampleDe": "Die Diskussion dauert."
+  },
+  {
+    "id": 477,
+    "lesson": 10,
+    "de": "die Idee",
+    "hr": "ideja",
+    "gender": "f",
+    "plural": "ideje",
+    "example": "Ideja je dobra.",
+    "exampleDe": "Die Idee ist gut."
+  },
+  {
+    "id": 478,
+    "lesson": 10,
+    "de": "der Plan",
+    "hr": "plan",
+    "gender": "m",
+    "plural": "planovi",
+    "example": "Plan je spreman.",
+    "exampleDe": "Der Plan ist fertig."
+  },
+  {
+    "id": 479,
+    "lesson": 10,
+    "de": "das Ziel",
+    "hr": "cilj",
+    "gender": "m",
+    "plural": "ciljevi",
+    "example": "Cilj je jasan.",
+    "exampleDe": "Das Ziel ist klar."
+  },
+  {
+    "id": 480,
+    "lesson": 10,
+    "de": "der Erfolg",
+    "hr": "uspjeh",
+    "gender": "m",
+    "plural": "uspjesi",
+    "example": "Uspjeh je velik.",
+    "exampleDe": "Der Erfolg ist groß."
+  },
+  {
+    "id": 481,
+    "lesson": 10,
+    "de": "der Fehler",
+    "hr": "pogreška",
+    "gender": "f",
+    "plural": "pogreške",
+    "example": "Pogreška je mala.",
+    "exampleDe": "Der Fehler ist klein."
+  },
+  {
+    "id": 482,
+    "lesson": 10,
+    "de": "die Lösung",
+    "hr": "rješenje",
+    "gender": "n",
+    "plural": "rješenja",
+    "example": "Rješenje je jasno.",
+    "exampleDe": "Die Lösung ist klar."
+  },
+  {
+    "id": 483,
+    "lesson": 10,
+    "de": "die Zukunft",
+    "hr": "budućnost",
+    "gender": "f",
+    "plural": "budućnosti",
+    "example": "Budućnost je neizvjesna.",
+    "exampleDe": "Die Zukunft ist ungewiss."
+  },
+  {
+    "id": 484,
+    "lesson": 10,
+    "de": "die Vergangenheit",
+    "hr": "prošlost",
+    "gender": "f",
+    "plural": "prošlosti",
+    "example": "Prošlost je važna.",
+    "exampleDe": "Die Vergangenheit ist wichtig."
+  },
+  {
+    "id": 485,
+    "lesson": 10,
+    "de": "die Gegenwart",
+    "hr": "sadašnjost",
+    "gender": "f",
+    "plural": "sadašnjosti",
+    "example": "Sadašnjost je sada.",
+    "exampleDe": "Die Gegenwart ist jetzt."
+  },
+  {
+    "id": 486,
+    "lesson": 10,
+    "de": "die Zeit",
+    "hr": "vrijeme",
+    "gender": "n",
+    "plural": "vremena",
+    "example": "Vrijeme leti.",
+    "exampleDe": "Die Zeit vergeht."
+  },
+  {
+    "id": 487,
+    "lesson": 10,
+    "de": "der Moment",
+    "hr": "trenutak",
+    "gender": "m",
+    "plural": "trenuci",
+    "example": "Trenutak je poseban.",
+    "exampleDe": "Der Moment ist besonders."
+  },
+  {
+    "id": 488,
+    "lesson": 10,
+    "de": "die Erinnerung",
+    "hr": "uspomena",
+    "gender": "f",
+    "plural": "uspomene",
+    "example": "Uspomena je lijepa.",
+    "exampleDe": "Die Erinnerung ist schön."
+  },
+  {
+    "id": 489,
+    "lesson": 10,
+    "de": "das Gefühl",
+    "hr": "osjećaj",
+    "gender": "m",
+    "plural": "osjećaji",
+    "example": "Osjećaj je jak.",
+    "exampleDe": "Das Gefühl ist stark."
+  },
+  {
+    "id": 490,
+    "lesson": 10,
+    "de": "die Emotion",
+    "hr": "emocija",
+    "gender": "f",
+    "plural": "emocije",
+    "example": "Emocija je jaka.",
+    "exampleDe": "Die Emotion ist stark."
+  },
+  {
+    "id": 491,
+    "lesson": 10,
+    "de": "die Liebe",
+    "hr": "ljubav",
+    "gender": "f",
+    "plural": "ljubavi",
+    "example": "Ljubav je važna.",
+    "exampleDe": "Die Liebe ist wichtig."
+  },
+  {
+    "id": 492,
+    "lesson": 10,
+    "de": "die Freundschaft",
+    "hr": "prijateljstvo",
+    "gender": "n",
+    "plural": "prijateljstva",
+    "example": "Prijateljstvo traje.",
+    "exampleDe": "Die Freundschaft dauert."
+  },
+  {
+    "id": 493,
+    "lesson": 10,
+    "de": "der Hass",
+    "hr": "mržnja",
+    "gender": "f",
+    "plural": "mržnje",
+    "example": "Mržnja je loša.",
+    "exampleDe": "Der Hass ist schlecht."
+  },
+  {
+    "id": 494,
+    "lesson": 10,
+    "de": "die Angst",
+    "hr": "strah",
+    "gender": "m",
+    "plural": "strahovi",
+    "example": "Strah nestaje.",
+    "exampleDe": "Die Angst verschwindet."
+  },
+  {
+    "id": 495,
+    "lesson": 10,
+    "de": "der Mut",
+    "hr": "hrabrost",
+    "gender": "f",
+    "plural": "hrabrosti",
+    "example": "Hrabrost je važna.",
+    "exampleDe": "Der Mut ist wichtig."
+  },
+  {
+    "id": 496,
+    "lesson": 10,
+    "de": "die Hoffnung",
+    "hr": "nada",
+    "gender": "f",
+    "plural": "nade",
+    "example": "Nada postoji.",
+    "exampleDe": "Die Hoffnung existiert."
+  },
+  {
+    "id": 497,
+    "lesson": 10,
+    "de": "der Traum",
+    "hr": "san",
+    "gender": "m",
+    "plural": "snovi",
+    "example": "San je lijep.",
+    "exampleDe": "Der Traum ist schön."
+  },
+  {
+    "id": 498,
+    "lesson": 10,
+    "de": "die Realität",
+    "hr": "stvarnost",
+    "gender": "f",
+    "plural": "stvarnosti",
+    "example": "Stvarnost je drugačija.",
+    "exampleDe": "Die Realität ist anders."
+  },
+  {
+    "id": 499,
+    "lesson": 10,
+    "de": "das Leben",
+    "hr": "život",
+    "gender": "m",
+    "plural": "životi",
+    "example": "Život je lijep.",
+    "exampleDe": "Das Leben ist schön."
+  },
+  {
+    "id": 500,
+    "lesson": 10,
+    "de": "der Tod",
+    "hr": "smrt",
+    "gender": "f",
+    "plural": "smrti",
+    "example": "Smrt je dio života.",
+    "exampleDe": "Der Tod ist Teil des Lebens."
+  }
+]

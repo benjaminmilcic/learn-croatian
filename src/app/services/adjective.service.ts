@@ -2,53 +2,33 @@ import { computed, inject, Injectable, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { HttpClient } from '@angular/common/http';
 import { map, Observable, shareReplay } from 'rxjs';
-import { WordItem } from './word.types';
+import { Adjective, WordItem } from './word.types';
 
-export interface Conjugation {
-  ja: string;
-  ti: string;
-  on: string;
-  mi: string;
-  vi: string;
-  oni: string;
-}
-
-export interface Verb extends WordItem {
-  conjugation: Conjugation;
-  pastConjugation: Conjugation;
-  futureConjugation: Conjugation;
-}
-
-const STORAGE_KEY = 'learn-verbs:known';
-const LESSON_KEY = 'learn-verbs:lessons';
+const STORAGE_KEY = 'learn-verbs:adjectives:known';
+const LESSON_KEY = 'learn-verbs:adjectives:lessons';
 
 @Injectable({ providedIn: 'root' })
-export class VerbService {
+export class AdjectiveService {
   private http = inject(HttpClient);
-  private readonly verbs$ = this.http
-    .get<Verb[]>('assets/verbs.json')
+  private readonly adjectives$ = this.http
+    .get<Adjective[]>('assets/adjectives.json')
     .pipe(shareReplay(1));
 
   readonly availableLessons = toSignal(
-    this.verbs$.pipe(
-      map(verbs => [...new Set(verbs.map(v => v.lesson))].sort((a, b) => a - b))
+    this.adjectives$.pipe(
+      map(items => [...new Set(items.map(v => v.lesson))].sort((a, b) => a - b))
     ),
     { initialValue: [] as number[] }
   );
 
   private readonly knownSet = signal<Set<number>>(this.loadKnown());
-  readonly knownIds = computed(() => this.knownSet());
   readonly knownCount = computed(() => this.knownSet().size);
 
   private readonly activeLessons = signal<Set<number>>(this.loadLessons());
   readonly lessonIds = computed(() => this.activeLessons());
 
   getItems(): Observable<WordItem[]> {
-    return this.verbs$;
-  }
-
-  getVerbs(): Observable<Verb[]> {
-    return this.verbs$;
+    return this.adjectives$;
   }
 
   isKnown(id: number): boolean {
