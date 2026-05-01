@@ -26,6 +26,8 @@ import {
   helpCircleSharp,
   listOutline,
   listSharp,
+  createOutline,
+  createSharp,
 } from 'ionicons/icons';
 import { VerbService } from './services/verb.service';
 
@@ -57,6 +59,7 @@ export class AppComponent {
   public appPages = [
     { title: 'Lernen', url: '/learn', icon: 'school' },
     { title: 'Quiz', url: '/quiz', icon: 'help-circle' },
+    { title: 'Tippen', url: '/type', icon: 'create' },
     { title: 'Alle Verben', url: '/list', icon: 'list' },
   ];
 
@@ -72,6 +75,8 @@ export class AppComponent {
       helpCircleSharp,
       listOutline,
       listSharp,
+      createOutline,
+      createSharp,
     });
   }
 }

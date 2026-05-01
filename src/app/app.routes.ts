@@ -21,4 +21,9 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/list/list.page').then((m) => m.ListPage),
   },
+  {
+    path: 'type',
+    loadComponent: () =>
+      import('./pages/type/type.page').then((m) => m.TypePage),
+  },
 ];
