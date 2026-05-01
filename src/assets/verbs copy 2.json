@@ -1,0 +1,3042 @@
+[
+  {
+    "id": 1,
+    "lesson": 1,
+    "de": "sein",
+    "hr": "biti",
+    "example": "Ja sam kod kuće.",
+    "exampleDe": "Ich bin zu Hause.",
+    "conjugation": {
+      "ja": "sam",
+      "ti": "si",
+      "on": "je",
+      "mi": "smo",
+      "vi": "ste",
+      "oni": "su"
+    },
+    "pastConjugation": {
+      "ja": "bio/bila sam",
+      "ti": "bio/bila si",
+      "on": "bio je / bila je",
+      "mi": "bili/bile smo",
+      "vi": "bili/bile ste",
+      "oni": "bili/bile su"
+    },
+    "futureConjugation": {
+      "ja": "bit ću",
+      "ti": "bit ćeš",
+      "on": "bit će",
+      "mi": "bit ćemo",
+      "vi": "bit ćete",
+      "oni": "bit će"
+    }
+  },
+  {
+    "id": 2,
+    "lesson": 1,
+    "de": "haben",
+    "hr": "imati",
+    "example": "Imam vremena.",
+    "exampleDe": "Ich habe Zeit.",
+    "conjugation": {
+      "ja": "imam",
+      "ti": "imaš",
+      "on": "ima",
+      "mi": "imamo",
+      "vi": "imate",
+      "oni": "imaju"
+    },
+    "pastConjugation": {
+      "ja": "imao/imala sam",
+      "ti": "imao/imala si",
+      "on": "imao je / imala je",
+      "mi": "imali/imale smo",
+      "vi": "imali/imale ste",
+      "oni": "imali/imale su"
+    },
+    "futureConjugation": {
+      "ja": "imat ću",
+      "ti": "imat ćeš",
+      "on": "imat će",
+      "mi": "imat ćemo",
+      "vi": "imat ćete",
+      "oni": "imat će"
+    }
+  },
+  {
+    "id": 3,
+    "lesson": 1,
+    "de": "wollen",
+    "hr": "htjeti",
+    "example": "Želim ići kući.",
+    "exampleDe": "Ich will nach Hause gehen.",
+    "conjugation": {
+      "ja": "želim",
+      "ti": "želiš",
+      "on": "želi",
+      "mi": "želimo",
+      "vi": "želite",
+      "oni": "žele"
+    },
+    "pastConjugation": {
+      "ja": "htio/htjela sam",
+      "ti": "htio/htjela si",
+      "on": "htio je / htjela je",
+      "mi": "htjeli/htjele smo",
+      "vi": "htjeli/htjele ste",
+      "oni": "htjeli/htjele su"
+    },
+    "futureConjugation": {
+      "ja": "htjet ću",
+      "ti": "htjet ćeš",
+      "on": "htjet će",
+      "mi": "htjet ćemo",
+      "vi": "htjet ćete",
+      "oni": "htjet će"
+    }
+  },
+  {
+    "id": 4,
+    "lesson": 1,
+    "de": "können",
+    "hr": "moći",
+    "example": "Mogu pomoći.",
+    "exampleDe": "Ich kann helfen.",
+    "conjugation": {
+      "ja": "mogu",
+      "ti": "možeš",
+      "on": "može",
+      "mi": "možemo",
+      "vi": "možete",
+      "oni": "mogu"
+    },
+    "pastConjugation": {
+      "ja": "mogao/mogla sam",
+      "ti": "mogao/mogla si",
+      "on": "mogao je / mogla je",
+      "mi": "mogli/mogle smo",
+      "vi": "mogli/mogle ste",
+      "oni": "mogli/mogle su"
+    },
+    "futureConjugation": {
+      "ja": "moći ću",
+      "ti": "moći ćeš",
+      "on": "moći će",
+      "mi": "moći ćemo",
+      "vi": "moći ćete",
+      "oni": "moći će"
+    }
+  },
+  {
+    "id": 5,
+    "lesson": 1,
+    "de": "müssen",
+    "hr": "morati",
+    "example": "Moram raditi.",
+    "exampleDe": "Ich muss arbeiten.",
+    "conjugation": {
+      "ja": "moram",
+      "ti": "moraš",
+      "on": "mora",
+      "mi": "moramo",
+      "vi": "morate",
+      "oni": "moraju"
+    },
+    "pastConjugation": {
+      "ja": "morao/morala sam",
+      "ti": "morao/morala si",
+      "on": "morao je / morala je",
+      "mi": "morali/morale smo",
+      "vi": "morali/morale ste",
+      "oni": "morali/morale su"
+    },
+    "futureConjugation": {
+      "ja": "morat ću",
+      "ti": "morat ćeš",
+      "on": "morat će",
+      "mi": "morat ćemo",
+      "vi": "morat ćete",
+      "oni": "morat će"
+    }
+  },
+  {
+    "id": 6,
+    "lesson": 1,
+    "de": "gehen",
+    "hr": "ići",
+    "example": "Idem u grad.",
+    "exampleDe": "Ich gehe in die Stadt.",
+    "conjugation": {
+      "ja": "idem",
+      "ti": "ideš",
+      "on": "ide",
+      "mi": "idemo",
+      "vi": "idete",
+      "oni": "idu"
+    },
+    "pastConjugation": {
+      "ja": "išao/išla sam",
+      "ti": "išao/išla si",
+      "on": "išao je / išla je",
+      "mi": "išli/išle smo",
+      "vi": "išli/išle ste",
+      "oni": "išli/išle su"
+    },
+    "futureConjugation": {
+      "ja": "ići ću",
+      "ti": "ići ćeš",
+      "on": "ići će",
+      "mi": "ići ćemo",
+      "vi": "ići ćete",
+      "oni": "ići će"
+    }
+  },
+  {
+    "id": 7,
+    "lesson": 1,
+    "de": "kommen",
+    "hr": "doći",
+    "example": "Dolazim sutra.",
+    "exampleDe": "Ich komme morgen.",
+    "conjugation": {
+      "ja": "dolazim",
+      "ti": "dolaziš",
+      "on": "dolazi",
+      "mi": "dolazimo",
+      "vi": "dolazite",
+      "oni": "dolaze"
+    },
+    "pastConjugation": {
+      "ja": "došao/došla sam",
+      "ti": "došao/došla si",
+      "on": "došao je / došla je",
+      "mi": "došli/došle smo",
+      "vi": "došli/došle ste",
+      "oni": "došli/došle su"
+    },
+    "futureConjugation": {
+      "ja": "doći ću",
+      "ti": "doći ćeš",
+      "on": "doći će",
+      "mi": "doći ćemo",
+      "vi": "doći ćete",
+      "oni": "doći će"
+    }
+  },
+  {
+    "id": 8,
+    "lesson": 1,
+    "de": "geben",
+    "hr": "dati",
+    "example": "Dajem ti knjigu.",
+    "exampleDe": "Ich gebe dir das Buch.",
+    "conjugation": {
+      "ja": "dajem",
+      "ti": "daješ",
+      "on": "daje",
+      "mi": "dajemo",
+      "vi": "dajete",
+      "oni": "daju"
+    },
+    "pastConjugation": {
+      "ja": "dao/dala sam",
+      "ti": "dao/dala si",
+      "on": "dao je / dala je",
+      "mi": "dali/dale smo",
+      "vi": "dali/dale ste",
+      "oni": "dali/dale su"
+    },
+    "futureConjugation": {
+      "ja": "dat ću",
+      "ti": "dat ćeš",
+      "on": "dat će",
+      "mi": "dat ćemo",
+      "vi": "dat ćete",
+      "oni": "dat će"
+    }
+  },
+  {
+    "id": 9,
+    "lesson": 1,
+    "de": "nehmen",
+    "hr": "uzeti",
+    "example": "Uzimam vodu.",
+    "exampleDe": "Ich nehme Wasser.",
+    "conjugation": {
+      "ja": "uzimam",
+      "ti": "uzimaš",
+      "on": "uzima",
+      "mi": "uzimamo",
+      "vi": "uzimate",
+      "oni": "uzimaju"
+    },
+    "pastConjugation": {
+      "ja": "uzeo/uzela sam",
+      "ti": "uzeo/uzela si",
+      "on": "uzeo je / uzela je",
+      "mi": "uzeli/uzele smo",
+      "vi": "uzeli/uzele ste",
+      "oni": "uzeli/uzele su"
+    },
+    "futureConjugation": {
+      "ja": "uzet ću",
+      "ti": "uzet ćeš",
+      "on": "uzet će",
+      "mi": "uzet ćemo",
+      "vi": "uzet ćete",
+      "oni": "uzet će"
+    }
+  },
+  {
+    "id": 10,
+    "lesson": 1,
+    "de": "sehen",
+    "hr": "vidjeti",
+    "example": "Vidim te.",
+    "exampleDe": "Ich sehe dich.",
+    "conjugation": {
+      "ja": "vidim",
+      "ti": "vidiš",
+      "on": "vidi",
+      "mi": "vidimo",
+      "vi": "vidite",
+      "oni": "vide"
+    },
+    "pastConjugation": {
+      "ja": "vidio/vidjela sam",
+      "ti": "vidio/vidjela si",
+      "on": "vidio je / vidjela je",
+      "mi": "vidjeli/vidjele smo",
+      "vi": "vidjeli/vidjele ste",
+      "oni": "vidjeli/vidjele su"
+    },
+    "futureConjugation": {
+      "ja": "vidjet ću",
+      "ti": "vidjet ćeš",
+      "on": "vidjet će",
+      "mi": "vidjet ćemo",
+      "vi": "vidjet ćete",
+      "oni": "vidjet će"
+    }
+  },
+  {
+    "id": 11,
+    "lesson": 1,
+    "de": "sagen",
+    "hr": "reći",
+    "example": "Reći ću istinu.",
+    "exampleDe": "Ich werde die Wahrheit sagen.",
+    "conjugation": {
+      "ja": "kažem",
+      "ti": "kažeš",
+      "on": "kaže",
+      "mi": "kažemo",
+      "vi": "kažete",
+      "oni": "kažu"
+    },
+    "pastConjugation": {
+      "ja": "rekao/rekla sam",
+      "ti": "rekao/rekla si",
+      "on": "rekao je / rekla je",
+      "mi": "rekli/rekle smo",
+      "vi": "rekli/rekle ste",
+      "oni": "rekli/rekle su"
+    },
+    "futureConjugation": {
+      "ja": "reći ću",
+      "ti": "reći ćeš",
+      "on": "reći će",
+      "mi": "reći ćemo",
+      "vi": "reći ćete",
+      "oni": "reći će"
+    }
+  },
+  {
+    "id": 12,
+    "lesson": 1,
+    "de": "sprechen",
+    "hr": "govoriti",
+    "example": "Govorim hrvatski.",
+    "exampleDe": "Ich spreche Kroatisch.",
+    "conjugation": {
+      "ja": "govorim",
+      "ti": "govoriš",
+      "on": "govori",
+      "mi": "govorimo",
+      "vi": "govorite",
+      "oni": "govore"
+    },
+    "pastConjugation": {
+      "ja": "govorio/govorila sam",
+      "ti": "govorio/govorila si",
+      "on": "govorio je / govorila je",
+      "mi": "govorili/govorile smo",
+      "vi": "govorili/govorile ste",
+      "oni": "govorili/govorile su"
+    },
+    "futureConjugation": {
+      "ja": "govorit ću",
+      "ti": "govorit ćeš",
+      "on": "govorit će",
+      "mi": "govorit ćemo",
+      "vi": "govorit ćete",
+      "oni": "govorit će"
+    }
+  },
+  {
+    "id": 13,
+    "lesson": 1,
+    "de": "wissen/können",
+    "hr": "znati",
+    "example": "Znam odgovor.",
+    "exampleDe": "Ich weiß die Antwort.",
+    "conjugation": {
+      "ja": "znam",
+      "ti": "znaš",
+      "on": "zna",
+      "mi": "znamo",
+      "vi": "znate",
+      "oni": "znaju"
+    },
+    "pastConjugation": {
+      "ja": "znao/znala sam",
+      "ti": "znao/znala si",
+      "on": "znao je / znala je",
+      "mi": "znali/znale smo",
+      "vi": "znali/znale ste",
+      "oni": "znali/znale su"
+    },
+    "futureConjugation": {
+      "ja": "znat ću",
+      "ti": "znat ćeš",
+      "on": "znat će",
+      "mi": "znat ćemo",
+      "vi": "znat ćete",
+      "oni": "znat će"
+    }
+  },
+  {
+    "id": 14,
+    "lesson": 1,
+    "de": "denken",
+    "hr": "misliti",
+    "example": "Mislim na tebe.",
+    "exampleDe": "Ich denke an dich.",
+    "conjugation": {
+      "ja": "mislim",
+      "ti": "misliš",
+      "on": "misli",
+      "mi": "mislimo",
+      "vi": "mislite",
+      "oni": "misle"
+    },
+    "pastConjugation": {
+      "ja": "mislio/mislila sam",
+      "ti": "mislio/mislila si",
+      "on": "mislio je / mislila je",
+      "mi": "mislili/mislile smo",
+      "vi": "mislili/mislile ste",
+      "oni": "mislili/mislile su"
+    },
+    "futureConjugation": {
+      "ja": "mislit ću",
+      "ti": "mislit ćeš",
+      "on": "mislit će",
+      "mi": "mislit ćemo",
+      "vi": "mislit ćete",
+      "oni": "mislit će"
+    }
+  },
+  {
+    "id": 15,
+    "lesson": 1,
+    "de": "arbeiten/machen",
+    "hr": "raditi",
+    "example": "Radim svaki dan.",
+    "exampleDe": "Ich arbeite jeden Tag.",
+    "conjugation": {
+      "ja": "radim",
+      "ti": "radiš",
+      "on": "radi",
+      "mi": "radimo",
+      "vi": "radite",
+      "oni": "rade"
+    },
+    "pastConjugation": {
+      "ja": "radio/radila sam",
+      "ti": "radio/radila si",
+      "on": "radio je / radila je",
+      "mi": "radili/radile smo",
+      "vi": "radili/radile ste",
+      "oni": "radili/radile su"
+    },
+    "futureConjugation": {
+      "ja": "radit ću",
+      "ti": "radit ćeš",
+      "on": "radit će",
+      "mi": "radit ćemo",
+      "vi": "radit ćete",
+      "oni": "radit će"
+    }
+  },
+  {
+    "id": 16,
+    "lesson": 1,
+    "de": "leben",
+    "hr": "živjeti",
+    "example": "Živim u Njemačkoj.",
+    "exampleDe": "Ich lebe in Deutschland.",
+    "conjugation": {
+      "ja": "živim",
+      "ti": "živiš",
+      "on": "živi",
+      "mi": "živimo",
+      "vi": "živite",
+      "oni": "žive"
+    },
+    "pastConjugation": {
+      "ja": "živio/živjela sam",
+      "ti": "živio/živjela si",
+      "on": "živio je / živjela je",
+      "mi": "živjeli/živjele smo",
+      "vi": "živjeli/živjele ste",
+      "oni": "živjeli/živjele su"
+    },
+    "futureConjugation": {
+      "ja": "živjet ću",
+      "ti": "živjet ćeš",
+      "on": "živjet će",
+      "mi": "živjet ćemo",
+      "vi": "živjet ćete",
+      "oni": "živjet će"
+    }
+  },
+  {
+    "id": 17,
+    "lesson": 1,
+    "de": "lieben/mögen",
+    "hr": "voljeti",
+    "example": "Volim kavu.",
+    "exampleDe": "Ich mag Kaffee.",
+    "conjugation": {
+      "ja": "volim",
+      "ti": "voliš",
+      "on": "voli",
+      "mi": "volimo",
+      "vi": "volite",
+      "oni": "vole"
+    },
+    "pastConjugation": {
+      "ja": "volio/voljela sam",
+      "ti": "volio/voljela si",
+      "on": "volio je / voljela je",
+      "mi": "voljeli/voljele smo",
+      "vi": "voljeli/voljele ste",
+      "oni": "voljeli/voljele su"
+    },
+    "futureConjugation": {
+      "ja": "voljet ću",
+      "ti": "voljet ćeš",
+      "on": "voljet će",
+      "mi": "voljet ćemo",
+      "vi": "voljet ćete",
+      "oni": "voljet će"
+    }
+  },
+  {
+    "id": 18,
+    "lesson": 1,
+    "de": "brauchen",
+    "hr": "trebati",
+    "example": "Trebam pomoć.",
+    "exampleDe": "Ich brauche Hilfe.",
+    "conjugation": {
+      "ja": "trebam",
+      "ti": "trebaš",
+      "on": "treba",
+      "mi": "trebamo",
+      "vi": "trebate",
+      "oni": "trebaju"
+    },
+    "pastConjugation": {
+      "ja": "trebao/trebala sam",
+      "ti": "trebao/trebala si",
+      "on": "trebao je / trebala je",
+      "mi": "trebali/trebale smo",
+      "vi": "trebali/trebale ste",
+      "oni": "trebali/trebale su"
+    },
+    "futureConjugation": {
+      "ja": "trebat ću",
+      "ti": "trebat ćeš",
+      "on": "trebat će",
+      "mi": "trebat ćemo",
+      "vi": "trebat ćete",
+      "oni": "trebat će"
+    }
+  },
+  {
+    "id": 19,
+    "lesson": 1,
+    "de": "finden",
+    "hr": "naći",
+    "example": "Nalazim rješenje.",
+    "exampleDe": "Ich finde eine Lösung.",
+    "conjugation": {
+      "ja": "nalazim",
+      "ti": "nalaziš",
+      "on": "nalazi",
+      "mi": "nalazimo",
+      "vi": "nalazite",
+      "oni": "nalaze"
+    },
+    "pastConjugation": {
+      "ja": "našao/našla sam",
+      "ti": "našao/našla si",
+      "on": "našao je / našla je",
+      "mi": "našli/našle smo",
+      "vi": "našli/našle ste",
+      "oni": "našli/našle su"
+    },
+    "futureConjugation": {
+      "ja": "naći ću",
+      "ti": "naći ćeš",
+      "on": "naći će",
+      "mi": "naći ćemo",
+      "vi": "naći ćete",
+      "oni": "naći će"
+    }
+  },
+  {
+    "id": 20,
+    "lesson": 1,
+    "de": "fragen",
+    "hr": "pitati",
+    "example": "Pitam učitelja.",
+    "exampleDe": "Ich frage den Lehrer.",
+    "conjugation": {
+      "ja": "pitam",
+      "ti": "pitaš",
+      "on": "pita",
+      "mi": "pitamo",
+      "vi": "pitate",
+      "oni": "pitaju"
+    },
+    "pastConjugation": {
+      "ja": "pitao/pitala sam",
+      "ti": "pitao/pitala si",
+      "on": "pitao je / pitala je",
+      "mi": "pitali/pitale smo",
+      "vi": "pitali/pitale ste",
+      "oni": "pitali/pitale su"
+    },
+    "futureConjugation": {
+      "ja": "pitat ću",
+      "ti": "pitat ćeš",
+      "on": "pitat će",
+      "mi": "pitat ćemo",
+      "vi": "pitat ćete",
+      "oni": "pitat će"
+    }
+  },
+  {
+    "id": 21,
+    "lesson": 1,
+    "de": "antworten",
+    "hr": "odgovoriti",
+    "example": "Odgovaram na pitanje.",
+    "exampleDe": "Ich beantworte die Frage.",
+    "conjugation": {
+      "ja": "odgovaram",
+      "ti": "odgovaraš",
+      "on": "odgovara",
+      "mi": "odgovaramo",
+      "vi": "odgovarate",
+      "oni": "odgovaraju"
+    },
+    "pastConjugation": {
+      "ja": "odgovorio/odgovorila sam",
+      "ti": "odgovorio/odgovorila si",
+      "on": "odgovorio je / odgovorila je",
+      "mi": "odgovorili/odgovorile smo",
+      "vi": "odgovorili/odgovorile ste",
+      "oni": "odgovorili/odgovorile su"
+    },
+    "futureConjugation": {
+      "ja": "odgovorit ću",
+      "ti": "odgovorit ćeš",
+      "on": "odgovorit će",
+      "mi": "odgovorit ćemo",
+      "vi": "odgovorit ćete",
+      "oni": "odgovorit će"
+    }
+  },
+  {
+    "id": 22,
+    "lesson": 1,
+    "de": "essen",
+    "hr": "jesti",
+    "example": "Jedem jabuku.",
+    "exampleDe": "Ich esse einen Apfel.",
+    "conjugation": {
+      "ja": "jedem",
+      "ti": "jedeš",
+      "on": "jede",
+      "mi": "jedemo",
+      "vi": "jedete",
+      "oni": "jedu"
+    },
+    "pastConjugation": {
+      "ja": "jeo/jela sam",
+      "ti": "jeo/jela si",
+      "on": "jeo je / jela je",
+      "mi": "jeli/jele smo",
+      "vi": "jeli/jele ste",
+      "oni": "jeli/jele su"
+    },
+    "futureConjugation": {
+      "ja": "jest ću",
+      "ti": "jest ćeš",
+      "on": "jest će",
+      "mi": "jest ćemo",
+      "vi": "jest ćete",
+      "oni": "jest će"
+    }
+  },
+  {
+    "id": 23,
+    "lesson": 1,
+    "de": "trinken",
+    "hr": "piti",
+    "example": "Pijem vodu.",
+    "exampleDe": "Ich trinke Wasser.",
+    "conjugation": {
+      "ja": "pijem",
+      "ti": "piješ",
+      "on": "pije",
+      "mi": "pijemo",
+      "vi": "pijete",
+      "oni": "piju"
+    },
+    "pastConjugation": {
+      "ja": "pio/pila sam",
+      "ti": "pio/pila si",
+      "on": "pio je / pila je",
+      "mi": "pili/pile smo",
+      "vi": "pili/pile ste",
+      "oni": "pili/pile su"
+    },
+    "futureConjugation": {
+      "ja": "pit ću",
+      "ti": "pit ćeš",
+      "on": "pit će",
+      "mi": "pit ćemo",
+      "vi": "pit ćete",
+      "oni": "pit će"
+    }
+  },
+  {
+    "id": 24,
+    "lesson": 1,
+    "de": "schauen",
+    "hr": "gledati",
+    "example": "Gledam film.",
+    "exampleDe": "Ich schaue einen Film.",
+    "conjugation": {
+      "ja": "gledam",
+      "ti": "gledaš",
+      "on": "gleda",
+      "mi": "gledamo",
+      "vi": "gledate",
+      "oni": "gledaju"
+    },
+    "pastConjugation": {
+      "ja": "gledao/gledala sam",
+      "ti": "gledao/gledala si",
+      "on": "gledao je / gledala je",
+      "mi": "gledali/gledale smo",
+      "vi": "gledali/gledale ste",
+      "oni": "gledali/gledale su"
+    },
+    "futureConjugation": {
+      "ja": "gledat ću",
+      "ti": "gledat ćeš",
+      "on": "gledat će",
+      "mi": "gledat ćemo",
+      "vi": "gledat ćete",
+      "oni": "gledat će"
+    }
+  },
+  {
+    "id": 25,
+    "lesson": 1,
+    "de": "hören",
+    "hr": "slušati",
+    "example": "Slušam glazbu.",
+    "exampleDe": "Ich höre Musik.",
+    "conjugation": {
+      "ja": "slušam",
+      "ti": "slušaš",
+      "on": "sluša",
+      "mi": "slušamo",
+      "vi": "slušate",
+      "oni": "slušaju"
+    },
+    "pastConjugation": {
+      "ja": "slušao/slušala sam",
+      "ti": "slušao/slušala si",
+      "on": "slušao je / slušala je",
+      "mi": "slušali/slušale smo",
+      "vi": "slušali/slušale ste",
+      "oni": "slušali/slušale su"
+    },
+    "futureConjugation": {
+      "ja": "slušat ću",
+      "ti": "slušat ćeš",
+      "on": "slušat će",
+      "mi": "slušat ćemo",
+      "vi": "slušat ćete",
+      "oni": "slušat će"
+    }
+  },
+  {
+    "id": 26,
+    "lesson": 1,
+    "de": "warten",
+    "hr": "čekati",
+    "example": "Čekam autobus.",
+    "exampleDe": "Ich warte auf den Bus.",
+    "conjugation": {
+      "ja": "čekam",
+      "ti": "čekaš",
+      "on": "čeka",
+      "mi": "čekamo",
+      "vi": "čekate",
+      "oni": "čekaju"
+    },
+    "pastConjugation": {
+      "ja": "čekao/čekala sam",
+      "ti": "čekao/čekala si",
+      "on": "čekao je / čekala je",
+      "mi": "čekali/čekale smo",
+      "vi": "čekali/čekale ste",
+      "oni": "čekali/čekale su"
+    },
+    "futureConjugation": {
+      "ja": "čekat ću",
+      "ti": "čekat ćeš",
+      "on": "čekat će",
+      "mi": "čekat ćemo",
+      "vi": "čekat ćete",
+      "oni": "čekat će"
+    }
+  },
+  {
+    "id": 27,
+    "lesson": 1,
+    "de": "kaufen",
+    "hr": "kupiti",
+    "example": "Kupujem kruh.",
+    "exampleDe": "Ich kaufe Brot.",
+    "conjugation": {
+      "ja": "kupujem",
+      "ti": "kupuješ",
+      "on": "kupuje",
+      "mi": "kupujemo",
+      "vi": "kupujete",
+      "oni": "kupuju"
+    },
+    "pastConjugation": {
+      "ja": "kupio/kupila sam",
+      "ti": "kupio/kupila si",
+      "on": "kupio je / kupila je",
+      "mi": "kupili/kupile smo",
+      "vi": "kupili/kupile ste",
+      "oni": "kupili/kupile su"
+    },
+    "futureConjugation": {
+      "ja": "kupit ću",
+      "ti": "kupit ćeš",
+      "on": "kupit će",
+      "mi": "kupit ćemo",
+      "vi": "kupit ćete",
+      "oni": "kupit će"
+    }
+  },
+  {
+    "id": 28,
+    "lesson": 1,
+    "de": "verkaufen",
+    "hr": "prodati",
+    "example": "Prodajem auto.",
+    "exampleDe": "Ich verkaufe ein Auto.",
+    "conjugation": {
+      "ja": "prodajem",
+      "ti": "prodaješ",
+      "on": "prodaje",
+      "mi": "prodajemo",
+      "vi": "prodajete",
+      "oni": "prodaju"
+    },
+    "pastConjugation": {
+      "ja": "prodao/prodala sam",
+      "ti": "prodao/prodala si",
+      "on": "prodao je / prodala je",
+      "mi": "prodali/prodale smo",
+      "vi": "prodali/prodale ste",
+      "oni": "prodali/prodale su"
+    },
+    "futureConjugation": {
+      "ja": "prodat ću",
+      "ti": "prodat ćeš",
+      "on": "prodat će",
+      "mi": "prodat ćemo",
+      "vi": "prodat ćete",
+      "oni": "prodat će"
+    }
+  },
+  {
+    "id": 29,
+    "lesson": 1,
+    "de": "lernen",
+    "hr": "učiti",
+    "example": "Učim hrvatski.",
+    "exampleDe": "Ich lerne Kroatisch.",
+    "conjugation": {
+      "ja": "učim",
+      "ti": "učiš",
+      "on": "uči",
+      "mi": "učimo",
+      "vi": "učite",
+      "oni": "uče"
+    },
+    "pastConjugation": {
+      "ja": "učio/učila sam",
+      "ti": "učio/učila si",
+      "on": "učio je / učila je",
+      "mi": "učili/učile smo",
+      "vi": "učili/učile ste",
+      "oni": "učili/učile su"
+    },
+    "futureConjugation": {
+      "ja": "učit ću",
+      "ti": "učit ćeš",
+      "on": "učit će",
+      "mi": "učit ćemo",
+      "vi": "učit ćete",
+      "oni": "učit će"
+    }
+  },
+  {
+    "id": 30,
+    "lesson": 1,
+    "de": "spielen",
+    "hr": "igrati",
+    "example": "Igram nogomet.",
+    "exampleDe": "Ich spiele Fußball.",
+    "conjugation": {
+      "ja": "igram",
+      "ti": "igraš",
+      "on": "igra",
+      "mi": "igramo",
+      "vi": "igrate",
+      "oni": "igraju"
+    },
+    "pastConjugation": {
+      "ja": "igrao/igrala sam",
+      "ti": "igrao/igrala si",
+      "on": "igrao je / igrala je",
+      "mi": "igrali/igrale smo",
+      "vi": "igrali/igrale ste",
+      "oni": "igrali/igrale su"
+    },
+    "futureConjugation": {
+      "ja": "igrat ću",
+      "ti": "igrat ćeš",
+      "on": "igrat će",
+      "mi": "igrat ćemo",
+      "vi": "igrat ćete",
+      "oni": "igrat će"
+    }
+  },
+  {
+    "id": 31,
+    "lesson": 1,
+    "de": "reisen",
+    "hr": "putovati",
+    "example": "Putujem u Hrvatsku.",
+    "exampleDe": "Ich reise nach Kroatien.",
+    "conjugation": {
+      "ja": "putujem",
+      "ti": "putuješ",
+      "on": "putuje",
+      "mi": "putujemo",
+      "vi": "putujete",
+      "oni": "putuju"
+    },
+    "pastConjugation": {
+      "ja": "putovao/putovala sam",
+      "ti": "putovao/putovala si",
+      "on": "putovao je / putovala je",
+      "mi": "putovali/putovale smo",
+      "vi": "putovali/putovale ste",
+      "oni": "putovali/putovale su"
+    },
+    "futureConjugation": {
+      "ja": "putovat ću",
+      "ti": "putovat ćeš",
+      "on": "putovat će",
+      "mi": "putovat ćemo",
+      "vi": "putovat ćete",
+      "oni": "putovat će"
+    }
+  },
+  {
+    "id": 32,
+    "lesson": 1,
+    "de": "fahren",
+    "hr": "voziti",
+    "example": "Vozi auto.",
+    "exampleDe": "Er fährt Auto.",
+    "conjugation": {
+      "ja": "vozim",
+      "ti": "voziš",
+      "on": "vozi",
+      "mi": "vozimo",
+      "vi": "vozite",
+      "oni": "voze"
+    },
+    "pastConjugation": {
+      "ja": "vozio/vozila sam",
+      "ti": "vozio/vozila si",
+      "on": "vozio je / vozila je",
+      "mi": "vozili/vozile smo",
+      "vi": "vozili/vozile ste",
+      "oni": "vozili/vozile su"
+    },
+    "futureConjugation": {
+      "ja": "vozit ću",
+      "ti": "vozit ćeš",
+      "on": "vozit će",
+      "mi": "vozit ćemo",
+      "vi": "vozit ćete",
+      "oni": "vozit će"
+    }
+  },
+  {
+    "id": 33,
+    "lesson": 1,
+    "de": "rennen",
+    "hr": "trčati",
+    "example": "Trčim brzo.",
+    "exampleDe": "Ich renne schnell.",
+    "conjugation": {
+      "ja": "trčim",
+      "ti": "trčiš",
+      "on": "trči",
+      "mi": "trčimo",
+      "vi": "trčite",
+      "oni": "trče"
+    },
+    "pastConjugation": {
+      "ja": "trčao/trčala sam",
+      "ti": "trčao/trčala si",
+      "on": "trčao je / trčala je",
+      "mi": "trčali/trčale smo",
+      "vi": "trčali/trčale ste",
+      "oni": "trčali/trčale su"
+    },
+    "futureConjugation": {
+      "ja": "trčat ću",
+      "ti": "trčat ćeš",
+      "on": "trčat će",
+      "mi": "trčat ćemo",
+      "vi": "trčat ćete",
+      "oni": "trčat će"
+    }
+  },
+  {
+    "id": 34,
+    "lesson": 1,
+    "de": "gehen (zu Fuß)",
+    "hr": "hodati",
+    "example": "Hodam u školu.",
+    "exampleDe": "Ich gehe zu Fuß zur Schule.",
+    "conjugation": {
+      "ja": "hodam",
+      "ti": "hodaš",
+      "on": "hoda",
+      "mi": "hodamo",
+      "vi": "hodate",
+      "oni": "hodaju"
+    },
+    "pastConjugation": {
+      "ja": "hodao/hodala sam",
+      "ti": "hodao/hodala si",
+      "on": "hodao je / hodala je",
+      "mi": "hodali/hodale smo",
+      "vi": "hodali/hodale ste",
+      "oni": "hodali/hodale su"
+    },
+    "futureConjugation": {
+      "ja": "hodat ću",
+      "ti": "hodat ćeš",
+      "on": "hodat će",
+      "mi": "hodat ćemo",
+      "vi": "hodat ćete",
+      "oni": "hodat će"
+    }
+  },
+  {
+    "id": 35,
+    "lesson": 1,
+    "de": "tragen",
+    "hr": "nositi",
+    "example": "Nosim torbu.",
+    "exampleDe": "Ich trage die Tasche.",
+    "conjugation": {
+      "ja": "nosim",
+      "ti": "nosiš",
+      "on": "nosi",
+      "mi": "nosimo",
+      "vi": "nosite",
+      "oni": "nose"
+    },
+    "pastConjugation": {
+      "ja": "nosio/nosila sam",
+      "ti": "nosio/nosila si",
+      "on": "nosio je / nosila je",
+      "mi": "nosili/nosile smo",
+      "vi": "nosili/nosile ste",
+      "oni": "nosili/nosile su"
+    },
+    "futureConjugation": {
+      "ja": "nosit ću",
+      "ti": "nosit ćeš",
+      "on": "nosit će",
+      "mi": "nosit ćemo",
+      "vi": "nosit ćete",
+      "oni": "nosit će"
+    }
+  },
+  {
+    "id": 36,
+    "lesson": 1,
+    "de": "bringen",
+    "hr": "donijeti",
+    "example": "Donosim poklon.",
+    "exampleDe": "Ich bringe ein Geschenk.",
+    "conjugation": {
+      "ja": "donosim",
+      "ti": "donosiš",
+      "on": "donosi",
+      "mi": "donosimo",
+      "vi": "donosite",
+      "oni": "donose"
+    },
+    "pastConjugation": {
+      "ja": "donio/donijela sam",
+      "ti": "donio/donijela si",
+      "on": "donio je / donijela je",
+      "mi": "donijeli/donijele smo",
+      "vi": "donijeli/donijele ste",
+      "oni": "donijeli/donijele su"
+    },
+    "futureConjugation": {
+      "ja": "donijet ću",
+      "ti": "donijet ćeš",
+      "on": "donijet će",
+      "mi": "donijet ćemo",
+      "vi": "donijet ćete",
+      "oni": "donijet će"
+    }
+  },
+  {
+    "id": 37,
+    "lesson": 1,
+    "de": "nehmen (wiederholt)",
+    "hr": "uzimati",
+    "example": "Uzimam jabuku svaki dan.",
+    "exampleDe": "Ich nehme jeden Tag einen Apfel.",
+    "conjugation": {
+      "ja": "uzimam",
+      "ti": "uzimaš",
+      "on": "uzima",
+      "mi": "uzimamo",
+      "vi": "uzimate",
+      "oni": "uzimaju"
+    },
+    "pastConjugation": {
+      "ja": "uzimao/uzimala sam",
+      "ti": "uzimao/uzimala si",
+      "on": "uzimao je / uzimala je",
+      "mi": "uzimali/uzimale smo",
+      "vi": "uzimali/uzimale ste",
+      "oni": "uzimali/uzimale su"
+    },
+    "futureConjugation": {
+      "ja": "uzimat ću",
+      "ti": "uzimat ćeš",
+      "on": "uzimat će",
+      "mi": "uzimat ćemo",
+      "vi": "uzimat ćete",
+      "oni": "uzimat će"
+    }
+  },
+  {
+    "id": 38,
+    "lesson": 1,
+    "de": "geben (wiederholt)",
+    "hr": "davati",
+    "example": "Dajem ti savjet svaki put.",
+    "exampleDe": "Ich gebe dir jedes Mal einen Rat.",
+    "conjugation": {
+      "ja": "dajem",
+      "ti": "daješ",
+      "on": "daje",
+      "mi": "dajemo",
+      "vi": "dajete",
+      "oni": "daju"
+    },
+    "pastConjugation": {
+      "ja": "davao/davala sam",
+      "ti": "davao/davala si",
+      "on": "davao je / davala je",
+      "mi": "davali/davale smo",
+      "vi": "davali/davale ste",
+      "oni": "davali/davale su"
+    },
+    "futureConjugation": {
+      "ja": "davat ću",
+      "ti": "davat ćeš",
+      "on": "davat će",
+      "mi": "davat ćemo",
+      "vi": "davat ćete",
+      "oni": "davat će"
+    }
+  },
+  {
+    "id": 39,
+    "lesson": 1,
+    "de": "öffnen",
+    "hr": "otvoriti",
+    "example": "Otvaram vrata.",
+    "exampleDe": "Ich öffne die Tür.",
+    "conjugation": {
+      "ja": "otvaram",
+      "ti": "otvaraš",
+      "on": "otvara",
+      "mi": "otvaramo",
+      "vi": "otvarate",
+      "oni": "otvaraju"
+    },
+    "pastConjugation": {
+      "ja": "otvorio/otvorila sam",
+      "ti": "otvorio/otvorila si",
+      "on": "otvorio je / otvorila je",
+      "mi": "otvorili/otvorile smo",
+      "vi": "otvorili/otvorile ste",
+      "oni": "otvorili/otvorile su"
+    },
+    "futureConjugation": {
+      "ja": "otvorit ću",
+      "ti": "otvorit ćeš",
+      "on": "otvorit će",
+      "mi": "otvorit ćemo",
+      "vi": "otvorit ćete",
+      "oni": "otvorit će"
+    }
+  },
+  {
+    "id": 40,
+    "lesson": 1,
+    "de": "schließen",
+    "hr": "zatvoriti",
+    "example": "Zatvaram prozor.",
+    "exampleDe": "Ich schließe das Fenster.",
+    "conjugation": {
+      "ja": "zatvaram",
+      "ti": "zatvaraš",
+      "on": "zatvara",
+      "mi": "zatvaramo",
+      "vi": "zatvarate",
+      "oni": "zatvaraju"
+    },
+    "pastConjugation": {
+      "ja": "zatvorio/zatvorila sam",
+      "ti": "zatvorio/zatvorila si",
+      "on": "zatvorio je / zatvorila je",
+      "mi": "zatvorili/zatvorile smo",
+      "vi": "zatvorili/zatvorile ste",
+      "oni": "zatvorili/zatvorile su"
+    },
+    "futureConjugation": {
+      "ja": "zatvorit ću",
+      "ti": "zatvorit ćeš",
+      "on": "zatvorit će",
+      "mi": "zatvorit ćemo",
+      "vi": "zatvorit ćete",
+      "oni": "zatvorit će"
+    }
+  },
+  {
+    "id": 41,
+    "lesson": 1,
+    "de": "anfangen",
+    "hr": "početi",
+    "example": "Počinjem raditi.",
+    "exampleDe": "Ich fange an zu arbeiten.",
+    "conjugation": {
+      "ja": "počinjem",
+      "ti": "počinješ",
+      "on": "počinje",
+      "mi": "počinjemo",
+      "vi": "počinjete",
+      "oni": "počinju"
+    },
+    "pastConjugation": {
+      "ja": "počeo/počela sam",
+      "ti": "počeo/počela si",
+      "on": "počeo je / počela je",
+      "mi": "počeli/počele smo",
+      "vi": "počeli/počele ste",
+      "oni": "počeli/počele su"
+    },
+    "futureConjugation": {
+      "ja": "počet ću",
+      "ti": "počet ćeš",
+      "on": "počet će",
+      "mi": "počet ćemo",
+      "vi": "počet ćete",
+      "oni": "počet će"
+    }
+  },
+  {
+    "id": 42,
+    "lesson": 1,
+    "de": "beenden",
+    "hr": "završiti",
+    "example": "Završavam posao.",
+    "exampleDe": "Ich beende die Arbeit.",
+    "conjugation": {
+      "ja": "završavam",
+      "ti": "završavaš",
+      "on": "završava",
+      "mi": "završavamo",
+      "vi": "završavate",
+      "oni": "završavaju"
+    },
+    "pastConjugation": {
+      "ja": "završio/završila sam",
+      "ti": "završio/završila si",
+      "on": "završio je / završila je",
+      "mi": "završili/završile smo",
+      "vi": "završili/završile ste",
+      "oni": "završili/završile su"
+    },
+    "futureConjugation": {
+      "ja": "završit ću",
+      "ti": "završit ćeš",
+      "on": "završit će",
+      "mi": "završit ćemo",
+      "vi": "završit ćete",
+      "oni": "završit će"
+    }
+  },
+  {
+    "id": 43,
+    "lesson": 1,
+    "de": "bleiben",
+    "hr": "ostati",
+    "example": "Ostajem kod kuće.",
+    "exampleDe": "Ich bleibe zu Hause.",
+    "conjugation": {
+      "ja": "ostajem",
+      "ti": "ostaješ",
+      "on": "ostaje",
+      "mi": "ostajemo",
+      "vi": "ostajete",
+      "oni": "ostaju"
+    },
+    "pastConjugation": {
+      "ja": "ostao/ostala sam",
+      "ti": "ostao/ostala si",
+      "on": "ostao je / ostala je",
+      "mi": "ostali/ostale smo",
+      "vi": "ostali/ostale ste",
+      "oni": "ostali/ostale su"
+    },
+    "futureConjugation": {
+      "ja": "ostat ću",
+      "ti": "ostat ćeš",
+      "on": "ostat će",
+      "mi": "ostat ćemo",
+      "vi": "ostat ćete",
+      "oni": "ostat će"
+    }
+  },
+  {
+    "id": 44,
+    "lesson": 1,
+    "de": "zurückkehren",
+    "hr": "vratiti se",
+    "example": "Vraćam se kući.",
+    "exampleDe": "Ich kehre nach Hause zurück.",
+    "conjugation": {
+      "ja": "vraćam se",
+      "ti": "vraćaš se",
+      "on": "vraća se",
+      "mi": "vraćamo se",
+      "vi": "vraćate se",
+      "oni": "vraćaju se"
+    },
+    "pastConjugation": {
+      "ja": "vratio/vratila sam se",
+      "ti": "vratio/vratila si se",
+      "on": "vratio se / vratila se",
+      "mi": "vratili/vratile smo se",
+      "vi": "vratili/vratile ste se",
+      "oni": "vratili/vratile su se"
+    },
+    "futureConjugation": {
+      "ja": "vratit ću se",
+      "ti": "vratit ćeš se",
+      "on": "vratit će se",
+      "mi": "vratit ćemo se",
+      "vi": "vratit ćete se",
+      "oni": "vratit će se"
+    }
+  },
+  {
+    "id": 45,
+    "lesson": 1,
+    "de": "senden",
+    "hr": "poslati",
+    "example": "Šaljem poruku.",
+    "exampleDe": "Ich sende eine Nachricht.",
+    "conjugation": {
+      "ja": "šaljem",
+      "ti": "šalješ",
+      "on": "šalje",
+      "mi": "šaljemo",
+      "vi": "šaljete",
+      "oni": "šalju"
+    },
+    "pastConjugation": {
+      "ja": "poslao/poslala sam",
+      "ti": "poslao/poslala si",
+      "on": "poslao je / poslala je",
+      "mi": "poslali/poslale smo",
+      "vi": "poslali/poslale ste",
+      "oni": "poslali/poslale su"
+    },
+    "futureConjugation": {
+      "ja": "poslat ću",
+      "ti": "poslat ćeš",
+      "on": "poslat će",
+      "mi": "poslat ćemo",
+      "vi": "poslat ćete",
+      "oni": "poslat će"
+    }
+  },
+  {
+    "id": 46,
+    "lesson": 1,
+    "de": "empfangen",
+    "hr": "primiti",
+    "example": "Primam poruku.",
+    "exampleDe": "Ich empfange eine Nachricht.",
+    "conjugation": {
+      "ja": "primam",
+      "ti": "primaš",
+      "on": "prima",
+      "mi": "primamo",
+      "vi": "primite",
+      "oni": "primaju"
+    },
+    "pastConjugation": {
+      "ja": "primio/primila sam",
+      "ti": "primio/primila si",
+      "on": "primio je / primila je",
+      "mi": "primili/primile smo",
+      "vi": "primili/primile ste",
+      "oni": "primili/primile su"
+    },
+    "futureConjugation": {
+      "ja": "primit ću",
+      "ti": "primit ćeš",
+      "on": "primit će",
+      "mi": "primit ćemo",
+      "vi": "primit ćete",
+      "oni": "primit će"
+    }
+  },
+  {
+    "id": 47,
+    "lesson": 1,
+    "de": "halten",
+    "hr": "držati",
+    "example": "Držim knjigu.",
+    "exampleDe": "Ich halte ein Buch.",
+    "conjugation": {
+      "ja": "držim",
+      "ti": "držiš",
+      "on": "drži",
+      "mi": "držimo",
+      "vi": "držite",
+      "oni": "drže"
+    },
+    "pastConjugation": {
+      "ja": "držao/držala sam",
+      "ti": "držao/držala si",
+      "on": "držao je / držala je",
+      "mi": "držali/držale smo",
+      "vi": "držali/držale ste",
+      "oni": "držali/držale su"
+    },
+    "futureConjugation": {
+      "ja": "držat ću",
+      "ti": "držat ćeš",
+      "on": "držat će",
+      "mi": "držat ćemo",
+      "vi": "držat ćete",
+      "oni": "držat će"
+    }
+  },
+  {
+    "id": 48,
+    "lesson": 1,
+    "de": "loslassen",
+    "hr": "pustiti",
+    "example": "Puštam loptu.",
+    "exampleDe": "Ich lasse den Ball los.",
+    "conjugation": {
+      "ja": "puštam",
+      "ti": "puštaš",
+      "on": "pušta",
+      "mi": "puštamo",
+      "vi": "puštate",
+      "oni": "puštaju"
+    },
+    "pastConjugation": {
+      "ja": "pustio/pustila sam",
+      "ti": "pustio/pustila si",
+      "on": "pustio je / pustila je",
+      "mi": "pustili/pustile smo",
+      "vi": "pustili/pustile ste",
+      "oni": "pustili/pustile su"
+    },
+    "futureConjugation": {
+      "ja": "pustit ću",
+      "ti": "pustit ćeš",
+      "on": "pustit će",
+      "mi": "pustit ćemo",
+      "vi": "pustit ćete",
+      "oni": "pustit će"
+    }
+  },
+  {
+    "id": 49,
+    "lesson": 1,
+    "de": "verlieren",
+    "hr": "izgubiti",
+    "example": "Gubim ključ.",
+    "exampleDe": "Ich verliere den Schlüssel.",
+    "conjugation": {
+      "ja": "gubim",
+      "ti": "gubiš",
+      "on": "gubi",
+      "mi": "gubimo",
+      "vi": "gubite",
+      "oni": "gube"
+    },
+    "pastConjugation": {
+      "ja": "izgubio/izgubila sam",
+      "ti": "izgubio/izgubila si",
+      "on": "izgubio je / izgubila je",
+      "mi": "izgubili/izgubile smo",
+      "vi": "izgubili/izgubile ste",
+      "oni": "izgubili/izgubile su"
+    },
+    "futureConjugation": {
+      "ja": "izgubit ću",
+      "ti": "izgubit ćeš",
+      "on": "izgubit će",
+      "mi": "izgubit ćemo",
+      "vi": "izgubit ćete",
+      "oni": "izgubit će"
+    }
+  },
+  {
+    "id": 50,
+    "lesson": 1,
+    "de": "bekommen",
+    "hr": "dobiti",
+    "example": "Dobivam poklon.",
+    "exampleDe": "Ich bekomme ein Geschenk.",
+    "conjugation": {
+      "ja": "dobivam",
+      "ti": "dobivaš",
+      "on": "dobiva",
+      "mi": "dobivamo",
+      "vi": "dobivate",
+      "oni": "dobivaju"
+    },
+    "pastConjugation": {
+      "ja": "dobio/dobila sam",
+      "ti": "dobio/dobila si",
+      "on": "dobio je / dobila je",
+      "mi": "dobili/dobile smo",
+      "vi": "dobili/dobile ste",
+      "oni": "dobili/dobile su"
+    },
+    "futureConjugation": {
+      "ja": "dobit ću",
+      "ti": "dobit ćeš",
+      "on": "dobit će",
+      "mi": "dobit ćemo",
+      "vi": "dobit ćete",
+      "oni": "dobit će"
+    }
+  },
+  {
+    "id": 51,
+    "lesson": 1,
+    "de": "zeigen",
+    "hr": "pokazati",
+    "example": "Pokazujem put.",
+    "exampleDe": "Ich zeige den Weg.",
+    "conjugation": {
+      "ja": "pokazujem",
+      "ti": "pokazuješ",
+      "on": "pokazuje",
+      "mi": "pokazujemo",
+      "vi": "pokazujete",
+      "oni": "pokazuju"
+    },
+    "pastConjugation": {
+      "ja": "pokazao/pokazala sam",
+      "ti": "pokazao/pokazala si",
+      "on": "pokazao je / pokazala je",
+      "mi": "pokazali/pokazale smo",
+      "vi": "pokazali/pokazale ste",
+      "oni": "pokazali/pokazale su"
+    },
+    "futureConjugation": {
+      "ja": "pokazat ću",
+      "ti": "pokazat ćeš",
+      "on": "pokazat će",
+      "mi": "pokazat ćemo",
+      "vi": "pokazat ćete",
+      "oni": "pokazat će"
+    }
+  },
+  {
+    "id": 52,
+    "lesson": 1,
+    "de": "sitzen",
+    "hr": "sjediti",
+    "example": "Sjedim na stolici.",
+    "exampleDe": "Ich sitze auf dem Stuhl.",
+    "conjugation": {
+      "ja": "sjedim",
+      "ti": "sjediš",
+      "on": "sjedi",
+      "mi": "sjedimo",
+      "vi": "sjedite",
+      "oni": "sjede"
+    },
+    "pastConjugation": {
+      "ja": "sjedio/sjedila sam",
+      "ti": "sjedio/sjedila si",
+      "on": "sjedio je / sjedila je",
+      "mi": "sjedili/sjedile smo",
+      "vi": "sjedili/sjedile ste",
+      "oni": "sjedili/sjedile su"
+    },
+    "futureConjugation": {
+      "ja": "sjedjet ću",
+      "ti": "sjedjet ćeš",
+      "on": "sjedjet će",
+      "mi": "sjedjet ćemo",
+      "vi": "sjedjet ćete",
+      "oni": "sjedjet će"
+    }
+  },
+  {
+    "id": 53,
+    "lesson": 1,
+    "de": "stehen",
+    "hr": "stajati",
+    "example": "Stojim vani.",
+    "exampleDe": "Ich stehe draußen.",
+    "conjugation": {
+      "ja": "stojim",
+      "ti": "stojiš",
+      "on": "stoji",
+      "mi": "stojimo",
+      "vi": "stojite",
+      "oni": "stoje"
+    },
+    "pastConjugation": {
+      "ja": "stajao/stajala sam",
+      "ti": "stajao/stajala si",
+      "on": "stajao je / stajala je",
+      "mi": "stajali/stajale smo",
+      "vi": "stajali/stajale ste",
+      "oni": "stajali/stajale su"
+    },
+    "futureConjugation": {
+      "ja": "stajat ću",
+      "ti": "stajat ćeš",
+      "on": "stajat će",
+      "mi": "stajat ćemo",
+      "vi": "stajat ćete",
+      "oni": "stajat će"
+    }
+  },
+  {
+    "id": 54,
+    "lesson": 1,
+    "de": "liegen",
+    "hr": "ležati",
+    "example": "Ležim u krevetu.",
+    "exampleDe": "Ich liege im Bett.",
+    "conjugation": {
+      "ja": "ležim",
+      "ti": "ležiš",
+      "on": "leži",
+      "mi": "ležimo",
+      "vi": "ležite",
+      "oni": "leže"
+    },
+    "pastConjugation": {
+      "ja": "ležao/ležaala sam",
+      "ti": "ležao/ležaala si",
+      "on": "ležao je / ležala je",
+      "mi": "ležali/ležale smo",
+      "vi": "ležali/ležale ste",
+      "oni": "ležali/ležale su"
+    },
+    "futureConjugation": {
+      "ja": "ležat ću",
+      "ti": "ležat ćeš",
+      "on": "ležat će",
+      "mi": "ležat ćemo",
+      "vi": "ležat ćete",
+      "oni": "ležat će"
+    }
+  },
+  {
+    "id": 55,
+    "lesson": 1,
+    "de": "aufstehen",
+    "hr": "ustati",
+    "example": "Ustajem rano.",
+    "exampleDe": "Ich stehe früh auf.",
+    "conjugation": {
+      "ja": "ustajem",
+      "ti": "ustaješ",
+      "on": "ustaje",
+      "mi": "ustajemo",
+      "vi": "ustajete",
+      "oni": "ustaju"
+    },
+    "pastConjugation": {
+      "ja": "ustao/ustala sam",
+      "ti": "ustao/ustala si",
+      "on": "ustao je / ustala je",
+      "mi": "ustali/ustale smo",
+      "vi": "ustali/ustale ste",
+      "oni": "ustali/ustale su"
+    },
+    "futureConjugation": {
+      "ja": "ostat ću",
+      "ti": "ostat ćeš",
+      "on": "ostat će",
+      "mi": "ostat ćemo",
+      "vi": "ostat ćete",
+      "oni": "ostat će"
+    }
+  },
+  {
+    "id": 56,
+    "lesson": 1,
+    "de": "sich setzen",
+    "hr": "sjesti",
+    "example": "Sjedam na stolicu.",
+    "exampleDe": "Ich setze mich auf den Stuhl.",
+    "conjugation": {
+      "ja": "sjedam",
+      "ti": "sjedneš",
+      "on": "sjedne",
+      "mi": "sjednemo",
+      "vi": "sjednete",
+      "oni": "sjednu"
+    },
+    "pastConjugation": {
+      "ja": "sjeo/sjela sam",
+      "ti": "sjeo/sjela si",
+      "on": "sjeo je / sjela je",
+      "mi": "sjeli/sjele smo",
+      "vi": "sjeli/sjele ste",
+      "oni": "sjeli/sjele su"
+    },
+    "futureConjugation": {
+      "ja": "sjest ću",
+      "ti": "sjest ćeš",
+      "on": "sjest će",
+      "mi": "sjest ćemo",
+      "vi": "sjest ćete",
+      "oni": "sjest će"
+    }
+  },
+  {
+    "id": 57,
+    "lesson": 1,
+    "de": "sich hinlegen",
+    "hr": "leći",
+    "example": "Ležem u krevet.",
+    "exampleDe": "Ich lege mich ins Bett.",
+    "conjugation": {
+      "ja": "ležem",
+      "ti": "legneš",
+      "on": "legne",
+      "mi": "legnemo",
+      "vi": "legnete",
+      "oni": "legnu"
+    },
+    "pastConjugation": {
+      "ja": "legao/legla sam",
+      "ti": "legao/legla si",
+      "on": "legao je / legla je",
+      "mi": "legli/legle smo",
+      "vi": "legli/legle ste",
+      "oni": "legli/legle su"
+    },
+    "futureConjugation": {
+      "ja": "leći ću",
+      "ti": "leći ćeš",
+      "on": "leći će",
+      "mi": "leći ćemo",
+      "vi": "leći ćete",
+      "oni": "leći će"
+    }
+  },
+  {
+    "id": 58,
+    "lesson": 1,
+    "de": "schlafen",
+    "hr": "spavati",
+    "example": "Spavam osam sati.",
+    "exampleDe": "Ich schlafe acht Stunden.",
+    "conjugation": {
+      "ja": "spavam",
+      "ti": "spavaš",
+      "on": "spava",
+      "mi": "spavamo",
+      "vi": "spavate",
+      "oni": "spavaju"
+    },
+    "pastConjugation": {
+      "ja": "spavao/spavala sam",
+      "ti": "spavao/spavala si",
+      "on": "spavao je / spavala je",
+      "mi": "spavali/spavale smo",
+      "vi": "spavali/spavale ste",
+      "oni": "spavali/spavale su"
+    },
+    "futureConjugation": {
+      "ja": "spavat ću",
+      "ti": "spavat ćeš",
+      "on": "spavat će",
+      "mi": "spavat ćemo",
+      "vi": "spavat ćete",
+      "oni": "spavat će"
+    }
+  },
+  {
+    "id": 59,
+    "lesson": 1,
+    "de": "aufwachen",
+    "hr": "probuditi se",
+    "example": "Budim se rano.",
+    "exampleDe": "Ich wache früh auf.",
+    "conjugation": {
+      "ja": "budim se",
+      "ti": "budiš se",
+      "on": "budi se",
+      "mi": "budimo se",
+      "vi": "budite se",
+      "oni": "bude se"
+    },
+    "pastConjugation": {
+      "ja": "probudio/probudila sam se",
+      "ti": "probudio/probudila si se",
+      "on": "probudio se / probudila se",
+      "mi": "probudili/probudile smo se",
+      "vi": "probudili/probudile ste se",
+      "oni": "probudili/probudile su se"
+    },
+    "futureConjugation": {
+      "ja": "probudit ću se",
+      "ti": "probudit ćeš se",
+      "on": "probudit će se",
+      "mi": "probudit ćemo se",
+      "vi": "probudit ćete se",
+      "oni": "probudit će se"
+    }
+  },
+  {
+    "id": 60,
+    "lesson": 1,
+    "de": "sich freuen",
+    "hr": "radovati se",
+    "example": "Radujem se putovanju.",
+    "exampleDe": "Ich freue mich auf die Reise.",
+    "conjugation": {
+      "ja": "radujem se",
+      "ti": "raduješ se",
+      "on": "raduje se",
+      "mi": "radujemo se",
+      "vi": "radujete se",
+      "oni": "raduju se"
+    },
+    "pastConjugation": {
+      "ja": "radovao/radovala sam se",
+      "ti": "radovao/radovala si se",
+      "on": "radovao se / radovala se",
+      "mi": "radovali/radovale smo se",
+      "vi": "radovali/radovale ste se",
+      "oni": "radovali/radovale su se"
+    },
+    "futureConjugation": {
+      "ja": "radovat ću se",
+      "ti": "radovat ćeš se",
+      "on": "radovat će se",
+      "mi": "radovat ćemo se",
+      "vi": "radovat ćete se",
+      "oni": "radovat će se"
+    }
+  },
+  {
+    "id": 61,
+    "lesson": 1,
+    "de": "sich fürchten",
+    "hr": "bojati se",
+    "example": "Bojim se mraka.",
+    "exampleDe": "Ich fürchte mich vor der Dunkelheit.",
+    "conjugation": {
+      "ja": "bojim se",
+      "ti": "bojiš se",
+      "on": "boji se",
+      "mi": "bojimo se",
+      "vi": "bojite se",
+      "oni": "boje se"
+    },
+    "pastConjugation": {
+      "ja": "bojao/bojala sam se",
+      "ti": "bojao/bojala si se",
+      "on": "bojao se / bojala se",
+      "mi": "bojali/bojale smo se",
+      "vi": "bojali/bojale ste se",
+      "oni": "bojali/bojale su se"
+    },
+    "futureConjugation": {
+      "ja": "bojat ću se",
+      "ti": "bojat ćeš se",
+      "on": "bojat će se",
+      "mi": "bojat ćemo se",
+      "vi": "bojat ćete se",
+      "oni": "bojat će se"
+    }
+  },
+  {
+    "id": 62,
+    "lesson": 1,
+    "de": "lachen",
+    "hr": "smijati se",
+    "example": "Smijem se šali.",
+    "exampleDe": "Ich lache über den Witz.",
+    "conjugation": {
+      "ja": "smijem se",
+      "ti": "smiješ se",
+      "on": "smije se",
+      "mi": "smijemo se",
+      "vi": "smijete se",
+      "oni": "smiju se"
+    },
+    "pastConjugation": {
+      "ja": "smijao/smijala sam se",
+      "ti": "smijao/smijala si se",
+      "on": "smijao se / smijala se",
+      "mi": "smijali/smijale smo se",
+      "vi": "smijali/smijale ste se",
+      "oni": "smijali/smijale su se"
+    },
+    "futureConjugation": {
+      "ja": "smijat ću se",
+      "ti": "smijat ćeš se",
+      "on": "smijat će se",
+      "mi": "smijat ćemo se",
+      "vi": "smijat ćete se",
+      "oni": "smijat će se"
+    }
+  },
+  {
+    "id": 63,
+    "lesson": 1,
+    "de": "weinen",
+    "hr": "plakati",
+    "example": "Plačem zbog filma.",
+    "exampleDe": "Ich weine wegen des Films.",
+    "conjugation": {
+      "ja": "plačem",
+      "ti": "plačeš",
+      "on": "plače",
+      "mi": "plačemo",
+      "vi": "plačete",
+      "oni": "plaču"
+    },
+    "pastConjugation": {
+      "ja": "plakao/plakala sam",
+      "ti": "plakao/plakala si",
+      "on": "plakao je / plakala je",
+      "mi": "plakali/plakale smo",
+      "vi": "plakali/plakale ste",
+      "oni": "plakali/plakale su"
+    },
+    "futureConjugation": {
+      "ja": "plakat ću",
+      "ti": "plakat ćeš",
+      "on": "plakat će",
+      "mi": "plakat ćemo",
+      "vi": "plakat ćete",
+      "oni": "plakat će"
+    }
+  },
+  {
+    "id": 64,
+    "lesson": 1,
+    "de": "versuchen",
+    "hr": "pokušati",
+    "example": "Pokušavam razumjeti.",
+    "exampleDe": "Ich versuche zu verstehen.",
+    "conjugation": {
+      "ja": "pokušavam",
+      "ti": "pokušavaš",
+      "on": "pokušava",
+      "mi": "pokušavamo",
+      "vi": "pokušavate",
+      "oni": "pokušavaju"
+    },
+    "pastConjugation": {
+      "ja": "pokušao/pokušala sam",
+      "ti": "pokušao/pokušala si",
+      "on": "pokušao je / pokušala je",
+      "mi": "pokušali/pokušale smo",
+      "vi": "pokušali/pokušale ste",
+      "oni": "pokušali/pokušale su"
+    },
+    "futureConjugation": {
+      "ja": "pokušat ću",
+      "ti": "pokušat ćeš",
+      "on": "pokušat će",
+      "mi": "pokušat ćemo",
+      "vi": "pokušat ćete",
+      "oni": "pokušat će"
+    }
+  },
+  {
+    "id": 65,
+    "lesson": 1,
+    "de": "benutzen",
+    "hr": "koristiti",
+    "example": "Koristim telefon.",
+    "exampleDe": "Ich benutze das Telefon.",
+    "conjugation": {
+      "ja": "koristim",
+      "ti": "koristiš",
+      "on": "koristi",
+      "mi": "koristimo",
+      "vi": "koristite",
+      "oni": "koriste"
+    },
+    "pastConjugation": {
+      "ja": "koristio/koristila sam",
+      "ti": "koristio/koristila si",
+      "on": "koristio je / koristila je",
+      "mi": "koristili/koristile smo",
+      "vi": "koristili/koristile ste",
+      "oni": "koristili/koristile su"
+    },
+    "futureConjugation": {
+      "ja": "koristit ću",
+      "ti": "koristit ćeš",
+      "on": "koristit će",
+      "mi": "koristit ćemo",
+      "vi": "koristit ćete",
+      "oni": "koristit će"
+    }
+  },
+  {
+    "id": 66,
+    "lesson": 1,
+    "de": "wohnen",
+    "hr": "stanovati",
+    "example": "Stanujem u Zagrebu.",
+    "exampleDe": "Ich wohne in Zagreb.",
+    "conjugation": {
+      "ja": "stanujem",
+      "ti": "stanuješ",
+      "on": "stanuje",
+      "mi": "stanujemo",
+      "vi": "stanujete",
+      "oni": "stanuju"
+    },
+    "pastConjugation": {
+      "ja": "stanovao/stanovala sam",
+      "ti": "stanovao/stanovala si",
+      "on": "stanovao je / stanovala je",
+      "mi": "stanovali/stanovale smo",
+      "vi": "stanovali/stanovale ste",
+      "oni": "stanovali/stanovale su"
+    },
+    "futureConjugation": {
+      "ja": "stanovat ću",
+      "ti": "stanovat ćeš",
+      "on": "stanovat će",
+      "mi": "stanovat ćemo",
+      "vi": "stanovat ćete",
+      "oni": "stanovat će"
+    }
+  },
+  {
+    "id": 67,
+    "lesson": 1,
+    "de": "leben",
+    "hr": "živjeti",
+    "example": "Živim u Hrvatskoj.",
+    "exampleDe": "Ich lebe in Kroatien.",
+    "conjugation": {
+      "ja": "živim",
+      "ti": "živiš",
+      "on": "živi",
+      "mi": "živimo",
+      "vi": "živite",
+      "oni": "žive"
+    },
+    "pastConjugation": {
+      "ja": "živio/živjela sam",
+      "ti": "živio/živjela si",
+      "on": "živio je / živjela je",
+      "mi": "živjeli/živjele smo",
+      "vi": "živjeli/živjele ste",
+      "oni": "živjeli/živjele su"
+    },
+    "futureConjugation": {
+      "ja": "živjet ću",
+      "ti": "živjet ćeš",
+      "on": "živjet će",
+      "mi": "živjet ćemo",
+      "vi": "živjet ćete",
+      "oni": "živjet će"
+    }
+  },
+  {
+    "id": 68,
+    "lesson": 1,
+    "de": "sich ausruhen",
+    "hr": "odmarati se",
+    "example": "Odmaram se nakon posla.",
+    "exampleDe": "Ich ruhe mich nach der Arbeit aus.",
+    "conjugation": {
+      "ja": "odmaram se",
+      "ti": "odmaraš se",
+      "on": "odmara se",
+      "mi": "odmaramo se",
+      "vi": "odmarate se",
+      "oni": "odmaraju se"
+    },
+    "pastConjugation": {
+      "ja": "odmarao/odmarala sam se",
+      "ti": "odmarao/odmarala si se",
+      "on": "odmarao se / odmarala se",
+      "mi": "odmarali/odmarale smo se",
+      "vi": "odmarali/odmarale ste se",
+      "oni": "odmarali/odmarale su se"
+    },
+    "futureConjugation": {
+      "ja": "odmarat ću se",
+      "ti": "odmarat ćeš se",
+      "on": "odmarat će se",
+      "mi": "odmarat ćemo se",
+      "vi": "odmarat ćete se",
+      "oni": "odmarat će se"
+    }
+  },
+  {
+    "id": 69,
+    "lesson": 1,
+    "de": "planen",
+    "hr": "planirati",
+    "example": "Planiram putovanje.",
+    "exampleDe": "Ich plane eine Reise.",
+    "conjugation": {
+      "ja": "planiram",
+      "ti": "planiraš",
+      "on": "planira",
+      "mi": "planiramo",
+      "vi": "planirate",
+      "oni": "planiraju"
+    },
+    "pastConjugation": {
+      "ja": "planirao/planirala sam",
+      "ti": "planirao/planirala si",
+      "on": "planirao je / planirala je",
+      "mi": "planirali/planirale smo",
+      "vi": "planirali/planirale ste",
+      "oni": "planirali/planirale su"
+    },
+    "futureConjugation": {
+      "ja": "planirat ću",
+      "ti": "planirat ćeš",
+      "on": "planirat će",
+      "mi": "planirat ćemo",
+      "vi": "planirat ćete",
+      "oni": "planirat će"
+    }
+  },
+  {
+    "id": 70,
+    "lesson": 1,
+    "de": "entscheiden",
+    "hr": "odlučiti",
+    "example": "Odlučujem brzo.",
+    "exampleDe": "Ich entscheide schnell.",
+    "conjugation": {
+      "ja": "odlučujem",
+      "ti": "odlučuješ",
+      "on": "odlučuje",
+      "mi": "odlučujemo",
+      "vi": "odlučujete",
+      "oni": "odlučuju"
+    },
+    "pastConjugation": {
+      "ja": "odlučio/odlučila sam",
+      "ti": "odlučio/odlučila si",
+      "on": "odlučio je / odlučila je",
+      "mi": "odlučili/odlučile smo",
+      "vi": "odlučili/odlučile ste",
+      "oni": "odlučili/odlučile su"
+    },
+    "futureConjugation": {
+      "ja": "odlučit ću",
+      "ti": "odlučit ćeš",
+      "on": "odlučit će",
+      "mi": "odlučit ćemo",
+      "vi": "odlučit ćete",
+      "oni": "odlučit će"
+    }
+  },
+  {
+    "id": 71,
+    "lesson": 1,
+    "de": "wünschen",
+    "hr": "željeti",
+    "example": "Želim sreću.",
+    "exampleDe": "Ich wünsche Glück.",
+    "conjugation": {
+      "ja": "želim",
+      "ti": "želiš",
+      "on": "želi",
+      "mi": "želimo",
+      "vi": "želite",
+      "oni": "žele"
+    },
+    "pastConjugation": {
+      "ja": "želio/željela sam",
+      "ti": "želio/željela si",
+      "on": "želio je / željela je",
+      "mi": "željeli/željele smo",
+      "vi": "željeli/željele ste",
+      "oni": "željeli/željele su"
+    },
+    "futureConjugation": {
+      "ja": "željet ću",
+      "ti": "željet ćeš",
+      "on": "željet će",
+      "mi": "željet ćemo",
+      "vi": "željet ćete",
+      "oni": "željet će"
+    }
+  },
+  {
+    "id": 72,
+    "lesson": 1,
+    "de": "hoffen",
+    "hr": "nadati se",
+    "example": "Nadam se uspjehu.",
+    "exampleDe": "Ich hoffe auf Erfolg.",
+    "conjugation": {
+      "ja": "nadam se",
+      "ti": "nadaš se",
+      "on": "nada se",
+      "mi": "nadamo se",
+      "vi": "nadate se",
+      "oni": "nadaju se"
+    },
+    "pastConjugation": {
+      "ja": "nadao/nadala sam se",
+      "ti": "nadao/nadala si se",
+      "on": "nadao se / nadala se",
+      "mi": "nadali/nadale smo se",
+      "vi": "nadali/nadale ste se",
+      "oni": "nadali/nadale su se"
+    },
+    "futureConjugation": {
+      "ja": "nadat ću se",
+      "ti": "nadat ćeš se",
+      "on": "nadat će se",
+      "mi": "nadat ćemo se",
+      "vi": "nadat ćete se",
+      "oni": "nadat će se"
+    }
+  },
+  {
+    "id": 73,
+    "lesson": 1,
+    "de": "erwarten",
+    "hr": "očekivati",
+    "example": "Očekujem odgovor.",
+    "exampleDe": "Ich erwarte eine Antwort.",
+    "conjugation": {
+      "ja": "očekujem",
+      "ti": "očekuješ",
+      "on": "očekuje",
+      "mi": "očekujemo",
+      "vi": "očekujete",
+      "oni": "očekuju"
+    },
+    "pastConjugation": {
+      "ja": "očekivao/očekivala sam",
+      "ti": "očekivao/očekivala si",
+      "on": "očekivao je / očekivala je",
+      "mi": "očekivali/očekivale smo",
+      "vi": "očekivali/očekivale ste",
+      "oni": "očekivali/očekivale su"
+    },
+    "futureConjugation": {
+      "ja": "očekivat ću",
+      "ti": "očekivat ćeš",
+      "on": "očekivat će",
+      "mi": "očekivat ćemo",
+      "vi": "očekivat ćete",
+      "oni": "očekivat će"
+    }
+  },
+  {
+    "id": 74,
+    "lesson": 1,
+    "de": "zugeben",
+    "hr": "priznati",
+    "example": "Priznajem grešku.",
+    "exampleDe": "Ich gebe den Fehler zu.",
+    "conjugation": {
+      "ja": "priznajem",
+      "ti": "priznaješ",
+      "on": "priznaje",
+      "mi": "priznajemo",
+      "vi": "priznajete",
+      "oni": "priznaju"
+    },
+    "pastConjugation": {
+      "ja": "priznao/priznala sam",
+      "ti": "priznao/priznala si",
+      "on": "priznao je / priznala je",
+      "mi": "priznali/priznale smo",
+      "vi": "priznali/priznale ste",
+      "oni": "priznali/priznale su"
+    },
+    "futureConjugation": {
+      "ja": "priznat ću",
+      "ti": "priznat ćeš",
+      "on": "priznat će",
+      "mi": "priznat ćemo",
+      "vi": "priznat ćete",
+      "oni": "priznat će"
+    }
+  },
+  {
+    "id": 75,
+    "lesson": 1,
+    "de": "ablehnen",
+    "hr": "odbiti",
+    "example": "Odbijam ponudu.",
+    "exampleDe": "Ich lehne das Angebot ab.",
+    "conjugation": {
+      "ja": "odbijam",
+      "ti": "odbijaš",
+      "on": "odbija",
+      "mi": "odbijamo",
+      "vi": "odbijate",
+      "oni": "odbijaju"
+    },
+    "pastConjugation": {
+      "ja": "odbio/odbila sam",
+      "ti": "odbio/odbila si",
+      "on": "odbio je / odbila je",
+      "mi": "odbili/odbile smo",
+      "vi": "odbili/odbile ste",
+      "oni": "odbili/odbile su"
+    },
+    "futureConjugation": {
+      "ja": "odbit ću",
+      "ti": "odbit ćeš",
+      "on": "odbit će",
+      "mi": "odbit ćemo",
+      "vi": "odbit ćete",
+      "oni": "odbit će"
+    }
+  },
+  {
+    "id": 76,
+    "lesson": 1,
+    "de": "akzeptieren",
+    "hr": "prihvatiti",
+    "example": "Prihvaćam uvjete.",
+    "exampleDe": "Ich akzeptiere die Bedingungen.",
+    "conjugation": {
+      "ja": "prihvaćam",
+      "ti": "prihvaćaš",
+      "on": "prihvaća",
+      "mi": "prihvaćamo",
+      "vi": "prihvaćate",
+      "oni": "prihvaćaju"
+    },
+    "pastConjugation": {
+      "ja": "prihvatio/prihvatila sam",
+      "ti": "prihvatio/prihvatila si",
+      "on": "prihvatio je / prihvatila je",
+      "mi": "prihvatili/prihvatile smo",
+      "vi": "prihvatili/prihvatile ste",
+      "oni": "prihvatili/prihvatile su"
+    },
+    "futureConjugation": {
+      "ja": "prihvatit ću",
+      "ti": "prihvatit ćeš",
+      "on": "prihvatit će",
+      "mi": "prihvatit ćemo",
+      "vi": "prihvatit ćete",
+      "oni": "prihvatit će"
+    }
+  },
+  {
+    "id": 77,
+    "lesson": 1,
+    "de": "vorschlagen",
+    "hr": "predložiti",
+    "example": "Predlažem ideju.",
+    "exampleDe": "Ich schlage eine Idee vor.",
+    "conjugation": {
+      "ja": "predlažem",
+      "ti": "predlažeš",
+      "on": "predlaže",
+      "mi": "predlažemo",
+      "vi": "predlažete",
+      "oni": "predlažu"
+    },
+    "pastConjugation": {
+      "ja": "predložio/predložila sam",
+      "ti": "predložio/predložila si",
+      "on": "predložio je / predložila je",
+      "mi": "predložili/predložile smo",
+      "vi": "predložili/predložile ste",
+      "oni": "predložili/predložile su"
+    },
+    "futureConjugation": {
+      "ja": "predložit ću",
+      "ti": "predložit ćeš",
+      "on": "predložit će",
+      "mi": "predložit ćemo",
+      "vi": "predložit ćete",
+      "oni": "predložit će"
+    }
+  },
+  {
+    "id": 78,
+    "lesson": 1,
+    "de": "verstehen",
+    "hr": "razumjeti",
+    "example": "Razumijem pitanje.",
+    "exampleDe": "Ich verstehe die Frage.",
+    "conjugation": {
+      "ja": "razumijem",
+      "ti": "razumiješ",
+      "on": "razumije",
+      "mi": "razumijemo",
+      "vi": "razumijete",
+      "oni": "razumiju"
+    },
+    "pastConjugation": {
+      "ja": "razumio/razumjela sam",
+      "ti": "razumio/razumjela si",
+      "on": "razumio je / razumjela je",
+      "mi": "razumjeli/razumjele smo",
+      "vi": "razumjeli/razumjele ste",
+      "oni": "razumjeli/razumjele su"
+    },
+    "futureConjugation": {
+      "ja": "razumjet ću",
+      "ti": "razumjet ćeš",
+      "on": "razumjet će",
+      "mi": "razumjet ćemo",
+      "vi": "razumjet ćete",
+      "oni": "razumjet će"
+    }
+  },
+  {
+    "id": 79,
+    "lesson": 1,
+    "de": "erklären",
+    "hr": "objasniti",
+    "example": "Objašnjavam pravilo.",
+    "exampleDe": "Ich erkläre die Regel.",
+    "conjugation": {
+      "ja": "objašnjavam",
+      "ti": "objašnjavaš",
+      "on": "objašnjava",
+      "mi": "objašnjavamo",
+      "vi": "objašnjavate",
+      "oni": "objašnjavaju"
+    },
+    "pastConjugation": {
+      "ja": "objasnio/objasnila sam",
+      "ti": "objasnio/objasnila si",
+      "on": "objasnio je / objasnila je",
+      "mi": "objasnili/objasnile smo",
+      "vi": "objasnili/objasnile ste",
+      "oni": "objasnili/objasnile su"
+    },
+    "futureConjugation": {
+      "ja": "objasnit ću",
+      "ti": "objasnit ćeš",
+      "on": "objasnit će",
+      "mi": "objasnit ćemo",
+      "vi": "objasnit ćete",
+      "oni": "objasnit će"
+    }
+  },
+  {
+    "id": 80,
+    "lesson": 1,
+    "de": "erzählen",
+    "hr": "pričati",
+    "example": "Pričam priču.",
+    "exampleDe": "Ich erzähle eine Geschichte.",
+    "conjugation": {
+      "ja": "pričam",
+      "ti": "pričaš",
+      "on": "priča",
+      "mi": "pričamo",
+      "vi": "pričate",
+      "oni": "pričaju"
+    },
+    "pastConjugation": {
+      "ja": "pričao/pričala sam",
+      "ti": "pričao/pričala si",
+      "on": "pričao je / pričala je",
+      "mi": "pričali/pričale smo",
+      "vi": "pričali/pričale ste",
+      "oni": "pričali/pričale su"
+    },
+    "futureConjugation": {
+      "ja": "pričat ću",
+      "ti": "pričat ćeš",
+      "on": "pričat će",
+      "mi": "pričat ćemo",
+      "vi": "pričat ćete",
+      "oni": "pričat će"
+    }
+  },
+  {
+    "id": 81,
+    "lesson": 1,
+    "de": "vergessen",
+    "hr": "zaboraviti",
+    "example": "Zaboravljam ključ.",
+    "exampleDe": "Ich vergesse den Schlüssel.",
+    "conjugation": {
+      "ja": "zaboravljam",
+      "ti": "zaboravljaš",
+      "on": "zaboravlja",
+      "mi": "zaboravljamo",
+      "vi": "zaboravljate",
+      "oni": "zaboravljaju"
+    },
+    "pastConjugation": {
+      "ja": "zaboravio/zaboravila sam",
+      "ti": "zaboravio/zaboravila si",
+      "on": "zaboravio je / zaboravila je",
+      "mi": "zaboravili/zaboravile smo",
+      "vi": "zaboravili/zaboravile ste",
+      "oni": "zaboravili/zaboravile su"
+    },
+    "futureConjugation": {
+      "ja": "zaboravit ću",
+      "ti": "zaboravit ćeš",
+      "on": "zaboravit će",
+      "mi": "zaboravit ćemo",
+      "vi": "zaboravit ćete",
+      "oni": "zaboravit će"
+    }
+  },
+  {
+    "id": 82,
+    "lesson": 1,
+    "de": "sich erinnern",
+    "hr": "sjećati se",
+    "example": "Sjećam se djetinjstva.",
+    "exampleDe": "Ich erinnere mich an die Kindheit.",
+    "conjugation": {
+      "ja": "sjećam se",
+      "ti": "sjećaš se",
+      "on": "sjeća se",
+      "mi": "sjećamo se",
+      "vi": "sjećate se",
+      "oni": "sjećaju se"
+    },
+    "pastConjugation": {
+      "ja": "sjećao/sjećala sam se",
+      "ti": "sjećao/sjećala si se",
+      "on": "sjećao se / sjećala se",
+      "mi": "sjećali/sjećale smo se",
+      "vi": "sjećali/sjećale ste se",
+      "oni": "sjećali/sjećale su se"
+    },
+    "futureConjugation": {
+      "ja": "sjećat ću se",
+      "ti": "sjećat ćeš se",
+      "on": "sjećat će se",
+      "mi": "sjećat ćemo se",
+      "vi": "sjećat ćete se",
+      "oni": "sjećat će se"
+    }
+  },
+  {
+    "id": 83,
+    "lesson": 1,
+    "de": "glauben",
+    "hr": "vjerovati",
+    "example": "Vjerujem tebi.",
+    "exampleDe": "Ich glaube dir.",
+    "conjugation": {
+      "ja": "vjerujem",
+      "ti": "vjeruješ",
+      "on": "vjeruje",
+      "mi": "vjerujemo",
+      "vi": "vjerujete",
+      "oni": "vjeruju"
+    },
+    "pastConjugation": {
+      "ja": "vjerovao/vjerovala sam",
+      "ti": "vjerovao/vjerovala si",
+      "on": "vjerovao je / vjerovala je",
+      "mi": "vjerovali/vjerovale smo",
+      "vi": "vjerovali/vjerovale ste",
+      "oni": "vjerovali/vjerovale su"
+    },
+    "futureConjugation": {
+      "ja": "vjerovat ću",
+      "ti": "vjerovat ćeš",
+      "on": "vjerovat će",
+      "mi": "vjerovat ćemo",
+      "vi": "vjerovat ćete",
+      "oni": "vjerovat će"
+    }
+  },
+  {
+    "id": 84,
+    "lesson": 1,
+    "de": "zustimmen",
+    "hr": "slagati se",
+    "example": "Slažem se s tobom.",
+    "exampleDe": "Ich stimme dir zu.",
+    "conjugation": {
+      "ja": "slažem se",
+      "ti": "slažeš se",
+      "on": "slaže se",
+      "mi": "slažemo se",
+      "vi": "slažete se",
+      "oni": "slažu se"
+    },
+    "pastConjugation": {
+      "ja": "slagao/slagala sam se",
+      "ti": "slagao/slagala si se",
+      "on": "slagao se / slagala se",
+      "mi": "slagali/slagale smo se",
+      "vi": "slagali/slagale ste se",
+      "oni": "slagali/slagale su se"
+    },
+    "futureConjugation": {
+      "ja": "slagat ću se",
+      "ti": "slagat ćeš se",
+      "on": "slagat će se",
+      "mi": "slagat ćemo se",
+      "vi": "slagat ćete se",
+      "oni": "slagat će se"
+    }
+  },
+  {
+    "id": 85,
+    "lesson": 1,
+    "de": "diskutieren",
+    "hr": "raspravljati",
+    "example": "Raspravljamo o temi.",
+    "exampleDe": "Wir diskutieren über das Thema.",
+    "conjugation": {
+      "ja": "raspravljam",
+      "ti": "raspravljaš",
+      "on": "raspravlja",
+      "mi": "raspravljamo",
+      "vi": "raspravljate",
+      "oni": "raspravljaju"
+    },
+    "pastConjugation": {
+      "ja": "raspravljao/raspravljala sam",
+      "ti": "raspravljao/raspravljala si",
+      "on": "raspravljao je / raspravljala je",
+      "mi": "raspravljali/raspravljale smo",
+      "vi": "raspravljali/raspravljale ste",
+      "oni": "raspravljali/raspravljale su"
+    },
+    "futureConjugation": {
+      "ja": "raspravljat ću",
+      "ti": "raspravljat ćeš",
+      "on": "raspravljat će",
+      "mi": "raspravljat ćemo",
+      "vi": "raspravljat ćete",
+      "oni": "raspravljat će"
+    }
+  },
+  {
+    "id": 86,
+    "lesson": 1,
+    "de": "einchecken",
+    "hr": "čekirati",
+    "example": "Čekiram se na aerodromu.",
+    "exampleDe": "Ich checke am Flughafen ein.",
+    "conjugation": {
+      "ja": "čekiram",
+      "ti": "čekiraš",
+      "on": "čekira",
+      "mi": "čekiramo",
+      "vi": "čekirate",
+      "oni": "čekiraju"
+    },
+    "pastConjugation": {
+      "ja": "čekirao/čekirala sam",
+      "ti": "čekirao/čekirala si",
+      "on": "čekirao je / čekirala je",
+      "mi": "čekirali/čekirale smo",
+      "vi": "čekirali/čekirale ste",
+      "oni": "čekirali/čekirale su"
+    },
+    "futureConjugation": {
+      "ja": "čekirat ću",
+      "ti": "čekirat ćeš",
+      "on": "čekirat će",
+      "mi": "čekirat ćemo",
+      "vi": "čekirat ćete",
+      "oni": "čekirat će"
+    }
+  },
+  {
+    "id": 87,
+    "lesson": 1,
+    "de": "reservieren",
+    "hr": "rezervirati",
+    "example": "Rezerviram stol.",
+    "exampleDe": "Ich reserviere einen Tisch.",
+    "conjugation": {
+      "ja": "rezerviram",
+      "ti": "rezerviraš",
+      "on": "rezervira",
+      "mi": "rezerviramo",
+      "vi": "rezervirate",
+      "oni": "rezerviraju"
+    },
+    "pastConjugation": {
+      "ja": "rezervirao/rezervirala sam",
+      "ti": "rezervirao/rezervirala si",
+      "on": "rezervirao je / rezervirala je",
+      "mi": "rezervirali/rezervirale smo",
+      "vi": "rezervirali/rezervirale ste",
+      "oni": "rezervirali/rezervirale su"
+    },
+    "futureConjugation": {
+      "ja": "rezervirat ću",
+      "ti": "rezervirat ćeš",
+      "on": "rezervirat će",
+      "mi": "rezervirat ćemo",
+      "vi": "rezervirat ćete",
+      "oni": "rezervirat će"
+    }
+  },
+  {
+    "id": 88,
+    "lesson": 1,
+    "de": "bezahlen",
+    "hr": "platiti",
+    "example": "Plaćam račun.",
+    "exampleDe": "Ich bezahle die Rechnung.",
+    "conjugation": {
+      "ja": "plaćam",
+      "ti": "plaćaš",
+      "on": "plaća",
+      "mi": "plaćamo",
+      "vi": "plaćate",
+      "oni": "plaćaju"
+    },
+    "pastConjugation": {
+      "ja": "platio/platila sam",
+      "ti": "platio/platila si",
+      "on": "platio je / platila je",
+      "mi": "platili/platile smo",
+      "vi": "platili/platile ste",
+      "oni": "platili/platile su"
+    },
+    "futureConjugation": {
+      "ja": "platit ću",
+      "ti": "platit ćeš",
+      "on": "platit će",
+      "mi": "platit ćemo",
+      "vi": "platit ćete",
+      "oni": "platit će"
+    }
+  },
+  {
+    "id": 89,
+    "lesson": 1,
+    "de": "kosten",
+    "hr": "koštati",
+    "example": "Koliko košta ovo?",
+    "exampleDe": "Wie viel kostet das?",
+    "conjugation": {
+      "ja": "koštam",
+      "ti": "koštaš",
+      "on": "košta",
+      "mi": "koštamo",
+      "vi": "koštate",
+      "oni": "koštaju"
+    },
+    "pastConjugation": {
+      "ja": "koštao/koštala sam",
+      "ti": "koštao/koštala si",
+      "on": "koštao je / koštala je",
+      "mi": "koštali/koštale smo",
+      "vi": "koštali/koštale ste",
+      "oni": "koštali/koštale su"
+    },
+    "futureConjugation": {
+      "ja": "koštat ću",
+      "ti": "koštat ćeš",
+      "on": "koštat će",
+      "mi": "koštat ćemo",
+      "vi": "koštat ćete",
+      "oni": "koštat će"
+    }
+  },
+  {
+    "id": 90,
+    "lesson": 1,
+    "de": "tun",
+    "hr": "raditi",
+    "example": "Što radiš?",
+    "exampleDe": "Was machst du?",
+    "conjugation": {
+      "ja": "radim",
+      "ti": "radiš",
+      "on": "radi",
+      "mi": "radimo",
+      "vi": "radite",
+      "oni": "rade"
+    },
+    "pastConjugation": {
+      "ja": "radio/radila sam",
+      "ti": "radio/radila si",
+      "on": "radio je / radila je",
+      "mi": "radili/radile smo",
+      "vi": "radili/radile ste",
+      "oni": "radili/radile su"
+    },
+    "futureConjugation": {
+      "ja": "radit ću",
+      "ti": "radit ćeš",
+      "on": "radit će",
+      "mi": "radit ćemo",
+      "vi": "radit ćete",
+      "oni": "radit će"
+    }
+  },
+  {
+    "id": 91,
+    "lesson": 1,
+    "de": "ändern",
+    "hr": "mijenjati",
+    "example": "Mijenjam plan.",
+    "exampleDe": "Ich ändere den Plan.",
+    "conjugation": {
+      "ja": "mijenjam",
+      "ti": "mijenjaš",
+      "on": "mijenja",
+      "mi": "mijenjamo",
+      "vi": "mijenjate",
+      "oni": "mijenjaju"
+    },
+    "pastConjugation": {
+      "ja": "mijenjao/mijenjala sam",
+      "ti": "mijenjao/mijenjala si",
+      "on": "mijenjao je / mijenjala je",
+      "mi": "mijenjali/mijenjale smo",
+      "vi": "mijenjali/mijenjale ste",
+      "oni": "mijenjali/mijenjale su"
+    },
+    "futureConjugation": {
+      "ja": "mijenjat ću",
+      "ti": "mijenjat ćeš",
+      "on": "mijenjat će",
+      "mi": "mijenjat ćemo",
+      "vi": "mijenjat ćete",
+      "oni": "mijenjat će"
+    }
+  },
+  {
+    "id": 92,
+    "lesson": 1,
+    "de": "verbessern",
+    "hr": "poboljšati",
+    "example": "Poboljšavam rezultate.",
+    "exampleDe": "Ich verbessere die Ergebnisse.",
+    "conjugation": {
+      "ja": "poboljšavam",
+      "ti": "poboljšavaš",
+      "on": "poboljšava",
+      "mi": "poboljšavamo",
+      "vi": "poboljšavate",
+      "oni": "poboljšavaju"
+    },
+    "pastConjugation": {
+      "ja": "poboljšao/poboljšala sam",
+      "ti": "poboljšao/poboljšala si",
+      "on": "poboljšao je / poboljšala je",
+      "mi": "poboljšali/poboljšale smo",
+      "vi": "poboljšali/poboljšale ste",
+      "oni": "poboljšali/poboljšale su"
+    },
+    "futureConjugation": {
+      "ja": "poboljšat ću",
+      "ti": "poboljšat ćeš",
+      "on": "poboljšat će",
+      "mi": "poboljšat ćemo",
+      "vi": "poboljšat ćete",
+      "oni": "poboljšat će"
+    }
+  },
+  {
+    "id": 93,
+    "lesson": 1,
+    "de": "kaputt machen",
+    "hr": "pokvariti",
+    "example": "Pokvario sam telefon.",
+    "exampleDe": "Ich habe das Handy kaputt gemacht.",
+    "conjugation": {
+      "ja": "pokvarim",
+      "ti": "pokvariš",
+      "on": "pokvari",
+      "mi": "pokvarimo",
+      "vi": "pokvarite",
+      "oni": "pokvare"
+    },
+    "pastConjugation": {
+      "ja": "pokvario/pokvarila sam",
+      "ti": "pokvario/pokvarila si",
+      "on": "pokvario je / pokvarila je",
+      "mi": "pokvarili/pokvarile smo",
+      "vi": "pokvarili/pokvarile ste",
+      "oni": "pokvarili/pokvarile su"
+    },
+    "futureConjugation": {
+      "ja": "pokvarit ću",
+      "ti": "pokvarit ćeš",
+      "on": "pokvarit će",
+      "mi": "pokvarit ćemo",
+      "vi": "pokvarit ćete",
+      "oni": "pokvarit će"
+    }
+  },
+  {
+    "id": 94,
+    "lesson": 1,
+    "de": "bauen",
+    "hr": "graditi",
+    "example": "Gradim kuću.",
+    "exampleDe": "Ich baue ein Haus.",
+    "conjugation": {
+      "ja": "gradim",
+      "ti": "gradiš",
+      "on": "gradi",
+      "mi": "gradimo",
+      "vi": "gradite",
+      "oni": "grade"
+    },
+    "pastConjugation": {
+      "ja": "gradio/gradila sam",
+      "ti": "gradio/gradila si",
+      "on": "gradio je / gradila je",
+      "mi": "gradili/gradile smo",
+      "vi": "gradili/gradile ste",
+      "oni": "gradili/gradile su"
+    },
+    "futureConjugation": {
+      "ja": "gradit ću",
+      "ti": "gradit ćeš",
+      "on": "gradit će",
+      "mi": "gradit ćemo",
+      "vi": "gradit ćete",
+      "oni": "gradit će"
+    }
+  },
+  {
+    "id": 95,
+    "lesson": 1,
+    "de": "zerstören",
+    "hr": "rušiti",
+    "example": "Rušim stari zid.",
+    "exampleDe": "Ich zerstöre die alte Wand.",
+    "conjugation": {
+      "ja": "rušim",
+      "ti": "rušiš",
+      "on": "ruši",
+      "mi": "rušimo",
+      "vi": "rušite",
+      "oni": "ruše"
+    },
+    "pastConjugation": {
+      "ja": "rušio/rušila sam",
+      "ti": "rušio/rušila si",
+      "on": "rušio je / rušila je",
+      "mi": "rušili/rušile smo",
+      "vi": "rušili/rušile ste",
+      "oni": "rušili/rušile su"
+    },
+    "futureConjugation": {
+      "ja": "rušit ću",
+      "ti": "rušit ćeš",
+      "on": "rušit će",
+      "mi": "rušit ćemo",
+      "vi": "rušit ćete",
+      "oni": "rušit će"
+    }
+  }
+]
