@@ -63,8 +63,6 @@ export class AppComponent {
     { title: 'Alle Verben', url: '/list', icon: 'list' },
   ];
 
-  readonly lessons = [1, 2, 3];
-
   constructor() {
     addIcons({
       school,

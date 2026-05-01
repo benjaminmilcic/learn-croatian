@@ -1,6 +1,7 @@
 import { computed, inject, Injectable, signal } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { HttpClient } from '@angular/common/http';
-import { Observable, shareReplay } from 'rxjs';
+import { map, Observable, shareReplay } from 'rxjs';
 
 export interface Conjugation {
   ja: string;
@@ -29,7 +30,16 @@ const LESSON_KEY = 'learn-verbs:lessons';
 @Injectable({ providedIn: 'root' })
 export class VerbService {
   private http = inject(HttpClient);
-  private verbs$?: Observable<Verb[]>;
+  private readonly verbs$ = this.http
+    .get<Verb[]>('assets/verbs.json')
+    .pipe(shareReplay(1));
+
+  readonly availableLessons = toSignal(
+    this.verbs$.pipe(
+      map(verbs => [...new Set(verbs.map(v => v.lesson))].sort((a, b) => a - b))
+    ),
+    { initialValue: [] as number[] }
+  );
 
   private readonly knownSet = signal<Set<number>>(this.loadKnown());
   readonly knownIds = computed(() => this.knownSet());
@@ -39,11 +49,6 @@ export class VerbService {
   readonly lessonIds = computed(() => this.activeLessons());
 
   getVerbs(): Observable<Verb[]> {
-    if (!this.verbs$) {
-      this.verbs$ = this.http
-        .get<Verb[]>('assets/verbs.json')
-        .pipe(shareReplay(1));
-    }
     return this.verbs$;
   }
 

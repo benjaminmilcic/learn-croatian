@@ -19,7 +19,7 @@
         <div class="px-4 pt-4 pb-6 border-t border-black/10 dark:border-white/10 mt-2">
           <p class="text-xs uppercase tracking-widest opacity-50 mb-3">Lektionen</p>
           <div class="flex gap-2">
-            @for (l of lessons; track l) {
+            @for (l of verbService.availableLessons(); track l) {
               <button
                 type="button"
                 (click)="verbService.toggleLesson(l)"
