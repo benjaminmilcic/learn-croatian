@@ -15,7 +15,8 @@
       "PowerShell(Get-ChildItem \"C:\\\\eigene Projekte\\\\learn-verbs\\\\android\\\\app\\\\src\\\\main\\\\res\" -ErrorAction SilentlyContinue | ForEach-Object { $_.Name })",
       "PowerShell(Get-ChildItem \"C:\\\\eigene Projekte\\\\learn-verbs\\\\android\\\\app\\\\src\\\\main\\\\res\\\\drawable\" | ForEach-Object { $_.Name })",
       "PowerShell(Get-ChildItem \"C:\\\\eigene Projekte\\\\learn-verbs\\\\android\\\\app\\\\src\\\\main\\\\res\\\\values\" | ForEach-Object { $_.Name })",
-      "PowerShell(Get-ChildItem \"C:\\\\eigene Projekte\\\\learn-verbs\\\\android\\\\app\\\\src\\\\main\\\\java\" -Recurse | ForEach-Object { $_.FullName })"
+      "PowerShell(Get-ChildItem \"C:\\\\eigene Projekte\\\\learn-verbs\\\\android\\\\app\\\\src\\\\main\\\\java\" -Recurse | ForEach-Object { $_.FullName })",
+      "Bash(Copy-Item *)"
     ]
   }
 }
