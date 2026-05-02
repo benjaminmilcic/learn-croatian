@@ -8,7 +8,10 @@
       "Bash(npx ionic *)",
       "PowerShell(Get-ChildItem -Path \"C:\\\\eigene Projekte\\\\learn-verbs\\\\src\" -Recurse | Where-Object { $_.PSIsContainer } | ForEach-Object { $_.FullName.Replace\\('C:\\\\eigene Projekte\\\\learn-verbs\\\\', ''\\) } | Sort-Object)",
       "Bash(Get-ChildItem -Path \"C:\\\\eigene Projekte\\\\learn-verbs\" -Recurse -File)",
-      "Bash(Select-Object -ExpandProperty FullName)"
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k:v for k,v in d.items\\(\\) if k in ['name','version','dependencies','devDependencies','scripts']}, indent=2\\)\\)\")",
+      "Bash(npx @capacitor/assets --version)",
+      "Bash(npx @capacitor/assets generate --android)"
     ]
   }
 }
