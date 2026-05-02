@@ -22,6 +22,7 @@ export class AdjectiveService {
   );
 
   private readonly knownSet = signal<Set<number>>(this.loadKnown());
+  readonly knownIds = computed(() => [...this.knownSet()]);
   readonly knownCount = computed(() => this.knownSet().size);
 
   private readonly activeLessons = signal<Set<number>>(this.loadLessons());
@@ -74,6 +75,15 @@ export class AdjectiveService {
       [a[i], a[j]] = [a[j], a[i]];
     }
     return a;
+  }
+
+  restoreState(known: number[], lessons: number[]): void {
+    const knownSet = new Set(known);
+    this.knownSet.set(knownSet);
+    this.persistKnown(knownSet);
+    const lessonSet = new Set(lessons.length ? lessons : [1]);
+    this.activeLessons.set(lessonSet);
+    this.persistLessons(lessonSet);
   }
 
   private loadKnown(): Set<number> {

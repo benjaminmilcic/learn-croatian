@@ -22,10 +22,13 @@ import {
   swapHorizontal,
   checkmarkCircle,
   checkmarkCircleOutline,
+  informationCircleOutline,
+  informationCircleSharp,
 } from 'ionicons/icons';
 import { RouterLink } from '@angular/router';
 import { WordItem } from '../../services/word.types';
 import { CategoryService } from '../../services/category.service';
+import { WordDetailsComponent } from '../../components/word-details/word-details.component';
 
 type Direction = 'de-hr' | 'hr-de';
 
@@ -48,6 +51,7 @@ type Direction = 'de-hr' | 'hr-de';
     IonSegmentButton,
     IonLabel,
     IonProgressBar,
+    WordDetailsComponent,
   ],
 })
 export class LearnPage {
@@ -57,6 +61,7 @@ export class LearnPage {
   index = signal(0);
   flipped = signal(false);
   direction = signal<Direction>('hr-de');
+  showDetails = signal(false);
 
   current = computed(() => this.pool()[this.index()]);
   progress = computed(() => {
@@ -65,7 +70,7 @@ export class LearnPage {
   });
 
   constructor() {
-    addIcons({ arrowBack, arrowForward, refresh, swapHorizontal, checkmarkCircle, checkmarkCircleOutline });
+    addIcons({ arrowBack, arrowForward, refresh, swapHorizontal, checkmarkCircle, checkmarkCircleOutline, informationCircleOutline, informationCircleSharp });
 
     effect(() => {
       const items = this.categoryService.items();
@@ -116,11 +121,17 @@ export class LearnPage {
   }
 
   next() {
-    this.advance(() => this.index.update(i => Math.min(i + 1, this.pool().length - 1)));
+    this.advance(() => {
+      this.showDetails.set(false);
+      this.index.update(i => Math.min(i + 1, this.pool().length - 1));
+    });
   }
 
   prev() {
-    this.advance(() => this.index.update(i => Math.max(i - 1, 0)));
+    this.advance(() => {
+      this.showDetails.set(false);
+      this.index.update(i => Math.max(i - 1, 0));
+    });
   }
 
   private advance(move: () => void) {
@@ -136,6 +147,7 @@ export class LearnPage {
     const item = this.current();
     if (!item) return;
     this.advance(() => {
+      this.showDetails.set(false);
       this.categoryService.toggleKnown(item.id);
       const pool = this.pool();
       const idx = this.index();

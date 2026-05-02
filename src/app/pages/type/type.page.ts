@@ -23,9 +23,12 @@ import {
   checkmarkCircle,
   checkmarkCircleOutline,
   closeCircle,
+  informationCircleOutline,
+  informationCircleSharp,
 } from 'ionicons/icons';
 import { WordItem } from '../../services/word.types';
 import { CategoryService } from '../../services/category.service';
+import { WordDetailsComponent } from '../../components/word-details/word-details.component';
 
 type Direction = 'hr-to-de' | 'de-to-hr';
 
@@ -45,6 +48,7 @@ type Direction = 'hr-to-de' | 'de-to-hr';
     IonButton,
     IonIcon,
     IonProgressBar,
+    WordDetailsComponent,
   ],
 })
 export class TypePage {
@@ -53,6 +57,7 @@ export class TypePage {
   readonly categoryService = inject(CategoryService);
 
   active = signal<WordItem[]>([]);
+  showDetails = signal(false);
   direction = signal<Direction>('hr-to-de');
   questionCount = signal(10);
   readonly COUNT_OPTIONS = [5, 10, 20, 0];
@@ -74,7 +79,7 @@ export class TypePage {
   readonly MIN_ITEMS = 2;
 
   constructor() {
-    addIcons({ create, createOutline, createSharp, refresh, trophy, sparkles, checkmarkCircle, checkmarkCircleOutline, closeCircle });
+    addIcons({ create, createOutline, createSharp, refresh, trophy, sparkles, checkmarkCircle, checkmarkCircleOutline, closeCircle, informationCircleOutline, informationCircleSharp });
 
     effect(() => {
       const items = this.categoryService.items();
@@ -155,6 +160,7 @@ export class TypePage {
   }
 
   nextQuestion() {
+    this.showDetails.set(false);
     if (this.index() >= this.questions().length - 1) {
       this.finished.set(true);
       return;

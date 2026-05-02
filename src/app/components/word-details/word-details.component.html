@@ -1,0 +1,63 @@
+<div class="rounded-2xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 p-4 flex flex-col gap-4 text-sm">
+
+  @if (category() === 'verbs') {
+    @let verb = asVerb(item());
+    <div>
+      <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Präsens</div>
+      <div class="grid grid-cols-2 gap-x-4 gap-y-1">
+        <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ verb.conjugation.ja }}</span></div>
+        <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ verb.conjugation.mi }}</span></div>
+        <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ verb.conjugation.ti }}</span></div>
+        <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ verb.conjugation.vi }}</span></div>
+        <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ verb.conjugation.on }}</span></div>
+        <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ verb.conjugation.oni }}</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Vergangenheit (Perfekt)</div>
+      <div class="grid grid-cols-2 gap-x-4 gap-y-1">
+        <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ verb.pastConjugation.ja }}</span></div>
+        <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ verb.pastConjugation.mi }}</span></div>
+        <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ verb.pastConjugation.ti }}</span></div>
+        <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ verb.pastConjugation.vi }}</span></div>
+        <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ verb.pastConjugation.on }}</span></div>
+        <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ verb.pastConjugation.oni }}</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Zukunft (Futur I)</div>
+      <div class="grid grid-cols-2 gap-x-4 gap-y-1">
+        <div><span class="opacity-60 mr-2">ja</span><span class="font-medium">{{ verb.futureConjugation.ja }}</span></div>
+        <div><span class="opacity-60 mr-2">mi</span><span class="font-medium">{{ verb.futureConjugation.mi }}</span></div>
+        <div><span class="opacity-60 mr-2">ti</span><span class="font-medium">{{ verb.futureConjugation.ti }}</span></div>
+        <div><span class="opacity-60 mr-2">vi</span><span class="font-medium">{{ verb.futureConjugation.vi }}</span></div>
+        <div><span class="opacity-60 mr-2">on/ona</span><span class="font-medium">{{ verb.futureConjugation.on }}</span></div>
+        <div><span class="opacity-60 mr-2">oni/one</span><span class="font-medium">{{ verb.futureConjugation.oni }}</span></div>
+      </div>
+    </div>
+  }
+
+  @if (category() === 'adjectives') {
+    @let adj = asAdjective(item());
+    <div>
+      <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Genusformen</div>
+      <div class="grid grid-cols-3 gap-x-4 gap-y-1">
+        <div><span class="opacity-60 block text-xs">Maskulin</span><span class="font-medium">{{ adj.hr }}</span></div>
+        <div><span class="opacity-60 block text-xs">Feminin</span><span class="font-medium">{{ adj.feminine }}</span></div>
+        <div><span class="opacity-60 block text-xs">Neutrum</span><span class="font-medium">{{ adj.neuter }}</span></div>
+      </div>
+    </div>
+  }
+
+  @if (category() === 'nouns') {
+    @let noun = asNoun(item());
+    <div>
+      <div class="text-xs uppercase tracking-wide opacity-60 mb-2">Details</div>
+      <div class="grid grid-cols-2 gap-x-4 gap-y-1">
+        <div><span class="opacity-60 mr-2">Genus</span><span class="font-medium">{{ noun.gender }}</span></div>
+        <div><span class="opacity-60 mr-2">Plural</span><span class="font-medium">{{ noun.plural }}</span></div>
+      </div>
+    </div>
+  }
+
+</div>

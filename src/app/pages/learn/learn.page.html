@@ -65,6 +65,14 @@
               <span class="mt-6 text-xs opacity-70">Tippen zum Umdrehen</span>
               <button
                 type="button"
+                class="absolute top-3 left-3 text-2xl text-white/50 hover:text-white transition-colors"
+                (click)="showDetails.set(!showDetails()); $event.stopPropagation()"
+                aria-label="Details anzeigen"
+              >
+                <ion-icon [ios]="'information-circle-outline'" [md]="'information-circle-sharp'"></ion-icon>
+              </button>
+              <button
+                type="button"
                 class="absolute top-3 right-3 text-2xl text-white/50 hover:text-white transition-colors"
                 (click)="markKnown(); $event.stopPropagation()"
                 aria-label="Als gelernt markieren"
@@ -88,6 +96,14 @@
               </div>
               <button
                 type="button"
+                class="absolute top-3 left-3 text-2xl text-white/50 hover:text-white transition-colors"
+                (click)="showDetails.set(!showDetails()); $event.stopPropagation()"
+                aria-label="Details anzeigen"
+              >
+                <ion-icon [ios]="'information-circle-outline'" [md]="'information-circle-sharp'"></ion-icon>
+              </button>
+              <button
+                type="button"
                 class="absolute top-3 right-3 text-2xl text-white/50 hover:text-white transition-colors"
                 (click)="markKnown(); $event.stopPropagation()"
                 aria-label="Als gelernt markieren"
@@ -97,6 +113,13 @@
             </div>
           </div>
         </div>
+
+        @if (showDetails()) {
+          <app-word-details
+            [item]="v"
+            [category]="categoryService.selectedCategory()"
+          ></app-word-details>
+        }
       }
 
       <div class="flex items-center justify-between gap-3">

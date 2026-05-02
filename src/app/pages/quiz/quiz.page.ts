@@ -20,9 +20,14 @@ import {
   refresh,
   trophy,
   sparkles,
+  informationCircleOutline,
+  informationCircleSharp,
 } from 'ionicons/icons';
 import { WordItem } from '../../services/word.types';
 import { CategoryService } from '../../services/category.service';
+import { WordDetailsComponent } from '../../components/word-details/word-details.component';
+
+type QuizDirection = 'hr-to-de' | 'de-to-hr';
 
 interface Question {
   item: WordItem;
@@ -46,12 +51,15 @@ interface Question {
     IonButton,
     IonIcon,
     IonProgressBar,
+    WordDetailsComponent,
   ],
 })
 export class QuizPage implements OnDestroy {
   readonly categoryService = inject(CategoryService);
 
   active = signal<WordItem[]>([]);
+  direction = signal<QuizDirection>('hr-to-de');
+  showDetails = signal(false);
   questions = signal<Question[]>([]);
   index = signal(0);
   score = signal(0);
@@ -77,7 +85,7 @@ export class QuizPage implements OnDestroy {
   readonly MIN_ITEMS = 4;
 
   constructor() {
-    addIcons({ checkmarkCircle, checkmarkCircleOutline, closeCircle, refresh, trophy, sparkles });
+    addIcons({ checkmarkCircle, checkmarkCircleOutline, closeCircle, refresh, trophy, sparkles, informationCircleOutline, informationCircleSharp });
 
     effect(() => {
       const items = this.categoryService.items();
@@ -101,6 +109,18 @@ export class QuizPage implements OnDestroy {
     return n === 0 ? 'Alle' : `${n}`;
   }
 
+  promptLabel(): string {
+    return this.direction() === 'hr-to-de' ? 'Kroatisch' : 'Deutsch';
+  }
+
+  prompt(q: Question): string {
+    return this.direction() === 'hr-to-de' ? q.item.hr : q.item.de;
+  }
+
+  example(q: Question): string {
+    return this.direction() === 'hr-to-de' ? q.item.example : q.item.exampleDe;
+  }
+
   beginQuiz() {
     this.stopTimer();
     const active = this.active();
@@ -113,13 +133,15 @@ export class QuizPage implements OnDestroy {
     const total = n === 0 ? active.length : Math.min(n, active.length);
     const picked = this.categoryService.shuffle(active).slice(0, total);
 
+    const dir = this.direction();
     const qs: Question[] = picked.map(item => {
+      const correctAnswer = dir === 'hr-to-de' ? item.de : item.hr;
       const distractors = this.categoryService
         .shuffle(active.filter(x => x.id !== item.id))
         .slice(0, 3)
-        .map(x => x.de);
-      const options = this.categoryService.shuffle([item.de, ...distractors]);
-      return { item, options, answer: item.de };
+        .map(x => dir === 'hr-to-de' ? x.de : x.hr);
+      const options = this.categoryService.shuffle([correctAnswer, ...distractors]);
+      return { item, options, answer: correctAnswer };
     });
     this.questions.set(qs);
     this.quizStarted.set(true);
@@ -173,6 +195,7 @@ export class QuizPage implements OnDestroy {
   nextQuestion() {
     this.stopTimer();
     this.autoAdvancing.set(false);
+    this.showDetails.set(false);
     if (this.index() >= this.questions().length - 1) {
       this.finished.set(true);
       return;
