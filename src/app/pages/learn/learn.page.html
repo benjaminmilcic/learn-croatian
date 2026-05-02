@@ -49,10 +49,12 @@
           class="card-wrapper cursor-pointer"
           [class.is-flipped]="flipped()"
           (click)="flip()"
+          (touchstart)="onTouchStart($event)"
+          (touchend)="onTouchEnd($event)"
         >
           <div class="card-inner">
             <div
-              class="card-face card-front rounded-3xl shadow-xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white flex flex-col items-center justify-center p-8"
+              class="card-face card-front relative rounded-3xl shadow-xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white flex flex-col items-center justify-center p-8"
             >
               <span class="text-xs uppercase tracking-widest opacity-70 mb-3">
                 {{ direction() === 'hr-de' ? 'Kroatisch' : 'Deutsch' }}
@@ -61,10 +63,18 @@
                 {{ frontText(v) }}
               </h2>
               <span class="mt-6 text-xs opacity-70">Tippen zum Umdrehen</span>
+              <button
+                type="button"
+                class="absolute top-3 right-3 text-2xl text-white/50 hover:text-white transition-colors"
+                (click)="markKnown(); $event.stopPropagation()"
+                aria-label="Als gelernt markieren"
+              >
+                <ion-icon name="checkmark-circle-outline"></ion-icon>
+              </button>
             </div>
 
             <div
-              class="card-face card-back rounded-3xl shadow-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex flex-col items-center justify-center p-8"
+              class="card-face card-back relative rounded-3xl shadow-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex flex-col items-center justify-center p-8"
             >
               <span class="text-xs uppercase tracking-widest opacity-70 mb-3">
                 {{ direction() === 'hr-de' ? 'Deutsch' : 'Kroatisch' }}
@@ -76,6 +86,14 @@
                 <p class="italic">„{{ v.example }}"</p>
                 <p class="text-sm opacity-80">{{ v.exampleDe }}</p>
               </div>
+              <button
+                type="button"
+                class="absolute top-3 right-3 text-2xl text-white/50 hover:text-white transition-colors"
+                (click)="markKnown(); $event.stopPropagation()"
+                aria-label="Als gelernt markieren"
+              >
+                <ion-icon name="checkmark-circle-outline"></ion-icon>
+              </button>
             </div>
           </div>
         </div>

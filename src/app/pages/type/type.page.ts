@@ -21,6 +21,7 @@ import {
   trophy,
   sparkles,
   checkmarkCircle,
+  checkmarkCircleOutline,
   closeCircle,
 } from 'ionicons/icons';
 import { WordItem } from '../../services/word.types';
@@ -73,7 +74,7 @@ export class TypePage {
   readonly MIN_ITEMS = 2;
 
   constructor() {
-    addIcons({ create, createOutline, createSharp, refresh, trophy, sparkles, checkmarkCircle, closeCircle });
+    addIcons({ create, createOutline, createSharp, refresh, trophy, sparkles, checkmarkCircle, checkmarkCircleOutline, closeCircle });
 
     effect(() => {
       const items = this.categoryService.items();
@@ -162,5 +163,12 @@ export class TypePage {
     this.submitted.set(false);
     this.inputValue.set('');
     setTimeout(() => this.answerInputRef?.nativeElement.focus(), 100);
+  }
+
+  markKnown() {
+    const q = this.current();
+    if (!q) return;
+    this.categoryService.toggleKnown(q.id);
+    this.nextQuestion();
   }
 }

@@ -1,4 +1,4 @@
-import { Component, effect, inject, signal, computed, untracked } from '@angular/core';
+import { Component, effect, inject, signal, computed, untracked, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import {
@@ -15,6 +15,7 @@ import {
 import { addIcons } from 'ionicons';
 import {
   checkmarkCircle,
+  checkmarkCircleOutline,
   closeCircle,
   refresh,
   trophy,
@@ -47,7 +48,7 @@ interface Question {
     IonProgressBar,
   ],
 })
-export class QuizPage {
+export class QuizPage implements OnDestroy {
   readonly categoryService = inject(CategoryService);
 
   active = signal<WordItem[]>([]);
@@ -57,6 +58,12 @@ export class QuizPage {
   selected = signal<string | null>(null);
   finished = signal(false);
   quizStarted = signal(false);
+  autoAdvancing = signal(false);
+  timerProgress = signal(0);
+
+  private timerRef?: ReturnType<typeof setInterval>;
+  private readonly TIMER_MS = 3000;
+  private readonly TIMER_STEP_MS = 50;
 
   readonly COUNT_OPTIONS = [5, 10, 20, 0];
   questionCount = signal(10);
@@ -70,7 +77,7 @@ export class QuizPage {
   readonly MIN_ITEMS = 4;
 
   constructor() {
-    addIcons({ checkmarkCircle, closeCircle, refresh, trophy, sparkles });
+    addIcons({ checkmarkCircle, checkmarkCircleOutline, closeCircle, refresh, trophy, sparkles });
 
     effect(() => {
       const items = this.categoryService.items();
@@ -95,6 +102,7 @@ export class QuizPage {
   }
 
   beginQuiz() {
+    this.stopTimer();
     const active = this.active();
     this.finished.set(false);
     this.selected.set(null);
@@ -118,6 +126,7 @@ export class QuizPage {
   }
 
   resetToSetup() {
+    this.stopTimer();
     this.quizStarted.set(false);
     this.finished.set(false);
   }
@@ -127,16 +136,56 @@ export class QuizPage {
     this.selected.set(option);
     if (option === this.current().answer) {
       this.score.update(s => s + 1);
+      this.startAutoAdvance();
     }
   }
 
+  private startAutoAdvance() {
+    this.timerProgress.set(0);
+    this.autoAdvancing.set(true);
+    let elapsed = 0;
+    this.timerRef = setInterval(() => {
+      elapsed += this.TIMER_STEP_MS;
+      this.timerProgress.set(elapsed / this.TIMER_MS);
+      if (elapsed >= this.TIMER_MS) {
+        this.stopTimer();
+        this.nextQuestion();
+      }
+    }, this.TIMER_STEP_MS);
+  }
+
+  cancelAutoAdvance() {
+    this.stopTimer();
+    this.autoAdvancing.set(false);
+  }
+
+  private stopTimer() {
+    if (this.timerRef !== undefined) {
+      clearInterval(this.timerRef);
+      this.timerRef = undefined;
+    }
+  }
+
+  ngOnDestroy() {
+    this.stopTimer();
+  }
+
   nextQuestion() {
+    this.stopTimer();
+    this.autoAdvancing.set(false);
     if (this.index() >= this.questions().length - 1) {
       this.finished.set(true);
       return;
     }
     this.index.update(i => i + 1);
     this.selected.set(null);
+  }
+
+  markKnown() {
+    const q = this.current();
+    if (!q) return;
+    this.categoryService.toggleKnown(q.item.id);
+    this.nextQuestion();
   }
 
   optionClass(option: string): string {

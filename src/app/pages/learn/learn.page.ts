@@ -21,6 +21,7 @@ import {
   refresh,
   swapHorizontal,
   checkmarkCircle,
+  checkmarkCircleOutline,
 } from 'ionicons/icons';
 import { RouterLink } from '@angular/router';
 import { WordItem } from '../../services/word.types';
@@ -64,7 +65,7 @@ export class LearnPage {
   });
 
   constructor() {
-    addIcons({ arrowBack, arrowForward, refresh, swapHorizontal, checkmarkCircle });
+    addIcons({ arrowBack, arrowForward, refresh, swapHorizontal, checkmarkCircle, checkmarkCircleOutline });
 
     effect(() => {
       const items = this.categoryService.items();
@@ -86,8 +87,31 @@ export class LearnPage {
   }
 
   private readonly FLIP_MS = 600;
+  private touchStartX = 0;
+  private touchStartY = 0;
+  private didSwipe = false;
+
+  onTouchStart(e: TouchEvent) {
+    this.touchStartX = e.touches[0].clientX;
+    this.touchStartY = e.touches[0].clientY;
+    this.didSwipe = false;
+  }
+
+  onTouchEnd(e: TouchEvent) {
+    const dx = e.changedTouches[0].clientX - this.touchStartX;
+    const dy = e.changedTouches[0].clientY - this.touchStartY;
+    if (Math.abs(dx) >= 50 && Math.abs(dx) > Math.abs(dy)) {
+      this.didSwipe = true;
+      if (dx < 0) this.next();
+      else this.prev();
+    }
+  }
 
   flip() {
+    if (this.didSwipe) {
+      this.didSwipe = false;
+      return;
+    }
     this.flipped.update(f => !f);
   }
 
@@ -106,6 +130,21 @@ export class LearnPage {
     } else {
       move();
     }
+  }
+
+  markKnown() {
+    const item = this.current();
+    if (!item) return;
+    this.advance(() => {
+      this.categoryService.toggleKnown(item.id);
+      const pool = this.pool();
+      const idx = this.index();
+      const newPool = pool.filter((_, i) => i !== idx);
+      this.pool.set(newPool);
+      if (newPool.length > 0) {
+        this.index.set(Math.min(idx, newPool.length - 1));
+      }
+    });
   }
 
   reshuffle() {
