@@ -37,7 +37,18 @@ jobs:
           ./gradlew assembleDebug
 
       - name: Rename APK
-        run: cp android/app/build/outputs/apk/debug/app-debug.apk learn-croatian.apk
+        run: |
+          mkdir -p apk
+          cp android/app/build/outputs/apk/debug/app-debug.apk learn-croatian.apk
+          cp android/app/build/outputs/apk/debug/app-debug.apk apk/learn-croatian.apk
+
+      - name: Commit APK to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add apk/learn-croatian.apk
+          git diff --cached --quiet || git commit -m "chore: update learn-croatian.apk"
+          git push
 
       - name: Ensure target directory exists on server
         uses: appleboy/ssh-action@v1.0.3
