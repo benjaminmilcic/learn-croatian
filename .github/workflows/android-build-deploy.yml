@@ -38,10 +38,9 @@ jobs:
           chmod +x gradlew
           ./gradlew assembleDebug
 
-      - name: Rename APK
+      - name: Copy APK to apk directory
         run: |
           mkdir -p apk
-          cp android/app/build/outputs/apk/debug/app-debug.apk learn-croatian.apk
           cp android/app/build/outputs/apk/debug/app-debug.apk apk/learn-croatian.apk
 
       - name: Commit APK to repository
@@ -51,22 +50,3 @@ jobs:
           git add apk/learn-croatian.apk
           git diff --cached --quiet || git commit -m "chore: update learn-croatian.apk"
           git push
-
-      - name: Ensure target directory exists on server
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          port: 22
-          script: mkdir -p ~/assets/apk
-
-      - name: Upload APK to server
-        uses: appleboy/scp-action@v0.1.4
-        with:
-          host: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          port: 22
-          source: "learn-croatian.apk"
-          target: "~/assets/apk/"
