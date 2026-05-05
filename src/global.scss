@@ -41,6 +41,14 @@
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
 
+/* ── Safe Area für Android 16 Edge-to-Edge ──────────────────────────────── */
+:root {
+  --ion-safe-area-top: env(safe-area-inset-top);
+  --ion-safe-area-bottom: env(safe-area-inset-bottom);
+  --ion-safe-area-left: env(safe-area-inset-left);
+  --ion-safe-area-right: env(safe-area-inset-right);
+}
+
 /* ── App-weites Theming ──────────────────────────────────────────────────── */
 
 /* Toolbar – satter Indigo-Gradient */

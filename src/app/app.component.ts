@@ -1,7 +1,5 @@
 import { Component, inject, ViewChild, ElementRef } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { Capacitor } from '@capacitor/core';
-import { StatusBar } from '@capacitor/status-bar';
 import {
   IonApp,
   IonSplitPane,
@@ -76,9 +74,6 @@ export class AppComponent {
   ];
 
   constructor() {
-    if (Capacitor.isNativePlatform()) {
-      StatusBar.setOverlaysWebView({ overlay: false });
-    }
     addIcons({
       school,
       schoolOutline,
