@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40">
+  <!-- Stripes: red / white / blue -->
+  <rect width="60" height="13.33" fill="#d50000"/>
+  <rect y="13.33" width="60" height="13.34" fill="#ffffff"/>
+  <rect y="26.67" width="60" height="13.33" fill="#003399"/>
+
+  <defs>
+    <!-- Clip path for main shield checkerboard -->
+    <clipPath id="sc">
+      <path d="M21,9 H39 V28 Q39,36 30,36 Q21,36 21,28 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- ── Kruništa: 5 mini-shields across the top ── -->
+  <!-- Shield 1: Croatia (red/white checkerboard) -->
+  <rect x="21.0" y="2" width="3.6" height="8" fill="#fff" stroke="#888" stroke-width="0.3"/>
+  <rect x="21.0" y="2.0" width="1.8" height="2.7" fill="#d50000"/>
+  <rect x="22.8" y="2.0" width="1.8" height="2.7" fill="#fff"/>
+  <rect x="21.0" y="4.7" width="1.8" height="2.6" fill="#fff"/>
+  <rect x="22.8" y="4.7" width="1.8" height="2.6" fill="#d50000"/>
+  <rect x="21.0" y="7.3" width="1.8" height="2.7" fill="#d50000"/>
+  <rect x="22.8" y="7.3" width="1.8" height="2.7" fill="#fff"/>
+
+  <!-- Shield 2: Dubrovnik (blue with two red stripes) -->
+  <rect x="24.6" y="2" width="3.6" height="8" fill="#003399" stroke="#888" stroke-width="0.3"/>
+  <rect x="24.6" y="3.5" width="3.6" height="1.2" fill="#d50000"/>
+  <rect x="24.6" y="6.3" width="3.6" height="1.2" fill="#d50000"/>
+
+  <!-- Shield 3: Dalmatia (blue with 3 yellow crowns = dots) -->
+  <rect x="28.2" y="2" width="3.6" height="8" fill="#003399" stroke="#888" stroke-width="0.3"/>
+  <circle cx="29.2" cy="4.5" r="0.8" fill="#ffce00"/>
+  <circle cx="30.0" cy="7.5" r="0.8" fill="#ffce00"/>
+  <circle cx="31.0" cy="4.5" r="0.8" fill="#ffce00"/>
+
+  <!-- Shield 4: Istria (gold field, red goat = simplified half/half) -->
+  <rect x="31.8" y="2" width="3.6" height="8" fill="#ffce00" stroke="#888" stroke-width="0.3"/>
+  <rect x="31.8" y="2" width="3.6" height="4" fill="#d50000"/>
+
+  <!-- Shield 5: Slavonia (blue, marten stripe + white/red) -->
+  <rect x="35.4" y="2" width="3.6" height="8" fill="#003399" stroke="#888" stroke-width="0.3"/>
+  <rect x="35.4" y="4.7" width="3.6" height="1.6" fill="#fff"/>
+  <circle cx="37.2" cy="3.3" r="0.7" fill="#ffce00"/>
+  <circle cx="37.2" cy="7.7" r="0.7" fill="#ffce00"/>
+
+  <!-- ── Main shield: šahovnica (checkerboard) ── -->
+  <!-- White base -->
+  <path d="M21,9 H39 V28 Q39,36 30,36 Q21,36 21,28 Z" fill="#ffffff"/>
+
+  <!-- 5×5 checkerboard clipped to shield shape -->
+  <!-- Cell: 3.6 wide × 3.8 tall, 5 cols × 5 rows = 18w × 19h starting at (21,9) -->
+  <g clip-path="url(#sc)">
+    <!-- Row 0 -->
+    <rect x="21.0" y="9.0"  width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="24.6" y="9.0"  width="3.6" height="3.8" fill="#fff"/>
+    <rect x="28.2" y="9.0"  width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="31.8" y="9.0"  width="3.6" height="3.8" fill="#fff"/>
+    <rect x="35.4" y="9.0"  width="3.6" height="3.8" fill="#d50000"/>
+    <!-- Row 1 -->
+    <rect x="21.0" y="12.8" width="3.6" height="3.8" fill="#fff"/>
+    <rect x="24.6" y="12.8" width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="28.2" y="12.8" width="3.6" height="3.8" fill="#fff"/>
+    <rect x="31.8" y="12.8" width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="35.4" y="12.8" width="3.6" height="3.8" fill="#fff"/>
+    <!-- Row 2 -->
+    <rect x="21.0" y="16.6" width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="24.6" y="16.6" width="3.6" height="3.8" fill="#fff"/>
+    <rect x="28.2" y="16.6" width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="31.8" y="16.6" width="3.6" height="3.8" fill="#fff"/>
+    <rect x="35.4" y="16.6" width="3.6" height="3.8" fill="#d50000"/>
+    <!-- Row 3 -->
+    <rect x="21.0" y="20.4" width="3.6" height="3.8" fill="#fff"/>
+    <rect x="24.6" y="20.4" width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="28.2" y="20.4" width="3.6" height="3.8" fill="#fff"/>
+    <rect x="31.8" y="20.4" width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="35.4" y="20.4" width="3.6" height="3.8" fill="#fff"/>
+    <!-- Row 4 -->
+    <rect x="21.0" y="24.2" width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="24.6" y="24.2" width="3.6" height="3.8" fill="#fff"/>
+    <rect x="28.2" y="24.2" width="3.6" height="3.8" fill="#d50000"/>
+    <rect x="31.8" y="24.2" width="3.6" height="3.8" fill="#fff"/>
+    <rect x="35.4" y="24.2" width="3.6" height="3.8" fill="#d50000"/>
+  </g>
+
+  <!-- Shield outline -->
+  <path d="M21,9 H39 V28 Q39,36 30,36 Q21,36 21,28 Z"
+        fill="none" stroke="#777" stroke-width="0.5"/>
+  <!-- Kruništa outline -->
+  <rect x="21" y="2" width="18" height="8" fill="none" stroke="#777" stroke-width="0.4"/>
+</svg>

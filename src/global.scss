@@ -40,3 +40,53 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+/* ── App-weites Theming ──────────────────────────────────────────────────── */
+
+/* Toolbar – satter Indigo-Gradient */
+ion-toolbar {
+  --background: linear-gradient(135deg, #e8edff 0%, #d4dcff 100%);
+  --border-color: rgba(99, 102, 241, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  ion-toolbar {
+    --background: linear-gradient(135deg, #1a1d35 0%, #131628 100%);
+    --border-color: rgba(99, 102, 241, 0.2);
+  }
+}
+
+/* Suchleiste – kräftiges Lavendelblau mit Glow */
+ion-searchbar {
+  --background: #c7d2fe;
+  --border-radius: 14px;
+  --box-shadow: 0 4px 18px rgba(99, 102, 241, 0.28),
+                0 0 0 2px rgba(99, 102, 241, 0.35);
+  --placeholder-color: rgba(55, 48, 163, 0.5);
+  --icon-color: rgba(79, 70, 229, 0.8);
+  --color: #1e1b4b;
+  padding-inline: 6px !important;
+  margin-block: 6px !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  ion-searchbar {
+    --background: rgba(99, 102, 241, 0.22);
+    --placeholder-color: rgba(165, 180, 252, 0.5);
+    --icon-color: rgba(165, 180, 252, 0.8);
+    --color: #e0e7ff;
+    --box-shadow: 0 4px 18px rgba(99, 102, 241, 0.22),
+                  0 0 0 2px rgba(99, 102, 241, 0.3);
+  }
+}
+
+/* ── Flaggen-Images ──────────────────────────────────────────────────────── */
+.flag {
+  display: inline-block;
+  height: 22px;
+  width: auto;
+  border-radius: 3px;
+  vertical-align: middle;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}

@@ -30,10 +30,14 @@
         (ionChange)="swapDirection($any($event.detail.value))"
       >
         <ion-segment-button value="hr-de">
-          <ion-label>HR → DE</ion-label>
+          <ion-label class="flex items-center justify-center gap-1.5">
+            <img src="assets/flags/hr.svg" class="flag" alt="HR"><span>→</span><img src="assets/flags/de.svg" class="flag" alt="DE">
+          </ion-label>
         </ion-segment-button>
         <ion-segment-button value="de-hr">
-          <ion-label>DE → HR</ion-label>
+          <ion-label class="flex items-center justify-center gap-1.5">
+            <img src="assets/flags/de.svg" class="flag" alt="DE"><span>→</span><img src="assets/flags/hr.svg" class="flag" alt="HR">
+          </ion-label>
         </ion-segment-button>
       </ion-segment>
 
