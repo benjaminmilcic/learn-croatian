@@ -59,6 +59,17 @@ ion-content {
   --padding-bottom: env(safe-area-inset-bottom);
 }
 
+html, body, ion-app, ion-content {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ion-content::part(scroll) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 /* ── App-weites Theming ──────────────────────────────────────────────────── */
 
 /* Toolbar – satter Indigo-Gradient */
