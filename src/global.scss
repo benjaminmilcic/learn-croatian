@@ -49,6 +49,16 @@
   --ion-safe-area-right: env(safe-area-inset-right);
 }
 
+body {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+ion-content {
+  --padding-top: env(safe-area-inset-top);
+  --padding-bottom: env(safe-area-inset-bottom);
+}
+
 /* ── App-weites Theming ──────────────────────────────────────────────────── */
 
 /* Toolbar – satter Indigo-Gradient */
