@@ -13,14 +13,6 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:background">@null</item>
-        <!-- DAS ist entscheidend -->
-        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
-
-        <!-- verhindert Edge-to-Edge -->
-        <item name="android:statusBarColor">#000000</item>
-        <item name="android:navigationBarColor">#000000</item>
-
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
     </style>
 
 
