@@ -50,27 +50,41 @@ export class StateExportService {
   }
 
   async importState(file: File): Promise<void> {
-    const text = await file.text();
-    const data: AppState = JSON.parse(text);
-
-    if (data?.version !== 1) throw new Error('Ungültiges Dateiformat');
-
-    this.verbService.restoreState(
-      Array.isArray(data.verbs?.known) ? data.verbs.known : [],
-      Array.isArray(data.verbs?.lessons) ? data.verbs.lessons : [1],
-    );
-    this.adjectiveService.restoreState(
-      Array.isArray(data.adjectives?.known) ? data.adjectives.known : [],
-      Array.isArray(data.adjectives?.lessons) ? data.adjectives.lessons : [1],
-    );
-    this.nounService.restoreState(
-      Array.isArray(data.nouns?.known) ? data.nouns.known : [],
-      Array.isArray(data.nouns?.lessons) ? data.nouns.lessons : [1],
-    );
-
-    const validCategories: Category[] = ['verbs', 'adjectives', 'nouns'];
-    if (validCategories.includes(data.category)) {
-      this.categoryService.setCategory(data.category);
+    let parsed: unknown;
+    try {
+      parsed = JSON.parse(await file.text());
+    } catch {
+      throw new Error('Ungültiges Dateiformat: kein gültiges JSON');
     }
+
+    if (!isValidAppState(parsed)) throw new Error('Ungültiges Dateiformat');
+
+    this.verbService.restoreState(parsed.verbs.known, parsed.verbs.lessons);
+    this.adjectiveService.restoreState(parsed.adjectives.known, parsed.adjectives.lessons);
+    this.nounService.restoreState(parsed.nouns.known, parsed.nouns.lessons);
+    this.categoryService.setCategory(parsed.category);
   }
+}
+
+function isNumberArray(val: unknown): val is number[] {
+  return Array.isArray(val) && val.every((x) => typeof x === 'number');
+}
+
+function isValidWordState(val: unknown): val is { known: number[]; lessons: number[] } {
+  if (typeof val !== 'object' || val === null) return false;
+  const v = val as Record<string, unknown>;
+  return isNumberArray(v['known']) && isNumberArray(v['lessons']);
+}
+
+function isValidAppState(data: unknown): data is AppState {
+  if (typeof data !== 'object' || data === null) return false;
+  const d = data as Record<string, unknown>;
+  const validCategories: Category[] = ['verbs', 'adjectives', 'nouns'];
+  return (
+    d['version'] === 1 &&
+    validCategories.includes(d['category'] as Category) &&
+    isValidWordState(d['verbs']) &&
+    isValidWordState(d['adjectives']) &&
+    isValidWordState(d['nouns'])
+  );
 }
