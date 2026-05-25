@@ -164,15 +164,15 @@
     "lesson": 1,
     "de": "wollen",
     "hr": "htjeti",
-    "example": "Želim ići.",
+    "example": "Hoću ići.",
     "exampleDe": "Ich will gehen.",
     "conjugation": {
-      "ja": "želim",
-      "ti": "želiš",
-      "on": "želi",
-      "mi": "želimo",
-      "vi": "želite",
-      "oni": "žele"
+      "ja": "hoću",
+      "ti": "hoćeš",
+      "on": "hoće",
+      "mi": "hoćemo",
+      "vi": "hoćete",
+      "oni": "hoće"
     },
     "pastConjugation": {
       "ja": "htio/htjela sam",
@@ -2115,7 +2115,7 @@
     "id": 67,
     "lesson": 2,
     "de": "möchten / wollen",
-    "hr": "htjeti",
+    "hr": "željeti",
     "example": "Želim kavu.",
     "exampleDe": "Ich möchte einen Kaffee.",
     "conjugation": {
@@ -2127,20 +2127,20 @@
       "oni": "žele"
     },
     "pastConjugation": {
-      "ja": "htio/htjela sam",
-      "ti": "htio/htjela si",
-      "on": "htio/htjela je",
-      "mi": "htjeli/le smo",
-      "vi": "htjeli/le ste",
-      "oni": "htjeli/le su"
+      "ja": "želio/željela sam",
+      "ti": "želio/željela si",
+      "on": "želio/željela je",
+      "mi": "željeli/le smo",
+      "vi": "željeli/le ste",
+      "oni": "željeli/le su"
     },
     "futureConjugation": {
-      "ja": "htjet ću",
-      "ti": "htjet ćeš",
-      "on": "htjet će",
-      "mi": "htjet ćemo",
-      "vi": "htjet ćete",
-      "oni": "htjet će"
+      "ja": "želet ću",
+      "ti": "želet ćeš",
+      "on": "želet će",
+      "mi": "želet ćemo",
+      "vi": "želet ćete",
+      "oni": "želet će"
     }
   },
   {

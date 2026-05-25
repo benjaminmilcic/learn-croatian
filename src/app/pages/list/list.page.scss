@@ -6,4 +6,15 @@
 ion-content {
   flex: 1;
   height: auto;
+  --background:
+    radial-gradient(circle, rgba(99, 102, 241, 0.13) 1.5px, transparent 1.5px) 0 0 / 22px 22px,
+    linear-gradient(155deg, #eef2ff 0%, #e0e7ff 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  ion-content {
+    --background:
+      radial-gradient(circle, rgba(129, 140, 248, 0.1) 1.5px, transparent 1.5px) 0 0 / 22px 22px,
+      linear-gradient(155deg, #16172e 0%, #0e0f20 100%);
+  }
 }

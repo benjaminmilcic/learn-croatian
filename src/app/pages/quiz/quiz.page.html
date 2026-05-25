@@ -7,7 +7,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-padding">
+<ion-content class="ion-padding">
   <div class="max-w-xl mx-auto flex flex-col gap-6 pt-4">
     @if (active().length < MIN_ITEMS) {
       <div
@@ -36,7 +36,7 @@
             [ngClass]="direction() === 'hr-to-de'
               ? 'bg-indigo-500 border-indigo-500 text-white'
               : 'border-black/20 dark:border-white/20 hover:bg-black/10 dark:hover:bg-white/10'"
-          >HR → DE</button>
+          ><span class="inline-flex items-center gap-1.5"><img src="assets/flags/hr.svg" class="flag" alt="HR"><span>→</span><img src="assets/flags/de.svg" class="flag" alt="DE"></span></button>
           <button
             type="button"
             (click)="direction.set('de-to-hr')"
@@ -44,7 +44,7 @@
             [ngClass]="direction() === 'de-to-hr'
               ? 'bg-indigo-500 border-indigo-500 text-white'
               : 'border-black/20 dark:border-white/20 hover:bg-black/10 dark:hover:bg-white/10'"
-          >DE → HR</button>
+          ><span class="inline-flex items-center gap-1.5"><img src="assets/flags/de.svg" class="flag" alt="DE"><span>→</span><img src="assets/flags/hr.svg" class="flag" alt="HR"></span></button>
         </div>
       </div>
 
@@ -177,5 +177,6 @@
         Neues Quiz
       </ion-button>
     }
+    <div class="h-[40px]"></div>
   </div>
 </ion-content>

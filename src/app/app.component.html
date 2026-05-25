@@ -12,15 +12,20 @@
         ></ion-toolbar>
       </ion-header>
       <ion-content>
+        <div class="flex justify-center mb-4"
+              ><img
+                src="assets/icon/favicon.ico"
+                alt="Hrvatski"
+                class="rounded-full mr-2 w-10 h-10" /></div
+            >
         <ion-list id="inbox-list">
           <ion-list-header
             ><span
               ><img
-                src="assets/icon/favicon.ico"
-                alt="Hrvatski"
-                class="rounded-full mr-2 w-10 h-10" /></span
-            >Hrvatski</ion-list-header
-          >
+                src="assets/flags/hr.svg"
+                alt="Hrvatska"
+                class="mr-2 h-6 w-auto rounded" /></span
+          >Hrvatski</ion-list-header>
           <ion-note>Kroatische Wörter lernen</ion-note>
 
           @for (p of appPages; track p; let i = $index) {
@@ -87,7 +92,7 @@
           <p class="text-xs uppercase tracking-widest opacity-50 mb-3">
             Lektionen
           </p>
-          <div class="grid grid-cols-4 gap-2">
+          <div class="grid grid-cols-4 gap-1">
             @for (l of categoryService.availableLessons(); track l) {
               <button
                 type="button"

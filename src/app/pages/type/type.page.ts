@@ -103,7 +103,7 @@ export class TypePage {
     const input = this.inputValue().trim().toLowerCase();
     if (!input) return false;
     const correct = this.direction() === 'hr-to-de' ? item.de : item.hr;
-    return correct.split('/').map(s => s.trim().toLowerCase()).some(s => s === input);
+    return correct.split('/').map(s => s.replace(/\(.*?\)/g, '').trim().toLowerCase()).some(s => s === input);
   }
 
   correctAnswer(item: WordItem): string {
