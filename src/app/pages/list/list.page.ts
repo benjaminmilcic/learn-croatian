@@ -9,8 +9,7 @@ import {
   IonTitle,
   IonContent,
   IonSearchbar,
-  IonIcon,
-} from '@ionic/angular/standalone';
+  IonIcon, IonFooter } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import {
   checkmarkCircle,
@@ -25,7 +24,7 @@ import { CategoryService } from '../../services/category.service';
   selector: 'app-list',
   templateUrl: './list.page.html',
   styleUrls: ['./list.page.scss'],
-  imports: [
+  imports: [IonFooter, 
     CommonModule,
     FormsModule,
     IonHeader,

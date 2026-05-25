@@ -12,8 +12,7 @@ import {
   IonSegment,
   IonSegmentButton,
   IonLabel,
-  IonProgressBar,
-} from '@ionic/angular/standalone';
+  IonProgressBar, IonFooter } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import {
   arrowBack,
@@ -36,7 +35,7 @@ type Direction = 'de-hr' | 'hr-de';
   selector: 'app-learn',
   templateUrl: './learn.page.html',
   styleUrls: ['./learn.page.scss'],
-  imports: [
+  imports: [IonFooter, 
     CommonModule,
     RouterLink,
     IonHeader,

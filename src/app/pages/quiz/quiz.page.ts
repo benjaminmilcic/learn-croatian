@@ -10,8 +10,7 @@ import {
   IonContent,
   IonButton,
   IonIcon,
-  IonProgressBar,
-} from '@ionic/angular/standalone';
+  IonProgressBar, IonFooter } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import {
   checkmarkCircle,
@@ -39,7 +38,7 @@ interface Question {
   selector: 'app-quiz',
   templateUrl: './quiz.page.html',
   styleUrls: ['./quiz.page.scss'],
-  imports: [
+  imports: [IonFooter, 
     CommonModule,
     RouterLink,
     IonHeader,

@@ -10,8 +10,7 @@ import {
   IonContent,
   IonButton,
   IonIcon,
-  IonProgressBar,
-} from '@ionic/angular/standalone';
+  IonProgressBar, IonFooter } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import {
   create,
@@ -36,7 +35,7 @@ type Direction = 'hr-to-de' | 'de-to-hr';
   selector: 'app-type',
   templateUrl: './type.page.html',
   styleUrls: ['./type.page.scss'],
-  imports: [
+  imports: [IonFooter, 
     CommonModule,
     RouterLink,
     IonHeader,
