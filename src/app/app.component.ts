@@ -15,6 +15,9 @@ import {
   IonRouterOutlet,
   IonRouterLink,
   ToastController,
+  IonHeader,
+  IonToolbar,
+  IonFooter,
 } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import {
@@ -42,6 +45,9 @@ import { StateExportService } from './services/state-export.service';
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
   imports: [
+    IonFooter,
+    IonToolbar,
+    IonHeader,
     RouterLink,
     RouterLinkActive,
     IonApp,
